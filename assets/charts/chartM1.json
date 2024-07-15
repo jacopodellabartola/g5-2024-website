@@ -1,0 +1,178 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
+  "config": {
+    "axis": {
+      "labelFontSize": 12
+    },
+    "title": {
+      "fontSize": 16
+    },
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-6b1ee38829e1b25f3e588b8ecddd40dd"
+  },
+  "datasets": {
+    "data-6b1ee38829e1b25f3e588b8ecddd40dd": [
+      {
+        "Livello": "Livello medio-alto",
+        "Percentuale": 22.74,
+        "Skill": "ability to take responsibility"
+      },
+      {
+        "Livello": "Livello medio-alto",
+        "Percentuale": 12.49,
+        "Skill": "team working"
+      },
+      {
+        "Livello": "Livello medio-alto",
+        "Percentuale": 11.83,
+        "Skill": "innovative"
+      },
+      {
+        "Livello": "Livello medio-alto",
+        "Percentuale": 13.94,
+        "Skill": "communication skills"
+      },
+      {
+        "Livello": "Livello medio-alto",
+        "Percentuale": 8.43,
+        "Skill": "flexibility"
+      },
+      {
+        "Livello": "Livello medio-alto",
+        "Percentuale": 6.22,
+        "Skill": "analytical skills"
+      },
+      {
+        "Livello": "Livello medio-alto",
+        "Percentuale": 8.06,
+        "Skill": "proactive"
+      },
+      {
+        "Livello": "Livello medio",
+        "Percentuale": 24.74,
+        "Skill": "ability to take responsibility"
+      },
+      {
+        "Livello": "Livello medio",
+        "Percentuale": 15.44,
+        "Skill": "team working"
+      },
+      {
+        "Livello": "Livello medio",
+        "Percentuale": 13.71,
+        "Skill": "innovative"
+      },
+      {
+        "Livello": "Livello medio",
+        "Percentuale": 11.17,
+        "Skill": "communication skills"
+      },
+      {
+        "Livello": "Livello medio",
+        "Percentuale": 8.07,
+        "Skill": "flexibility"
+      },
+      {
+        "Livello": "Livello medio",
+        "Percentuale": 6.91,
+        "Skill": "analytical skills"
+      },
+      {
+        "Livello": "Livello medio",
+        "Percentuale": 5.55,
+        "Skill": "proactive"
+      },
+      {
+        "Livello": "Esperienza minima",
+        "Percentuale": 22.2,
+        "Skill": "ability to take responsibility"
+      },
+      {
+        "Livello": "Esperienza minima",
+        "Percentuale": 15.74,
+        "Skill": "team working"
+      },
+      {
+        "Livello": "Esperienza minima",
+        "Percentuale": 10.56,
+        "Skill": "innovative"
+      },
+      {
+        "Livello": "Esperienza minima",
+        "Percentuale": 12.75,
+        "Skill": "communication skills"
+      },
+      {
+        "Livello": "Esperienza minima",
+        "Percentuale": 12.01,
+        "Skill": "flexibility"
+      },
+      {
+        "Livello": "Esperienza minima",
+        "Percentuale": 6.65,
+        "Skill": "analytical skills"
+      },
+      {
+        "Livello": "Esperienza minima",
+        "Percentuale": 5.74,
+        "Skill": "proactive"
+      }
+    ]
+  },
+  "encoding": {
+    "color": {
+      "field": "Livello",
+      "legend": {
+        "labelFontSize": 12
+      },
+      "title": "Livello",
+      "type": "nominal"
+    },
+    "detail": {
+      "field": "Livello_ordine",
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "Livello",
+        "type": "nominal"
+      },
+      {
+        "field": "Percentuale",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "axis": {
+        "labelFontSize": 12
+      },
+      "field": "Skill",
+      "title": "Skill",
+      "type": "nominal"
+    },
+    "y": {
+      "axis": {
+        "labelFontSize": 12
+      },
+      "field": "Percentuale",
+      "title": "Percentuale",
+      "type": "quantitative"
+    }
+  },
+  "mark": {
+    "type": "line"
+  },
+  "title": "Percentuale delle competenze richieste per livello di esperienza",
+  "transform": [
+    {
+      "as": "Livello_ordine",
+      "calculate": "indexof(['Esperienza minima', 'Livello medio', 'Livello medio-alto'], datum.Livello)"
+    }
+  ],
+  "width": 600
+}

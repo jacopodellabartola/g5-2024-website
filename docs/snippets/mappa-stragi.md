@@ -1,1 +1,1 @@
-<vegachart schema-url="{{site.baseurl}}/assets/charts/map_massacres.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/chart5.json" style="width: 100%"></vegachart>

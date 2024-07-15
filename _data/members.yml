@@ -1,23 +1,19 @@
-- name: Chris Wanstrath
-  github: defunkt
+- name: Jacopo della Bartola
+  github: jacopodellabartola
 
-- name: Steve Francia
-  github: spf13
+- name: Giulio Faraoni
+  #github: spf13
 
-- name: Liu Aiping
-  github: liuaiping
+- name: Donatella Mauro
+  github: Donuts94
 
-- name: Tom Preston-Werner
-  github: mojombo
+- name: Martina Podestà
+  github: nzehje
 
-- name: Parker Moore
-  github: parkr
+- name: Simone Proto
+  #github: parkr
 
-- name: Ben Balter
-  github: benbalter
+- name: Giulia Segurini
+  #
+  #github: benbalter
 
-- name: Jordon Bedwell
-  github: envygeeks
-
-- name: Matt Rogers
-  github: mattrogers

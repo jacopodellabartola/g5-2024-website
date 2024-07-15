@@ -1,4 +1,6 @@
 # Mappa delle stragi
+<vegachart schema-url="{{site.baseurl}}/assets/charts/chart5.json" style="width: 100%"></vegachart>
+
 
 L’elaborazione su base geografica dell’insieme dei dati.
 La mappa mostra le stragi suddivise per matrice politica e luogo dell'evento.

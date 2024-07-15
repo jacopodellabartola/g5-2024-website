@@ -1,0 +1,129 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-7eaabffce5a31fc8ad8d978ca3ec88b7"
+  },
+  "datasets": {
+    "data-7eaabffce5a31fc8ad8d978ca3ec88b7": [
+      {
+        "%": 78.86,
+        "RAL": "Commisurata all'esperienza"
+      },
+      {
+        "%": 12.11,
+        "RAL": "Fino a 48K"
+      },
+      {
+        "%": 2.83,
+        "RAL": "Compresa tra 30K e 40K"
+      },
+      {
+        "%": 2.31,
+        "RAL": "Fino a 35K"
+      },
+      {
+        "%": 2.06,
+        "RAL": "A partire da 25K"
+      },
+      {
+        "%": 1.8,
+        "RAL": "Fino a 60K"
+      }
+    ]
+  },
+  "height": 300,
+  "layer": [
+    {
+      "encoding": {
+        "color": {
+          "field": "RAL",
+          "type": "nominal"
+        },
+        "order": {
+          "field": "%",
+          "sort": "descending",
+          "type": "quantitative"
+        },
+        "radius": {
+          "field": "%",
+          "scale": {
+            "rangeMin": 20,
+            "type": "symlog",
+            "zero": true
+          },
+          "type": "quantitative"
+        },
+        "theta": {
+          "field": "%",
+          "stack": true,
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "RAL",
+            "type": "nominal"
+          },
+          {
+            "field": "%",
+            "type": "quantitative"
+          }
+        ]
+      },
+      "mark": {
+        "innerRadius": 20,
+        "stroke": "#fff",
+        "type": "arc"
+      },
+      "title": "Ripartizione RAL presente nelle descrizioni dei job post"
+    },
+    {
+      "encoding": {
+        "color": {
+          "field": "RAL",
+          "type": "nominal"
+        },
+        "order": {
+          "field": "%",
+          "sort": "descending",
+          "type": "quantitative"
+        },
+        "radius": {
+          "field": "%",
+          "scale": {
+            "rangeMin": 20,
+            "type": "symlog",
+            "zero": true
+          },
+          "type": "quantitative"
+        },
+        "theta": {
+          "field": "%",
+          "stack": true,
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "RAL",
+            "type": "nominal"
+          },
+          {
+            "field": "%",
+            "type": "quantitative"
+          }
+        ]
+      },
+      "mark": {
+        "radiusOffset": 10,
+        "type": "text"
+      },
+      "title": "Ripartizione RAL presente nelle descrizioni dei job post"
+    }
+  ],
+  "width": "container"
+}

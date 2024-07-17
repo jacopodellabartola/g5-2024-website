@@ -44,6 +44,26 @@
     object-fit: cover;
     padding: 10px;
   }
+/* Regole generali per il font - classe personalizzata */ 
+body {
+  font-size: 40px; /* Modifica la grandezza del font */
+  line-height: 15; /* Modifica l'interlinea */
+}
+
+/* Regole specifiche per l'articolo principale classe pers */
+#maincontent {
+  font-size: 40px; /* Modifica la grandezza del font */
+  line-height: 15; /* Modifica l'interlinea */
+}
+
+/* Classi personalizzate classe pers*/
+.custom-font-size {
+  font-size: 40px; /* Modifica la grandezza del font */
+}
+
+.custom-line-height { /*classe perso*/
+  line-height: 2; /* Modifica l'interlinea */
+}
 
   .card-img img {
     max-width: 100%;
@@ -52,6 +72,7 @@
   .card-body {
     padding: 10px;
     padding-top: 0;
+    line-height: 1.42;
 
     h5 {
       margin-top: 0.5rem;
@@ -61,6 +82,14 @@
 .card-container .card {
   flex: 1 1 100%; /* Default: cards take full width on small screens */
   max-width: 100%;
+}
+
+.justified {
+  text-align: justify;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 576px) {
@@ -104,11 +133,21 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .comic-neue-regular {
   font-family: "Comic Neue", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+strong, b {
+  font-weight: bold;
+  font-size: 12px; /* Dimensione del font 12px */
 }
 
 .comic-neue-bold {

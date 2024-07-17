@@ -24,7 +24,8 @@ Per incorporare una mappa realizzata con Folium in una pagina web, è necessario
     - Specificare le dimensioni della mappa utilizzando gli attributi `width` e `height` del tag `iframe`
     - Esempio di codice HTML per incorporare una mappa realizzata con Folium in una pagina web:
     
-```<iframe src="{{site.baseurl}}/assets/charts/map.html" width="100%" height="500"></iframe>```
+
+```<iframe src="{{site.baseurl}}/assets/charts/graficobolle.html" width="100%" height="500"></iframe>```
 
 **Nota che la mappa realizzata con Folium è stata esportata con width e height a 100%.**
 

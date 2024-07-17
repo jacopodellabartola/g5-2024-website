@@ -1,56 +1,59 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: default-full
+layout: home
 title: "Home"
-subtitle: "un template per i progetti del master SoBigData"
+subtitle: "Analisi delle offerte di lavoro del mondo tech su Linkedin"
 show_sidetoc: true
-header_type: hero #base, post, hero,image, splash
-header_img: assets/images/stampo_biscotti.jpg
-header_title: "Progettone Template"
+header_type: hero
+# header_img: assets/images/stampo_biscotti.jpg
+header_title: "Nasci ingegnere muori data scientist"
+vega: true
+plotly: true
 ---
 
-<div class="container py-3">
-    <div class="row">
-        <div class="col-md-3 col-md-offset-3">
-        </div>
-        <div class="col-md-6">
-            <hr>
-            <p>Questo template è stato disegnato per realizzare i progettoni del master SoBigData.
-Il template proposto è basato su Bootstrap e Jekyll e include una serie di funzionalità che possono essere utili per la creazione di un sito web.</p>
-            <hr>
+# Introduzione
+<div class="justified">
+“Nasci da ingegnere muori da deep learning engineer”… una parafrasi della celebre frase basterebbe forse a descrivere l’evoluzione, il cambiamento, la faglia che il terremoto AI ha prodotto sul mercato del lavoro lasciando da una parte, solo, il “buon vecchio ingegnere” e contrapponendo ad esso una serie di figure che lo vedono, di fatto, trasformato e reinventato in un più cool data scientist o data engineer solo per citare due dei suggerimenti di ricerca che accedendo a Linkedin è più facile trovare se si cerca banalmente il ruolo del buon vecchio ingegnere informatico.<br>
+La ricerca del lavoro ha nuove keywords, il mercato del lavoro ha modificato le terminologie per lasciare forse inalterate le competenze, ha modificato il titolo lasciando forse inalterata la trama per rivendere al pubblico un libro già letto. Mascherando una job opportunity simile a quella di qualche anno fa, dietro un titolo imponente, un titolo che gonfia di orgoglio, perché diciamocelo alla domanda che lavoro fai “Artificial intelligent engineering” rende molto più di un banale “sviluppatore informatico”.<br>
+Chiamatelo marketing, chiamatela strategia di recruiting, chiamatela stare al passo coi tempi, ma di fatto oggi l’evoluzione terminologica ha contribuito sensibilmente a rimappare una serie di ruoli un tempo ben definiti lasciando spazio, spesso, alla libera interpretazione della job opportunity, e cosi un’analista si vende per data scientist, uno sviluppatore per prompt engineer, perché cambiare pelle fa bene e rende sicuro più cool in una società troppo spesso fatta di “titoli”.<br>
+</div>
+<br>
+<div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <blockquote style="font-size: 1.5em; font-weight: bold; font-style: italic; text-align: center;">
+                Cosa spinge (o cosa attrae) l’individuo a candidarsi per un annuncio piuttosto che un altro?
+            </blockquote>
         </div>
     </div>
 </div>
 
-<div class="row pb-5">
-    <div class="col-md-12 col-sm-12">
-        <div class="card-container">
-            {% for image in site.data.home-cards %}
-            <div class="card" style="width: 18rem;">
-                    <a href="{{site.baseurl}}{{ image.path}}">
-                    <div class="card-img"  ><img src="{{site.baseurl}}{{ image.url}}" class="card-img-top" alt="{{ image.name }}">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">{{ image.name }}</h5>
-                        <p class="card-text">{{ image.description }}</p>
-                    </div>
-                    </a>    
-            </div>
-            {% endfor %}
-        </div>
-    </div>
 </div>
+<br>
+<br>
+ABBIAMO SCELTO DI ANALIZZARE LINKEDIN ECC ECC
+
+# AI + H > AI or H
+
+<div class="justified">
+
+Partiamo proprio dalle sinergie, la sinergia creata dall’uomo più l’AI, sarà sicuramente superiore alla AI stessa o al singolo individuo quindi partiamo da una certezza la sinergia c’è e va sfruttata, la sinergia arricchisce e non sostituisce.<br>
+E che la parte umana c'è e arricchisce è impossibile negarlo, soprattutto soffermandoci sulla quantità di hard e soft skills richieste ai candidati. Una vera e propria foresta di requisiti che confonde più che chiarire quali sono le aspettative dell'HR, dell'azienda e del datore di lavoro.<br>
+
+<br>
+<br>
+{% capture snippets/skills.md %}
+    {% include_relative snippets/skills.md %}
+{% endcapture %}
 
 
-<div class="container py-3 mb-0 bg-color-full bg-color">
-    <div class="row">
-        <div class="col-md-3 col-md-offset-3">
-        </div>
-        <div class="col-md-6">
-            <p>Prima di affrontare la realizzazione del sito è necessario installare Jekyll</p>
-            <a href="{{site.baseurl}}/installation" class="btn btn-info" role="button">Installazione di Jeykll</a>
-        </div>
-    </div>
+{% include modal-component.html title="Dettagli del dataset" content=skills.md %}
+
+
+{% include graficobolle1.html %}
+
+Saltando da un annuncio all'altro dell'universo tech su Linkedin presto ci rendiamo che per essere un candidato interessante agli occhi di un recruiter non dobbiamo solamente saper programmare, conoscere le metodologie di interrogazione dei dati e tutta un'altra infinita serie di linguaggi di programmazione e conoscenze di backround,ma anche - e soprattutto- esaltare la nostra parte "umana" con le soft skill. Se la capacità di prendersi le proprie responsabilità può spaventare nella vita di tutti i giorni, diventa un requisito che sembra particolarmente ricercato nei candidati. <br>
+Ma non solo, la capacità di lavorare in team e di comunicazione e quella di capire il business che ho davanti sono quelle che Stefano Gatti- attualmente head of Data & Analytics a Nexi e scrittore del libro "La cultura del dato"- ha definito le skill che fanno la differenza nell'ambito AI e con le quali ci scontriamo analizzando gli innumerevoli job post della piattaforma. <br>
+
 </div>
+---

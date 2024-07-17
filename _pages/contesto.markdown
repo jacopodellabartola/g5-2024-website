@@ -8,7 +8,7 @@ subtitle: "un accenno a Bootstrap"
 show_sidetoc: true
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/bootstrap.jpg
-header_title: "Bootstrap"
+header_title: "Linkedin e il suo contesto"
 ---
 
 # Introduzione a Bootstrap

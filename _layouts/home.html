@@ -2,8 +2,6 @@
 layout: minimal
 ---
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 
 {% include components/headers.html headertype= page.header_type imghero=page.header_img projects=page.project_links %}
 <main class="container-lg pb-3 flex-fill">
@@ -12,7 +10,7 @@ layout: minimal
     {% endif %}
     <div class="row pt-2 justify-content-center">
         <div class="col-lg-1 mt-lg-3 small d-none d-md-block"></div>
-        <article id="maincontent" class="col-lg-9 mt-3 e-content">
+        <article id="maincontent" class="col-lg-7 mt-3 e-content">
             {% if page.show_sidetoc %}
             {% include components/sidetoc.html %}
             {% endif %}

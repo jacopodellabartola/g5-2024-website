@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
-
+locale: “it-IT”
 # Riportare il github del gruppo di progetto e quello del sito web (se differente).
 # Tali informazioni appariranno nel Footer del sito.
 github_repo:
@@ -99,10 +99,12 @@ chulapa-skin:
   vars:
     font-family-base: "Montserrat"
     headings-font-family: "Montserrat"
-    font-size-base: 17
+    font-size-base: 13
     #navbar-chulapa-bg-color: "#005e9b"
     blockquote-chulapa-text-color: "#005e9b"
     blockquote-chulapa-bg-color: "#FFFFFF"
+
+
 
 
 #chulapa-skin:

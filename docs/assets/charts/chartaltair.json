@@ -1,0 +1,338 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "axes": [
+    {
+      "aria": false,
+      "domain": false,
+      "grid": true,
+      "gridScale": "x",
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "orient": "left",
+      "scale": "y",
+      "tickCount": {
+        "signal": "ceil(height/40)"
+      },
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "grid": false,
+      "labelAlign": "right",
+      "labelAngle": 270,
+      "labelBaseline": "middle",
+      "orient": "bottom",
+      "scale": "x",
+      "title": "Skill",
+      "zindex": 0
+    },
+    {
+      "grid": false,
+      "labelOverlap": true,
+      "orient": "left",
+      "scale": "y",
+      "tickCount": {
+        "signal": "ceil(height/40)"
+      },
+      "title": "Percentuale",
+      "zindex": 0
+    }
+  ],
+  "background": "white",
+  "data": [
+    {
+      "name": "source_0",
+      "values": [
+        {
+          "Livello": "Livello medio-alto",
+          "Percentuale": 30.22,
+          "Percentuale_end": 30.22,
+          "Percentuale_start": 0.0,
+          "Skill": "ability to take responsibility"
+        },
+        {
+          "Livello": "Livello medio-alto",
+          "Percentuale": 18.52,
+          "Percentuale_end": 18.52,
+          "Percentuale_start": 0.0,
+          "Skill": "team working"
+        },
+        {
+          "Livello": "Livello medio-alto",
+          "Percentuale": 16.53,
+          "Percentuale_end": 16.53,
+          "Percentuale_start": 0.0,
+          "Skill": "innovative"
+        },
+        {
+          "Livello": "Livello medio-alto",
+          "Percentuale": 15.72,
+          "Percentuale_end": 15.72,
+          "Percentuale_start": 0.0,
+          "Skill": "communication skills"
+        },
+        {
+          "Livello": "Livello medio-alto",
+          "Percentuale": 11.2,
+          "Percentuale_end": 11.2,
+          "Percentuale_start": 0.0,
+          "Skill": "flexibility"
+        },
+        {
+          "Livello": "Livello medio-alto",
+          "Percentuale": 10.71,
+          "Percentuale_end": 10.71,
+          "Percentuale_start": 0.0,
+          "Skill": "analytical skills"
+        },
+        {
+          "Livello": "Livello medio-alto",
+          "Percentuale": 8.26,
+          "Percentuale_end": 8.26,
+          "Percentuale_start": 0.0,
+          "Skill": "proactive"
+        },
+        {
+          "Livello": "Livello medio",
+          "Percentuale": 28.7,
+          "Percentuale_end": 58.92,
+          "Percentuale_start": 30.220000000000002,
+          "Skill": "ability to take responsibility"
+        },
+        {
+          "Livello": "Livello medio",
+          "Percentuale": 17.89,
+          "Percentuale_end": 36.41,
+          "Percentuale_start": 18.519999999999996,
+          "Skill": "team working"
+        },
+        {
+          "Livello": "Livello medio",
+          "Percentuale": 15.89,
+          "Percentuale_end": 32.42,
+          "Percentuale_start": 16.53,
+          "Skill": "innovative"
+        },
+        {
+          "Livello": "Livello medio",
+          "Percentuale": 12.97,
+          "Percentuale_end": 28.69,
+          "Percentuale_start": 15.72,
+          "Skill": "communication skills"
+        },
+        {
+          "Livello": "Livello medio",
+          "Percentuale": 10.09,
+          "Percentuale_end": 21.29,
+          "Percentuale_start": 11.2,
+          "Skill": "flexibility"
+        },
+        {
+          "Livello": "Livello medio",
+          "Percentuale": 8.01,
+          "Percentuale_end": 18.72,
+          "Percentuale_start": 10.709999999999999,
+          "Skill": "analytical skills"
+        },
+        {
+          "Livello": "Livello medio",
+          "Percentuale": 6.44,
+          "Percentuale_end": 14.7,
+          "Percentuale_start": 8.259999999999998,
+          "Skill": "proactive"
+        },
+        {
+          "Livello": "Esperienza minima",
+          "Percentuale": 25.81,
+          "Percentuale_end": 84.73,
+          "Percentuale_start": 58.92,
+          "Skill": "ability to take responsibility"
+        },
+        {
+          "Livello": "Esperienza minima",
+          "Percentuale": 18.3,
+          "Percentuale_end": 54.709999999999994,
+          "Percentuale_start": 36.41,
+          "Skill": "team working"
+        },
+        {
+          "Livello": "Esperienza minima",
+          "Percentuale": 12.27,
+          "Percentuale_end": 44.69,
+          "Percentuale_start": 32.42,
+          "Skill": "innovative"
+        },
+        {
+          "Livello": "Esperienza minima",
+          "Percentuale": 14.82,
+          "Percentuale_end": 43.510000000000005,
+          "Percentuale_start": 28.690000000000005,
+          "Skill": "communication skills"
+        },
+        {
+          "Livello": "Esperienza minima",
+          "Percentuale": 13.94,
+          "Percentuale_end": 35.23,
+          "Percentuale_start": 21.29,
+          "Skill": "flexibility"
+        },
+        {
+          "Livello": "Esperienza minima",
+          "Percentuale": 7.73,
+          "Percentuale_end": 26.45,
+          "Percentuale_start": 18.72,
+          "Skill": "analytical skills"
+        },
+        {
+          "Livello": "Esperienza minima",
+          "Percentuale": 0.0,
+          "Percentuale_end": 14.7,
+          "Percentuale_start": 14.7,
+          "Skill": "proactive"
+        }
+      ]
+    },
+    {
+      "name": "source_0_x_domain_Skill",
+      "values": [
+        {
+          "Skill": "ability to take responsibility"
+        },
+        {
+          "Skill": "team working"
+        },
+        {
+          "Skill": "innovative"
+        },
+        {
+          "Skill": "communication skills"
+        },
+        {
+          "Skill": "flexibility"
+        },
+        {
+          "Skill": "analytical skills"
+        },
+        {
+          "Skill": "proactive"
+        }
+      ]
+    },
+    {
+      "name": "source_0_color_domain_Livello",
+      "values": [
+        {
+          "Livello": "Livello medio-alto"
+        },
+        {
+          "Livello": "Livello medio"
+        },
+        {
+          "Livello": "Esperienza minima"
+        }
+      ]
+    }
+  ],
+  "height": 300,
+  "legends": [
+    {
+      "fill": "color",
+      "symbolType": "square",
+      "title": "Livello"
+    }
+  ],
+  "marks": [
+    {
+      "encode": {
+        "update": {
+          "fill": {
+            "field": "Livello",
+            "scale": "color"
+          },
+          "tooltip": {
+            "signal": "{\"Skill\": isValid(datum[\"Skill\"]) ? datum[\"Skill\"] : \"\"+datum[\"Skill\"], \"Percentuale\": format(datum[\"Percentuale\"], \"\"), \"Livello\": isValid(datum[\"Livello\"]) ? datum[\"Livello\"] : \"\"+datum[\"Livello\"]}"
+          },
+          "width": {
+            "signal": "max(0.25, bandwidth('x'))"
+          },
+          "x": {
+            "field": "Skill",
+            "scale": "x"
+          },
+          "y": {
+            "field": "Percentuale_end",
+            "scale": "y"
+          },
+          "y2": {
+            "field": "Percentuale_start",
+            "scale": "y"
+          }
+        }
+      },
+      "from": {
+        "data": "source_0"
+      },
+      "name": "marks",
+      "style": [
+        "bar"
+      ],
+      "type": "rect"
+    }
+  ],
+  "padding": 5,
+  "scales": [
+    {
+      "domain": {
+        "data": "source_0_x_domain_Skill",
+        "field": "Skill",
+        "sort": true
+      },
+      "name": "x",
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05,
+      "range": [
+        0,
+        {
+          "signal": "width"
+        }
+      ],
+      "type": "band"
+    },
+    {
+      "domain": {
+        "data": "source_0",
+        "fields": [
+          "Percentuale_start",
+          "Percentuale_end"
+        ]
+      },
+      "name": "y",
+      "nice": true,
+      "range": [
+        {
+          "signal": "height"
+        },
+        0
+      ],
+      "type": "linear",
+      "zero": true
+    },
+    {
+      "domain": {
+        "data": "source_0_color_domain_Livello",
+        "field": "Livello",
+        "sort": true
+      },
+      "name": "color",
+      "range": "category",
+      "type": "ordinal"
+    }
+  ],
+  "style": "cell",
+  "title": {
+    "frame": "group",
+    "text": "Percentuale delle competenze per livello"
+  },
+  "width": 600
+}

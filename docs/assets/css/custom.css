@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
-#sezione-1, #sezione-11, #sezione-12, #mappa-delle-stragi, #galleria {
+html {
+  font-size: size 45px;
+}
+
+#ai--h--ai-or-h, #introduzione, #sezione-12, #mappa-delle-stragi, #galleria {
   scroll-margin-top: 60px; /* Imposta lo spazio di scorrimento prima dell'elemento ancorato */
 }
 
@@ -34,11 +38,28 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  /* Regole generali per il font - classe personalizzata */
+  /* Regole specifiche per l'articolo principale classe pers */
+  /* Classi personalizzate classe pers*/
 }
 .card-container .card-img {
   width: 100%;
   object-fit: cover;
   padding: 10px;
+}
+.card-container body {
+  font-size: 40px; /* Modifica la grandezza del font */
+  line-height: 15; /* Modifica l'interlinea */
+}
+.card-container #maincontent {
+  font-size: 40px; /* Modifica la grandezza del font */
+  line-height: 15; /* Modifica l'interlinea */
+}
+.card-container .custom-font-size {
+  font-size: 40px; /* Modifica la grandezza del font */
+}
+.card-container .custom-line-height { /*classe perso*/
+  line-height: 2; /* Modifica l'interlinea */
 }
 .card-container .card-img img {
   max-width: 100%;
@@ -46,6 +67,7 @@
 .card-container .card-body {
   padding: 10px;
   padding-top: 0;
+  line-height: 1.42;
 }
 .card-container .card-body h5 {
   margin-top: 0.5rem;
@@ -54,6 +76,14 @@
 .card-container .card {
   flex: 1 1 100%; /* Default: cards take full width on small screens */
   max-width: 100%;
+}
+
+.justified {
+  text-align: justify;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 576px) {
@@ -89,10 +119,21 @@
   margin-top: 1rem;
 }
 
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .comic-neue-regular {
   font-family: "Comic Neue", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+strong, b {
+  font-weight: bold;
+  font-size: 12px; /* Dimensione del font 12px */
 }
 
 .comic-neue-bold {

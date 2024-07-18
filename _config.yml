@@ -99,7 +99,7 @@ chulapa-skin:
   vars:
     font-family-base: "Montserrat"
     headings-font-family: "Montserrat"
-    font-size-base: 19
+    font-size-base: 17
     #navbar-chulapa-bg-color: "#005e9b"
     blockquote-chulapa-text-color: "#005e9b"
     blockquote-chulapa-bg-color: "#FFFFFF"

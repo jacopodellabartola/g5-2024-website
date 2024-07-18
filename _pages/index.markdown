@@ -10,7 +10,8 @@ vega: true
 plotly: true
 ---
 
-# Introduzione
+
+# INTRODUZIONE
 <div class="justified">
 “Nasci da ingegnere muori da deep learning engineer”… una parafrasi della celebre frase basterebbe forse a descrivere l’evoluzione, il cambiamento, la faglia che il terremoto AI ha prodotto sul mercato del lavoro lasciando da una parte, solo, il “buon vecchio ingegnere” e contrapponendo ad esso una serie di figure che lo vedono, di fatto, trasformato e reinventato in un più cool data scientist o data engineer solo per citare due dei suggerimenti di ricerca che accedendo a Linkedin è più facile trovare se si cerca banalmente il ruolo del buon vecchio ingegnere informatico.<br>
 La ricerca del lavoro ha nuove keywords, il mercato del lavoro ha modificato le terminologie per lasciare forse inalterate le competenze, ha modificato il titolo lasciando forse inalterata la trama per rivendere al pubblico un libro già letto. Mascherando una job opportunity simile a quella di qualche anno fa, dietro un titolo imponente, un titolo che gonfia di orgoglio, perché diciamocelo alla domanda che lavoro fai “Artificial intelligent engineering” rende molto più di un banale “sviluppatore informatico”.<br>
@@ -20,7 +21,7 @@ Chiamatelo marketing, chiamatela strategia di recruiting, chiamatela stare al pa
 <div>
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-lg-6">
+        <div class="col-lg-8">
             <blockquote style="font-size: 1.5em; font-weight: bold; font-style: italic; text-align: center;">
                 Cosa spinge (o cosa attrae) l’individuo a candidarsi per un annuncio piuttosto che un altro?
             </blockquote>
@@ -32,7 +33,7 @@ Chiamatelo marketing, chiamatela strategia di recruiting, chiamatela stare al pa
 <br>
 <br>
 ABBIAMO SCELTO DI ANALIZZARE LINKEDIN ECC ECC
-
+<br>
 # AI + H > AI or H
 
 <div class="justified">
@@ -42,18 +43,28 @@ E che la parte umana c'è e arricchisce è impossibile negarlo, soprattutto soff
 
 <br>
 <br>
-{% capture snippets/skills.md %}
+{% capture skills %}
     {% include_relative snippets/skills.md %}
 {% endcapture %}
 
 
-{% include modal-component.html title="Dettagli del dataset" content=skills.md %}
+{% include modal-component.html title="Dettagli del dataset" content=skills id="dettaglidataset" %}
 
 
 {% include graficobolle1.html %}
 
-Saltando da un annuncio all'altro dell'universo tech su Linkedin presto ci rendiamo che per essere un candidato interessante agli occhi di un recruiter non dobbiamo solamente saper programmare, conoscere le metodologie di interrogazione dei dati e tutta un'altra infinita serie di linguaggi di programmazione e conoscenze di backround,ma anche - e soprattutto- esaltare la nostra parte "umana" con le soft skill. Se la capacità di prendersi le proprie responsabilità può spaventare nella vita di tutti i giorni, diventa un requisito che sembra particolarmente ricercato nei candidati. <br>
-Ma non solo, la capacità di lavorare in team e di comunicazione e quella di capire il business che ho davanti sono quelle che Stefano Gatti- attualmente head of Data & Analytics a Nexi e scrittore del libro "La cultura del dato"- ha definito le skill che fanno la differenza nell'ambito AI e con le quali ci scontriamo analizzando gli innumerevoli job post della piattaforma. <br>
-
+Saltando da un annuncio all'altro dell'universo tech su Linkedin presto ci rendiamo che per essere un candidato interessante agli occhi di un recruiter non dobbiamo solamente saper programmare, conoscere le metodologie di interrogazione dei dati e tutta un'altra infinita serie di linguaggi di programmazione e conoscenze di backround,ma anche - e soprattutto- esaltare la nostra parte "umana" con le soft skill, che, come ci mostrano i dati, "vince" il braccio di ferro con la sua controparte "dura".<br> 
+Se la capacità di prendersi le proprie responsabilità può spaventare nella vita di tutti i giorni, diventa un requisito che sembra particolarmente ricercato nei candidati. Ma non solo, la capacità di lavorare in team e di comunicazione e quella di capire il business che ho davanti sono quelle che Stefano Gatti- attualmente head of Data & Analytics a Nexi e scrittore del libro "La cultura del dato"- ha definito le skill che fanno la differenza nell'ambito AI e con le quali ci scontriamo analizzando gli innumerevoli job post della piattaforma. <br>
 </div>
+<br>
+
+# LA BOTTE PIENA E LA MOGLIE UBRIACA 
+
+parte simo
+
+
+# PARTE GIULIO
+
+# MODELLO
+
 ---

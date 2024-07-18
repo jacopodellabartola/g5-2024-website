@@ -49,10 +49,17 @@ navbar:
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
+
+    - title: Introduzione
+      url: /#introduzione
+    - title: AI + H > AI or H
+      url: /#ai--h--ai-or-h
+    - title: La botte piena
+      url: /#la-botte-piena-e-la-moglie-ubriaca
     - title: Contesto
       url: /contesto
-    - title: Jekyll
-      url: /jekyll-ssg
+    - title: Report tecnico
+      url: /report-tecnico
     - title: Charts
       url: /charts
     - title: Folium
@@ -90,19 +97,18 @@ googlefonts:
 chulapa-skin:
   skin:  "graymor" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
   vars:
-    body-bg: "#FFFFFF"
     font-family-base: "Montserrat"
     headings-font-family: "Montserrat"
-    font-size-base: 17
+    font-size-base: 19
     #navbar-chulapa-bg-color: "#005e9b"
     blockquote-chulapa-text-color: "#005e9b"
     blockquote-chulapa-bg-color: "#FFFFFF"
 
 
 #chulapa-skin:
-#  autothemer  :  true
-#  vars:
-#    primary: "darkorange"
+ # autothemer  :  true
+  #vars:
+  #  primary: "#ff0000"
 
 
 

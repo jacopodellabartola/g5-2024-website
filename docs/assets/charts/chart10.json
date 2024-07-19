@@ -10,29 +10,34 @@
     }
   },
   "data": {
-    "name": "data-10e5a1238c6af97cd195959390d6cc90"
+    "name": "data-9cfcd5b8433baa2748fe2cf0b6fc5062"
   },
   "datasets": {
-    "data-10e5a1238c6af97cd195959390d6cc90": [
-      {
-        "Job title": "data analyst",
-        "freq_rel": 0.4241,
-        "label": 5
-      },
-      {
-        "Job title": "BI",
-        "freq_rel": 0.2027,
-        "label": 5
-      },
+    "data-9cfcd5b8433baa2748fe2cf0b6fc5062": [
       {
         "Job title": "data scientist",
-        "freq_rel": 0.2438,
-        "label": 5
+        "freq_rel": 0.2661,
+        "label": 10
       },
       {
-        "Job title": "data engineer",
-        "freq_rel": 0.056,
-        "label": 5
+        "Job title": "AI engineer",
+        "freq_rel": 0.6048,
+        "label": 10
+      },
+      {
+        "Job title": "data visualization",
+        "freq_rel": 0.0484,
+        "label": 10
+      },
+      {
+        "Job title": "software engineer",
+        "freq_rel": 0.0323,
+        "label": 10
+      },
+      {
+        "Job title": "NLP",
+        "freq_rel": 0.0282,
+        "label": 10
       }
     ]
   },
@@ -88,5 +93,5 @@
     "right": 5,
     "top": 5
   },
-  "title": "Cluster 5"
+  "title": "Cluster 10"
 }

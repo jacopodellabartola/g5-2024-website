@@ -10,29 +10,69 @@
     }
   },
   "data": {
-    "name": "data-10e5a1238c6af97cd195959390d6cc90"
+    "name": "data-354930a4a5b245d20a7eb41d688e2d87"
   },
   "datasets": {
-    "data-10e5a1238c6af97cd195959390d6cc90": [
+    "data-354930a4a5b245d20a7eb41d688e2d87": [
       {
         "Job title": "data analyst",
-        "freq_rel": 0.4241,
-        "label": 5
+        "freq_rel": 0.1407,
+        "label": 1
       },
       {
         "Job title": "BI",
-        "freq_rel": 0.2027,
-        "label": 5
+        "freq_rel": 0.1123,
+        "label": 1
       },
       {
         "Job title": "data scientist",
-        "freq_rel": 0.2438,
-        "label": 5
+        "freq_rel": 0.0509,
+        "label": 1
       },
       {
         "Job title": "data engineer",
-        "freq_rel": 0.056,
-        "label": 5
+        "freq_rel": 0.0524,
+        "label": 1
+      },
+      {
+        "Job title": "DevOps engineer",
+        "freq_rel": 0.1991,
+        "label": 1
+      },
+      {
+        "Job title": "software engineer",
+        "freq_rel": 0.1392,
+        "label": 1
+      },
+      {
+        "Job title": "back-end developer",
+        "freq_rel": 0.021,
+        "label": 1
+      },
+      {
+        "Job title": "AI engineer",
+        "freq_rel": 0.0793,
+        "label": 1
+      },
+      {
+        "Job title": "data architect",
+        "freq_rel": 0.0644,
+        "label": 1
+      },
+      {
+        "Job title": "cloud",
+        "freq_rel": 0.0554,
+        "label": 1
+      },
+      {
+        "Job title": "system engineer",
+        "freq_rel": 0.021,
+        "label": 1
+      },
+      {
+        "Job title": "python/java developer",
+        "freq_rel": 0.0329,
+        "label": 1
       }
     ]
   },
@@ -84,9 +124,9 @@
   },
   "padding": {
     "bottom": 5,
-    "left": 50,
+    "left": 5,
     "right": 5,
     "top": 5
   },
-  "title": "Cluster 5"
+  "title": "Cluster 1"
 }

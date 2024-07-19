@@ -10,29 +10,54 @@
     }
   },
   "data": {
-    "name": "data-10e5a1238c6af97cd195959390d6cc90"
+    "name": "data-c65c46a3cb062d94882e8ffe84d3a012"
   },
   "datasets": {
-    "data-10e5a1238c6af97cd195959390d6cc90": [
+    "data-c65c46a3cb062d94882e8ffe84d3a012": [
       {
         "Job title": "data analyst",
-        "freq_rel": 0.4241,
-        "label": 5
-      },
-      {
-        "Job title": "BI",
-        "freq_rel": 0.2027,
-        "label": 5
+        "freq_rel": 0.055,
+        "label": 7
       },
       {
         "Job title": "data scientist",
-        "freq_rel": 0.2438,
-        "label": 5
+        "freq_rel": 0.0263,
+        "label": 7
+      },
+      {
+        "Job title": "cloud",
+        "freq_rel": 0.1459,
+        "label": 7
       },
       {
         "Job title": "data engineer",
-        "freq_rel": 0.056,
-        "label": 5
+        "freq_rel": 0.5144,
+        "label": 7
+      },
+      {
+        "Job title": "Big Data",
+        "freq_rel": 0.0263,
+        "label": 7
+      },
+      {
+        "Job title": "data architect",
+        "freq_rel": 0.1196,
+        "label": 7
+      },
+      {
+        "Job title": "BI",
+        "freq_rel": 0.0263,
+        "label": 7
+      },
+      {
+        "Job title": "software engineer",
+        "freq_rel": 0.0215,
+        "label": 7
+      },
+      {
+        "Job title": "DevOps engineer",
+        "freq_rel": 0.0335,
+        "label": 7
       }
     ]
   },
@@ -88,5 +113,5 @@
     "right": 5,
     "top": 5
   },
-  "title": "Cluster 5"
+  "title": "Cluster 7"
 }

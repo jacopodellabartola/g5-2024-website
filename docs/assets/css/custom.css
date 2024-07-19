@@ -3,7 +3,7 @@ html {
   font-size: size 45px;
 }
 
-#ai--h--ai-or-h, #introduzione, #sezione-12, #mappa-delle-stragi, #galleria {
+#ai--h--ai-or-h, #introduzione, #la-botte-piena-e-la-moglie-ubriaca, #mappa-delle-stragi, #galleria {
   scroll-margin-top: 60px; /* Imposta lo spazio di scorrimento prima dell'elemento ancorato */
 }
 
@@ -39,27 +39,15 @@ html {
   justify-content: center;
   gap: 1rem;
   /* Regole generali per il font - classe personalizzata */
-  /* Regole specifiche per l'articolo principale classe pers */
-  /* Classi personalizzate classe pers*/
 }
 .card-container .card-img {
   width: 100%;
   object-fit: cover;
   padding: 10px;
 }
-.card-container body {
-  font-size: 40px; /* Modifica la grandezza del font */
+.card-container * {
+  font-size: 1.4; /* Modifica la grandezza del font */
   line-height: 15; /* Modifica l'interlinea */
-}
-.card-container #maincontent {
-  font-size: 40px; /* Modifica la grandezza del font */
-  line-height: 15; /* Modifica l'interlinea */
-}
-.card-container .custom-font-size {
-  font-size: 40px; /* Modifica la grandezza del font */
-}
-.card-container .custom-line-height { /*classe perso*/
-  line-height: 2; /* Modifica l'interlinea */
 }
 .card-container .card-img img {
   max-width: 100%;

@@ -47,20 +47,23 @@ Chiamatelo marketing, chiamatela strategia di recruiting, chiamatela stare al pa
 <div class="justified">
 <p>
 Partiamo proprio dalle sinergie, la sinergia creata dall’uomo più l’AI, sarà sicuramente superiore alla AI stessa o al singolo individuo quindi partiamo da una certezza la sinergia c’è e va sfruttata, la sinergia arricchisce e non sostituisce.<br>
-E che la parte umana c'è e arricchisce è impossibile negarlo, soprattutto soffermandoci sulla quantità di hard e soft skills richieste ai candidati. Una vera e propria foresta di requisiti che confonde più che chiarire quali sono le aspettative dell'HR, dell'azienda e del datore di lavoro.<br>
+E che la parte umana c'è e arricchisce è impossibile negarlo, soprattutto soffermandoci sulla quantità di hard e soft skill richieste ai candidati. Una vera e propria foresta di requisiti che confonde più che chiarire quali sono le aspettative dell'HR, dell'azienda e del datore di lavoro.<br>
 </p>
 <br>
 <br>
 
 
 <div style="display: flex; justify-content: center;">
-{% include graficobollenuovo.html %}" 
+{% include graficobollenuovo2.html %}" 
 </div>
 
 {% capture skills %}
-Nel Bubble Chart sono state rappresentate le 10 skill più richieste sia per le soft skill, che per le hard skill e linguaggi di programmazione.<br>
-Il grafico ci mostra come la divisione tra soft skill, hard skill e linguaggi di programmazione risulta essere piuttosto bilanciata, ma con una tendenza verso le soft skills. Tra queste l’abilità di assumersi le proprie responsabilità, il team-working e le abilità comunicative risultano preponderanti. Per le hard skill, avere conoscenze di programmazione, di database management system e conoscere la lingua inglese. SQL, Python e Excel rappresentano nei nostri dati i linguaggi di programmazione più richiesti.<br>
-Le skill necessarie alla creazione di questo grafico sono state estratte da ogni singola descrizione dell’insieme degli annunci di lavoro. Per mappare le soft skill è stato utilizzato il dataset relativo alle skill dell’istituto GESIS Leibniz-Institut für Sozialwissenschaften, mentre per quanto riguarda le hard skill, la lista a cui ci si è rifatti è consultabile su Kaggle- Hard skills and soft skills.
+Il grafico a bolle visualizza in percentuale le 10 competenze più richieste suddivise in tre categorie: **soft skill**,
+**hard skill** e **linguaggi di programmazione**. <br>
+
+L’analisi del grafico rivela una distribuzione equilibrata tra le tre categorie, con una leggera prevalenza delle soft skill. Tra quest'ultime, le più richieste sono la responsabilità personale, il lavoro di squadra e le competenze comunicative. Per quanto riguarda le hard skill le più richieste sono la programmazione, database management system e la conoscenza della lingua inglese. Infine, i linguaggi di programmazione più richiesti sono SQL, Python e Excel.
+
+Le competenze necessarie per creare questo grafico sono state estratte da ciascuna descrizione dell’insieme di annunci di lavoro. Il dataset utilizzato per mappare le soft skill proviene dall’istituto GESIS Leibniz-Institut für Sozialwissenschaften. Per le hard skill, ci siamo riferiti a un dataset disponibile su Kaggle.
 {% endcapture %}
 {% include modal-component.html title="Dettagli del grafico" content=skills id="dettaglidataset" style="width: 80%; height: 30vh;" %}
 <br>
@@ -73,7 +76,7 @@ Se la capacità di prendersi le proprie responsabilità può spaventare nella vi
 </div>
 <br>
 
-# LA BOTTE PIENA E LA MOGLIE UBRIACA 
+# "LA BOTTE PIENA E LA MOGLIE UBRIACA" 
 <div style="display: flex; justify-content: center; align-items: center;">
   <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/chart0 1.json"></vegachart></div>
   <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/chart1 1.json"></vegachart></div>
@@ -82,14 +85,26 @@ Se la capacità di prendersi le proprie responsabilità può spaventare nella vi
 
 
 
+<br>
+<br>
+<br>
+
+
+# PARTE GIULIO DA decidere nome
+
+<div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+  <div style="width: 120%; margin-left: -180%;">
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+      <div style="flex: 1; max-width: 10%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt1_LocationType.json"></vegachart></div>
+      <div style="flex: 1; max-width: 10%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt2_PosterFullName.json"></vegachart></div>
+      <div style="flex: 1; max-width: 10%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt3FACOLTATIVO_Skills.json"></vegachart></div>
+    </div>
+  </div>
+</div>
 
 
 
+# TO HIRE OR NOT TO HIRE
 
-
-
-# PARTE GIULIO
-
-# MODELLO
-
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3769_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"linkedin","geo":"IT","time":"today 12-m"}],"category":0,"property":""}, {"exploreQuery":"geo=IT&q=linkedin&hl=it&date=today 12-m","guestPath":"https://trends.google.it:443/trends/embed/"}); </script>
 ---

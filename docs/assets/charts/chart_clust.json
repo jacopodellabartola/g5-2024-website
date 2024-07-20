@@ -1,0 +1,644 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "config": {
+    "legend": {
+      "disable": true
+    },
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-68e2f8843d42017a0a4de86bcb662795"
+  },
+  "datasets": {
+    "data-68e2f8843d42017a0a4de86bcb662795": [
+      {
+        "Job title": "Big Data",
+        "freq": 11,
+        "freq_rel": 0.0367,
+        "label": 0,
+        "nr cluster": "Cluster 0"
+      },
+      {
+        "Job title": "data engineer",
+        "freq": 12,
+        "freq_rel": 0.04,
+        "label": 0,
+        "nr cluster": "Cluster 0"
+      },
+      {
+        "Job title": "cloud",
+        "freq": 135,
+        "freq_rel": 0.45,
+        "label": 0,
+        "nr cluster": "Cluster 0"
+      },
+      {
+        "Job title": "DevOps engineer",
+        "freq": 98,
+        "freq_rel": 0.3267,
+        "label": 0,
+        "nr cluster": "Cluster 0"
+      },
+      {
+        "Job title": "system engineer",
+        "freq": 25,
+        "freq_rel": 0.0833,
+        "label": 0,
+        "nr cluster": "Cluster 0"
+      },
+      {
+        "Job title": "data architect",
+        "freq": 8,
+        "freq_rel": 0.0267,
+        "label": 0,
+        "nr cluster": "Cluster 0"
+      },
+      {
+        "Job title": "data analyst",
+        "freq": 94,
+        "freq_rel": 0.1407,
+        "label": 1,
+        "nr cluster": "Cluster 1"
+      },
+      {
+        "Job title": "BI",
+        "freq": 75,
+        "freq_rel": 0.1123,
+        "label": 1,
+        "nr cluster": "Cluster 1"
+      },
+      {
+        "Job title": "data scientist",
+        "freq": 34,
+        "freq_rel": 0.0509,
+        "label": 1,
+        "nr cluster": "Cluster 1"
+      },
+      {
+        "Job title": "data engineer",
+        "freq": 35,
+        "freq_rel": 0.0524,
+        "label": 1,
+        "nr cluster": "Cluster 1"
+      },
+      {
+        "Job title": "DevOps engineer",
+        "freq": 133,
+        "freq_rel": 0.1991,
+        "label": 1,
+        "nr cluster": "Cluster 1"
+      },
+      {
+        "Job title": "software engineer",
+        "freq": 93,
+        "freq_rel": 0.1392,
+        "label": 1,
+        "nr cluster": "Cluster 1"
+      },
+      {
+        "Job title": "back-end developer",
+        "freq": 14,
+        "freq_rel": 0.021,
+        "label": 1,
+        "nr cluster": "Cluster 1"
+      },
+      {
+        "Job title": "AI engineer",
+        "freq": 53,
+        "freq_rel": 0.0793,
+        "label": 1,
+        "nr cluster": "Cluster 1"
+      },
+      {
+        "Job title": "data architect",
+        "freq": 43,
+        "freq_rel": 0.0644,
+        "label": 1,
+        "nr cluster": "Cluster 1"
+      },
+      {
+        "Job title": "cloud",
+        "freq": 37,
+        "freq_rel": 0.0554,
+        "label": 1,
+        "nr cluster": "Cluster 1"
+      },
+      {
+        "Job title": "system engineer",
+        "freq": 14,
+        "freq_rel": 0.021,
+        "label": 1,
+        "nr cluster": "Cluster 1"
+      },
+      {
+        "Job title": "python/java developer",
+        "freq": 22,
+        "freq_rel": 0.0329,
+        "label": 1,
+        "nr cluster": "Cluster 1"
+      },
+      {
+        "Job title": "cloud",
+        "freq": 263,
+        "freq_rel": 0.8567,
+        "label": 2,
+        "nr cluster": "Cluster 2"
+      },
+      {
+        "Job title": "data architect",
+        "freq": 25,
+        "freq_rel": 0.0814,
+        "label": 2,
+        "nr cluster": "Cluster 2"
+      },
+      {
+        "Job title": "data engineer",
+        "freq": 8,
+        "freq_rel": 0.0261,
+        "label": 2,
+        "nr cluster": "Cluster 2"
+      },
+      {
+        "Job title": "AI engineer",
+        "freq": 157,
+        "freq_rel": 0.7072,
+        "label": 3,
+        "nr cluster": "Cluster 3"
+      },
+      {
+        "Job title": "data scientist",
+        "freq": 40,
+        "freq_rel": 0.1802,
+        "label": 3,
+        "nr cluster": "Cluster 3"
+      },
+      {
+        "Job title": "software engineer",
+        "freq": 6,
+        "freq_rel": 0.027,
+        "label": 3,
+        "nr cluster": "Cluster 3"
+      },
+      {
+        "Job title": "NLP",
+        "freq": 10,
+        "freq_rel": 0.045,
+        "label": 3,
+        "nr cluster": "Cluster 3"
+      },
+      {
+        "Job title": "data analyst",
+        "freq": 226,
+        "freq_rel": 0.2736,
+        "label": 4,
+        "nr cluster": "Cluster 4"
+      },
+      {
+        "Job title": "BI",
+        "freq": 215,
+        "freq_rel": 0.2603,
+        "label": 4,
+        "nr cluster": "Cluster 4"
+      },
+      {
+        "Job title": "cloud",
+        "freq": 41,
+        "freq_rel": 0.0496,
+        "label": 4,
+        "nr cluster": "Cluster 4"
+      },
+      {
+        "Job title": "AI engineer",
+        "freq": 24,
+        "freq_rel": 0.0291,
+        "label": 4,
+        "nr cluster": "Cluster 4"
+      },
+      {
+        "Job title": "DevOps engineer",
+        "freq": 100,
+        "freq_rel": 0.1211,
+        "label": 4,
+        "nr cluster": "Cluster 4"
+      },
+      {
+        "Job title": "data architect",
+        "freq": 103,
+        "freq_rel": 0.1247,
+        "label": 4,
+        "nr cluster": "Cluster 4"
+      },
+      {
+        "Job title": "system engineer",
+        "freq": 39,
+        "freq_rel": 0.0472,
+        "label": 4,
+        "nr cluster": "Cluster 4"
+      },
+      {
+        "Job title": "software engineer",
+        "freq": 35,
+        "freq_rel": 0.0424,
+        "label": 4,
+        "nr cluster": "Cluster 4"
+      },
+      {
+        "Job title": "data analyst",
+        "freq": 341,
+        "freq_rel": 0.4241,
+        "label": 5,
+        "nr cluster": "Cluster 5"
+      },
+      {
+        "Job title": "BI",
+        "freq": 163,
+        "freq_rel": 0.2027,
+        "label": 5,
+        "nr cluster": "Cluster 5"
+      },
+      {
+        "Job title": "data scientist",
+        "freq": 196,
+        "freq_rel": 0.2438,
+        "label": 5,
+        "nr cluster": "Cluster 5"
+      },
+      {
+        "Job title": "data engineer",
+        "freq": 45,
+        "freq_rel": 0.056,
+        "label": 5,
+        "nr cluster": "Cluster 5"
+      },
+      {
+        "Job title": "data engineer",
+        "freq": 22,
+        "freq_rel": 0.449,
+        "label": 6,
+        "nr cluster": "Cluster 6"
+      },
+      {
+        "Job title": "AI engineer",
+        "freq": 20,
+        "freq_rel": 0.4082,
+        "label": 6,
+        "nr cluster": "Cluster 6"
+      },
+      {
+        "Job title": "data visualization",
+        "freq": 7,
+        "freq_rel": 0.1429,
+        "label": 6,
+        "nr cluster": "Cluster 6"
+      },
+      {
+        "Job title": "data analyst",
+        "freq": 23,
+        "freq_rel": 0.055,
+        "label": 7,
+        "nr cluster": "Cluster 7"
+      },
+      {
+        "Job title": "data scientist",
+        "freq": 11,
+        "freq_rel": 0.0263,
+        "label": 7,
+        "nr cluster": "Cluster 7"
+      },
+      {
+        "Job title": "cloud",
+        "freq": 61,
+        "freq_rel": 0.1459,
+        "label": 7,
+        "nr cluster": "Cluster 7"
+      },
+      {
+        "Job title": "data engineer",
+        "freq": 215,
+        "freq_rel": 0.5144,
+        "label": 7,
+        "nr cluster": "Cluster 7"
+      },
+      {
+        "Job title": "Big Data",
+        "freq": 11,
+        "freq_rel": 0.0263,
+        "label": 7,
+        "nr cluster": "Cluster 7"
+      },
+      {
+        "Job title": "data architect",
+        "freq": 50,
+        "freq_rel": 0.1196,
+        "label": 7,
+        "nr cluster": "Cluster 7"
+      },
+      {
+        "Job title": "BI",
+        "freq": 11,
+        "freq_rel": 0.0263,
+        "label": 7,
+        "nr cluster": "Cluster 7"
+      },
+      {
+        "Job title": "software engineer",
+        "freq": 9,
+        "freq_rel": 0.0215,
+        "label": 7,
+        "nr cluster": "Cluster 7"
+      },
+      {
+        "Job title": "DevOps engineer",
+        "freq": 14,
+        "freq_rel": 0.0335,
+        "label": 7,
+        "nr cluster": "Cluster 7"
+      },
+      {
+        "Job title": "DevOps engineer",
+        "freq": 300,
+        "freq_rel": 0.3942,
+        "label": 8,
+        "nr cluster": "Cluster 8"
+      },
+      {
+        "Job title": "software engineer",
+        "freq": 224,
+        "freq_rel": 0.2943,
+        "label": 8,
+        "nr cluster": "Cluster 8"
+      },
+      {
+        "Job title": "python/java developer",
+        "freq": 94,
+        "freq_rel": 0.1235,
+        "label": 8,
+        "nr cluster": "Cluster 8"
+      },
+      {
+        "Job title": "cloud",
+        "freq": 21,
+        "freq_rel": 0.0276,
+        "label": 8,
+        "nr cluster": "Cluster 8"
+      },
+      {
+        "Job title": "full-stak developer",
+        "freq": 39,
+        "freq_rel": 0.0512,
+        "label": 8,
+        "nr cluster": "Cluster 8"
+      },
+      {
+        "Job title": "data architect",
+        "freq": 17,
+        "freq_rel": 0.0223,
+        "label": 8,
+        "nr cluster": "Cluster 8"
+      },
+      {
+        "Job title": "data analyst",
+        "freq": 86,
+        "freq_rel": 0.0765,
+        "label": 9,
+        "nr cluster": "Cluster 9"
+      },
+      {
+        "Job title": "data engineer",
+        "freq": 37,
+        "freq_rel": 0.0329,
+        "label": 9,
+        "nr cluster": "Cluster 9"
+      },
+      {
+        "Job title": "cloud",
+        "freq": 34,
+        "freq_rel": 0.0302,
+        "label": 9,
+        "nr cluster": "Cluster 9"
+      },
+      {
+        "Job title": "DevOps engineer",
+        "freq": 146,
+        "freq_rel": 0.1299,
+        "label": 9,
+        "nr cluster": "Cluster 9"
+      },
+      {
+        "Job title": "system engineer",
+        "freq": 107,
+        "freq_rel": 0.0952,
+        "label": 9,
+        "nr cluster": "Cluster 9"
+      },
+      {
+        "Job title": "AI engineer",
+        "freq": 46,
+        "freq_rel": 0.0409,
+        "label": 9,
+        "nr cluster": "Cluster 9"
+      },
+      {
+        "Job title": "software engineer",
+        "freq": 349,
+        "freq_rel": 0.3105,
+        "label": 9,
+        "nr cluster": "Cluster 9"
+      },
+      {
+        "Job title": "BI",
+        "freq": 135,
+        "freq_rel": 0.1201,
+        "label": 9,
+        "nr cluster": "Cluster 9"
+      },
+      {
+        "Job title": "python/java developer",
+        "freq": 34,
+        "freq_rel": 0.0302,
+        "label": 9,
+        "nr cluster": "Cluster 9"
+      },
+      {
+        "Job title": "data architect",
+        "freq": 31,
+        "freq_rel": 0.0276,
+        "label": 9,
+        "nr cluster": "Cluster 9"
+      },
+      {
+        "Job title": "data scientist",
+        "freq": 66,
+        "freq_rel": 0.2661,
+        "label": 10,
+        "nr cluster": "Cluster 10"
+      },
+      {
+        "Job title": "AI engineer",
+        "freq": 150,
+        "freq_rel": 0.6048,
+        "label": 10,
+        "nr cluster": "Cluster 10"
+      },
+      {
+        "Job title": "data visualization",
+        "freq": 12,
+        "freq_rel": 0.0484,
+        "label": 10,
+        "nr cluster": "Cluster 10"
+      },
+      {
+        "Job title": "software engineer",
+        "freq": 8,
+        "freq_rel": 0.0323,
+        "label": 10,
+        "nr cluster": "Cluster 10"
+      },
+      {
+        "Job title": "NLP",
+        "freq": 7,
+        "freq_rel": 0.0282,
+        "label": 10,
+        "nr cluster": "Cluster 10"
+      },
+      {
+        "Job title": "data analyst",
+        "freq": 114,
+        "freq_rel": 0.1297,
+        "label": 11,
+        "nr cluster": "Cluster 11"
+      },
+      {
+        "Job title": "data scientist",
+        "freq": 30,
+        "freq_rel": 0.0341,
+        "label": 11,
+        "nr cluster": "Cluster 11"
+      },
+      {
+        "Job title": "data engineer",
+        "freq": 42,
+        "freq_rel": 0.0478,
+        "label": 11,
+        "nr cluster": "Cluster 11"
+      },
+      {
+        "Job title": "BI",
+        "freq": 210,
+        "freq_rel": 0.2389,
+        "label": 11,
+        "nr cluster": "Cluster 11"
+      },
+      {
+        "Job title": "AI engineer",
+        "freq": 23,
+        "freq_rel": 0.0262,
+        "label": 11,
+        "nr cluster": "Cluster 11"
+      },
+      {
+        "Job title": "python/java developer",
+        "freq": 75,
+        "freq_rel": 0.0853,
+        "label": 11,
+        "nr cluster": "Cluster 11"
+      },
+      {
+        "Job title": "DevOps engineer",
+        "freq": 162,
+        "freq_rel": 0.1843,
+        "label": 11,
+        "nr cluster": "Cluster 11"
+      },
+      {
+        "Job title": "software engineer",
+        "freq": 115,
+        "freq_rel": 0.1308,
+        "label": 11,
+        "nr cluster": "Cluster 11"
+      },
+      {
+        "Job title": "system engineer",
+        "freq": 24,
+        "freq_rel": 0.0273,
+        "label": 11,
+        "nr cluster": "Cluster 11"
+      },
+      {
+        "Job title": "cloud",
+        "freq": 37,
+        "freq_rel": 0.0421,
+        "label": 11,
+        "nr cluster": "Cluster 11"
+      }
+    ]
+  },
+  "encoding": {
+    "facet": {
+      "align": "each",
+      "columns": 3,
+      "field": "nr cluster",
+      "sort": {
+        "field": "label"
+      },
+      "spacing": 20,
+      "title": null,
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "Job title",
+        "title": "Job title",
+        "type": "nominal"
+      },
+      {
+        "field": "freq_rel",
+        "format": ".2%",
+        "title": "Percentage",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "freq_rel",
+      "scale": {
+        "domain": [
+          0,
+          1
+        ]
+      },
+      "title": "Frequency",
+      "type": "quantitative"
+    },
+    "y": {
+      "axis": {
+        "labelAngle": 0
+      },
+      "field": "Job title",
+      "sort": {
+        "field": "freq_rel",
+        "order": "descending"
+      },
+      "title": null,
+      "type": "nominal"
+    }
+  },
+  "mark": {
+    "tooltip": true,
+    "type": "bar"
+  },
+  "resolve": {
+    "scale": {
+      "x": "independent",
+      "y": "independent"
+    }
+  },
+  "title": {
+    "anchor": "middle",
+    "offset": 30,
+    "text": "Job title distribution by cluster"
+  },
+  "width": 200
+}

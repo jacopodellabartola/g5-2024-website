@@ -1,0 +1,113 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "config": {
+    "legend": {
+      "disable": true
+    },
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-5fd1350ad50471820f170dabee45b501"
+  },
+  "datasets": {
+    "data-5fd1350ad50471820f170dabee45b501": [
+      {
+        "Cluster": 0,
+        "Size": 300,
+        "grandezza_vs_df": 0.05
+      },
+      {
+        "Cluster": 1,
+        "Size": 668,
+        "grandezza_vs_df": 0.1
+      },
+      {
+        "Cluster": 2,
+        "Size": 307,
+        "grandezza_vs_df": 0.05
+      },
+      {
+        "Cluster": 3,
+        "Size": 222,
+        "grandezza_vs_df": 0.03
+      },
+      {
+        "Cluster": 4,
+        "Size": 826,
+        "grandezza_vs_df": 0.13
+      },
+      {
+        "Cluster": 5,
+        "Size": 804,
+        "grandezza_vs_df": 0.12
+      },
+      {
+        "Cluster": 6,
+        "Size": 49,
+        "grandezza_vs_df": 0.01
+      },
+      {
+        "Cluster": 7,
+        "Size": 418,
+        "grandezza_vs_df": 0.06
+      },
+      {
+        "Cluster": 8,
+        "Size": 761,
+        "grandezza_vs_df": 0.12
+      },
+      {
+        "Cluster": 9,
+        "Size": 1124,
+        "grandezza_vs_df": 0.17
+      },
+      {
+        "Cluster": 10,
+        "Size": 248,
+        "grandezza_vs_df": 0.04
+      },
+      {
+        "Cluster": 11,
+        "Size": 879,
+        "grandezza_vs_df": 0.13
+      }
+    ]
+  },
+  "encoding": {
+    "color": {
+      "field": "Cluster",
+      "scale": {
+        "scheme": "category20"
+      },
+      "type": "nominal"
+    },
+    "theta": {
+      "field": "Size",
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {
+        "field": "Cluster",
+        "title": "Cluster",
+        "type": "nominal"
+      },
+      {
+        "field": "grandezza_vs_df",
+        "format": ".2%",
+        "title": "Cluster size vs DataFrame",
+        "type": "quantitative"
+      }
+    ]
+  },
+  "mark": {
+    "innerRadius": 50,
+    "type": "arc"
+  },
+  "title": {
+    "offset": 30,
+    "text": "Cluster size"
+  }
+}

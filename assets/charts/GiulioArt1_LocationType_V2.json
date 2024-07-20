@@ -1,0 +1,1841 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "datasets": {
+    "data-22c6b50375f5cb4e161eeac9c1939d2a": [
+      {
+        "Crescita": 0.0,
+        "Giorni": 0,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 289.65474055857146,
+        "Giorni": 1,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 434.4821108378572,
+        "Giorni": 2,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 579.3094811171429,
+        "Giorni": 3,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 724.1368513964287,
+        "Giorni": 4,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 868.9642216757144,
+        "Giorni": 5,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1013.7915919550001,
+        "Giorni": 6,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1158.6189622342858,
+        "Giorni": 7,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1197.323267785851,
+        "Giorni": 8,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1201.6237461804694,
+        "Giorni": 9,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1205.9242245750877,
+        "Giorni": 10,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1210.224702969706,
+        "Giorni": 11,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1214.5251813643245,
+        "Giorni": 12,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1218.8256597589427,
+        "Giorni": 13,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1223.126138153561,
+        "Giorni": 14,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1227.4266165481795,
+        "Giorni": 15,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1231.7270949427977,
+        "Giorni": 16,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1236.027573337416,
+        "Giorni": 17,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1240.3280517320345,
+        "Giorni": 18,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1244.6285301266528,
+        "Giorni": 19,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1248.929008521271,
+        "Giorni": 20,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1253.2294869158895,
+        "Giorni": 21,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1257.5299653105078,
+        "Giorni": 22,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1261.830443705126,
+        "Giorni": 23,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1266.1309220997446,
+        "Giorni": 24,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1270.4314004943628,
+        "Giorni": 25,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1274.7318788889813,
+        "Giorni": 26,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1279.0323572835996,
+        "Giorni": 27,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1283.3328356782179,
+        "Giorni": 28,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1287.6333140728364,
+        "Giorni": 29,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1291.9337924674546,
+        "Giorni": 30,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1296.234270862073,
+        "Giorni": 31,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1300.5347492566914,
+        "Giorni": 32,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1304.8352276513097,
+        "Giorni": 33,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1309.1357060459281,
+        "Giorni": 34,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1313.4361844405464,
+        "Giorni": 35,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1317.7366628351647,
+        "Giorni": 36,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1322.0371412297832,
+        "Giorni": 37,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1326.3376196244014,
+        "Giorni": 38,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1330.6380980190197,
+        "Giorni": 39,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1334.9385764136382,
+        "Giorni": 40,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1339.2390548082565,
+        "Giorni": 41,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1343.5395332028747,
+        "Giorni": 42,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1347.8400115974932,
+        "Giorni": 43,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1352.1404899921115,
+        "Giorni": 44,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1356.4409683867298,
+        "Giorni": 45,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1360.7414467813483,
+        "Giorni": 46,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1365.0419251759665,
+        "Giorni": 47,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1369.3424035705848,
+        "Giorni": 48,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1373.6428819652033,
+        "Giorni": 49,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1377.9433603598216,
+        "Giorni": 50,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1382.2438387544398,
+        "Giorni": 51,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1386.5443171490583,
+        "Giorni": 52,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1390.8447955436766,
+        "Giorni": 53,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1395.1452739382948,
+        "Giorni": 54,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1399.4457523329133,
+        "Giorni": 55,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 1403.7462307275316,
+        "Giorni": 56,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Crescita": 0.0,
+        "Giorni": 0,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 26.06323606213701,
+        "Giorni": 1,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 39.09485409320551,
+        "Giorni": 2,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 52.12647212427402,
+        "Giorni": 3,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 65.15809015534252,
+        "Giorni": 4,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 78.18970818641102,
+        "Giorni": 5,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 91.22132621747953,
+        "Giorni": 6,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 104.25294424854803,
+        "Giorni": 7,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 122.96537898848482,
+        "Giorni": 8,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 125.04453840403335,
+        "Giorni": 9,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 127.12369781958188,
+        "Giorni": 10,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 129.2028572351304,
+        "Giorni": 11,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 131.28201665067894,
+        "Giorni": 12,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 133.36117606622747,
+        "Giorni": 13,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 135.440335481776,
+        "Giorni": 14,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 137.51949489732453,
+        "Giorni": 15,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 139.59865431287307,
+        "Giorni": 16,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 141.6778137284216,
+        "Giorni": 17,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 143.75697314397013,
+        "Giorni": 18,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 145.83613255951866,
+        "Giorni": 19,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 147.9152919750672,
+        "Giorni": 20,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 149.99445139061572,
+        "Giorni": 21,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 152.07361080616425,
+        "Giorni": 22,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 154.15277022171279,
+        "Giorni": 23,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 156.23192963726132,
+        "Giorni": 24,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 158.31108905280985,
+        "Giorni": 25,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 160.39024846835838,
+        "Giorni": 26,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 162.4694078839069,
+        "Giorni": 27,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 164.54856729945544,
+        "Giorni": 28,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 166.62772671500397,
+        "Giorni": 29,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 168.7068861305525,
+        "Giorni": 30,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 170.78604554610104,
+        "Giorni": 31,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 172.86520496164957,
+        "Giorni": 32,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 174.9443643771981,
+        "Giorni": 33,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 177.02352379274663,
+        "Giorni": 34,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 179.10268320829516,
+        "Giorni": 35,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 181.1818426238437,
+        "Giorni": 36,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 183.26100203939222,
+        "Giorni": 37,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 185.34016145494076,
+        "Giorni": 38,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 187.4193208704893,
+        "Giorni": 39,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 189.49848028603782,
+        "Giorni": 40,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 191.57763970158635,
+        "Giorni": 41,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 193.65679911713488,
+        "Giorni": 42,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 195.7359585326834,
+        "Giorni": 43,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 197.81511794823194,
+        "Giorni": 44,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 199.89427736378047,
+        "Giorni": 45,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 201.973436779329,
+        "Giorni": 46,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 204.05259619487754,
+        "Giorni": 47,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 206.13175561042607,
+        "Giorni": 48,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 208.2109150259746,
+        "Giorni": 49,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 210.29007444152313,
+        "Giorni": 50,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 212.36923385707166,
+        "Giorni": 51,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 214.4483932726202,
+        "Giorni": 52,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 216.52755268816873,
+        "Giorni": 53,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 218.60671210371726,
+        "Giorni": 54,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 220.6858715192658,
+        "Giorni": 55,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 222.76503093481432,
+        "Giorni": 56,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Crescita": 0.0,
+        "Giorni": 0,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 24.739788890788358,
+        "Giorni": 1,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 37.109683336182535,
+        "Giorni": 2,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 49.479577781576715,
+        "Giorni": 3,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 61.849472226970896,
+        "Giorni": 4,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 74.21936667236507,
+        "Giorni": 5,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 86.58926111775925,
+        "Giorni": 6,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 98.95915556315343,
+        "Giorni": 7,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 113.4118546063736,
+        "Giorni": 8,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 115.01771005562028,
+        "Giorni": 9,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 116.62356550486697,
+        "Giorni": 10,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 118.22942095411366,
+        "Giorni": 11,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 119.83527640336034,
+        "Giorni": 12,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 121.44113185260703,
+        "Giorni": 13,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 123.04698730185372,
+        "Giorni": 14,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 124.6528427511004,
+        "Giorni": 15,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 126.25869820034708,
+        "Giorni": 16,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 127.86455364959377,
+        "Giorni": 17,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 129.47040909884046,
+        "Giorni": 18,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 131.07626454808715,
+        "Giorni": 19,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 132.6821199973338,
+        "Giorni": 20,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 134.2879754465805,
+        "Giorni": 21,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 135.8938308958272,
+        "Giorni": 22,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 137.49968634507388,
+        "Giorni": 23,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 139.10554179432057,
+        "Giorni": 24,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 140.71139724356726,
+        "Giorni": 25,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 142.31725269281395,
+        "Giorni": 26,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 143.92310814206064,
+        "Giorni": 27,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 145.52896359130733,
+        "Giorni": 28,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 147.134819040554,
+        "Giorni": 29,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 148.74067448980068,
+        "Giorni": 30,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 150.34652993904737,
+        "Giorni": 31,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 151.95238538829406,
+        "Giorni": 32,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 153.55824083754075,
+        "Giorni": 33,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 155.1640962867874,
+        "Giorni": 34,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 156.7699517360341,
+        "Giorni": 35,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 158.3758071852808,
+        "Giorni": 36,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 159.98166263452748,
+        "Giorni": 37,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 161.58751808377417,
+        "Giorni": 38,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 163.19337353302086,
+        "Giorni": 39,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 164.79922898226755,
+        "Giorni": 40,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 166.40508443151424,
+        "Giorni": 41,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 168.01093988076093,
+        "Giorni": 42,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 169.61679533000762,
+        "Giorni": 43,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 171.22265077925428,
+        "Giorni": 44,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 172.82850622850097,
+        "Giorni": 45,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 174.43436167774766,
+        "Giorni": 46,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 176.04021712699432,
+        "Giorni": 47,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 177.646072576241,
+        "Giorni": 48,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 179.2519280254877,
+        "Giorni": 49,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 180.8577834747344,
+        "Giorni": 50,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 182.46363892398108,
+        "Giorni": 51,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 184.06949437322777,
+        "Giorni": 52,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 185.67534982247446,
+        "Giorni": 53,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 187.28120527172115,
+        "Giorni": 54,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 188.88706072096784,
+        "Giorni": 55,
+        "Tipo": "In sede"
+      },
+      {
+        "Crescita": 190.49291617021453,
+        "Giorni": 56,
+        "Tipo": "In sede"
+      }
+    ],
+    "data-75c7ceb4ca3d5077293c34fdf855ed71": [
+      {
+        "Frequenza": 37.64124293785311,
+        "Giorni": 0,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 14.124293785310734,
+        "Giorni": 1,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 6.567796610169491,
+        "Giorni": 2,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 6.1440677966101696,
+        "Giorni": 3,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 2.9661016949152543,
+        "Giorni": 4,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 1.8361581920903955,
+        "Giorni": 5,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.5649717514124294,
+        "Giorni": 6,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 1.7655367231638417,
+        "Giorni": 7,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 1.5536723163841808,
+        "Giorni": 8,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 1.4124293785310735,
+        "Giorni": 9,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 1.9774011299435028,
+        "Giorni": 10,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 1.6242937853107344,
+        "Giorni": 11,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 1.5536723163841808,
+        "Giorni": 12,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.4943502824858757,
+        "Giorni": 13,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.9180790960451978,
+        "Giorni": 14,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.9887005649717514,
+        "Giorni": 15,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 1.1299435028248588,
+        "Giorni": 16,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 1.2005649717514124,
+        "Giorni": 17,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.7768361581920904,
+        "Giorni": 18,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.4943502824858757,
+        "Giorni": 19,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.4943502824858757,
+        "Giorni": 20,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.635593220338983,
+        "Giorni": 21,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.7768361581920904,
+        "Giorni": 22,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.847457627118644,
+        "Giorni": 23,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.9180790960451978,
+        "Giorni": 24,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 1.1299435028248588,
+        "Giorni": 25,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.3531073446327684,
+        "Giorni": 26,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.3531073446327684,
+        "Giorni": 27,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.211864406779661,
+        "Giorni": 28,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.423728813559322,
+        "Giorni": 29,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.14124293785310735,
+        "Giorni": 30,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.7768361581920904,
+        "Giorni": 31,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.211864406779661,
+        "Giorni": 32,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.211864406779661,
+        "Giorni": 33,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.211864406779661,
+        "Giorni": 34,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.2824858757062147,
+        "Giorni": 35,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.211864406779661,
+        "Giorni": 36,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.14124293785310735,
+        "Giorni": 37,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.07062146892655367,
+        "Giorni": 38,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.4943502824858757,
+        "Giorni": 39,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.0,
+        "Giorni": 40,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.423728813559322,
+        "Giorni": 41,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.5649717514124294,
+        "Giorni": 42,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.211864406779661,
+        "Giorni": 43,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.14124293785310735,
+        "Giorni": 44,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.7768361581920904,
+        "Giorni": 45,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.14124293785310735,
+        "Giorni": 46,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.211864406779661,
+        "Giorni": 47,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.211864406779661,
+        "Giorni": 48,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.14124293785310735,
+        "Giorni": 49,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.14124293785310735,
+        "Giorni": 50,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.635593220338983,
+        "Giorni": 51,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.423728813559322,
+        "Giorni": 52,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.7062146892655368,
+        "Giorni": 53,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.423728813559322,
+        "Giorni": 54,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.14124293785310735,
+        "Giorni": 55,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 0.07062146892655367,
+        "Giorni": 56,
+        "Tipo": "Da remoto"
+      },
+      {
+        "Frequenza": 9.14027149321267,
+        "Giorni": 0,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 7.194570135746606,
+        "Giorni": 1,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 6.334841628959276,
+        "Giorni": 2,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 4.389140271493212,
+        "Giorni": 3,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 4.072398190045249,
+        "Giorni": 4,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 4.072398190045249,
+        "Giorni": 5,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 2.0361990950226243,
+        "Giorni": 6,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 2.7149321266968323,
+        "Giorni": 7,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 2.6244343891402715,
+        "Giorni": 8,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 1.855203619909502,
+        "Giorni": 9,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 2.669683257918552,
+        "Giorni": 10,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 2.262443438914027,
+        "Giorni": 11,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 3.4841628959276014,
+        "Giorni": 12,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 2.6244343891402715,
+        "Giorni": 13,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 1.4027149321266967,
+        "Giorni": 14,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 1.67420814479638,
+        "Giorni": 15,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 1.9457013574660633,
+        "Giorni": 16,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 3.2126696832579182,
+        "Giorni": 17,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 4.027149321266968,
+        "Giorni": 18,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 2.8959276018099547,
+        "Giorni": 19,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 1.855203619909502,
+        "Giorni": 20,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.9049773755656108,
+        "Giorni": 21,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 1.3574660633484161,
+        "Giorni": 22,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 2.0361990950226243,
+        "Giorni": 23,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 2.48868778280543,
+        "Giorni": 24,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 2.0814479638009047,
+        "Giorni": 25,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 2.262443438914027,
+        "Giorni": 26,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 2.0361990950226243,
+        "Giorni": 27,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.8144796380090498,
+        "Giorni": 28,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.9954751131221719,
+        "Giorni": 29,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.5429864253393665,
+        "Giorni": 30,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.36199095022624433,
+        "Giorni": 31,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.7692307692307692,
+        "Giorni": 32,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.6334841628959276,
+        "Giorni": 33,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.36199095022624433,
+        "Giorni": 34,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.13574660633484162,
+        "Giorni": 35,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.4072398190045249,
+        "Giorni": 36,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.4524886877828054,
+        "Giorni": 37,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.3167420814479638,
+        "Giorni": 38,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.4977375565610859,
+        "Giorni": 39,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.4977375565610859,
+        "Giorni": 40,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.2262443438914027,
+        "Giorni": 41,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.36199095022624433,
+        "Giorni": 42,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.27149321266968324,
+        "Giorni": 43,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.4524886877828054,
+        "Giorni": 44,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.588235294117647,
+        "Giorni": 45,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.36199095022624433,
+        "Giorni": 46,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.6334841628959276,
+        "Giorni": 47,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.36199095022624433,
+        "Giorni": 48,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.588235294117647,
+        "Giorni": 49,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.588235294117647,
+        "Giorni": 50,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 1.2217194570135745,
+        "Giorni": 51,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.4524886877828054,
+        "Giorni": 52,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.18099547511312217,
+        "Giorni": 53,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.4072398190045249,
+        "Giorni": 54,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.4977375565610859,
+        "Giorni": 55,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 0.36199095022624433,
+        "Giorni": 56,
+        "Tipo": "Ibrido"
+      },
+      {
+        "Frequenza": 13.92,
+        "Giorni": 0,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 7.04,
+        "Giorni": 1,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 7.28,
+        "Giorni": 2,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 4.56,
+        "Giorni": 3,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 3.36,
+        "Giorni": 4,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 2.4,
+        "Giorni": 5,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 1.84,
+        "Giorni": 6,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.72,
+        "Giorni": 7,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 1.76,
+        "Giorni": 8,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 2.32,
+        "Giorni": 9,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 2.88,
+        "Giorni": 10,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 3.6,
+        "Giorni": 11,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 3.84,
+        "Giorni": 12,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 1.76,
+        "Giorni": 13,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 1.92,
+        "Giorni": 14,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 2.08,
+        "Giorni": 15,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 1.52,
+        "Giorni": 16,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 3.44,
+        "Giorni": 17,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 2.4,
+        "Giorni": 18,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 2.4,
+        "Giorni": 19,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 2.0,
+        "Giorni": 20,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.88,
+        "Giorni": 21,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.72,
+        "Giorni": 22,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 1.28,
+        "Giorni": 23,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 1.92,
+        "Giorni": 24,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 2.72,
+        "Giorni": 25,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 3.28,
+        "Giorni": 26,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 1.68,
+        "Giorni": 27,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.56,
+        "Giorni": 28,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.8,
+        "Giorni": 29,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.64,
+        "Giorni": 30,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.24,
+        "Giorni": 31,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.64,
+        "Giorni": 32,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.24,
+        "Giorni": 33,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.72,
+        "Giorni": 34,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.4,
+        "Giorni": 35,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.88,
+        "Giorni": 36,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.24,
+        "Giorni": 37,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.32,
+        "Giorni": 38,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.72,
+        "Giorni": 39,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.88,
+        "Giorni": 40,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.32,
+        "Giorni": 41,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.32,
+        "Giorni": 42,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.32,
+        "Giorni": 43,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.4,
+        "Giorni": 44,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.72,
+        "Giorni": 45,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.64,
+        "Giorni": 46,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.32,
+        "Giorni": 47,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.24,
+        "Giorni": 48,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.32,
+        "Giorni": 49,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.24,
+        "Giorni": 50,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.64,
+        "Giorni": 51,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.56,
+        "Giorni": 52,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.64,
+        "Giorni": 53,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.48,
+        "Giorni": 54,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.4,
+        "Giorni": 55,
+        "Tipo": "In sede"
+      },
+      {
+        "Frequenza": 0.64,
+        "Giorni": 56,
+        "Tipo": "In sede"
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "data": {
+        "name": "data-22c6b50375f5cb4e161eeac9c1939d2a"
+      },
+      "encoding": {
+        "color": {
+          "field": "Tipo",
+          "type": "nominal"
+        },
+        "x": {
+          "axis": {
+            "title": "Tempo di Permanenza Online (Giorni)"
+          },
+          "field": "Giorni",
+          "scale": {
+            "domain": [
+              -1,
+              56
+            ]
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "axis": {
+            "title": "Numero di Candidati"
+          },
+          "field": "Crescita",
+          "type": "quantitative"
+        }
+      },
+      "height": 200,
+      "mark": {
+        "size": 3.5,
+        "type": "line"
+      },
+      "title": "Andamento del numero di candidati nel tempo",
+      "transform": [
+        {
+          "filter": {
+            "param": "param_7"
+          }
+        }
+      ],
+      "width": 250
+    },
+    {
+      "data": {
+        "name": "data-75c7ceb4ca3d5077293c34fdf855ed71"
+      },
+      "encoding": {
+        "color": {
+          "field": "Tipo",
+          "legend": {
+            "labelFontSize": 8,
+            "symbolSize": 100,
+            "title": "Modalit\u00e0 Lavorativa",
+            "titleFontSize": 6
+          },
+          "type": "nominal"
+        },
+        "x": {
+          "axis": {
+            "title": "Tempo di Permanenza Online (Giorni)"
+          },
+          "field": "Giorni",
+          "scale": {
+            "domain": [
+              -1,
+              56
+            ]
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "axis": {
+            "title": "Frequenza (%)"
+          },
+          "field": "Frequenza",
+          "type": "quantitative"
+        }
+      },
+      "height": 200,
+      "mark": {
+        "opacity": 0.8,
+        "type": "area"
+      },
+      "name": "view_7",
+      "title": "Distribuzione del numero di annunci",
+      "width": 250
+    }
+  ],
+  "params": [
+    {
+      "name": "param_7",
+      "select": {
+        "encodings": [
+          "x"
+        ],
+        "type": "interval"
+      },
+      "views": [
+        "view_7"
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  },
+  "title": {
+    "anchor": "middle",
+    "fontSize": 16,
+    "text": "Modalit\u00e0 di lavoro"
+  }
+}

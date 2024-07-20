@@ -17,33 +17,33 @@ p {
 }
 </style>
 
-# INTRODUZIONE
-
-
-
-
 # Perché Linkedin?
 
 
 <style>
   .myImage {
-    width: 100%;
     height: auto;
+    margin-left: -10%;
+    transition: transform 0.3s ease;
   }
+  .myImage:hover {
+    transform: scale(1.5);
+  }
+
 </style>
 <div style="display: flex;">
-  <div style="flex: 50%;">
+  <div style="flex: 100%;">
     <img src="{{site.baseurl}}/assets/images/output.png" alt="Descrizione dell'immagine" style="width:120%;" class="myImage">
   </div>
   <div style="flex: 50%;">
     <div class="justified">
-      <p><br>Per quanto riguarda la piattaforma scelta per raccogliere dati, non abbiamo avuto dubbi: Linkedin è stata la nostra prima scelta.<br>
-    LinkedIn è un social network professionale, tra i più diffusi al mondo, ad oggi conta circa 830 milioni di utenti nel mondo, di cui oltre 16 milioni in Italia e oltre 58 milioni di aziende (LinkedIn, 2024). [grafico] È il più utilizzato dalle aziende per trovare candidati, infatti lo scopo principale è quello di mettere in contatto i professionisti tra loro e creare nuove opportunità di lavoro.<br></p>
+      <p><br><br><br>Per quanto riguarda la piattaforma scelta per raccogliere dati, non abbiamo avuto dubbi: Linkedin è stata la nostra prima scelta.<br>
+    LinkedIn è un social network professionale, tra i più diffusi al mondo, ad oggi conta circa 830 milioni di utenti nel mondo, di cui oltre 16 milioni in Italia e oltre 58 milioni di aziende (LinkedIn, 2024). [grafico] <br></p>
     </div>
   </div>
 </div>
 <div class="justified">
-  <p>Rispetto alle altre piattaforme, Linkedin ci ha permesso di fare un’analisi più completa grazie alla presenza del numero di candidati e alle altre variabili che in altre piattaforme non sono disponibili.</p>
+  <p>È il più utilizzato dalle aziende per trovare candidati, infatti lo scopo principale è quello di mettere in contatto i professionisti tra loro e creare nuove opportunità di lavoro. Rispetto alle altre piattaforme, Linkedin ci ha permesso di fare un’analisi più completa grazie alla presenza del numero di candidati e alle altre variabili che in altre piattaforme non sono disponibili.</p>
 </div>
 
 

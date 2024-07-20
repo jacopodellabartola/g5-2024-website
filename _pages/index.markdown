@@ -54,16 +54,15 @@ E che la parte umana c'è e arricchisce è impossibile negarlo, soprattutto soff
 
 
 <div style="display: flex; justify-content: center;">
-{% include graficobollenuovo2.html %}" 
+{% include graficobollenuovo2.html %}
 </div>
+<p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">In questo grafico sono rappresentate in percentuale le 10 competenze più richieste suddivise in tre categorie: soft skill, hard skill e linguaggi di programmazione.</p>
+
 
 {% capture skills %}
-Il grafico a bolle visualizza in percentuale le 10 competenze più richieste suddivise in tre categorie: **soft skill**,
-**hard skill** e **linguaggi di programmazione**. <br>
+Il grafico mostra una distribuzione equilibrata tra le tre categorie, con un leggero sbilanciamento verso le soft skill. Tra quest'ultime, le più richieste sono la capacità di prendere decisioni e assumersi le conseguenti responsabilità, il lavoro in team e le competenze comunicative. Per quanto riguarda le hard skill le più richieste sono la programmazione, database management system e la conoscenza della lingua inglese. Infine, i linguaggi di programmazione più richiesti sono SQL, Python e Excel.
 
-L’analisi del grafico rivela una distribuzione equilibrata tra le tre categorie, con una leggera prevalenza delle soft skill. Tra quest'ultime, le più richieste sono la responsabilità personale, il lavoro di squadra e le competenze comunicative. Per quanto riguarda le hard skill le più richieste sono la programmazione, database management system e la conoscenza della lingua inglese. Infine, i linguaggi di programmazione più richiesti sono SQL, Python e Excel.
-
-Le competenze necessarie per creare questo grafico sono state estratte da ciascuna descrizione dell’insieme di annunci di lavoro. Il dataset utilizzato per mappare le soft skill proviene dall’istituto GESIS Leibniz-Institut für Sozialwissenschaften. Per le hard skill, ci siamo riferiti a un dataset disponibile su Kaggle.
+Le diverse skill necessarie per creare questo grafico sono state estratte da ciascuna descrizione del ruolo dell’insieme degli annunci di lavoro. Il dataset utilizzato per mappare le soft skill proviene dall’istituto GESIS Leibniz-Institut für Sozialwissenschaften. Per le hard skill, ci siamo rifatti a un dataset disponibile su Kaggle 'hard skills'.
 {% endcapture %}
 {% include modal-component.html title="Dettagli del grafico" content=skills id="dettaglidataset" style="width: 80%; height: 30vh;" %}
 <br>
@@ -78,12 +77,15 @@ Se la capacità di prendersi le proprie responsabilità può spaventare nella vi
 
 # "LA BOTTE PIENA E LA MOGLIE UBRIACA" 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/chart0 1.json"></vegachart></div>
-  <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/chart1 1.json"></vegachart></div>
-  <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/chart2 1.json"></vegachart></div>
+  <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simone.json"></vegachart></div>
+</div>
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simone2.json"></vegachart></div>
 </div>
 
-
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simone skills.json"></vegachart></div>
+</div>
 
 <br>
 <br>
@@ -92,12 +94,18 @@ Se la capacità di prendersi le proprie responsabilità può spaventare nella vi
 
 # PARTE GIULIO DA decidere nome
 
+<style>
+  .image {
+    width: 150%;
+    height: auto;
+  }
+</style>
+
 <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
-  <div style="width: 120%; margin-left: -180%;">
+  <div style="width: 120%; margin-left: 0%;">
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-      <div style="flex: 1; max-width: 10%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt1_LocationType.json"></vegachart></div>
-      <div style="flex: 1; max-width: 10%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt2_PosterFullName.json"></vegachart></div>
-      <div style="flex: 1; max-width: 10%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt3FACOLTATIVO_Skills.json"></vegachart></div>
+      <div style="flex: 1; max-width: 180%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt1_LocationType_V2.json"></vegachart></div>
+      <div style="flex: 1; max-width: 180%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt2_PosterFullName_V2.json"></vegachart></div>
     </div>
   </div>
 </div>

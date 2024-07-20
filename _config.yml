@@ -19,8 +19,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Progettone Template"
-subtitle: "un template per i progetti del master SoBigData"
+title: "Nasci ingegnere muori data scientist"
+subtitle: "Analisi delle offerte di lavoro del mondo tech su Linkedin"
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -32,7 +32,7 @@ locale: “it-IT”
 # Tali informazioni appariranno nel Footer del sito.
 github_repo:
   - name: "Group 5 - Project repository"
-    url: "https://github.com/sobigdata-master/progettone-template"
+    url: "https://github.com/jacopodellabartola/g5_2024_lbdai"
   - name: "Group 5 - Website repository"
     url: "https://github.com/jacopodellabartola/g5_2024_lbdai"
 

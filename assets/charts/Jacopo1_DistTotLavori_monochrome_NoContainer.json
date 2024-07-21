@@ -1,0 +1,161 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300,
+      "stroke": null
+    }
+  },
+  "data": {
+    "format": {
+      "feature": "regions",
+      "type": "topojson"
+    },
+    "url": "https://raw.githubusercontent.com/openpolis/geojson-italy/master/topojson/limits_IT_all.topo.json"
+  },
+  "datasets": {
+    "data-0ca79f06026625846ffb4e320c780ef9": [
+      {
+        "annunci_per_100k": 0.9429314323835657,
+        "reg_name": "Abruzzo"
+      },
+      {
+        "annunci_per_100k": 0.1860198632009926,
+        "reg_name": "Basilicata"
+      },
+      {
+        "annunci_per_100k": 0.9747591532592155,
+        "reg_name": "Calabria"
+      },
+      {
+        "annunci_per_100k": 4.224948373626624,
+        "reg_name": "Campania"
+      },
+      {
+        "annunci_per_100k": 9.306878662189149,
+        "reg_name": "Emilia-Romagna"
+      },
+      {
+        "annunci_per_100k": 1.7584287350701027,
+        "reg_name": "Friuli-Venezia Giulia"
+      },
+      {
+        "annunci_per_100k": 11.624784810374413,
+        "reg_name": "Lazio"
+      },
+      {
+        "annunci_per_100k": 6.898216810954368,
+        "reg_name": "Liguria"
+      },
+      {
+        "annunci_per_100k": 13.14562596091668,
+        "reg_name": "Lombardia"
+      },
+      {
+        "annunci_per_100k": 1.5495540652887763,
+        "reg_name": "Marche"
+      },
+      {
+        "annunci_per_100k": 0.0,
+        "reg_name": "Molise"
+      },
+      {
+        "annunci_per_100k": 10.140162454342802,
+        "reg_name": "Piemonte"
+      },
+      {
+        "annunci_per_100k": 4.324813450835188,
+        "reg_name": "Puglia"
+      },
+      {
+        "annunci_per_100k": 0.5069239474674714,
+        "reg_name": "Sardegna"
+      },
+      {
+        "annunci_per_100k": 1.0386338558077082,
+        "reg_name": "Sicilia"
+      },
+      {
+        "annunci_per_100k": 3.631913983169219,
+        "reg_name": "Toscana"
+      },
+      {
+        "annunci_per_100k": 7.427054717897252,
+        "reg_name": "Trentino-Alto Adige/S\u00fcdtirol"
+      },
+      {
+        "annunci_per_100k": 3.269473509674723,
+        "reg_name": "Umbria"
+      },
+      {
+        "annunci_per_100k": 0.8121497604158207,
+        "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste"
+      },
+      {
+        "annunci_per_100k": 3.5673390929019644,
+        "reg_name": "Veneto"
+      }
+    ]
+  },
+  "encoding": {
+    "color": {
+      "condition": {
+        "test": "(datum.annunci_per_100k === 0)",
+        "value": "lightgray"
+      },
+      "field": "annunci_per_100k",
+      "legend": {
+        "format": ".2f"
+      },
+      "scale": {
+        "domain": [
+          0,
+          10
+        ],
+        "scheme": "tealblues",
+        "type": "quantize"
+      },
+      "title": "Annunci per 100k ab.",
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {
+        "field": "properties.reg_name",
+        "title": "Regione:",
+        "type": "nominal"
+      },
+      {
+        "field": "annunci_per_100k",
+        "format": ".2f",
+        "title": "Annunci di lavoro:",
+        "type": "quantitative"
+      }
+    ]
+  },
+  "height": 200,
+  "mark": {
+    "stroke": "#fff",
+    "strokeWidth": 0.25,
+    "type": "geoshape"
+  },
+  "projection": {
+    "type": "mercator"
+  },
+  "title": "Distribuzione degli annunci di Lavoro per Regione in Italia",
+  "transform": [
+    {
+      "from": {
+        "data": {
+          "name": "data-0ca79f06026625846ffb4e320c780ef9"
+        },
+        "fields": [
+          "annunci_per_100k"
+        ],
+        "key": "reg_name"
+      },
+      "lookup": "properties.reg_name"
+    }
+  ],
+  "width": 200
+}

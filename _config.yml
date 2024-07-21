@@ -50,16 +50,16 @@ navbar:
     url: /
   nav:
 
-    - title: Introduzione
-      url: /#introduzione
     - title: AI + H > AI or H
       url: /#ai--h--ai-or-h
     - title: La botte piena
       url: /#la-botte-piena-e-la-moglie-ubriaca
-    - title: Contesto
-      url: /contesto
+    - title: parte giulio
+      url: /#parte-giulio
+    - title: To hire or not to hire
+      url: /#to-hire-or-not-to
     - title: Report tecnico
-      url: /report-tecnico
+      url: /report
     - title: Charts
       url: /charts
     - title: Folium

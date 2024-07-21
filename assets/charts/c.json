@@ -1,0 +1,350 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "axes": [
+    {
+      "aria": false,
+      "domain": false,
+      "grid": true,
+      "gridScale": "x",
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "orient": "left",
+      "scale": "y",
+      "tickCount": {
+        "signal": "ceil(height/40)"
+      },
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "grid": false,
+      "labelAlign": "right",
+      "labelAngle": 270,
+      "labelBaseline": "middle",
+      "orient": "bottom",
+      "scale": "x",
+      "title": "ora",
+      "zindex": 0
+    },
+    {
+      "grid": false,
+      "labelOverlap": true,
+      "orient": "left",
+      "scale": "y",
+      "tickCount": {
+        "signal": "ceil(height/40)"
+      },
+      "title": "Frequenza Job offer",
+      "zindex": 0
+    }
+  ],
+  "background": "white",
+  "data": [
+    {
+      "name": "source_0",
+      "values": [
+        {
+          "ora1": 12,
+          "relative_frequency": 0.1132303966091432,
+          "relative_frequency_end": 0.1132303966091432,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 18,
+          "relative_frequency": 0.08976687859521647,
+          "relative_frequency_end": 0.08976687859521647,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 10,
+          "relative_frequency": 0.08658795034816834,
+          "relative_frequency_end": 0.08658795034816834,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 17,
+          "relative_frequency": 0.08658795034816834,
+          "relative_frequency_end": 0.08658795034816834,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 16,
+          "relative_frequency": 0.08658795034816834,
+          "relative_frequency_end": 0.08658795034816834,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 11,
+          "relative_frequency": 0.08462004238570996,
+          "relative_frequency_end": 0.08462004238570996,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 15,
+          "relative_frequency": 0.07826218589161368,
+          "relative_frequency_end": 0.07826218589161368,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 13,
+          "relative_frequency": 0.07538601271571299,
+          "relative_frequency_end": 0.07538601271571299,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 14,
+          "relative_frequency": 0.07296397214653345,
+          "relative_frequency_end": 0.07296397214653345,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 9,
+          "relative_frequency": 0.04283984256736301,
+          "relative_frequency_end": 0.04283984256736301,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 19,
+          "relative_frequency": 0.024977293369663943,
+          "relative_frequency_end": 0.024977293369663943,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 2,
+          "relative_frequency": 0.02482591583409022,
+          "relative_frequency_end": 0.02482591583409022,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 0,
+          "relative_frequency": 0.019679079624583713,
+          "relative_frequency_end": 0.019679079624583713,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 23,
+          "relative_frequency": 0.01634877384196185,
+          "relative_frequency_end": 0.01634877384196185,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 22,
+          "relative_frequency": 0.01589464123524069,
+          "relative_frequency_end": 0.01589464123524069,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 5,
+          "relative_frequency": 0.014683620950650924,
+          "relative_frequency_end": 0.014683620950650924,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 20,
+          "relative_frequency": 0.014683620950650924,
+          "relative_frequency_end": 0.014683620950650924,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 8,
+          "relative_frequency": 0.011958825310323948,
+          "relative_frequency_end": 0.011958825310323948,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 21,
+          "relative_frequency": 0.011050560096881623,
+          "relative_frequency_end": 0.011050560096881623,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 6,
+          "relative_frequency": 0.007720254314259764,
+          "relative_frequency_end": 0.007720254314259764,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 1,
+          "relative_frequency": 0.007114744171964881,
+          "relative_frequency_end": 0.007114744171964881,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 3,
+          "relative_frequency": 0.007114744171964881,
+          "relative_frequency_end": 0.007114744171964881,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 4,
+          "relative_frequency": 0.0036330608537693005,
+          "relative_frequency_end": 0.0036330608537693005,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "ora1": 7,
+          "relative_frequency": 0.00348168331819558,
+          "relative_frequency_end": 0.00348168331819558,
+          "relative_frequency_start": 0.0
+        }
+      ]
+    },
+    {
+      "name": "source_0_x_domain_ora1",
+      "values": [
+        {
+          "ora1": 12
+        },
+        {
+          "ora1": 18
+        },
+        {
+          "ora1": 10
+        },
+        {
+          "ora1": 17
+        },
+        {
+          "ora1": 16
+        },
+        {
+          "ora1": 11
+        },
+        {
+          "ora1": 15
+        },
+        {
+          "ora1": 13
+        },
+        {
+          "ora1": 14
+        },
+        {
+          "ora1": 9
+        },
+        {
+          "ora1": 19
+        },
+        {
+          "ora1": 2
+        },
+        {
+          "ora1": 0
+        },
+        {
+          "ora1": 23
+        },
+        {
+          "ora1": 22
+        },
+        {
+          "ora1": 5
+        },
+        {
+          "ora1": 20
+        },
+        {
+          "ora1": 8
+        },
+        {
+          "ora1": 21
+        },
+        {
+          "ora1": 6
+        },
+        {
+          "ora1": 1
+        },
+        {
+          "ora1": 3
+        },
+        {
+          "ora1": 4
+        },
+        {
+          "ora1": 7
+        }
+      ]
+    }
+  ],
+  "height": 300,
+  "marks": [
+    {
+      "encode": {
+        "update": {
+          "fill": {
+            "value": "#4682b4"
+          },
+          "tooltip": {
+            "signal": "{\"frequenza relativa\": format(datum[\"relative_frequency\"], \".1%\")}"
+          },
+          "width": {
+            "signal": "max(0.25, bandwidth('x'))"
+          },
+          "x": {
+            "field": "ora1",
+            "scale": "x"
+          },
+          "y": {
+            "field": "relative_frequency_end",
+            "scale": "y"
+          },
+          "y2": {
+            "field": "relative_frequency_start",
+            "scale": "y"
+          }
+        }
+      },
+      "from": {
+        "data": "source_0"
+      },
+      "name": "marks",
+      "style": [
+        "bar"
+      ],
+      "type": "rect"
+    }
+  ],
+  "padding": 5,
+  "scales": [
+    {
+      "domain": {
+        "data": "source_0_x_domain_ora1",
+        "field": "ora1",
+        "sort": true
+      },
+      "name": "x",
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05,
+      "range": [
+        0,
+        {
+          "signal": "width"
+        }
+      ],
+      "type": "band"
+    },
+    {
+      "domain": {
+        "data": "source_0",
+        "fields": [
+          "relative_frequency_start",
+          "relative_frequency_end"
+        ]
+      },
+      "name": "y",
+      "nice": true,
+      "range": [
+        {
+          "signal": "height"
+        },
+        0
+      ],
+      "type": "linear",
+      "zero": true
+    }
+  ],
+  "style": "cell",
+  "width": 300
+}

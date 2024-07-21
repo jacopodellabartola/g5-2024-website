@@ -16,13 +16,12 @@ p {
 }
 </style>
 
-# INTRODUZIONE
-
 <div class="justified">
 <p>
-“Nasci da ingegnere muori da deep learning engineer”… una parafrasi della celebre frase basterebbe forse a descrivere l’evoluzione, il cambiamento, la faglia che il terremoto AI ha prodotto sul mercato del lavoro lasciando da una parte, solo, il “buon vecchio ingegnere” e contrapponendo ad esso una serie di figure che lo vedono, di fatto, trasformato e reinventato in un più cool data scientist o data engineer solo per citare due dei suggerimenti di ricerca che accedendo a Linkedin è più facile trovare se si cerca banalmente il ruolo del buon vecchio ingegnere informatico.<br>
-La ricerca del lavoro ha nuove keywords, il mercato del lavoro ha modificato le terminologie per lasciare forse inalterate le competenze, ha modificato il titolo lasciando forse inalterata la trama per rivendere al pubblico un libro già letto. Mascherando una job opportunity simile a quella di qualche anno fa, dietro un titolo imponente, un titolo che gonfia di orgoglio, perché diciamocelo alla domanda che lavoro fai “Artificial intelligent engineering” rende molto più di un banale “sviluppatore informatico”.<br>
-Chiamatelo marketing, chiamatela strategia di recruiting, chiamatela stare al passo coi tempi, ma di fatto oggi l’evoluzione terminologica ha contribuito sensibilmente a rimappare una serie di ruoli un tempo ben definiti lasciando spazio, spesso, alla libera interpretazione della job opportunity, e cosi un’analista si vende per data scientist, uno sviluppatore per prompt engineer, perché cambiare pelle fa bene e rende sicuro più cool in una società troppo spesso fatta di “titoli”.<br>
+“Nasci ingegnere, muori data scientist”: potrebbe essere la didascalia che descrive la trasformazione che il mondo del lavoro ha subito con l’avvento, tra le altre cose, dell’intelligenza artificiale. Al buon vecchio “ingegnere”, adesso si contrappongono una vasta serie di figure che di fatti svecchiano o, meglio, tentano <b>di dare nuovo lustro o di rendere più cool, più catchy, più al passo coi tempi</b>, la stessa figura professionale. Adesso, infatti, tra i vari annunci di LinkedIn è facilissimo trovare gli internazionalissimi data scientist, data engineer, pronti per attirare lo sguardo di eventuali candidati e perfetti per riempire bocca e CV. <br>
+Difatti, una job opportunity del tutto simile a quella di qualche anno fa, adesso si ammanta di nuovo splendore. Diciamocelo: alla domanda “Che lavoro fai?”, rispondere un “Artificial intelligence engineer” ha tutto un altro sapore rispetto a “sviluppatore informatico”. Leggere, infatti, “programmatore” in un annuncio di lavoro ha ormai un sapore retrò - come ci ha segnalato Gabriella Pepi, HR di DataPizza.<br>
+Marketing? Strategia di recruiting? Evoluzione vera e propria? Possiamo dare a questo fenomeno molti nomi, ma ormai è innegabile che abbia contribuito sensibilmente a rimappare una serie di ruoli, un tempo ben definiti, lasciando spazio, adesso, ad una sempre più <b>selvaggia libera interpretazione della job opportunity</b>, sfrangiando spesso i confini. Così, l'analista si “vende” come data scientist, uno sviluppatore per data engineer perché cambiare pelle, agghindare ruolo e nome, “rende”, in termini di riuscita e di mera apparenza. <br>
+
 </p>
 </div>
 <br>
@@ -31,7 +30,7 @@ Chiamatelo marketing, chiamatela strategia di recruiting, chiamatela stare al pa
     <div class="row justify-content-center">
         <div class="col-lg-8">
             <blockquote style="font-size: 1.5em; font-weight: bold; font-style: italic; text-align: center;">
-                Cosa spinge (o cosa attrae) l’individuo a candidarsi per un annuncio piuttosto che un altro?
+                "Cosa spinge (o cosa attrae) l’individuo a candidarsi per un annuncio piuttosto che un altro?"
             </blockquote>
         </div>
     </div>
@@ -46,8 +45,17 @@ Chiamatelo marketing, chiamatela strategia di recruiting, chiamatela stare al pa
 
 <div class="justified">
 <p>
-Partiamo proprio dalle sinergie, la sinergia creata dall’uomo più l’AI, sarà sicuramente superiore alla AI stessa o al singolo individuo quindi partiamo da una certezza la sinergia c’è e va sfruttata, la sinergia arricchisce e non sostituisce.<br>
-E che la parte umana c'è e arricchisce è impossibile negarlo, soprattutto soffermandoci sulla quantità di hard e soft skill richieste ai candidati. Una vera e propria foresta di requisiti che confonde più che chiarire quali sono le aspettative dell'HR, dell'azienda e del datore di lavoro.<br>
+Partiamo da una certezza, come sostiene Stefano Gatti -attualmente head of Data & Analytics presso Nexi e autore del libro "La cultura del dato”- la disequazione del prossimo futuro sarà questa: 
+<br>
+<br><p>
+
+<div style="font-size: 20px; text-align: center;">
+    AI + H &gt; AI or H
+</div>
+<br>
+<p>
+Il punto cruciale da sottolineare è che la coniugazione tra AI e “umano” è fondamentale e imprescindibile: la <b>sinergia </b> di una e l’altra parte, la somma delle potenzialità di ciascuna, porta ad un risultato maggiore della mera somma delle singole. L’ambizione massima deve essere la coniugazione di questi due fattori, senza che uno prevalga o escluda l’altro.
+Difatti, la parte umana rimane insostituibile, soprattutto agli occhi dei recruiter - basti pensare alla quantità di soft skills richieste ai candidati - al punto che tanti e tali sono i requisiti richiesti che spesso risulta difficile chiarire quali siano le <b>reali aspettative dell’HR, dell’azienda e del datore di lavoro.</b><br> 
 </p>
 <br>
 <br>
@@ -69,13 +77,12 @@ Le diverse skill necessarie per creare questo grafico sono state estratte da cia
 <br>
 <br>
 <p>
-Saltando da un annuncio all'altro dell'universo tech su Linkedin presto ci rendiamo che per essere un candidato interessante agli occhi di un recruiter non dobbiamo solamente saper programmare, conoscere le metodologie di interrogazione dei dati e tutta un'altra infinita serie di linguaggi di programmazione e conoscenze di backround,ma anche - e soprattutto- esaltare la nostra parte "umana" con le soft skill, che, come ci mostrano i dati, "vince" il braccio di ferro con la sua controparte "dura".<br> 
-Se la capacità di prendersi le proprie responsabilità può spaventare nella vita di tutti i giorni, diventa un requisito che sembra particolarmente ricercato nei candidati. Ma non solo, la capacità di lavorare in team e di comunicazione e quella di capire il business che ho davanti sono quelle che Stefano Gatti- attualmente head of Data & Analytics a Nexi e scrittore del libro "La cultura del dato"- ha definito le skill che fanno la differenza nell'ambito AI e con le quali ci scontriamo analizzando gli innumerevoli job post della piattaforma. <br>
+Nel mare magnum degli annunci dell’universo tech rinvenibili su LinkedIn, ciò che emerge chiaramente è che un candidato, per essere interessante ed appetibile agli occhi di un recruiter, non deve solamente possedere le skills professionali (a titolo d’esempio, <b>saper programmare</b> utilizzando diversi linguaggi e conoscere le metodologie di <b>interrogazione dei dati</b>) ma anche, e soprattutto, deve esaltare la sua attitudine “umana”. Le soft skills, dati alla mano, infatti vincono la sfida contro la loro controparte “hard”. <br>
+E così, il saper padroneggiare determinate situazioni diventa un requisito particolarmente ricercato nei candidati, ma non solo, gli esempi sono molteplici: la capacità di lavorare in team o quella di comprendere il business e l’attività che si hanno davanti sono quelle che anche Stefano Gatti ha definito le skill che fanno la differenza nell'ambito AI. 
 </p>
-</div>
 <br>
 
-# "LA BOTTE PIENA E LA MOGLIE UBRIACA" 
+<h2 id="la-botte-piena-e-la-moglie-ubriaca">"LA BOTTE PIENA E LA MOGLIE UBRIACA"</h2>
 <div style="display: flex; justify-content: center; align-items: center;">
   <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simone.json"></vegachart></div>
 </div>
@@ -91,9 +98,7 @@ Se la capacità di prendersi le proprie responsabilità può spaventare nella vi
 <br>
 <br>
 
-
-# PARTE GIULIO DA decidere nome
-
+<h2 id="parte-giulio"> parte giulio</h2>
 <style>
   .image {
     width: 150%;
@@ -112,7 +117,6 @@ Se la capacità di prendersi le proprie responsabilità può spaventare nella vi
 
 
 
-# TO HIRE OR NOT TO HIRE
-
+<h2 id="to-hire-or-not-to"> to hire or not to hire</h2>
 <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3769_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"linkedin","geo":"IT","time":"today 12-m"}],"category":0,"property":""}, {"exploreQuery":"geo=IT&q=linkedin&hl=it&date=today 12-m","guestPath":"https://trends.google.it:443/trends/embed/"}); </script>
 ---

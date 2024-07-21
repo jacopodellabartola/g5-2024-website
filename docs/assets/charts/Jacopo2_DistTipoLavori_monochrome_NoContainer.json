@@ -1,0 +1,1300 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300,
+      "stroke": null
+    }
+  },
+  "datasets": {
+    "data-058bf692ed04a8c98c19349cc9479c38": [
+      {
+        "text": "Distribuzione degli annunci per tipo di lavoro per Regione in Italia"
+      }
+    ],
+    "data-0af9d67bdca8a02170197307ade81356": [
+      {
+        "Popolazione": 1272627,
+        "annunci_per_100k": 0.14355646793666288,
+        "num_annunci": 1.0,
+        "reg_name": "Abruzzo",
+        "tipo_lavoro": "AI engineer"
+      },
+      {
+        "Popolazione": 537577,
+        "annunci_per_100k": 0.5841121495327103,
+        "num_annunci": 1.0,
+        "reg_name": "Basilicata",
+        "tipo_lavoro": "AI engineer"
+      },
+      {
+        "Popolazione": 1846610,
+        "annunci_per_100k": 0.19909015797804036,
+        "num_annunci": 2.0,
+        "reg_name": "Calabria",
+        "tipo_lavoro": "AI engineer"
+      },
+      {
+        "Popolazione": 5609536,
+        "annunci_per_100k": 0.13397193288006162,
+        "num_annunci": 14.0,
+        "reg_name": "Campania",
+        "tipo_lavoro": "AI engineer"
+      },
+      {
+        "Popolazione": 4437578,
+        "annunci_per_100k": 0.20696871957559823,
+        "num_annunci": 25.0,
+        "reg_name": "Emilia-Romagna",
+        "tipo_lavoro": "AI engineer"
+      },
+      {
+        "Popolazione": 1194248,
+        "annunci_per_100k": 0.3381805884342239,
+        "num_annunci": 1.0,
+        "reg_name": "Friuli-Venezia Giulia",
+        "tipo_lavoro": "AI engineer"
+      },
+      {
+        "Popolazione": 5720536,
+        "annunci_per_100k": 0.17277610160962537,
+        "num_annunci": 48.0,
+        "reg_name": "Lazio",
+        "tipo_lavoro": "AI engineer"
+      },
+      {
+        "Popolazione": 1507636,
+        "annunci_per_100k": 0.10708652744398227,
+        "num_annunci": 7.0,
+        "reg_name": "Liguria",
+        "tipo_lavoro": "AI engineer"
+      },
+      {
+        "Popolazione": 9972899,
+        "annunci_per_100k": 0.29710297589144397,
+        "num_annunci": 55.0,
+        "reg_name": "Lombardia",
+        "tipo_lavoro": "AI engineer"
+      },
+      {
+        "Popolazione": 1484298,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Marche",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 290636,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Molise",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 4250425,
+        "annunci_per_100k": 0.27102583277706116,
+        "num_annunci": 27.0,
+        "reg_name": "Piemonte",
+        "tipo_lavoro": "AI engineer"
+      },
+      {
+        "Popolazione": 3907683,
+        "annunci_per_100k": 0.20425551781691703,
+        "num_annunci": 7.0,
+        "reg_name": "Puglia",
+        "tipo_lavoro": "AI engineer"
+      },
+      {
+        "Popolazione": 1578146,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Sardegna",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 4814016,
+        "annunci_per_100k": 0.04743090502909886,
+        "num_annunci": 3.0,
+        "reg_name": "Sicilia",
+        "tipo_lavoro": "AI engineer"
+      },
+      {
+        "Popolazione": 3661981,
+        "annunci_per_100k": 0.06640091544728763,
+        "num_annunci": 3.0,
+        "reg_name": "Toscana",
+        "tipo_lavoro": "AI engineer"
+      },
+      {
+        "Popolazione": 1077143,
+        "annunci_per_100k": 0.17802543093280876,
+        "num_annunci": 4.0,
+        "reg_name": "Trentino-Alto Adige/S\u00fcdtirol",
+        "tipo_lavoro": "AI engineer"
+      },
+      {
+        "Popolazione": 856407,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Umbria",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 123130,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 4849553,
+        "annunci_per_100k": 0.06549860815457671,
+        "num_annunci": 3.0,
+        "reg_name": "Veneto",
+        "tipo_lavoro": "AI engineer"
+      }
+    ],
+    "data-287580fe39db4eb4fa05f1ce86a9ef95": [
+      {
+        "Popolazione": 1272627,
+        "annunci_per_100k": 0.20570206113465256,
+        "num_annunci": 1.0,
+        "reg_name": "Abruzzo",
+        "tipo_lavoro": "data analyst"
+      },
+      {
+        "Popolazione": 537577,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Basilicata",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 1846610,
+        "annunci_per_100k": 0.2986352369670605,
+        "num_annunci": 3.0,
+        "reg_name": "Calabria",
+        "tipo_lavoro": "data analyst"
+      },
+      {
+        "Popolazione": 5609536,
+        "annunci_per_100k": 0.21072112433462514,
+        "num_annunci": 23.0,
+        "reg_name": "Campania",
+        "tipo_lavoro": "data analyst"
+      },
+      {
+        "Popolazione": 4437578,
+        "annunci_per_100k": 0.3148614609571788,
+        "num_annunci": 49.0,
+        "reg_name": "Emilia-Romagna",
+        "tipo_lavoro": "data analyst"
+      },
+      {
+        "Popolazione": 1194248,
+        "annunci_per_100k": 1.3828389684021296,
+        "num_annunci": 4.0,
+        "reg_name": "Friuli-Venezia Giulia",
+        "tipo_lavoro": "data analyst"
+      },
+      {
+        "Popolazione": 5720536,
+        "annunci_per_100k": 0.24429743620019767,
+        "num_annunci": 72.0,
+        "reg_name": "Lazio",
+        "tipo_lavoro": "data analyst"
+      },
+      {
+        "Popolazione": 1507636,
+        "annunci_per_100k": 0.18052647073527042,
+        "num_annunci": 13.0,
+        "reg_name": "Liguria",
+        "tipo_lavoro": "data analyst"
+      },
+      {
+        "Popolazione": 9972899,
+        "annunci_per_100k": 0.9724191228779512,
+        "num_annunci": 266.0,
+        "reg_name": "Lombardia",
+        "tipo_lavoro": "data analyst"
+      },
+      {
+        "Popolazione": 1484298,
+        "annunci_per_100k": 0.2917067763484146,
+        "num_annunci": 3.0,
+        "reg_name": "Marche",
+        "tipo_lavoro": "data analyst"
+      },
+      {
+        "Popolazione": 290636,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Molise",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 4250425,
+        "annunci_per_100k": 0.4957239221676722,
+        "num_annunci": 54.0,
+        "reg_name": "Piemonte",
+        "tipo_lavoro": "data analyst"
+      },
+      {
+        "Popolazione": 3907683,
+        "annunci_per_100k": 0.3127631958143348,
+        "num_annunci": 14.0,
+        "reg_name": "Puglia",
+        "tipo_lavoro": "data analyst"
+      },
+      {
+        "Popolazione": 1578146,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Sardegna",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 4814016,
+        "annunci_per_100k": 0.07905150838183143,
+        "num_annunci": 5.0,
+        "reg_name": "Sicilia",
+        "tipo_lavoro": "data analyst"
+      },
+      {
+        "Popolazione": 3661981,
+        "annunci_per_100k": 0.22237221446099592,
+        "num_annunci": 17.0,
+        "reg_name": "Toscana",
+        "tipo_lavoro": "data analyst"
+      },
+      {
+        "Popolazione": 1077143,
+        "annunci_per_100k": 0.5714530622740974,
+        "num_annunci": 8.0,
+        "reg_name": "Trentino-Alto Adige/S\u00fcdtirol",
+        "tipo_lavoro": "data analyst"
+      },
+      {
+        "Popolazione": 856407,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Umbria",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 123130,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 4849553,
+        "annunci_per_100k": 0.5252151300387826,
+        "num_annunci": 82.0,
+        "reg_name": "Veneto",
+        "tipo_lavoro": "data analyst"
+      }
+    ],
+    "data-3d3b2f58647c1b580f504ea4e7143521": [
+      {
+        "Popolazione": 1272627,
+        "annunci_per_100k": 0.2460952880955506,
+        "num_annunci": 3.0,
+        "reg_name": "Abruzzo",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 537577,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Basilicata",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 1846610,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Calabria",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 5609536,
+        "annunci_per_100k": 0.16538910148826563,
+        "num_annunci": 21.0,
+        "reg_name": "Campania",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 4437578,
+        "annunci_per_100k": 0.39464434183691555,
+        "num_annunci": 59.0,
+        "reg_name": "Emilia-Romagna",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 1194248,
+        "annunci_per_100k": 0.10199918400652795,
+        "num_annunci": 1.0,
+        "reg_name": "Friuli-Venezia Giulia",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 5720536,
+        "annunci_per_100k": 0.3293199770715042,
+        "num_annunci": 101.0,
+        "reg_name": "Lazio",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 1507636,
+        "annunci_per_100k": 0.08069800546809686,
+        "num_annunci": 5.0,
+        "reg_name": "Liguria",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 9972899,
+        "annunci_per_100k": 0.5685325013233455,
+        "num_annunci": 132.0,
+        "reg_name": "Lombardia",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 1484298,
+        "annunci_per_100k": 0.16633399866932802,
+        "num_annunci": 3.0,
+        "reg_name": "Marche",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 290636,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Molise",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 4250425,
+        "annunci_per_100k": 0.5363412832057673,
+        "num_annunci": 58.0,
+        "reg_name": "Piemonte",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 3907683,
+        "annunci_per_100k": 0.44262558117660944,
+        "num_annunci": 24.0,
+        "reg_name": "Puglia",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 1578146,
+        "annunci_per_100k": 0.06743270216324108,
+        "num_annunci": 1.0,
+        "reg_name": "Sardegna",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 4814016,
+        "annunci_per_100k": 0.03218093408379272,
+        "num_annunci": 3.0,
+        "reg_name": "Sicilia",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 3661981,
+        "annunci_per_100k": 0.16729071171552062,
+        "num_annunci": 11.0,
+        "reg_name": "Toscana",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 1077143,
+        "annunci_per_100k": 0.883220575506527,
+        "num_annunci": 20.0,
+        "reg_name": "Trentino-Alto Adige/S\u00fcdtirol",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 856407,
+        "annunci_per_100k": 0.12317773931895028,
+        "num_annunci": 2.0,
+        "reg_name": "Umbria",
+        "tipo_lavoro": "BI"
+      },
+      {
+        "Popolazione": 123130,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 4849553,
+        "annunci_per_100k": 0.23255516499207568,
+        "num_annunci": 20.0,
+        "reg_name": "Veneto",
+        "tipo_lavoro": "BI"
+      }
+    ],
+    "data-97acbcd02b34c6bd43ce7b84910e4dd6": [
+      {
+        "Popolazione": 1272627,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Abruzzo",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 537577,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Basilicata",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 1846610,
+        "annunci_per_100k": 0.15647248431363345,
+        "num_annunci": 1.0,
+        "reg_name": "Calabria",
+        "tipo_lavoro": "data scientist"
+      },
+      {
+        "Popolazione": 5609536,
+        "annunci_per_100k": 0.06698596644003081,
+        "num_annunci": 7.0,
+        "reg_name": "Campania",
+        "tipo_lavoro": "data scientist"
+      },
+      {
+        "Popolazione": 4437578,
+        "annunci_per_100k": 0.35400769314613156,
+        "num_annunci": 38.0,
+        "reg_name": "Emilia-Romagna",
+        "tipo_lavoro": "data scientist"
+      },
+      {
+        "Popolazione": 1194248,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Friuli-Venezia Giulia",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 5720536,
+        "annunci_per_100k": 0.22450161518388612,
+        "num_annunci": 64.0,
+        "reg_name": "Lazio",
+        "tipo_lavoro": "data scientist"
+      },
+      {
+        "Popolazione": 1507636,
+        "annunci_per_100k": 0.061192301396561295,
+        "num_annunci": 4.0,
+        "reg_name": "Liguria",
+        "tipo_lavoro": "data scientist"
+      },
+      {
+        "Popolazione": 9972899,
+        "annunci_per_100k": 0.33072724854910646,
+        "num_annunci": 48.0,
+        "reg_name": "Lombardia",
+        "tipo_lavoro": "data scientist"
+      },
+      {
+        "Popolazione": 1484298,
+        "annunci_per_100k": 0.28787747934479085,
+        "num_annunci": 1.0,
+        "reg_name": "Marche",
+        "tipo_lavoro": "data scientist"
+      },
+      {
+        "Popolazione": 290636,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Molise",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 4250425,
+        "annunci_per_100k": 0.1770124545963054,
+        "num_annunci": 15.0,
+        "reg_name": "Piemonte",
+        "tipo_lavoro": "data scientist"
+      },
+      {
+        "Popolazione": 3907683,
+        "annunci_per_100k": 0.29173514338782297,
+        "num_annunci": 12.0,
+        "reg_name": "Puglia",
+        "tipo_lavoro": "data scientist"
+      },
+      {
+        "Popolazione": 1578146,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Sardegna",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 4814016,
+        "annunci_per_100k": 0.1716316484468945,
+        "num_annunci": 16.0,
+        "reg_name": "Sicilia",
+        "tipo_lavoro": "data scientist"
+      },
+      {
+        "Popolazione": 3661981,
+        "annunci_per_100k": 0.22457022872477794,
+        "num_annunci": 2.0,
+        "reg_name": "Toscana",
+        "tipo_lavoro": "data scientist"
+      },
+      {
+        "Popolazione": 1077143,
+        "annunci_per_100k": 0.11337482852057186,
+        "num_annunci": 3.0,
+        "reg_name": "Trentino-Alto Adige/S\u00fcdtirol",
+        "tipo_lavoro": "data scientist"
+      },
+      {
+        "Popolazione": 856407,
+        "annunci_per_100k": 0.18476660897842542,
+        "num_annunci": 3.0,
+        "reg_name": "Umbria",
+        "tipo_lavoro": "data scientist"
+      },
+      {
+        "Popolazione": 123130,
+        "annunci_per_100k": 0.3016227302889546,
+        "num_annunci": 1.0,
+        "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste",
+        "tipo_lavoro": "data scientist"
+      },
+      {
+        "Popolazione": 4849553,
+        "annunci_per_100k": 0.2879180009533285,
+        "num_annunci": 9.0,
+        "reg_name": "Veneto",
+        "tipo_lavoro": "data scientist"
+      }
+    ],
+    "data-c6ee60dce35457b24d7bf7ea75ae0533": [
+      {
+        "Popolazione": 1272627,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Abruzzo",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 537577,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Basilicata",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 1846610,
+        "annunci_per_100k": 0.3129449686272669,
+        "num_annunci": 2.0,
+        "reg_name": "Calabria",
+        "tipo_lavoro": "data engineer"
+      },
+      {
+        "Popolazione": 5609536,
+        "annunci_per_100k": 0.2130152305889871,
+        "num_annunci": 23.0,
+        "reg_name": "Campania",
+        "tipo_lavoro": "data engineer"
+      },
+      {
+        "Popolazione": 4437578,
+        "annunci_per_100k": 0.306228260433408,
+        "num_annunci": 29.0,
+        "reg_name": "Emilia-Romagna",
+        "tipo_lavoro": "data engineer"
+      },
+      {
+        "Popolazione": 1194248,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Friuli-Venezia Giulia",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 5720536,
+        "annunci_per_100k": 0.1351377782993622,
+        "num_annunci": 38.0,
+        "reg_name": "Lazio",
+        "tipo_lavoro": "data engineer"
+      },
+      {
+        "Popolazione": 1507636,
+        "annunci_per_100k": 0.035638490282274664,
+        "num_annunci": 2.0,
+        "reg_name": "Liguria",
+        "tipo_lavoro": "data engineer"
+      },
+      {
+        "Popolazione": 9972899,
+        "annunci_per_100k": 0.27025063043466513,
+        "num_annunci": 45.0,
+        "reg_name": "Lombardia",
+        "tipo_lavoro": "data engineer"
+      },
+      {
+        "Popolazione": 1484298,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Marche",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 290636,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Molise",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 4250425,
+        "annunci_per_100k": 0.34526348615883234,
+        "num_annunci": 31.0,
+        "reg_name": "Piemonte",
+        "tipo_lavoro": "data engineer"
+      },
+      {
+        "Popolazione": 3907683,
+        "annunci_per_100k": 0.3160464053368082,
+        "num_annunci": 13.0,
+        "reg_name": "Puglia",
+        "tipo_lavoro": "data engineer"
+      },
+      {
+        "Popolazione": 1578146,
+        "annunci_per_100k": 0.06743270216324108,
+        "num_annunci": 1.0,
+        "reg_name": "Sardegna",
+        "tipo_lavoro": "data engineer"
+      },
+      {
+        "Popolazione": 4814016,
+        "annunci_per_100k": 0.07905150838183143,
+        "num_annunci": 5.0,
+        "reg_name": "Sicilia",
+        "tipo_lavoro": "data engineer"
+      },
+      {
+        "Popolazione": 3661981,
+        "annunci_per_100k": 0.0275678030115068,
+        "num_annunci": 1.0,
+        "reg_name": "Toscana",
+        "tipo_lavoro": "data engineer"
+      },
+      {
+        "Popolazione": 1077143,
+        "annunci_per_100k": 0.33818916611006367,
+        "num_annunci": 4.0,
+        "reg_name": "Trentino-Alto Adige/S\u00fcdtirol",
+        "tipo_lavoro": "data engineer"
+      },
+      {
+        "Popolazione": 856407,
+        "annunci_per_100k": 0.12317773931895028,
+        "num_annunci": 2.0,
+        "reg_name": "Umbria",
+        "tipo_lavoro": "data engineer"
+      },
+      {
+        "Popolazione": 123130,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 4849553,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Veneto",
+        "tipo_lavoro": null
+      }
+    ],
+    "data-fcfc4bacfc5a7b9fbedf20a57ad3a004": [
+      {
+        "Popolazione": 1272627,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Abruzzo",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 537577,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Basilicata",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 1846610,
+        "annunci_per_100k": 0.15647248431363345,
+        "num_annunci": 1.0,
+        "reg_name": "Calabria",
+        "tipo_lavoro": "data architect"
+      },
+      {
+        "Popolazione": 5609536,
+        "annunci_per_100k": 0.13397193288006162,
+        "num_annunci": 14.0,
+        "reg_name": "Campania",
+        "tipo_lavoro": "data architect"
+      },
+      {
+        "Popolazione": 4437578,
+        "annunci_per_100k": 0.3403204359990957,
+        "num_annunci": 14.0,
+        "reg_name": "Emilia-Romagna",
+        "tipo_lavoro": "data architect"
+      },
+      {
+        "Popolazione": 1194248,
+        "annunci_per_100k": 0.2039983680130559,
+        "num_annunci": 2.0,
+        "reg_name": "Friuli-Venezia Giulia",
+        "tipo_lavoro": "data architect"
+      },
+      {
+        "Popolazione": 5720536,
+        "annunci_per_100k": 0.1762477902933292,
+        "num_annunci": 50.0,
+        "reg_name": "Lazio",
+        "tipo_lavoro": "data architect"
+      },
+      {
+        "Popolazione": 1507636,
+        "annunci_per_100k": 0.05345773542341199,
+        "num_annunci": 3.0,
+        "reg_name": "Liguria",
+        "tipo_lavoro": "data architect"
+      },
+      {
+        "Popolazione": 9972899,
+        "annunci_per_100k": 0.4971552657324488,
+        "num_annunci": 84.0,
+        "reg_name": "Lombardia",
+        "tipo_lavoro": "data architect"
+      },
+      {
+        "Popolazione": 1484298,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Marche",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 290636,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Molise",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 4250425,
+        "annunci_per_100k": 0.11291754083662864,
+        "num_annunci": 10.0,
+        "reg_name": "Piemonte",
+        "tipo_lavoro": "data architect"
+      },
+      {
+        "Popolazione": 3907683,
+        "annunci_per_100k": 0.2841483127904627,
+        "num_annunci": 9.0,
+        "reg_name": "Puglia",
+        "tipo_lavoro": "data architect"
+      },
+      {
+        "Popolazione": 1578146,
+        "annunci_per_100k": 0.06743270216324108,
+        "num_annunci": 1.0,
+        "reg_name": "Sardegna",
+        "tipo_lavoro": "data architect"
+      },
+      {
+        "Popolazione": 4814016,
+        "annunci_per_100k": 0.015810301676366288,
+        "num_annunci": 1.0,
+        "reg_name": "Sicilia",
+        "tipo_lavoro": "data architect"
+      },
+      {
+        "Popolazione": 3661981,
+        "annunci_per_100k": 0.05991659609823126,
+        "num_annunci": 3.0,
+        "reg_name": "Toscana",
+        "tipo_lavoro": "data architect"
+      },
+      {
+        "Popolazione": 1077143,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Trentino-Alto Adige/S\u00fcdtirol",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 856407,
+        "annunci_per_100k": 0.12317773931895028,
+        "num_annunci": 2.0,
+        "reg_name": "Umbria",
+        "tipo_lavoro": "data architect"
+      },
+      {
+        "Popolazione": 123130,
+        "annunci_per_100k": 0.0,
+        "num_annunci": 0.0,
+        "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste",
+        "tipo_lavoro": null
+      },
+      {
+        "Popolazione": 4849553,
+        "annunci_per_100k": 0.3533693770097883,
+        "num_annunci": 3.0,
+        "reg_name": "Veneto",
+        "tipo_lavoro": "data architect"
+      }
+    ]
+  },
+  "vconcat": [
+    {
+      "data": {
+        "name": "data-058bf692ed04a8c98c19349cc9479c38"
+      },
+      "encoding": {
+        "text": {
+          "field": "text",
+          "type": "nominal"
+        }
+      },
+      "height": 50,
+      "mark": {
+        "align": "center",
+        "dx": 150,
+        "dy": 0,
+        "fontSize": 20,
+        "type": "text"
+      },
+      "width": 600
+    },
+    {
+      "data": {
+        "format": {
+          "feature": "regions",
+          "type": "topojson"
+        },
+        "url": "https://raw.githubusercontent.com/openpolis/geojson-italy/master/topojson/limits_IT_all.topo.json"
+      },
+      "vconcat": [
+        {
+          "hconcat": [
+            {
+              "encoding": {
+                "color": {
+                  "condition": {
+                    "test": "(datum.annunci_per_100k === 0)",
+                    "value": "lightgray"
+                  },
+                  "field": "annunci_per_100k",
+                  "legend": {
+                    "format": ".2f",
+                    "legendX": 300,
+                    "legendY": 75,
+                    "orient": "none"
+                  },
+                  "scale": {
+                    "domain": [
+                      0,
+                      1
+                    ],
+                    "scheme": "blues",
+                    "type": "quantize"
+                  },
+                  "title": "Annunci per 100k ab.",
+                  "type": "quantitative"
+                },
+                "tooltip": [
+                  {
+                    "field": "properties.reg_name",
+                    "title": "Regione:",
+                    "type": "nominal"
+                  },
+                  {
+                    "field": "annunci_per_100k",
+                    "format": ".2f",
+                    "title": "Annunci di lavoro:",
+                    "type": "quantitative"
+                  }
+                ]
+              },
+              "height": 200,
+              "mark": {
+                "stroke": "#fff",
+                "strokeWidth": 0.25,
+                "type": "geoshape"
+              },
+              "projection": {
+                "type": "mercator"
+              },
+              "title": "data analyst",
+              "transform": [
+                {
+                  "from": {
+                    "data": {
+                      "name": "data-287580fe39db4eb4fa05f1ce86a9ef95"
+                    },
+                    "fields": [
+                      "annunci_per_100k"
+                    ],
+                    "key": "reg_name"
+                  },
+                  "lookup": "properties.reg_name"
+                }
+              ],
+              "width": 200
+            },
+            {
+              "encoding": {
+                "color": {
+                  "condition": {
+                    "test": "(datum.annunci_per_100k === 0)",
+                    "value": "lightgray"
+                  },
+                  "field": "annunci_per_100k",
+                  "legend": {
+                    "format": ".2f",
+                    "legendX": 300,
+                    "legendY": 75,
+                    "orient": "none"
+                  },
+                  "scale": {
+                    "domain": [
+                      0,
+                      1
+                    ],
+                    "scheme": "blues",
+                    "type": "quantize"
+                  },
+                  "title": "Annunci per 100k ab.",
+                  "type": "quantitative"
+                },
+                "tooltip": [
+                  {
+                    "field": "properties.reg_name",
+                    "title": "Regione:",
+                    "type": "nominal"
+                  },
+                  {
+                    "field": "annunci_per_100k",
+                    "format": ".2f",
+                    "title": "Annunci di lavoro:",
+                    "type": "quantitative"
+                  }
+                ]
+              },
+              "height": 200,
+              "mark": {
+                "stroke": "#fff",
+                "strokeWidth": 0.25,
+                "type": "geoshape"
+              },
+              "projection": {
+                "type": "mercator"
+              },
+              "title": "BI",
+              "transform": [
+                {
+                  "from": {
+                    "data": {
+                      "name": "data-3d3b2f58647c1b580f504ea4e7143521"
+                    },
+                    "fields": [
+                      "annunci_per_100k"
+                    ],
+                    "key": "reg_name"
+                  },
+                  "lookup": "properties.reg_name"
+                }
+              ],
+              "width": 200
+            },
+            {
+              "encoding": {
+                "color": {
+                  "condition": {
+                    "test": "(datum.annunci_per_100k === 0)",
+                    "value": "lightgray"
+                  },
+                  "field": "annunci_per_100k",
+                  "legend": {
+                    "format": ".2f",
+                    "legendX": 300,
+                    "legendY": 75,
+                    "orient": "none"
+                  },
+                  "scale": {
+                    "domain": [
+                      0,
+                      1
+                    ],
+                    "scheme": "blues",
+                    "type": "quantize"
+                  },
+                  "title": "Annunci per 100k ab.",
+                  "type": "quantitative"
+                },
+                "tooltip": [
+                  {
+                    "field": "properties.reg_name",
+                    "title": "Regione:",
+                    "type": "nominal"
+                  },
+                  {
+                    "field": "annunci_per_100k",
+                    "format": ".2f",
+                    "title": "Annunci di lavoro:",
+                    "type": "quantitative"
+                  }
+                ]
+              },
+              "height": 200,
+              "mark": {
+                "stroke": "#fff",
+                "strokeWidth": 0.25,
+                "type": "geoshape"
+              },
+              "projection": {
+                "type": "mercator"
+              },
+              "title": "data scientist",
+              "transform": [
+                {
+                  "from": {
+                    "data": {
+                      "name": "data-97acbcd02b34c6bd43ce7b84910e4dd6"
+                    },
+                    "fields": [
+                      "annunci_per_100k"
+                    ],
+                    "key": "reg_name"
+                  },
+                  "lookup": "properties.reg_name"
+                }
+              ],
+              "width": 200
+            }
+          ]
+        },
+        {
+          "hconcat": [
+            {
+              "encoding": {
+                "color": {
+                  "condition": {
+                    "test": "(datum.annunci_per_100k === 0)",
+                    "value": "lightgray"
+                  },
+                  "field": "annunci_per_100k",
+                  "legend": {
+                    "format": ".2f",
+                    "legendX": 300,
+                    "legendY": 75,
+                    "orient": "none"
+                  },
+                  "scale": {
+                    "domain": [
+                      0,
+                      1
+                    ],
+                    "scheme": "blues",
+                    "type": "quantize"
+                  },
+                  "title": "Annunci per 100k ab.",
+                  "type": "quantitative"
+                },
+                "tooltip": [
+                  {
+                    "field": "properties.reg_name",
+                    "title": "Regione:",
+                    "type": "nominal"
+                  },
+                  {
+                    "field": "annunci_per_100k",
+                    "format": ".2f",
+                    "title": "Annunci di lavoro:",
+                    "type": "quantitative"
+                  }
+                ]
+              },
+              "height": 200,
+              "mark": {
+                "stroke": "#fff",
+                "strokeWidth": 0.25,
+                "type": "geoshape"
+              },
+              "projection": {
+                "type": "mercator"
+              },
+              "title": "AI engineer",
+              "transform": [
+                {
+                  "from": {
+                    "data": {
+                      "name": "data-0af9d67bdca8a02170197307ade81356"
+                    },
+                    "fields": [
+                      "annunci_per_100k"
+                    ],
+                    "key": "reg_name"
+                  },
+                  "lookup": "properties.reg_name"
+                }
+              ],
+              "width": 200
+            },
+            {
+              "encoding": {
+                "color": {
+                  "condition": {
+                    "test": "(datum.annunci_per_100k === 0)",
+                    "value": "lightgray"
+                  },
+                  "field": "annunci_per_100k",
+                  "legend": {
+                    "format": ".2f",
+                    "legendX": 300,
+                    "legendY": 75,
+                    "orient": "none"
+                  },
+                  "scale": {
+                    "domain": [
+                      0,
+                      1
+                    ],
+                    "scheme": "blues",
+                    "type": "quantize"
+                  },
+                  "title": "Annunci per 100k ab.",
+                  "type": "quantitative"
+                },
+                "tooltip": [
+                  {
+                    "field": "properties.reg_name",
+                    "title": "Regione:",
+                    "type": "nominal"
+                  },
+                  {
+                    "field": "annunci_per_100k",
+                    "format": ".2f",
+                    "title": "Annunci di lavoro:",
+                    "type": "quantitative"
+                  }
+                ]
+              },
+              "height": 200,
+              "mark": {
+                "stroke": "#fff",
+                "strokeWidth": 0.25,
+                "type": "geoshape"
+              },
+              "projection": {
+                "type": "mercator"
+              },
+              "title": "data architect",
+              "transform": [
+                {
+                  "from": {
+                    "data": {
+                      "name": "data-fcfc4bacfc5a7b9fbedf20a57ad3a004"
+                    },
+                    "fields": [
+                      "annunci_per_100k"
+                    ],
+                    "key": "reg_name"
+                  },
+                  "lookup": "properties.reg_name"
+                }
+              ],
+              "width": 200
+            },
+            {
+              "encoding": {
+                "color": {
+                  "condition": {
+                    "test": "(datum.annunci_per_100k === 0)",
+                    "value": "lightgray"
+                  },
+                  "field": "annunci_per_100k",
+                  "legend": {
+                    "format": ".2f",
+                    "legendX": 300,
+                    "legendY": 75,
+                    "orient": "none"
+                  },
+                  "scale": {
+                    "domain": [
+                      0,
+                      1
+                    ],
+                    "scheme": "blues",
+                    "type": "quantize"
+                  },
+                  "title": "Annunci per 100k ab.",
+                  "type": "quantitative"
+                },
+                "tooltip": [
+                  {
+                    "field": "properties.reg_name",
+                    "title": "Regione:",
+                    "type": "nominal"
+                  },
+                  {
+                    "field": "annunci_per_100k",
+                    "format": ".2f",
+                    "title": "Annunci di lavoro:",
+                    "type": "quantitative"
+                  }
+                ]
+              },
+              "height": 200,
+              "mark": {
+                "stroke": "#fff",
+                "strokeWidth": 0.25,
+                "type": "geoshape"
+              },
+              "projection": {
+                "type": "mercator"
+              },
+              "title": "data engineer",
+              "transform": [
+                {
+                  "from": {
+                    "data": {
+                      "name": "data-c6ee60dce35457b24d7bf7ea75ae0533"
+                    },
+                    "fields": [
+                      "annunci_per_100k"
+                    ],
+                    "key": "reg_name"
+                  },
+                  "lookup": "properties.reg_name"
+                }
+              ],
+              "width": 200
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

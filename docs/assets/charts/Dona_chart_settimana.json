@@ -1,0 +1,210 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "axes": [
+    {
+      "aria": false,
+      "domain": false,
+      "grid": true,
+      "gridScale": "x",
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "orient": "left",
+      "scale": "y",
+      "tickCount": {
+        "signal": "ceil(height/40)"
+      },
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "grid": false,
+      "labelAlign": "right",
+      "labelAngle": 270,
+      "labelBaseline": "middle",
+      "orient": "bottom",
+      "scale": "x",
+      "title": "Giorno della settimana",
+      "zindex": 0
+    },
+    {
+      "grid": false,
+      "labelOverlap": true,
+      "orient": "left",
+      "scale": "y",
+      "tickCount": {
+        "signal": "ceil(height/40)"
+      },
+      "title": "Frequenza Job Offer",
+      "zindex": 0
+    }
+  ],
+  "background": "white",
+  "data": [
+    {
+      "name": "source_0"
+    },
+    {
+      "name": "data_0",
+      "values": [
+        {
+          "giorni_italiano": "Mercoled\u00ec",
+          "relative_frequency": 0.20133212231304876,
+          "relative_frequency_end": 0.20133212231304876,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "giorni_italiano": "Marted\u00ec",
+          "relative_frequency": 0.19421737814108386,
+          "relative_frequency_end": 0.19421737814108386,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "giorni_italiano": "Venerd\u00ec",
+          "relative_frequency": 0.19406600060551013,
+          "relative_frequency_end": 0.19406600060551013,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "giorni_italiano": "Luned\u00ec",
+          "relative_frequency": 0.18225855283075992,
+          "relative_frequency_end": 0.18225855283075992,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "giorni_italiano": "Gioved\u00ec",
+          "relative_frequency": 0.17817135937026946,
+          "relative_frequency_end": 0.17817135937026946,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "giorni_italiano": "Sabato",
+          "relative_frequency": 0.03148652739933394,
+          "relative_frequency_end": 0.03148652739933394,
+          "relative_frequency_start": 0.0
+        },
+        {
+          "giorni_italiano": "Domenica",
+          "relative_frequency": 0.018468059339993945,
+          "relative_frequency_end": 0.018468059339993945,
+          "relative_frequency_start": 0.0
+        }
+      ]
+    },
+    {
+      "name": "source_0_x_domain_giorni_italiano",
+      "values": [
+        {
+          "giorni_italiano": "Mercoled\u00ec",
+          "sort_field": 2.0
+        },
+        {
+          "giorni_italiano": "Marted\u00ec",
+          "sort_field": 1.0
+        },
+        {
+          "giorni_italiano": "Venerd\u00ec",
+          "sort_field": 4.0
+        },
+        {
+          "giorni_italiano": "Luned\u00ec",
+          "sort_field": 0.0
+        },
+        {
+          "giorni_italiano": "Gioved\u00ec",
+          "sort_field": 3.0
+        },
+        {
+          "giorni_italiano": "Sabato",
+          "sort_field": 5.0
+        },
+        {
+          "giorni_italiano": "Domenica",
+          "sort_field": 6.0
+        }
+      ]
+    }
+  ],
+  "height": 200,
+  "marks": [
+    {
+      "encode": {
+        "update": {
+          "fill": {
+            "value": "#4682b4"
+          },
+          "tooltip": {
+            "signal": "{\"frequenza relativa\": format(datum[\"relative_frequency\"], \".1%\")}"
+          },
+          "width": {
+            "signal": "max(0.25, bandwidth('x'))"
+          },
+          "x": {
+            "field": "giorni_italiano",
+            "scale": "x"
+          },
+          "y": {
+            "field": "relative_frequency_end",
+            "scale": "y"
+          },
+          "y2": {
+            "field": "relative_frequency_start",
+            "scale": "y"
+          }
+        }
+      },
+      "from": {
+        "data": "data_0"
+      },
+      "name": "marks",
+      "style": [
+        "bar"
+      ],
+      "type": "rect"
+    }
+  ],
+  "padding": 5,
+  "scales": [
+    {
+      "domain": {
+        "data": "source_0_x_domain_giorni_italiano",
+        "field": "giorni_italiano",
+        "sort": {
+          "field": "sort_field",
+          "op": "max"
+        }
+      },
+      "name": "x",
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05,
+      "range": [
+        0,
+        {
+          "signal": "width"
+        }
+      ],
+      "type": "band"
+    },
+    {
+      "domain": {
+        "data": "data_0",
+        "fields": [
+          "relative_frequency_start",
+          "relative_frequency_end"
+        ]
+      },
+      "name": "y",
+      "nice": true,
+      "range": [
+        {
+          "signal": "height"
+        },
+        0
+      ],
+      "type": "linear",
+      "zero": true
+    }
+  ],
+  "style": "cell",
+  "width": 200
+}

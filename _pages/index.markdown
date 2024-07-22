@@ -94,9 +94,6 @@ Questi cluster sono stati generati utilizzando l’algoritmo di clustering K-Mea
 {% endcapture %}
 {% include modal-component.html title="Dettagli del grafico" content=simone id="simone" style="width: 80%; height: 30vh;" %}
 
-<div style="display: flex; justify-content: center; align-items: center;">
-  <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simone2.json"></vegachart></div>
-</div>
 
 
 <div style="display: flex; justify-content: center; align-items: center;">
@@ -118,7 +115,7 @@ Questi cluster sono stati generati utilizzando l’algoritmo di clustering K-Mea
 <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
   <div style="width: 120%; margin-left: 0%;">
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-      <div style="flex: 1; max-width: 180%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt4_ClustSkills.json"></vegachart></div>
+      <div style="flex: 1; max-width: 180%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt4_ClustSkills_v2.json"></vegachart></div>
     </div>
   </div>
 </div>
@@ -151,7 +148,7 @@ Si osserva anche che esistono alcune singole skill, poco frequenti, alle quali s
 <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
   <div style="width: 120%; margin-left: 0%;">
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-      <div style="flex: 1; max-width: 180%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt2_PosterFullName_v3.json"></vegachart></div>
+      <div style="flex: 1; max-width: 180%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt2_PosterFullName_v4.json"></vegachart></div>
     </div>
   </div>
 </div>
@@ -166,7 +163,7 @@ Il grafico sulla destra invece mostra la distribuzione nel tempo degli annunci o
 <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
   <div style="width: 120%; margin-left: 0%;">
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-      <div style="flex: 1; max-width: 180%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt1_LocationType_v3.json"></vegachart></div>
+      <div style="flex: 1; max-width: 180%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt1_LocationType_v4.json"></vegachart></div>
     </div>
   </div>
 </div>

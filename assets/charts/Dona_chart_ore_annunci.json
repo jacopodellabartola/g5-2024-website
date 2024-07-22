@@ -1,0 +1,260 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "axes": [
+    {
+      "aria": false,
+      "domain": false,
+      "grid": true,
+      "gridScale": "x",
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "orient": "left",
+      "scale": "y",
+      "tickCount": {
+        "signal": "ceil(height/40)"
+      },
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "grid": false,
+      "labelAlign": "right",
+      "labelAngle": 270,
+      "labelBaseline": "middle",
+      "orient": "bottom",
+      "scale": "x",
+      "title": "ora",
+      "zindex": 0
+    },
+    {
+      "grid": false,
+      "labelOverlap": true,
+      "orient": "left",
+      "scale": "y",
+      "tickCount": {
+        "signal": "ceil(height/40)"
+      },
+      "title": "Frequenza annunci di lavoro",
+      "zindex": 0
+    }
+  ],
+  "background": "white",
+  "data": [
+    {
+      "name": "source_0"
+    },
+    {
+      "name": "data_0",
+      "values": [
+        {
+          "ore_combined": "12-13",
+          "relative_frequency_percentuale": 18.861640932485617,
+          "relative_frequency_percentuale_end": 18.861640932485617,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "16-17",
+          "relative_frequency_percentuale": 17.317590069633667,
+          "relative_frequency_percentuale_end": 17.317590069633667,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "10-11",
+          "relative_frequency_percentuale": 17.120799273387828,
+          "relative_frequency_percentuale_end": 17.120799273387828,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "14-15",
+          "relative_frequency_percentuale": 15.122615803814716,
+          "relative_frequency_percentuale_end": 15.122615803814716,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "18-19",
+          "relative_frequency_percentuale": 11.474417196488043,
+          "relative_frequency_percentuale_end": 11.474417196488043,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "8-9",
+          "relative_frequency_percentuale": 5.479866787768695,
+          "relative_frequency_percentuale_end": 5.479866787768695,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "22-23",
+          "relative_frequency_percentuale": 3.224341507720254,
+          "relative_frequency_percentuale_end": 3.224341507720254,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "2-3",
+          "relative_frequency_percentuale": 3.19406600060551,
+          "relative_frequency_percentuale_end": 3.19406600060551,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "0-1",
+          "relative_frequency_percentuale": 2.679382379654859,
+          "relative_frequency_percentuale_end": 2.679382379654859,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "20-21",
+          "relative_frequency_percentuale": 2.5734181047532547,
+          "relative_frequency_percentuale_end": 2.5734181047532547,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "4-5",
+          "relative_frequency_percentuale": 1.8316681804420223,
+          "relative_frequency_percentuale_end": 1.8316681804420223,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "6-7",
+          "relative_frequency_percentuale": 1.1201937632455343,
+          "relative_frequency_percentuale_end": 1.1201937632455343,
+          "relative_frequency_percentuale_start": 0.0
+        }
+      ]
+    },
+    {
+      "name": "source_0_x_domain_ore_combined",
+      "values": [
+        {
+          "ore_combined": "12-13",
+          "sort_field": 6.0
+        },
+        {
+          "ore_combined": "16-17",
+          "sort_field": 8.0
+        },
+        {
+          "ore_combined": "10-11",
+          "sort_field": 5.0
+        },
+        {
+          "ore_combined": "14-15",
+          "sort_field": 7.0
+        },
+        {
+          "ore_combined": "18-19",
+          "sort_field": 9.0
+        },
+        {
+          "ore_combined": "8-9",
+          "sort_field": 4.0
+        },
+        {
+          "ore_combined": "22-23",
+          "sort_field": 11.0
+        },
+        {
+          "ore_combined": "2-3",
+          "sort_field": 1.0
+        },
+        {
+          "ore_combined": "0-1",
+          "sort_field": 0.0
+        },
+        {
+          "ore_combined": "20-21",
+          "sort_field": 10.0
+        },
+        {
+          "ore_combined": "4-5",
+          "sort_field": 2.0
+        },
+        {
+          "ore_combined": "6-7",
+          "sort_field": 3.0
+        }
+      ]
+    }
+  ],
+  "height": 200,
+  "marks": [
+    {
+      "encode": {
+        "update": {
+          "fill": {
+            "value": "#4682b4"
+          },
+          "tooltip": {
+            "signal": "{\"Percentuale:\": format(datum[\"relative_frequency_percentuale\"], \".1f%\")}"
+          },
+          "width": {
+            "signal": "max(0.25, bandwidth('x'))"
+          },
+          "x": {
+            "field": "ore_combined",
+            "scale": "x"
+          },
+          "y": {
+            "field": "relative_frequency_percentuale_end",
+            "scale": "y"
+          },
+          "y2": {
+            "field": "relative_frequency_percentuale_start",
+            "scale": "y"
+          }
+        }
+      },
+      "from": {
+        "data": "data_0"
+      },
+      "name": "marks",
+      "style": [
+        "bar"
+      ],
+      "type": "rect"
+    }
+  ],
+  "padding": 5,
+  "scales": [
+    {
+      "domain": {
+        "data": "source_0_x_domain_ore_combined",
+        "field": "ore_combined",
+        "sort": {
+          "field": "sort_field",
+          "op": "max"
+        }
+      },
+      "name": "x",
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05,
+      "range": [
+        0,
+        {
+          "signal": "width"
+        }
+      ],
+      "type": "band"
+    },
+    {
+      "domain": {
+        "data": "data_0",
+        "fields": [
+          "relative_frequency_percentuale_start",
+          "relative_frequency_percentuale_end"
+        ]
+      },
+      "name": "y",
+      "nice": true,
+      "range": [
+        {
+          "signal": "height"
+        },
+        0
+      ],
+      "type": "linear",
+      "zero": true
+    }
+  ],
+  "style": "cell",
+  "width": 200
+}

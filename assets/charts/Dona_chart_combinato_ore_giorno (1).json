@@ -1,0 +1,499 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "data": [
+    {
+      "name": "source_0"
+    },
+    {
+      "name": "data_0",
+      "values": [
+        {
+          "ore_combined": "12-13",
+          "relative_frequency_percentuale": 18.861640932485617,
+          "relative_frequency_percentuale_end": 18.861640932485617,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "16-17",
+          "relative_frequency_percentuale": 17.317590069633667,
+          "relative_frequency_percentuale_end": 17.317590069633667,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "10-11",
+          "relative_frequency_percentuale": 17.120799273387828,
+          "relative_frequency_percentuale_end": 17.120799273387828,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "14-15",
+          "relative_frequency_percentuale": 15.122615803814716,
+          "relative_frequency_percentuale_end": 15.122615803814716,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "18-19",
+          "relative_frequency_percentuale": 11.474417196488043,
+          "relative_frequency_percentuale_end": 11.474417196488043,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "8-9",
+          "relative_frequency_percentuale": 5.479866787768695,
+          "relative_frequency_percentuale_end": 5.479866787768695,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "22-23",
+          "relative_frequency_percentuale": 3.224341507720254,
+          "relative_frequency_percentuale_end": 3.224341507720254,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "2-3",
+          "relative_frequency_percentuale": 3.19406600060551,
+          "relative_frequency_percentuale_end": 3.19406600060551,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "0-1",
+          "relative_frequency_percentuale": 2.679382379654859,
+          "relative_frequency_percentuale_end": 2.679382379654859,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "20-21",
+          "relative_frequency_percentuale": 2.5734181047532547,
+          "relative_frequency_percentuale_end": 2.5734181047532547,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "4-5",
+          "relative_frequency_percentuale": 1.8316681804420223,
+          "relative_frequency_percentuale_end": 1.8316681804420223,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "ore_combined": "6-7",
+          "relative_frequency_percentuale": 1.1201937632455343,
+          "relative_frequency_percentuale_end": 1.1201937632455343,
+          "relative_frequency_percentuale_start": 0.0
+        }
+      ]
+    },
+    {
+      "name": "source_1"
+    },
+    {
+      "name": "data_1",
+      "values": [
+        {
+          "giorni_italiano": "Mercoled\u00ec",
+          "relative_frequency_percentuale": 20.133212231304874,
+          "relative_frequency_percentuale_end": 20.133212231304874,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "giorni_italiano": "Marted\u00ec",
+          "relative_frequency_percentuale": 19.421737814108386,
+          "relative_frequency_percentuale_end": 19.421737814108386,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "giorni_italiano": "Venerd\u00ec",
+          "relative_frequency_percentuale": 19.406600060551014,
+          "relative_frequency_percentuale_end": 19.406600060551014,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "giorni_italiano": "Luned\u00ec",
+          "relative_frequency_percentuale": 18.225855283075994,
+          "relative_frequency_percentuale_end": 18.225855283075994,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "giorni_italiano": "Gioved\u00ec",
+          "relative_frequency_percentuale": 17.817135937026947,
+          "relative_frequency_percentuale_end": 17.817135937026947,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "giorni_italiano": "Sabato",
+          "relative_frequency_percentuale": 3.148652739933394,
+          "relative_frequency_percentuale_end": 3.148652739933394,
+          "relative_frequency_percentuale_start": 0.0
+        },
+        {
+          "giorni_italiano": "Domenica",
+          "relative_frequency_percentuale": 1.8468059339993945,
+          "relative_frequency_percentuale_end": 1.8468059339993945,
+          "relative_frequency_percentuale_start": 0.0
+        }
+      ]
+    },
+    {
+      "name": "source_0_concat_0_x_domain_ore_combined",
+      "values": [
+        {
+          "ore_combined": "12-13",
+          "sort_field": 6.0
+        },
+        {
+          "ore_combined": "16-17",
+          "sort_field": 8.0
+        },
+        {
+          "ore_combined": "10-11",
+          "sort_field": 5.0
+        },
+        {
+          "ore_combined": "14-15",
+          "sort_field": 7.0
+        },
+        {
+          "ore_combined": "18-19",
+          "sort_field": 9.0
+        },
+        {
+          "ore_combined": "8-9",
+          "sort_field": 4.0
+        },
+        {
+          "ore_combined": "22-23",
+          "sort_field": 11.0
+        },
+        {
+          "ore_combined": "2-3",
+          "sort_field": 1.0
+        },
+        {
+          "ore_combined": "0-1",
+          "sort_field": 0.0
+        },
+        {
+          "ore_combined": "20-21",
+          "sort_field": 10.0
+        },
+        {
+          "ore_combined": "4-5",
+          "sort_field": 2.0
+        },
+        {
+          "ore_combined": "6-7",
+          "sort_field": 3.0
+        }
+      ]
+    },
+    {
+      "name": "source_1_concat_1_x_domain_giorni_italiano",
+      "values": [
+        {
+          "giorni_italiano": "Mercoled\u00ec",
+          "sort_field": 2.0
+        },
+        {
+          "giorni_italiano": "Marted\u00ec",
+          "sort_field": 1.0
+        },
+        {
+          "giorni_italiano": "Venerd\u00ec",
+          "sort_field": 4.0
+        },
+        {
+          "giorni_italiano": "Luned\u00ec",
+          "sort_field": 0.0
+        },
+        {
+          "giorni_italiano": "Gioved\u00ec",
+          "sort_field": 3.0
+        },
+        {
+          "giorni_italiano": "Sabato",
+          "sort_field": 5.0
+        },
+        {
+          "giorni_italiano": "Domenica",
+          "sort_field": 6.0
+        }
+      ]
+    }
+  ],
+  "height": 200,
+  "layout": {
+    "align": "each",
+    "bounds": "full",
+    "padding": 20
+  },
+  "marks": [
+    {
+      "axes": [
+        {
+          "aria": false,
+          "domain": false,
+          "grid": true,
+          "gridScale": "concat_0_x",
+          "labels": false,
+          "maxExtent": 0,
+          "minExtent": 0,
+          "orient": "left",
+          "scale": "concat_0_y",
+          "tickCount": {
+            "signal": "ceil(height/40)"
+          },
+          "ticks": false,
+          "zindex": 0
+        },
+        {
+          "grid": false,
+          "labelAlign": "right",
+          "labelAngle": 270,
+          "labelBaseline": "middle",
+          "orient": "bottom",
+          "scale": "concat_0_x",
+          "title": "ora",
+          "zindex": 0
+        },
+        {
+          "grid": false,
+          "labelOverlap": true,
+          "orient": "left",
+          "scale": "concat_0_y",
+          "tickCount": {
+            "signal": "ceil(height/40)"
+          },
+          "title": "Frequenza annunci di lavoro",
+          "zindex": 0
+        }
+      ],
+      "encode": {
+        "update": {
+          "height": {
+            "signal": "height"
+          },
+          "width": {
+            "signal": "childWidth"
+          }
+        }
+      },
+      "marks": [
+        {
+          "encode": {
+            "update": {
+              "fill": {
+                "value": "#4682b4"
+              },
+              "tooltip": {
+                "signal": "{\"Percentuale:\": format(datum[\"relative_frequency_percentuale\"], \".1f\")}"
+              },
+              "width": {
+                "signal": "max(0.25, bandwidth('concat_0_x'))"
+              },
+              "x": {
+                "field": "ore_combined",
+                "scale": "concat_0_x"
+              },
+              "y": {
+                "field": "relative_frequency_percentuale_end",
+                "scale": "concat_0_y"
+              },
+              "y2": {
+                "field": "relative_frequency_percentuale_start",
+                "scale": "concat_0_y"
+              }
+            }
+          },
+          "from": {
+            "data": "data_0"
+          },
+          "name": "concat_0_marks",
+          "style": [
+            "bar"
+          ],
+          "type": "rect"
+        }
+      ],
+      "name": "concat_0_group",
+      "style": "cell",
+      "type": "group"
+    },
+    {
+      "axes": [
+        {
+          "aria": false,
+          "domain": false,
+          "grid": true,
+          "gridScale": "concat_1_x",
+          "labels": false,
+          "maxExtent": 0,
+          "minExtent": 0,
+          "orient": "left",
+          "scale": "concat_1_y",
+          "tickCount": {
+            "signal": "ceil(height/40)"
+          },
+          "ticks": false,
+          "zindex": 0
+        },
+        {
+          "grid": false,
+          "labelAlign": "right",
+          "labelAngle": 270,
+          "labelBaseline": "middle",
+          "orient": "bottom",
+          "scale": "concat_1_x",
+          "title": "Giorno della settimana",
+          "zindex": 0
+        },
+        {
+          "grid": false,
+          "labelOverlap": true,
+          "orient": "left",
+          "scale": "concat_1_y",
+          "tickCount": {
+            "signal": "ceil(height/40)"
+          },
+          "title": "Frequenza annunci di lavoro",
+          "zindex": 0
+        }
+      ],
+      "encode": {
+        "update": {
+          "height": {
+            "signal": "height"
+          },
+          "width": {
+            "signal": "childWidth"
+          }
+        }
+      },
+      "marks": [
+        {
+          "encode": {
+            "update": {
+              "fill": {
+                "value": "#4682b4"
+              },
+              "tooltip": {
+                "signal": "{\"Percentuale:\": format(datum[\"relative_frequency_percentuale\"], \".1f\")}"
+              },
+              "width": {
+                "signal": "max(0.25, bandwidth('concat_1_x'))"
+              },
+              "x": {
+                "field": "giorni_italiano",
+                "scale": "concat_1_x"
+              },
+              "y": {
+                "field": "relative_frequency_percentuale_end",
+                "scale": "concat_1_y"
+              },
+              "y2": {
+                "field": "relative_frequency_percentuale_start",
+                "scale": "concat_1_y"
+              }
+            }
+          },
+          "from": {
+            "data": "data_1"
+          },
+          "name": "concat_1_marks",
+          "style": [
+            "bar"
+          ],
+          "type": "rect"
+        }
+      ],
+      "name": "concat_1_group",
+      "style": "cell",
+      "type": "group"
+    }
+  ],
+  "padding": 5,
+  "scales": [
+    {
+      "domain": {
+        "data": "source_0_concat_0_x_domain_ore_combined",
+        "field": "ore_combined",
+        "sort": {
+          "field": "sort_field",
+          "op": "max"
+        }
+      },
+      "name": "concat_0_x",
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05,
+      "range": [
+        0,
+        {
+          "signal": "childWidth"
+        }
+      ],
+      "type": "band"
+    },
+    {
+      "domain": {
+        "data": "data_0",
+        "fields": [
+          "relative_frequency_percentuale_start",
+          "relative_frequency_percentuale_end"
+        ]
+      },
+      "name": "concat_0_y",
+      "nice": true,
+      "range": [
+        {
+          "signal": "height"
+        },
+        0
+      ],
+      "type": "linear",
+      "zero": true
+    },
+    {
+      "domain": {
+        "data": "source_1_concat_1_x_domain_giorni_italiano",
+        "field": "giorni_italiano",
+        "sort": {
+          "field": "sort_field",
+          "op": "max"
+        }
+      },
+      "name": "concat_1_x",
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05,
+      "range": [
+        0,
+        {
+          "signal": "childWidth"
+        }
+      ],
+      "type": "band"
+    },
+    {
+      "domain": {
+        "data": "data_1",
+        "fields": [
+          "relative_frequency_percentuale_start",
+          "relative_frequency_percentuale_end"
+        ]
+      },
+      "name": "concat_1_y",
+      "nice": true,
+      "range": [
+        {
+          "signal": "height"
+        },
+        0
+      ],
+      "type": "linear",
+      "zero": true
+    }
+  ],
+  "signals": [
+    {
+      "name": "childWidth",
+      "value": 200
+    }
+  ]
+}

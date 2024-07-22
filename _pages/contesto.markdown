@@ -97,8 +97,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum, est eu acc
 
 Sed ac fringilla leo, et mollis sapien. Mauris imperdiet, ante quis pellentesque venenatis, metus lacus aliquet tortor, ultrices sollicitudin lectus risus id neque. Integer faucibus, eros nec tincidunt blandit, massa nibh sollicitudin leo, ac consectetur sem odio a nibh. Etiam vulputate orci et libero vestibulum molestie. Maecenas aliquet condimentum lectus, ut placerat purus sagittis eu. Nulla feugiat eu tortor commodo dignissim. Donec erat ex, tempor quis mattis eu, imperdiet eu arcu. </p>
 <div style="display: flex; justify-content: center; align-items: center;">
-<vegachart schema-url="{{site.baseurl}}/assets/charts/Dona_chart_settimana.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/Dona_chart_combinato_ore_giorno (1).json" style="width: 100%"></vegachart>
 </div>
+
+<div style="display: flex; justify-content: center; align-items: center;">
+<vegachart schema-url="{{site.baseurl}}/assets/charts/Dona_chart_ore_annunci.json" style="width: 100%"></vegachart>
+</div>
+
 <div class="justified">
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum, est eu accumsan suscipit, purus est elementum mauris, eu commodo ex mi a odio. Phasellus tempor neque id diam elementum aliquam. Morbi volutpat mollis odio, a consequat lorem tincidunt vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed venenatis a nulla at bibendum. Etiam porta odio egestas nulla ornare maximus. Vestibulum vulputate ut ante non porta.

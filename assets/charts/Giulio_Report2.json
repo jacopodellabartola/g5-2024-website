@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 400
+    }
+  },
+  "data": {
+    "name": "data-cd30c56882a6e11e8fa195d398ba1525"
+  },
+  "datasets": {
+    "data-cd30c56882a6e11e8fa195d398ba1525": [
+      {
+        "MAE": 57.25176986049826,
+        "MSE": 22738.17209146843,
+        "Modello": "GB (Breve) + RF (Lungo)"
+      },
+      {
+        "MAE": 57.27930349008844,
+        "MSE": 22752.447025098016,
+        "Modello": "GB (Breve) + GB (Lungo)"
+      },
+      {
+        "MAE": 57.32763856808525,
+        "MSE": 22760.38405360818,
+        "Modello": "GB (Breve) + RF (Lungo)"
+      },
+      {
+        "MAE": 32.74696347216416,
+        "MSE": 15381.485594991138,
+        "Modello": "SVR (Breve) + RF (Lungo)"
+      },
+      {
+        "MAE": 32.774497101754335,
+        "MSE": 15395.760528620722,
+        "Modello": "SVR (Breve) + GB (Lungo)"
+      },
+      {
+        "MAE": 32.822832179751146,
+        "MSE": 15403.697557130889,
+        "Modello": "SVR (Breve) + SVR (Lungo)"
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "encoding": {
+        "color": {
+          "value": "steelblue"
+        },
+        "x": {
+          "field": "Modello",
+          "title": "",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "MSE",
+          "type": "quantitative"
+        }
+      },
+      "height": 200,
+      "mark": "bar",
+      "width": 250
+    },
+    {
+      "encoding": {
+        "color": {
+          "value": "orange"
+        },
+        "x": {
+          "field": "Modello",
+          "title": "",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "MAE",
+          "type": "quantitative"
+        }
+      },
+      "height": 200,
+      "mark": "bar",
+      "width": 250
+    }
+  ],
+  "title": "Performance Modello Unito (Breve + Lungo Periodo)"
+}

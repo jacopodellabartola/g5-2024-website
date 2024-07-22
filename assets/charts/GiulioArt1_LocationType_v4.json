@@ -1762,7 +1762,7 @@
       "transform": [
         {
           "filter": {
-            "param": "param_23"
+            "param": "param_7"
           }
         }
       ],
@@ -1776,10 +1776,10 @@
         "color": {
           "field": "Tipo",
           "legend": {
-            "labelFontSize": 8,
+            "labelFontSize": 12,
             "symbolSize": 100,
             "title": "Modalit\u00e0 Lavorativa",
-            "titleFontSize": 9
+            "titleFontSize": 12
           },
           "type": "nominal"
         },
@@ -1809,14 +1809,14 @@
         "opacity": 0.8,
         "type": "area"
       },
-      "name": "view_13",
+      "name": "view_6",
       "title": "Distribuzione del numero di annunci",
       "width": 250
     }
   ],
   "params": [
     {
-      "name": "param_23",
+      "name": "param_7",
       "select": {
         "encodings": [
           "x"
@@ -1824,7 +1824,7 @@
         "type": "interval"
       },
       "views": [
-        "view_13"
+        "view_6"
       ]
     }
   ],
@@ -1832,10 +1832,5 @@
     "scale": {
       "y": "independent"
     }
-  },
-  "title": {
-    "anchor": "middle",
-    "fontSize": 16,
-    "text": "Modalit\u00e0 di lavoro"
   }
 }

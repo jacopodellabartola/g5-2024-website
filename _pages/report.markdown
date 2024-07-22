@@ -18,8 +18,13 @@ plotly: true
     transition: transform 0.3s ease;
   }
 
+p {
+    font-size: 15px;
+    line-height:1.5; /* Modifica questo valore per adattarlo alle tue esigenze */
+}
 
-p, ul {
+
+ul {
     font-size: 15px; /* Modifica questo valore per adattarlo alle tue esigenze */
 }
 

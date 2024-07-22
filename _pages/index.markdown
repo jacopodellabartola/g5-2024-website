@@ -12,15 +12,19 @@ plotly: true
 
 <style>
 p {
-    font-size: 15px; /* Modifica questo valore per adattarlo alle tue esigenze */
+    font-size: 15px;
+    line-height:1.5; /* Modifica questo valore per adattarlo alle tue esigenze */
 }
 </style>
 
 <div class="justified">
 <p>
 “Nasci ingegnere, muori data scientist”: potrebbe essere la didascalia che descrive la trasformazione che il mondo del lavoro ha subito con l’avvento, tra le altre cose, dell’intelligenza artificiale. Al buon vecchio “ingegnere”, adesso si contrappongono una vasta serie di figure che di fatti svecchiano o, meglio, tentano <b>di dare nuovo lustro o di rendere più cool, più catchy, più al passo coi tempi</b>, la stessa figura professionale. Adesso, infatti, tra i vari annunci di LinkedIn è facilissimo trovare gli internazionalissimi data scientist, data engineer, pronti per attirare lo sguardo di eventuali candidati e perfetti per riempire bocca e CV. <br>
+<br>
 Difatti, una job opportunity del tutto simile a quella di qualche anno fa, adesso si ammanta di nuovo splendore. Diciamocelo: alla domanda “Che lavoro fai?”, rispondere un “Artificial intelligence engineer” ha tutto un altro sapore rispetto a “sviluppatore informatico”. Leggere, infatti, “programmatore” in un annuncio di lavoro ha ormai un sapore retrò - come ci ha segnalato Gabriella Pepi, HR di DataPizza.<br>
+<br>
 Marketing? Strategia di recruiting? Evoluzione vera e propria? Possiamo dare a questo fenomeno molti nomi, ma ormai è innegabile che abbia contribuito sensibilmente a rimappare una serie di ruoli, un tempo ben definiti, lasciando spazio, adesso, ad una sempre più <b>selvaggia libera interpretazione della job opportunity</b>, sfrangiando spesso i confini. Così, l'analista si “vende” come data scientist, uno sviluppatore per data engineer perché cambiare pelle, agghindare ruolo e nome, “rende”, in termini di riuscita e di mera apparenza. <br>
+<br>
 
 </p>
 </div>

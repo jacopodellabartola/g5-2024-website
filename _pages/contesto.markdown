@@ -16,7 +16,9 @@ vega: true
 
 p {
     font-size: 15px; /* Modifica questo valore per adattarlo alle tue esigenze */
+    line-height:1.5;
 }
+
 
 .justified {
     text-align: justify;

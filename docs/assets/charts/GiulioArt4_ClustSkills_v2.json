@@ -118,12 +118,12 @@
           "type": "quantitative"
         }
       },
-      "height": 400,
+      "height": 200,
       "mark": {
         "type": "bar"
       },
       "title": "Media del tasso di crescita per cluster",
-      "width": 300
+      "width": 250
     },
     {
       "data": {
@@ -133,8 +133,8 @@
         "color": {
           "field": "Descrizione",
           "legend": {
-            "labelFontSize": 13,
-            "titleFontSize": 15
+            "labelFontSize": 12,
+            "titleFontSize": 14
           },
           "title": "Descrizione",
           "type": "nominal"
@@ -162,17 +162,12 @@
           "type": "quantitative"
         }
       },
-      "height": 400,
+      "height": 200,
       "mark": {
         "type": "bar"
       },
       "title": "Media del tasso di crescita per descrizione del cluster",
-      "width": 300
+      "width": 250
     }
-  ],
-  "title": {
-    "anchor": "middle",
-    "fontSize": 20,
-    "text": "Tasso di crescita del Numero di Candidati nei Cluster individuati"
-  }
+  ]
 }

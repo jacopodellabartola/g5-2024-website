@@ -1,8 +1,10 @@
 ---
-layout: default
-title: Installation
+layout: home
+title: Report tecnico
 subtitle: Installation Guide
 ---
+
+
 
 # Guida all’installazione di Jekyll
 

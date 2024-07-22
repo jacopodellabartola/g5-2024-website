@@ -42,7 +42,7 @@ Marketing? Strategia di recruiting? Evoluzione vera e propria? Possiamo dare a q
 
 <br>
 # AI + H > AI or H
-
+<br>
 <div class="justified">
 <p>
 Partiamo da una certezza, come sostiene Stefano Gatti -attualmente head of Data & Analytics presso Nexi e autore del libro "La cultura del dato”- la disequazione del prossimo futuro sarà questa: 
@@ -82,13 +82,22 @@ E così, il saper padroneggiare determinate situazioni diventa un requisito part
 </p>
 <br>
 
-<h2 id="la-botte-piena-e-la-moglie-ubriaca">"LA BOTTE PIENA E LA MOGLIE UBRIACA"</h2>
+<h2 id="la-foresta-di-requisiti">LA FORESTA DI REQUISITI</h2>
 <div style="display: flex; justify-content: center; align-items: center;">
   <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simone.json"></vegachart></div>
 </div>
+<p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Diagrammi a barre illustranti la distribuzione delle varie posizioni lavorative all’interno dei cluster.</p>
+{% capture simone %}
+L’analisi dei cluster generati sulla base delle descrizioni degli annunci di lavoro evidenzia come solamente il cluster 2,3 e 7 contengano una professione dominante, ma risultano essere cluster di dimensioni esigue e, quindi, il loro risultato non fortemente impattante. <br>
+Questi cluster sono stati generati utilizzando l’algoritmo di clustering K-Means. Dopo aver applicato un adeguato preprocessing alle descrizioni degli annunci di lavoro, sono stati identificati 12 cluster distinti. Tuttavia, a parte i cluster menzionati in precedenza, questi cluster presentano una sovrapposizione a livello di competenze.
+
+{% endcapture %}
+{% include modal-component.html title="Dettagli del grafico" content=simone id="simone" style="width: 80%; height: 30vh;" %}
+
 <div style="display: flex; justify-content: center; align-items: center;">
   <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simone2.json"></vegachart></div>
 </div>
+
 
 <div style="display: flex; justify-content: center; align-items: center;">
   <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simone skills.json"></vegachart></div>

@@ -1161,10 +1161,10 @@
         "color": {
           "field": "Tipo",
           "legend": {
-            "labelFontSize": 13,
-            "symbolSize": 200,
+            "labelFontSize": 8,
+            "symbolSize": 100,
             "title": "Nome del Gestore HR",
-            "titleFontSize": 14
+            "titleFontSize": 9
           },
           "type": "nominal"
         },
@@ -1189,7 +1189,7 @@
           "type": "quantitative"
         }
       },
-      "height": 400,
+      "height": 200,
       "mark": {
         "size": 3.5,
         "type": "line"
@@ -1198,11 +1198,11 @@
       "transform": [
         {
           "filter": {
-            "param": "param_6"
+            "param": "param_22"
           }
         }
       ],
-      "width": 500
+      "width": 250
     },
     {
       "data": {
@@ -1234,19 +1234,19 @@
           "type": "quantitative"
         }
       },
-      "height": 400,
+      "height": 200,
       "mark": {
-        "opacity": 0.5,
+        "opacity": 0.8,
         "type": "area"
       },
-      "name": "view_6",
+      "name": "view_12",
       "title": "Distribuzione del numero di annunci",
-      "width": 500
+      "width": 250
     }
   ],
   "params": [
     {
-      "name": "param_6",
+      "name": "param_22",
       "select": {
         "encodings": [
           "x"
@@ -1254,7 +1254,7 @@
         "type": "interval"
       },
       "views": [
-        "view_6"
+        "view_12"
       ]
     }
   ],
@@ -1265,7 +1265,7 @@
   },
   "title": {
     "anchor": "middle",
-    "fontSize": 24,
+    "fontSize": 16,
     "text": "Nome del Gestore HR"
   }
 }

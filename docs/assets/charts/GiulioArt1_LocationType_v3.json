@@ -1762,7 +1762,7 @@
       "transform": [
         {
           "filter": {
-            "param": "param_7"
+            "param": "param_23"
           }
         }
       ],
@@ -1779,7 +1779,7 @@
             "labelFontSize": 8,
             "symbolSize": 100,
             "title": "Modalit\u00e0 Lavorativa",
-            "titleFontSize": 6
+            "titleFontSize": 9
           },
           "type": "nominal"
         },
@@ -1809,14 +1809,14 @@
         "opacity": 0.8,
         "type": "area"
       },
-      "name": "view_7",
+      "name": "view_13",
       "title": "Distribuzione del numero di annunci",
       "width": 250
     }
   ],
   "params": [
     {
-      "name": "param_7",
+      "name": "param_23",
       "select": {
         "encodings": [
           "x"
@@ -1824,7 +1824,7 @@
         "type": "interval"
       },
       "views": [
-        "view_7"
+        "view_13"
       ]
     }
   ],

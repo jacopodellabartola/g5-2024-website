@@ -1,0 +1,178 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "datasets": {
+    "data-8372e5c8164ed2b29805082404b797e4": [
+      {
+        "Descrizione": "Ben Definiti",
+        "TassoCrescCand": 23.12571705104545
+      },
+      {
+        "Descrizione": "Non Ben Definiti",
+        "TassoCrescCand": 30.837099917896282
+      }
+    ],
+    "data-a95a6a7d191f6f51982833c53192f42e": [
+      {
+        "Descrizione": "Non Ben Definiti",
+        "TassoCrescCand": 8.32447403089969,
+        "label": 0
+      },
+      {
+        "Descrizione": "Non Ben Definiti",
+        "TassoCrescCand": 81.17098676168688,
+        "label": 1
+      },
+      {
+        "Descrizione": "Ben Definiti",
+        "TassoCrescCand": 20.534616307055423,
+        "label": 2
+      },
+      {
+        "Descrizione": "Ben Definiti",
+        "TassoCrescCand": 22.76084350910607,
+        "label": 3
+      },
+      {
+        "Descrizione": "Non Ben Definiti",
+        "TassoCrescCand": 49.59845642785982,
+        "label": 4
+      },
+      {
+        "Descrizione": "Non Ben Definiti",
+        "TassoCrescCand": 11.196955089201484,
+        "label": 5
+      },
+      {
+        "Descrizione": "Non Ben Definiti",
+        "TassoCrescCand": 12.965784560143403,
+        "label": 6
+      },
+      {
+        "Descrizione": "Ben Definiti",
+        "TassoCrescCand": 29.931820804377143,
+        "label": 7
+      },
+      {
+        "Descrizione": "Non Ben Definiti",
+        "TassoCrescCand": 38.53963272468798,
+        "label": 8
+      },
+      {
+        "Descrizione": "Non Ben Definiti",
+        "TassoCrescCand": 0.08366857098692099,
+        "label": 9
+      },
+      {
+        "Descrizione": "Non Ben Definiti",
+        "TassoCrescCand": 23.36447173966954,
+        "label": 10
+      },
+      {
+        "Descrizione": "Non Ben Definiti",
+        "TassoCrescCand": 20.00959047531538,
+        "label": 11
+      }
+    ]
+  },
+  "hconcat": [
+    {
+      "data": {
+        "name": "data-a95a6a7d191f6f51982833c53192f42e"
+      },
+      "encoding": {
+        "color": {
+          "field": "Descrizione",
+          "legend": {
+            "labelFontSize": 12,
+            "titleFontSize": 14
+          },
+          "title": "Descrizione",
+          "type": "nominal"
+        },
+        "x": {
+          "axis": {
+            "labelFontSize": 12,
+            "title": "Id Cluster",
+            "titleFontSize": 12
+          },
+          "field": "label",
+          "sort": {
+            "field": "TassoCrescCand",
+            "order": "descending"
+          },
+          "type": "nominal"
+        },
+        "y": {
+          "axis": {
+            "labelFontSize": 12,
+            "title": "Tasso di Crescita dei Candidati",
+            "titleFontSize": 12
+          },
+          "field": "TassoCrescCand",
+          "type": "quantitative"
+        }
+      },
+      "height": 400,
+      "mark": {
+        "type": "bar"
+      },
+      "title": "Media del tasso di crescita per cluster",
+      "width": 300
+    },
+    {
+      "data": {
+        "name": "data-8372e5c8164ed2b29805082404b797e4"
+      },
+      "encoding": {
+        "color": {
+          "field": "Descrizione",
+          "legend": {
+            "labelFontSize": 13,
+            "titleFontSize": 15
+          },
+          "title": "Descrizione",
+          "type": "nominal"
+        },
+        "x": {
+          "axis": {
+            "labelFontSize": 12,
+            "title": "Descrizione del Cluster",
+            "titleFontSize": 12
+          },
+          "field": "Descrizione",
+          "sort": {
+            "field": "TassoCrescCand",
+            "order": "descending"
+          },
+          "type": "nominal"
+        },
+        "y": {
+          "axis": {
+            "labelFontSize": 12,
+            "title": "Tasso di Crescita dei Candidati",
+            "titleFontSize": 12
+          },
+          "field": "TassoCrescCand",
+          "type": "quantitative"
+        }
+      },
+      "height": 400,
+      "mark": {
+        "type": "bar"
+      },
+      "title": "Media del tasso di crescita per descrizione del cluster",
+      "width": 300
+    }
+  ],
+  "title": {
+    "anchor": "middle",
+    "fontSize": 20,
+    "text": "Tasso di crescita del Numero di Candidati nei Cluster individuati"
+  }
+}

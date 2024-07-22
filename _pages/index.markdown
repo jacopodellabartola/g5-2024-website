@@ -118,13 +118,65 @@ Questi cluster sono stati generati utilizzando l’algoritmo di clustering K-Mea
 <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
   <div style="width: 120%; margin-left: 0%;">
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-      <div style="flex: 1; max-width: 180%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt1_LocationType_V2.json"></vegachart></div>
-      <div style="flex: 1; max-width: 180%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt2_PosterFullName_V2.json"></vegachart></div>
+      <div style="flex: 1; max-width: 180%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt4_ClustSkills.json"></vegachart></div>
+    </div>
+  </div>
+</div>
+
+{% capture giulio1 %}
+I grafici mostrano l’andamento del tasso di crescita giornaliero di candidati rispetto ai singoli cluster individuati (sinistra) e rispetto alla loro capacità di identificarsi in un chiaro titolo (destra). <br>
+Da entrambi si nota come i cluster non ben definiti siano in grado di attrarre maggiori candidati a parità di tempo di permanenza online dell’annuncio. 
+
+{% endcapture %}
+{% include modal-component.html title="Dettagli del grafico" content=giulio1 id="giulio1" style="width: 80%; height: 30vh;" %}
+
+<div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+  <div style="width: 120%; margin-left: 0%;">
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+      <div style="flex: 1; max-width: 180%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt3FACOLTATIVO_Skills (1).json"></vegachart></div>
+    </div>
+  </div>
+</div>
+
+{% capture giulio2 %}
+Il grafico mostra l’andamento del tasso di crescita giornaliero di candidati rispetto alla frequenza osservata negli annunci della singola skill. Si nota come ci sia una significativa relazione non lineare diretta tra la frequenza della skill e la capacità degli annunci in cui è stata inserita di attrarre candidati (la correlazione è anche stata misurata con indice di Spearman ed è significativa e si attesta su valori di 0.38). <br>
+Si osserva anche che esistono alcune singole skill, poco frequenti, alle quali sono collegate buone performance di efficacia dell’annuncio. 
+
+{% endcapture %}
+{% include modal-component.html title="Dettagli del grafico" content=giulio2 id="giulio2" style="width: 80%; height: 30vh;" %}
+
+
+
+
+<div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+  <div style="width: 120%; margin-left: 0%;">
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+      <div style="flex: 1; max-width: 180%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt2_PosterFullName_v3.json"></vegachart></div>
     </div>
   </div>
 </div>
 
 
+{% capture giulio3 %}
+Il grafico sulla sinistra mostra l’andamento del numero di candidati medio al passare dei giorni di permanenza online dell’annuncio, nel caso in cui si sia presente o meno il nome del Gestore HR che seguirà il processo di recruiting. Si nota come migliorino le performance dell’annuncio se è presente il nome.<br>
+Il grafico sulla destra invece mostra la distribuzione nel tempo degli annunci online suddivisi tra presenza e assenza del gestore HR nell’annuncio. Si osserva che per la maggior parte degli annunci si è misurata una breve permanenza online e che all’aumentare di questa diminuisce la proporzione di annunci aventi il nome del Gestore HR. Questo suggerisce, come anche visto per altri casi, che una caratteristica dell’annuncio in grado di attirare candidati permette una riduzione del tempo di permanenza online dell’annuncio.
+{% endcapture %}
+{% include modal-component.html title="Dettagli del grafico" content=giulio3 id="giulio3" style="width: 80%; height: 30vh;" %}
+
+<div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+  <div style="width: 120%; margin-left: 0%;">
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+      <div style="flex: 1; max-width: 180%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt1_LocationType_v3.json"></vegachart></div>
+    </div>
+  </div>
+</div>
+
+{% capture giulio4 %}
+Il grafico sulla sinistra mostra l’andamento del numero di candidati medio al passare dei giorni di permanenza online dell’annuncio, al variare della modalità lavorativa (Da remoto, Ibrido, In sede). Si nota come migliorino le performance dell’annuncio all’aumentare della possibilità di lavorare anche da remoto. <br>
+Il grafico sulla destra invece mostra la distribuzione nel tempo degli annunci online tra le varie modalità lavorative. Come già osservato nel grafico precedente, si nota come all’aumentare della permanenza online diminuisce la proporzione di annunci aventi caratteristiche che aumentano più velocemente il numero di candidati. <br>
+
+{% endcapture %}
+{% include modal-component.html title="Dettagli del grafico" content=giulio4 id="giulio4" style="width: 80%; height: 30vh;" %}
 
 <h2 id="to-hire-or-not-to"> to hire or not to hire</h2>
 <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3769_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"linkedin","geo":"IT","time":"today 12-m"}],"category":0,"property":""}, {"exploreQuery":"geo=IT&q=linkedin&hl=it&date=today 12-m","guestPath":"https://trends.google.it:443/trends/embed/"}); </script>

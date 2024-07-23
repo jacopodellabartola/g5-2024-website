@@ -1,0 +1,1690 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-128d39d7b00d732c3066468be55f95d6"
+  },
+  "datasets": {
+    "data-128d39d7b00d732c3066468be55f95d6": [
+      {
+        "Frequenza": 3.6728447542934877,
+        "Skill": "apache",
+        "TassoCresc_avg": 36.521227363446584,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.28906648529161705,
+        "Skill": "apache airflow",
+        "TassoCresc_avg": 4.080688761239392,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 1.1052542084679475,
+        "Skill": "application development",
+        "TassoCresc_avg": 104.93958846415448,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 7.447712973984016,
+        "Skill": "aws",
+        "TassoCresc_avg": 80.34723427566502,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "aws glue",
+        "TassoCresc_avg": null,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 3.3837782690018705,
+        "Skill": "business",
+        "TassoCresc_avg": 107.93892432585825,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 2.720625743921102,
+        "Skill": "c#",
+        "TassoCresc_avg": 44.98251492409528,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 2.4825709913280054,
+        "Skill": "c++",
+        "TassoCresc_avg": 43.81667488694723,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "capital management",
+        "TassoCresc_avg": null,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.9862268321713994,
+        "Skill": "classification",
+        "TassoCresc_avg": 122.05565320603758,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.22105084169358954,
+        "Skill": "clustering",
+        "TassoCresc_avg": 282.8437491928658,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 3.570821288896446,
+        "Skill": "data analytics",
+        "TassoCresc_avg": 70.8011345588538,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.8842033667743582,
+        "Skill": "data collection",
+        "TassoCresc_avg": 26.108167205766932,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.9182111885733719,
+        "Skill": "data mining",
+        "TassoCresc_avg": 113.24863789606253,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 5.237204557048121,
+        "Skill": "data science",
+        "TassoCresc_avg": 86.07603636319871,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.595136881482741,
+        "Skill": "data structures",
+        "TassoCresc_avg": 19.00460608535633,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 3.7068525760925017,
+        "Skill": "data-driven",
+        "TassoCresc_avg": 72.90114806502625,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 15.422547185852748,
+        "Skill": "database management system",
+        "TassoCresc_avg": 132.71279917188525,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.1360312871960551,
+        "Skill": "database management systems",
+        "TassoCresc_avg": 26.881880473396055,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 1.1052542084679475,
+        "Skill": "design patterns",
+        "TassoCresc_avg": 42.03137063639027,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 1.1222581193674546,
+        "Skill": "development tools",
+        "TassoCresc_avg": 68.4365869612182,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.17003910899506888,
+        "Skill": "distributed computing",
+        "TassoCresc_avg": 143.46400764987524,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.28906648529161705,
+        "Skill": "django",
+        "TassoCresc_avg": 8333.575563041582,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.9352150994728787,
+        "Skill": "emerging technologies",
+        "TassoCresc_avg": 22.256616324436738,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 6.971603468797824,
+        "Skill": "english language",
+        "TassoCresc_avg": 39.2898557481392,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.2550586634926033,
+        "Skill": "forecasts",
+        "TassoCresc_avg": 21.281165439309625,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.11902737629654819,
+        "Skill": "french language",
+        "TassoCresc_avg": 23.915965157378213,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.11902737629654819,
+        "Skill": "german language",
+        "TassoCresc_avg": 11.057015750298689,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 1.071246386668934,
+        "Skill": "hadoop",
+        "TassoCresc_avg": 25.930829369559227,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.47610950518619277,
+        "Skill": "html",
+        "TassoCresc_avg": 43.32900092022901,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.8671994558748511,
+        "Skill": "information systems",
+        "TassoCresc_avg": 14.348594890314068,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "interface with clients",
+        "TassoCresc_avg": null,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.6631525250807685,
+        "Skill": "ios",
+        "TassoCresc_avg": 143.92153406425146,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.8331916340758374,
+        "Skill": "italian language",
+        "TassoCresc_avg": 55.4959860694582,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 8.51895936065295,
+        "Skill": "java",
+        "TassoCresc_avg": 55.061101609528556,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.17003910899506888,
+        "Skill": "keras",
+        "TassoCresc_avg": 37.96605425160143,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 8.68899846964802,
+        "Skill": "linux",
+        "TassoCresc_avg": 28.871487280625047,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "macos",
+        "TassoCresc_avg": 0.0,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 4.012922972283625,
+        "Skill": "marketing",
+        "TassoCresc_avg": 39.57391023353948,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.153035198095562,
+        "Skill": "math",
+        "TassoCresc_avg": 172.93782045552283,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.8671994558748511,
+        "Skill": "mathematics",
+        "TassoCresc_avg": 121.42964822733468,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.47610950518619277,
+        "Skill": "matlab",
+        "TassoCresc_avg": 11.663813723070792,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 14.079238224791702,
+        "Skill": "microsoft",
+        "TassoCresc_avg": 29.544459453918915,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 1.173269852065975,
+        "Skill": "microsoft office",
+        "TassoCresc_avg": 23.86507474587335,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.748172079578303,
+        "Skill": "microsoft sql server",
+        "TassoCresc_avg": 44.79185950036101,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.3740860397891515,
+        "Skill": "ms excel",
+        "TassoCresc_avg": 21.425147421259055,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.4080938615881653,
+        "Skill": "ms office",
+        "TassoCresc_avg": 12.59009218939701,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.306070396191124,
+        "Skill": "ms sql server",
+        "TassoCresc_avg": 4.66113157396031,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.2550586634926033,
+        "Skill": "neural network",
+        "TassoCresc_avg": 89.56680816610742,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.34007821799013777,
+        "Skill": "neural networks",
+        "TassoCresc_avg": 19.14963326102487,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.20404693079408265,
+        "Skill": "no-sql",
+        "TassoCresc_avg": 19.764746280500713,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 3.1457235164087742,
+        "Skill": "nosql",
+        "TassoCresc_avg": 57.11074751743354,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "numpy",
+        "TassoCresc_avg": 2.1794516055797994,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.47610950518619277,
+        "Skill": "object oriented",
+        "TassoCresc_avg": 26.975701581617407,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.18704301989457575,
+        "Skill": "object oriented programming",
+        "TassoCresc_avg": 5.664877371096328,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 2.244516238734909,
+        "Skill": "operating systems",
+        "TassoCresc_avg": 10.005541963086772,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.20404693079408265,
+        "Skill": "pandas",
+        "TassoCresc_avg": 231.40948348162246,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "parallel processing",
+        "TassoCresc_avg": 18.672844842491095,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.6291447032817548,
+        "Skill": "physics",
+        "TassoCresc_avg": 71.59126879773247,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "presto",
+        "TassoCresc_avg": 3.864872602347552,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 26.98520659751743,
+        "Skill": "programming",
+        "TassoCresc_avg": 101.41769967900021,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 1.513348070056113,
+        "Skill": "programming skills",
+        "TassoCresc_avg": 115.95290341636634,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 12.378847134841013,
+        "Skill": "python",
+        "TassoCresc_avg": 193.06388554690892,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.5781329705832341,
+        "Skill": "pytorch",
+        "TassoCresc_avg": 40.56937396759044,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.17003910899506888,
+        "Skill": "ruby",
+        "TassoCresc_avg": 277.22086888378846,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "ruby on rails",
+        "TassoCresc_avg": 110.48477074164516,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.20404693079408265,
+        "Skill": "scikit",
+        "TassoCresc_avg": 62.33399434651978,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.08501955449753444,
+        "Skill": "scikit-learn",
+        "TassoCresc_avg": 54.52514530572577,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 10.627444312191804,
+        "Skill": "software development",
+        "TassoCresc_avg": 180.64887159161643,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 1.513348070056113,
+        "Skill": "spark",
+        "TassoCresc_avg": 34.53661563021791,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 23.414385308620982,
+        "Skill": "sql",
+        "TassoCresc_avg": 43.32121129280389,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 2.720625743921102,
+        "Skill": "sql server",
+        "TassoCresc_avg": 35.60865030805998,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 2.601598367624554,
+        "Skill": "statistics",
+        "TassoCresc_avg": 60.06206278332313,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.11902737629654819,
+        "Skill": "stochastic",
+        "TassoCresc_avg": 8.778590838178085,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.32307430709063084,
+        "Skill": "system architecture",
+        "TassoCresc_avg": 7.340711154576699,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.2550586634926033,
+        "Skill": "system design",
+        "TassoCresc_avg": 28.138174070419883,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.1360312871960551,
+        "Skill": "system development",
+        "TassoCresc_avg": 10.496602341171064,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "system programming",
+        "TassoCresc_avg": 3.314147017975202,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "system testing",
+        "TassoCresc_avg": null,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.5611290596837273,
+        "Skill": "technical guidance",
+        "TassoCresc_avg": 128.73852804502934,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.6801564359802755,
+        "Skill": "tensorflow",
+        "TassoCresc_avg": 145.4783787517974,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 3.774868219690529,
+        "Skill": "troubleshooting",
+        "TassoCresc_avg": 41.722949249400216,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.5611290596837273,
+        "Skill": "unix",
+        "TassoCresc_avg": 136.41817910261793,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 6.172419656521,
+        "Skill": "visualization",
+        "TassoCresc_avg": 50.49237008548936,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 2.142492773337868,
+        "Skill": "web applications",
+        "TassoCresc_avg": 31.2952132846398,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.10202346539704132,
+        "Skill": "web platforms",
+        "TassoCresc_avg": 36.051385589935244,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 1.7684067335487164,
+        "Skill": "web services",
+        "TassoCresc_avg": 102.12710233934091,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 4.404012922972283,
+        "Skill": "windows",
+        "TassoCresc_avg": 20.129497476288986,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.06801564359802754,
+        "Skill": "workstations",
+        "TassoCresc_avg": 23.44186463240148,
+        "Tipo": "Hard Skill"
+      },
+      {
+        "Frequenza": 0.6461486141812617,
+        "Skill": "ability to adapt",
+        "TassoCresc_avg": 32.076511615261566,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to analyze problems",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.08501955449753444,
+        "Skill": "ability to coordinate",
+        "TassoCresc_avg": 0.15437558292863346,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "ability to handle confidential information",
+        "TassoCresc_avg": 15.254856747360856,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.08501955449753444,
+        "Skill": "ability to identify problems",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.32307430709063084,
+        "Skill": "ability to interact",
+        "TassoCresc_avg": 43.09061712804502,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.17003910899506888,
+        "Skill": "ability to interpret",
+        "TassoCresc_avg": 18.46721689150244,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to learn fast",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.45910559428668596,
+        "Skill": "ability to learn quickly",
+        "TassoCresc_avg": 11.587183049641252,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.06801564359802754,
+        "Skill": "ability to make decisions",
+        "TassoCresc_avg": 21.67892483573008,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to make recommendations",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to manage a team",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to manage people",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "ability to manage relationships",
+        "TassoCresc_avg": 14.569246075240713,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.748172079578303,
+        "Skill": "ability to meet deadlines",
+        "TassoCresc_avg": 7.747979228631687,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to meet tight deadlines",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to motivate",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "ability to organize work",
+        "TassoCresc_avg": 231.36954858454476,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to plan work",
+        "TassoCresc_avg": 33.08215401580592,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to present ideas",
+        "TassoCresc_avg": 120.91187707292497,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.32307430709063084,
+        "Skill": "ability to prioritize tasks",
+        "TassoCresc_avg": 13.49446495814453,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to provide training",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.06801564359802754,
+        "Skill": "ability to report",
+        "TassoCresc_avg": 1.6890835157960589,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "ability to set priorities",
+        "TassoCresc_avg": 78.06908259518366,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.28906648529161705,
+        "Skill": "ability to take initiative",
+        "TassoCresc_avg": 134.34225117625041,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 33.990817888114265,
+        "Skill": "ability to take responsibility",
+        "TassoCresc_avg": 37.46010089603964,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.17003910899506888,
+        "Skill": "ability to think creatively",
+        "TassoCresc_avg": 8.334858346258791,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.08501955449753444,
+        "Skill": "ability to think strategically",
+        "TassoCresc_avg": 22.564207093355076,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to troubleshoot problems",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "ability to work as part of a team",
+        "TassoCresc_avg": 315.27093596059115,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.9522190103723855,
+        "Skill": "ability to work collaboratively",
+        "TassoCresc_avg": 96.71890293112443,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to work cooperatively",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to work creatively",
+        "TassoCresc_avg": 2.4456521739130435,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.06801564359802754,
+        "Skill": "ability to work in a group",
+        "TassoCresc_avg": 7.999753094040307,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.17003910899506888,
+        "Skill": "ability to work in a multicultural environment",
+        "TassoCresc_avg": 59.90764238465699,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.06801564359802754,
+        "Skill": "ability to work in international teams",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to work in multicultural environment",
+        "TassoCresc_avg": 0.0,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.28906648529161705,
+        "Skill": "ability to work in multidisciplinary teams",
+        "TassoCresc_avg": 1.1210151414892375,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 3.740860397891515,
+        "Skill": "ability to work independently",
+        "TassoCresc_avg": 58.844240401634515,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.5611290596837273,
+        "Skill": "ability to work under pressure",
+        "TassoCresc_avg": 7.023204922285435,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "ability to work under stress",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ability to work with people",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.22105084169358954,
+        "Skill": "able to communicate",
+        "TassoCresc_avg": 70.53563744482663,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "able to prioritize",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "abstract thinking",
+        "TassoCresc_avg": 98.77637403391608,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.45910559428668596,
+        "Skill": "accountability",
+        "TassoCresc_avg": 26.69454379916158,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 4.829110695459956,
+        "Skill": "accurate",
+        "TassoCresc_avg": 54.12992507156309,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "achieving goals",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.1360312871960551,
+        "Skill": "active person",
+        "TassoCresc_avg": 18.825612594430243,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "administrative skills",
+        "TassoCresc_avg": 0.0,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 1.649379357252168,
+        "Skill": "ambitious",
+        "TassoCresc_avg": 68.39439140002976,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 9.471178371025337,
+        "Skill": "analytical skills",
+        "TassoCresc_avg": 47.95645427879768,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 1.2582894065635095,
+        "Skill": "articulate",
+        "TassoCresc_avg": 57.52538284720573,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "assertive",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 4.438020744771298,
+        "Skill": "attention to details",
+        "TassoCresc_avg": 366.0951766843986,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.11902737629654819,
+        "Skill": "attentive",
+        "TassoCresc_avg": 22.751311140857123,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 4.540044210168339,
+        "Skill": "autonomy",
+        "TassoCresc_avg": 30.09172392964972,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "be creative",
+        "TassoCresc_avg": 1.766355140186916,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "calm",
+        "TassoCresc_avg": 20.70397784759572,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 2.3635436150314573,
+        "Skill": "character",
+        "TassoCresc_avg": 22.30389738563298,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "client orientation",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 1.2412854956640027,
+        "Skill": "coaching",
+        "TassoCresc_avg": 15.821903815059747,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "coaching skills",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "commitment to work",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.17003910899506888,
+        "Skill": "communication abilities",
+        "TassoCresc_avg": 23.98485553239139,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 19.5034858017344,
+        "Skill": "communication skills",
+        "TassoCresc_avg": 53.71884792851939,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.18704301989457575,
+        "Skill": "communications skills",
+        "TassoCresc_avg": 39.242017826108345,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "conceptual skills",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "conceptual thinking",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.7821799013773167,
+        "Skill": "confident",
+        "TassoCresc_avg": 64.37898113208226,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "conflict management",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.42509777248767217,
+        "Skill": "constructive feedback",
+        "TassoCresc_avg": 90.726976410054,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.5101173269852066,
+        "Skill": "consulting skills",
+        "TassoCresc_avg": 18.853440104335036,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.306070396191124,
+        "Skill": "coordination skills",
+        "TassoCresc_avg": 6.950681836609485,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.06801564359802754,
+        "Skill": "creative",
+        "TassoCresc_avg": 14.246173856744617,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 3.774868219690529,
+        "Skill": "creative thinking",
+        "TassoCresc_avg": 57.50210628469037,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 1.4113246046590715,
+        "Skill": "critical thinking",
+        "TassoCresc_avg": 39.805083109384874,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 1.649379357252168,
+        "Skill": "curious",
+        "TassoCresc_avg": 41.17887864077698,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 1.5303519809556199,
+        "Skill": "customer orientation",
+        "TassoCresc_avg": 23.34722680479145,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "customer orientation skills",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "decision making skills",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.11902737629654819,
+        "Skill": "dedication",
+        "TassoCresc_avg": 11.184725338369281,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "dedication to quality",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.06801564359802754,
+        "Skill": "diligent",
+        "TassoCresc_avg": 34.07611910865707,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.17003910899506888,
+        "Skill": "disciplined",
+        "TassoCresc_avg": 10.299768519843473,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.153035198095562,
+        "Skill": "discretion",
+        "TassoCresc_avg": 30.508121514532775,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "dynamic person",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.39108995068865837,
+        "Skill": "empathy",
+        "TassoCresc_avg": 37.04934438657896,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.34007821799013777,
+        "Skill": "energetic",
+        "TassoCresc_avg": 16.8087439168998,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 2.210508416935895,
+        "Skill": "enthusiasm",
+        "TassoCresc_avg": 72.92200972829454,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "facilitation skills",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 14.385308620982826,
+        "Skill": "flexibility",
+        "TassoCresc_avg": 148.90471031558184,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "hardworking",
+        "TassoCresc_avg": 0.8602293861722665,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "imagination",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "independent worker",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.1360312871960551,
+        "Skill": "influencing skills",
+        "TassoCresc_avg": 8.596536746146855,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "ingenuity",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 6.682536983506207,
+        "Skill": "initiative",
+        "TassoCresc_avg": 55.836874833888736,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 17.360993028396532,
+        "Skill": "innovative",
+        "TassoCresc_avg": 46.3095971435677,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "interact with the team",
+        "TassoCresc_avg": 27.688314185454022,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "international outlook",
+        "TassoCresc_avg": 41.019797749608315,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 4.080938615881653,
+        "Skill": "interpersonal skills",
+        "TassoCresc_avg": 44.53899543735374,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "interpretation skills",
+        "TassoCresc_avg": 5.674553829448132,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.18704301989457575,
+        "Skill": "judgment",
+        "TassoCresc_avg": 5.65422304212214,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 5.13518109165108,
+        "Skill": "leadership",
+        "TassoCresc_avg": 60.014171816238346,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.5611290596837273,
+        "Skill": "learn quickly",
+        "TassoCresc_avg": 11.587183049641252,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 2.5335827240265263,
+        "Skill": "learning skills",
+        "TassoCresc_avg": 29.161445831453776,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "level of motivation",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.28906648529161705,
+        "Skill": "listening skills",
+        "TassoCresc_avg": 7.096082923247301,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.28906648529161705,
+        "Skill": "make decisions",
+        "TassoCresc_avg": 20.22626295589746,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 6.274443121918042,
+        "Skill": "management skills",
+        "TassoCresc_avg": 38.58613204483396,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "managing skills",
+        "TassoCresc_avg": 20.287573032776695,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "managing tasks",
+        "TassoCresc_avg": 48.31572146314596,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.32307430709063084,
+        "Skill": "maturity",
+        "TassoCresc_avg": 55.74406899663555,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "mentoring skills",
+        "TassoCresc_avg": 2.5331757616216652,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.17003910899506888,
+        "Skill": "methodical",
+        "TassoCresc_avg": 2.335087429682487,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "monitoring skills",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 8.654990647849004,
+        "Skill": "motivated",
+        "TassoCresc_avg": 43.19015004732584,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.306070396191124,
+        "Skill": "multitasking skills",
+        "TassoCresc_avg": 21.484311397501266,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.42509777248767217,
+        "Skill": "negotiation skills",
+        "TassoCresc_avg": 13.365643178491155,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "open to change",
+        "TassoCresc_avg": 82.85334240727565,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "open to new ideas",
+        "TassoCresc_avg": 0.0,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.08501955449753444,
+        "Skill": "oral skills",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 4.846114606359462,
+        "Skill": "organizational skills",
+        "TassoCresc_avg": 24.166861153956166,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.06801564359802754,
+        "Skill": "outgoing",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.06801564359802754,
+        "Skill": "patience",
+        "TassoCresc_avg": 6.500431669290539,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.42509777248767217,
+        "Skill": "people management skills",
+        "TassoCresc_avg": 6.054971821796866,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "personal management",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.5781329705832341,
+        "Skill": "planning skills",
+        "TassoCresc_avg": 15.331194837551042,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.08501955449753444,
+        "Skill": "polite",
+        "TassoCresc_avg": 0.4635416946097183,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 2.9246726747151843,
+        "Skill": "positive attitude",
+        "TassoCresc_avg": 25.275127771644858,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 1.6153715354531542,
+        "Skill": "presentation skills",
+        "TassoCresc_avg": 56.185457547950065,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 9.709233123618432,
+        "Skill": "proactive",
+        "TassoCresc_avg": 53.97417492664085,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 2.8396531202176503,
+        "Skill": "problem solving",
+        "TassoCresc_avg": 46.936109688166965,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.4931134160856997,
+        "Skill": "problem solving skills",
+        "TassoCresc_avg": 59.9844109429872,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.06801564359802754,
+        "Skill": "professional attitude",
+        "TassoCresc_avg": 7.077748032099144,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.17003910899506888,
+        "Skill": "professional manner",
+        "TassoCresc_avg": 2.6409439995011335,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.6971603468797823,
+        "Skill": "professionalism",
+        "TassoCresc_avg": 34.51184338492331,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 5.1691889134500935,
+        "Skill": "project management skills",
+        "TassoCresc_avg": 27.628474583991842,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.18704301989457575,
+        "Skill": "public speaking",
+        "TassoCresc_avg": 18.329780867684562,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "public speaking skills",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.47610950518619277,
+        "Skill": "punctuality",
+        "TassoCresc_avg": 38.25941025098395,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.18704301989457575,
+        "Skill": "quick learner",
+        "TassoCresc_avg": 300.4538370409018,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.11902737629654819,
+        "Skill": "quickly learn new technologies",
+        "TassoCresc_avg": 252.49000829814267,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.10202346539704132,
+        "Skill": "reasoning skills",
+        "TassoCresc_avg": 5.684908401886122,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "relationship builder",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 1.9894575752423058,
+        "Skill": "reliable",
+        "TassoCresc_avg": 49.31558332213947,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "reporting skills",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.5611290596837273,
+        "Skill": "respectful",
+        "TassoCresc_avg": 13.469097204891117,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.1360312871960551,
+        "Skill": "results oriented",
+        "TassoCresc_avg": 16.334835313993967,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.3740860397891515,
+        "Skill": "sensitivity",
+        "TassoCresc_avg": 31.036083092530387,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.017003910899506886,
+        "Skill": "service mentality",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "skills to communicate",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "social skills",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "staff management",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.17003910899506888,
+        "Skill": "strategic thinking",
+        "TassoCresc_avg": 44.7942683013008,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.42509777248767217,
+        "Skill": "systematic",
+        "TassoCresc_avg": 26.124093172597735,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 4.6930794082639,
+        "Skill": "tact",
+        "TassoCresc_avg": 100.39464527745302,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.153035198095562,
+        "Skill": "team building skills",
+        "TassoCresc_avg": 7.923879399289235,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.18704301989457575,
+        "Skill": "team management skills",
+        "TassoCresc_avg": 87.65172818851671,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "team working abilities",
+        "TassoCresc_avg": 1.2927551844869376,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "team working ability",
+        "TassoCresc_avg": 83.77590068771651,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 21.322904267981635,
+        "Skill": "team working skills",
+        "TassoCresc_avg": 40.199936275215286,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 1.3943206937595647,
+        "Skill": "time management",
+        "TassoCresc_avg": 60.322346669751006,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.748172079578303,
+        "Skill": "tolerant",
+        "TassoCresc_avg": 34.70853741037832,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.03400782179901377,
+        "Skill": "training skills",
+        "TassoCresc_avg": null,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.05101173269852066,
+        "Skill": "verbal skills",
+        "TassoCresc_avg": 7.222978987071615,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.11902737629654819,
+        "Skill": "versatility",
+        "TassoCresc_avg": 2.089918080371541,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.153035198095562,
+        "Skill": "willing to learn",
+        "TassoCresc_avg": 125.9613847451634,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 4.6930794082639,
+        "Skill": "willing to travel",
+        "TassoCresc_avg": 15.81134338407893,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 1.2412854956640027,
+        "Skill": "willingness to learn",
+        "TassoCresc_avg": 70.23163360244789,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.17003910899506888,
+        "Skill": "work ethic",
+        "TassoCresc_avg": 4.7830706412875985,
+        "Tipo": "Soft Skill"
+      },
+      {
+        "Frequenza": 0.10202346539704132,
+        "Skill": "work under stress",
+        "TassoCresc_avg": 7.724641796599268,
+        "Tipo": "Soft Skill"
+      }
+    ]
+  },
+  "encoding": {
+    "color": {
+      "field": "Tipo",
+      "legend": {
+        "labelFontSize": 12,
+        "symbolSize": 100,
+        "title": "Tipo di Skill",
+        "titleFontSize": 12
+      },
+      "scale": {
+        "domain": [
+          "Hard Skill",
+          "Soft Skill"
+        ],
+        "range": [
+          "#1f77b4",
+          "#ff7f0e"
+        ]
+      },
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "Skill",
+        "type": "nominal"
+      },
+      {
+        "field": "Tipo",
+        "type": "nominal"
+      },
+      {
+        "field": "Frequenza",
+        "type": "quantitative"
+      },
+      {
+        "field": "TassoCresc_avg",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "axis": {
+        "title": "Frequenza (%)"
+      },
+      "field": "Frequenza",
+      "type": "quantitative"
+    },
+    "y": {
+      "axis": {
+        "title": "Tasso di Crescita del numero di candidati (Medio)"
+      },
+      "field": "TassoCresc_avg",
+      "type": "quantitative"
+    }
+  },
+  "height": 200,
+  "mark": {
+    "size": 150,
+    "type": "circle"
+  },
+  "params": [
+    {
+      "bind": {
+        "input": "select",
+        "name": "Seleziona Tipo: ",
+        "options": [
+          "Hard Skill",
+          "Soft Skill"
+        ]
+      },
+      "name": "param_11",
+      "select": {
+        "fields": [
+          "Tipo"
+        ],
+        "type": "point"
+      }
+    },
+    {
+      "bind": "scales",
+      "name": "param_12",
+      "select": {
+        "encodings": [
+          "x",
+          "y"
+        ],
+        "type": "interval"
+      }
+    }
+  ],
+  "title": {
+    "fontSize": 12,
+    "text": "Tasso di Crescita del Numero di candidati al variare skills"
+  },
+  "transform": [
+    {
+      "filter": {
+        "empty": true,
+        "param": "param_11"
+      }
+    }
+  ],
+  "width": 400
+}

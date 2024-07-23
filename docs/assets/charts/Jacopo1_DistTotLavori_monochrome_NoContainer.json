@@ -15,85 +15,85 @@
     "url": "https://raw.githubusercontent.com/openpolis/geojson-italy/master/topojson/limits_IT_all.topo.json"
   },
   "datasets": {
-    "data-0ca79f06026625846ffb4e320c780ef9": [
+    "data-f420e8af4a4d0c602e7ec960cd4786b0": [
       {
-        "annunci_per_100k": 0.9429314323835657,
+        "annunci_per_100k": 1.9706624663403813,
         "reg_name": "Abruzzo"
       },
       {
-        "annunci_per_100k": 0.1860198632009926,
+        "annunci_per_100k": 0.6614040947527506,
         "reg_name": "Basilicata"
       },
       {
-        "annunci_per_100k": 0.9747591532592155,
+        "annunci_per_100k": 2.330212466830882,
         "reg_name": "Calabria"
       },
       {
-        "annunci_per_100k": 4.224948373626624,
+        "annunci_per_100k": 8.045095273097987,
         "reg_name": "Campania"
       },
       {
-        "annunci_per_100k": 9.306878662189149,
+        "annunci_per_100k": 17.426714227241938,
         "reg_name": "Emilia-Romagna"
       },
       {
-        "annunci_per_100k": 1.7584287350701027,
+        "annunci_per_100k": 4.276460984166404,
         "reg_name": "Friuli-Venezia Giulia"
       },
       {
-        "annunci_per_100k": 11.624784810374413,
+        "annunci_per_100k": 22.851674559071423,
         "reg_name": "Lazio"
       },
       {
-        "annunci_per_100k": 6.898216810954368,
+        "annunci_per_100k": 13.027218283332164,
         "reg_name": "Liguria"
       },
       {
-        "annunci_per_100k": 13.14562596091668,
+        "annunci_per_100k": 41.60189764542885,
         "reg_name": "Lombardia"
       },
       {
-        "annunci_per_100k": 1.5495540652887763,
+        "annunci_per_100k": 2.9373356162958486,
         "reg_name": "Marche"
       },
       {
-        "annunci_per_100k": 0.0,
+        "annunci_per_100k": 4.932030455288062,
         "reg_name": "Molise"
       },
       {
-        "annunci_per_100k": 10.140162454342802,
+        "annunci_per_100k": 22.65855527509585,
         "reg_name": "Piemonte"
       },
       {
-        "annunci_per_100k": 4.324813450835188,
+        "annunci_per_100k": 9.219451850839361,
         "reg_name": "Puglia"
       },
       {
-        "annunci_per_100k": 0.5069239474674714,
+        "annunci_per_100k": 3.1119617139795985,
         "reg_name": "Sardegna"
       },
       {
-        "annunci_per_100k": 1.0386338558077082,
+        "annunci_per_100k": 1.9427203838815479,
         "reg_name": "Sicilia"
       },
       {
-        "annunci_per_100k": 3.631913983169219,
+        "annunci_per_100k": 16.719686540503936,
         "reg_name": "Toscana"
       },
       {
-        "annunci_per_100k": 7.427054717897252,
+        "annunci_per_100k": 17.950520313446283,
         "reg_name": "Trentino-Alto Adige/S\u00fcdtirol"
       },
       {
-        "annunci_per_100k": 3.269473509674723,
+        "annunci_per_100k": 8.137219212402835,
         "reg_name": "Umbria"
       },
       {
-        "annunci_per_100k": 0.8121497604158207,
+        "annunci_per_100k": 1.465695399182142,
         "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste"
       },
       {
-        "annunci_per_100k": 3.5673390929019644,
+        "annunci_per_100k": 17.383541322003584,
         "reg_name": "Veneto"
       }
     ]
@@ -111,12 +111,15 @@
       "scale": {
         "domain": [
           0,
-          10
+          40
         ],
         "scheme": "tealblues",
         "type": "quantize"
       },
-      "title": "Annunci per 100k ab.",
+      "title": [
+        "Annunci di lavoro",
+        "(per 100k ab. di et\u00e0 24-65)"
+      ],
       "type": "quantitative"
     },
     "tooltip": [
@@ -133,7 +136,7 @@
       }
     ]
   },
-  "height": 200,
+  "height": 400,
   "mark": {
     "stroke": "#fff",
     "strokeWidth": 0.25,
@@ -142,12 +145,12 @@
   "projection": {
     "type": "mercator"
   },
-  "title": "Distribuzione degli annunci di Lavoro per Regione in Italia",
+  "title": " ",
   "transform": [
     {
       "from": {
         "data": {
-          "name": "data-0ca79f06026625846ffb4e320c780ef9"
+          "name": "data-f420e8af4a4d0c602e7ec960cd4786b0"
         },
         "fields": [
           "annunci_per_100k"
@@ -157,5 +160,5 @@
       "lookup": "properties.reg_name"
     }
   ],
-  "width": 200
+  "width": 400
 }

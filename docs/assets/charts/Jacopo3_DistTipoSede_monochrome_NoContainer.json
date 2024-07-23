@@ -8,584 +8,442 @@
     }
   },
   "datasets": {
-    "data-7631aa6931791d249eaa89a576a4088c": [
+    "data-5b8ab9ca29e70f5ad0559dfd4ddbd4f1": [
       {
-        "Popolazione": 1272627,
-        "annunci_per_100k": 0.20570206113465256,
-        "locationType": "Ibrido",
-        "num_annunci": 1.0,
-        "reg_name": "Abruzzo"
-      },
-      {
-        "Popolazione": 537577,
-        "annunci_per_100k": 0.5841121495327103,
-        "locationType": "Ibrido",
-        "num_annunci": 1.0,
-        "reg_name": "Basilicata"
-      },
-      {
-        "Popolazione": 1846610,
-        "annunci_per_100k": 1.721197327449968,
-        "locationType": "Ibrido",
-        "num_annunci": 11.0,
-        "reg_name": "Calabria"
-      },
-      {
-        "Popolazione": 5609536,
-        "annunci_per_100k": 0.9604563420393829,
-        "locationType": "Ibrido",
-        "num_annunci": 138.0,
-        "reg_name": "Campania"
-      },
-      {
-        "Popolazione": 4437578,
-        "annunci_per_100k": 1.177551767479604,
-        "locationType": "Ibrido",
-        "num_annunci": 230.0,
-        "reg_name": "Emilia-Romagna"
-      },
-      {
-        "Popolazione": 1194248,
-        "annunci_per_100k": 0.26635130671951074,
-        "locationType": "Ibrido",
-        "num_annunci": 10.0,
-        "reg_name": "Friuli-Venezia Giulia"
-      },
-      {
-        "Popolazione": 5720536,
-        "annunci_per_100k": 1.20720608172947,
-        "locationType": "Ibrido",
-        "num_annunci": 373.0,
-        "reg_name": "Lazio"
-      },
-      {
-        "Popolazione": 1507636,
-        "annunci_per_100k": 0.7914072170006933,
-        "locationType": "Ibrido",
-        "num_annunci": 50.0,
-        "reg_name": "Liguria"
-      },
-      {
-        "Popolazione": 9972899,
-        "annunci_per_100k": 2.5333568805607487,
-        "locationType": "Ibrido",
-        "num_annunci": 832.0,
-        "reg_name": "Lombardia"
-      },
-      {
-        "Popolazione": 1484298,
-        "annunci_per_100k": 0.27258726199724687,
-        "locationType": "Ibrido",
-        "num_annunci": 6.0,
-        "reg_name": "Marche"
-      },
-      {
-        "Popolazione": 290636,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
-        "reg_name": "Molise"
-      },
-      {
-        "Popolazione": 4250425,
-        "annunci_per_100k": 1.8700021467289218,
-        "locationType": "Ibrido",
-        "num_annunci": 223.0,
-        "reg_name": "Piemonte"
-      },
-      {
-        "Popolazione": 3907683,
-        "annunci_per_100k": 1.5707742672960132,
-        "locationType": "Ibrido",
-        "num_annunci": 101.0,
-        "reg_name": "Puglia"
-      },
-      {
-        "Popolazione": 1578146,
-        "annunci_per_100k": 0.2409505844772749,
-        "locationType": "Ibrido",
-        "num_annunci": 7.0,
-        "reg_name": "Sardegna"
-      },
-      {
-        "Popolazione": 4814016,
-        "annunci_per_100k": 0.2038125825306872,
-        "locationType": "Ibrido",
-        "num_annunci": 19.0,
-        "reg_name": "Sicilia"
-      },
-      {
-        "Popolazione": 3661981,
-        "annunci_per_100k": 0.5233507908204271,
-        "locationType": "Ibrido",
-        "num_annunci": 56.0,
-        "reg_name": "Toscana"
-      },
-      {
-        "Popolazione": 1077143,
-        "annunci_per_100k": 0.9512589546395827,
-        "locationType": "Ibrido",
-        "num_annunci": 26.0,
-        "reg_name": "Trentino-Alto Adige/S\u00fcdtirol"
-      },
-      {
-        "Popolazione": 856407,
-        "annunci_per_100k": 0.21827944862611276,
-        "locationType": "Ibrido",
-        "num_annunci": 6.0,
-        "reg_name": "Umbria"
-      },
-      {
-        "Popolazione": 123130,
-        "annunci_per_100k": 0.3016227302889546,
-        "locationType": "Ibrido",
-        "num_annunci": 1.0,
-        "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste"
-      },
-      {
-        "Popolazione": 4849553,
-        "annunci_per_100k": 0.5061348441186315,
-        "locationType": "Ibrido",
-        "num_annunci": 62.0,
-        "reg_name": "Veneto"
-      }
-    ],
-    "data-7946dbaba4f5b41658991234db70c399": [
-      {
-        "Popolazione": 1272627,
-        "annunci_per_100k": 0.25524203325803696,
+        "Popolazione": 710421,
+        "annunci_per_100k": 0.11260928379087894,
         "locationType": "In sede",
         "num_annunci": 8.0,
         "reg_name": "Abruzzo"
       },
       {
-        "Popolazione": 537577,
+        "Popolazione": 302387,
         "annunci_per_100k": 0.0,
         "locationType": null,
         "num_annunci": 0.0,
         "reg_name": "Basilicata"
       },
       {
-        "Popolazione": 1846610,
-        "annunci_per_100k": 0.5530929749290856,
+        "Popolazione": 1029949,
+        "annunci_per_100k": 0.0679645302825674,
         "locationType": "In sede",
         "num_annunci": 7.0,
         "reg_name": "Calabria"
       },
       {
-        "Popolazione": 5609536,
-        "annunci_per_100k": 0.44759272953722806,
+        "Popolazione": 3182063,
+        "annunci_per_100k": 0.21998307387377308,
         "locationType": "In sede",
-        "num_annunci": 69.0,
+        "num_annunci": 70.0,
         "reg_name": "Campania"
       },
       {
-        "Popolazione": 4437578,
-        "annunci_per_100k": 0.7464764592264245,
+        "Popolazione": 2484691,
+        "annunci_per_100k": 0.615770733664669,
         "locationType": "In sede",
-        "num_annunci": 152.0,
+        "num_annunci": 153.0,
         "reg_name": "Emilia-Romagna"
       },
       {
-        "Popolazione": 1194248,
-        "annunci_per_100k": 0.6572720580502681,
+        "Popolazione": 654747,
+        "annunci_per_100k": 0.13745767449106297,
         "locationType": "In sede",
-        "num_annunci": 10.0,
+        "num_annunci": 9.0,
         "reg_name": "Friuli-Venezia Giulia"
       },
       {
-        "Popolazione": 5720536,
-        "annunci_per_100k": 0.6293576693399082,
+        "Popolazione": 3264531,
+        "annunci_per_100k": 0.6095822033854174,
         "locationType": "In sede",
         "num_annunci": 199.0,
         "reg_name": "Lazio"
       },
       {
-        "Popolazione": 1507636,
-        "annunci_per_100k": 0.6493022073512061,
+        "Popolazione": 813681,
+        "annunci_per_100k": 0.5776219427515206,
         "locationType": "In sede",
         "num_annunci": 47.0,
         "reg_name": "Liguria"
       },
       {
-        "Popolazione": 9972899,
-        "annunci_per_100k": 1.1810199531560759,
+        "Popolazione": 5610321,
+        "annunci_per_100k": 0.9749887751520813,
         "locationType": "In sede",
-        "num_annunci": 369.0,
+        "num_annunci": 547.0,
         "reg_name": "Lombardia"
       },
       {
-        "Popolazione": 1484298,
-        "annunci_per_100k": 0.3180155827635554,
+        "Popolazione": 817067,
+        "annunci_per_100k": 0.18358347601849054,
         "locationType": "In sede",
-        "num_annunci": 14.0,
+        "num_annunci": 15.0,
         "reg_name": "Marche"
       },
       {
-        "Popolazione": 290636,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
+        "Popolazione": 162205,
+        "annunci_per_100k": 0.061650380691100765,
+        "locationType": "In sede",
+        "num_annunci": 1.0,
         "reg_name": "Molise"
       },
       {
-        "Popolazione": 4250425,
-        "annunci_per_100k": 0.9165614971102675,
+        "Popolazione": 2334659,
+        "annunci_per_100k": 0.6253589924695641,
         "locationType": "In sede",
-        "num_annunci": 143.0,
+        "num_annunci": 146.0,
         "reg_name": "Piemonte"
       },
       {
-        "Popolazione": 3907683,
-        "annunci_per_100k": 0.7328992940847254,
+        "Popolazione": 2180173,
+        "annunci_per_100k": 0.3440093974193791,
         "locationType": "In sede",
-        "num_annunci": 66.0,
+        "num_annunci": 75.0,
         "reg_name": "Puglia"
       },
       {
-        "Popolazione": 1578146,
-        "annunci_per_100k": 0.06743270216324108,
+        "Popolazione": 899754,
+        "annunci_per_100k": 0.07779904284948998,
         "locationType": "In sede",
-        "num_annunci": 1.0,
+        "num_annunci": 7.0,
         "reg_name": "Sardegna"
       },
       {
-        "Popolazione": 4814016,
-        "annunci_per_100k": 0.1716316484468945,
+        "Popolazione": 2676659,
+        "annunci_per_100k": 0.059776011811739936,
         "locationType": "In sede",
         "num_annunci": 16.0,
         "reg_name": "Sicilia"
       },
       {
-        "Popolazione": 3661981,
-        "annunci_per_100k": 0.5444772582738764,
+        "Popolazione": 2021569,
+        "annunci_per_100k": 0.5193985463766015,
         "locationType": "In sede",
-        "num_annunci": 50.0,
+        "num_annunci": 105.0,
         "reg_name": "Toscana"
       },
       {
-        "Popolazione": 1077143,
-        "annunci_per_100k": 1.6569678813345883,
+        "Popolazione": 596083,
+        "annunci_per_100k": 0.8388093604414151,
         "locationType": "In sede",
         "num_annunci": 50.0,
         "reg_name": "Trentino-Alto Adige/S\u00fcdtirol"
       },
       {
-        "Popolazione": 856407,
-        "annunci_per_100k": 0.8246013935763551,
+        "Popolazione": 466990,
+        "annunci_per_100k": 0.3640334910811795,
         "locationType": "In sede",
-        "num_annunci": 14.0,
+        "num_annunci": 17.0,
         "reg_name": "Umbria"
       },
       {
-        "Popolazione": 123130,
+        "Popolazione": 68227,
         "annunci_per_100k": 0.0,
         "locationType": null,
         "num_annunci": 0.0,
         "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste"
       },
       {
-        "Popolazione": 4849553,
-        "annunci_per_100k": 0.5900445671960329,
+        "Popolazione": 2715212,
+        "annunci_per_100k": 0.791835039031943,
         "locationType": "In sede",
-        "num_annunci": 94.0,
+        "num_annunci": 215.0,
         "reg_name": "Veneto"
       }
     ],
-    "data-b828e276fb3c10a050f4d67eb3f4e11d": [
+    "data-cbe0088cc4e6d41a9d996c58d14eda37": [
       {
-        "Popolazione": 1272627,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
+        "Popolazione": 710421,
+        "annunci_per_100k": 0.014076160473859867,
+        "locationType": "Ibrido",
+        "num_annunci": 1,
         "reg_name": "Abruzzo"
       },
       {
-        "Popolazione": 537577,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
+        "Popolazione": 302387,
+        "annunci_per_100k": 0.03307020473763753,
+        "locationType": "Ibrido",
+        "num_annunci": 1,
         "reg_name": "Basilicata"
       },
       {
-        "Popolazione": 1846610,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
+        "Popolazione": 1029949,
+        "annunci_per_100k": 0.10680140472974875,
+        "locationType": "Ibrido",
+        "num_annunci": 11,
         "reg_name": "Calabria"
       },
       {
-        "Popolazione": 5609536,
-        "annunci_per_100k": 0.22888033917886452,
-        "locationType": "Non Specificato",
-        "num_annunci": 21.0,
+        "Popolazione": 3182063,
+        "annunci_per_100k": 0.4336809170654384,
+        "locationType": "Ibrido",
+        "num_annunci": 138,
         "reg_name": "Campania"
       },
       {
-        "Popolazione": 4437578,
-        "annunci_per_100k": 0.5090495120066268,
-        "locationType": "Non Specificato",
-        "num_annunci": 22.0,
+        "Popolazione": 2484691,
+        "annunci_per_100k": 0.945791649746387,
+        "locationType": "Ibrido",
+        "num_annunci": 235,
         "reg_name": "Emilia-Romagna"
       },
       {
-        "Popolazione": 1194248,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
+        "Popolazione": 654747,
+        "annunci_per_100k": 0.1527307494345144,
+        "locationType": "Ibrido",
+        "num_annunci": 10,
         "reg_name": "Friuli-Venezia Giulia"
       },
       {
-        "Popolazione": 5720536,
-        "annunci_per_100k": 0.13924936025630452,
-        "locationType": "Non Specificato",
-        "num_annunci": 39.0,
+        "Popolazione": 3264531,
+        "annunci_per_100k": 1.1487101822589523,
+        "locationType": "Ibrido",
+        "num_annunci": 375,
         "reg_name": "Lazio"
       },
       {
-        "Popolazione": 1507636,
-        "annunci_per_100k": 0.07051017638120621,
-        "locationType": "Non Specificato",
+        "Popolazione": 813681,
+        "annunci_per_100k": 0.6267812570282457,
+        "locationType": "Ibrido",
+        "num_annunci": 51,
+        "reg_name": "Liguria"
+      },
+      {
+        "Popolazione": 5610321,
+        "annunci_per_100k": 2.267249948799721,
+        "locationType": "Ibrido",
+        "num_annunci": 1272,
+        "reg_name": "Lombardia"
+      },
+      {
+        "Popolazione": 817067,
+        "annunci_per_100k": 0.07343339040739622,
+        "locationType": "Ibrido",
+        "num_annunci": 6,
+        "reg_name": "Marche"
+      },
+      {
+        "Popolazione": 162205,
+        "annunci_per_100k": 0.061650380691100765,
+        "locationType": "Ibrido",
+        "num_annunci": 1,
+        "reg_name": "Molise"
+      },
+      {
+        "Popolazione": 2334659,
+        "annunci_per_100k": 0.9765880156374014,
+        "locationType": "Ibrido",
+        "num_annunci": 228,
+        "reg_name": "Piemonte"
+      },
+      {
+        "Popolazione": 2180173,
+        "annunci_per_100k": 0.5550018278365982,
+        "locationType": "Ibrido",
+        "num_annunci": 121,
+        "reg_name": "Puglia"
+      },
+      {
+        "Popolazione": 899754,
+        "annunci_per_100k": 0.22228297956997134,
+        "locationType": "Ibrido",
+        "num_annunci": 20,
+        "reg_name": "Sardegna"
+      },
+      {
+        "Popolazione": 2676659,
+        "annunci_per_100k": 0.07098401402644117,
+        "locationType": "Ibrido",
+        "num_annunci": 19,
+        "reg_name": "Sicilia"
+      },
+      {
+        "Popolazione": 2021569,
+        "annunci_per_100k": 0.791464451621488,
+        "locationType": "Ibrido",
+        "num_annunci": 160,
+        "reg_name": "Toscana"
+      },
+      {
+        "Popolazione": 596083,
+        "annunci_per_100k": 0.4361808674295358,
+        "locationType": "Ibrido",
+        "num_annunci": 26,
+        "reg_name": "Trentino-Alto Adige/S\u00fcdtirol"
+      },
+      {
+        "Popolazione": 466990,
+        "annunci_per_100k": 0.21413734769481146,
+        "locationType": "Ibrido",
+        "num_annunci": 10,
+        "reg_name": "Umbria"
+      },
+      {
+        "Popolazione": 68227,
+        "annunci_per_100k": 0.1465695399182142,
+        "locationType": "Ibrido",
+        "num_annunci": 1,
+        "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste"
+      },
+      {
+        "Popolazione": 2715212,
+        "annunci_per_100k": 0.7034441509539586,
+        "locationType": "Ibrido",
+        "num_annunci": 191,
+        "reg_name": "Veneto"
+      }
+    ],
+    "data-ed290de5974eecdfd1c394d1d60a851d": [
+      {
+        "Popolazione": 710421,
+        "annunci_per_100k": 0.07038080236929933,
+        "locationType": "Da remoto",
+        "num_annunci": 5.0,
+        "reg_name": "Abruzzo"
+      },
+      {
+        "Popolazione": 302387,
+        "annunci_per_100k": 0.03307020473763753,
+        "locationType": "Da remoto",
+        "num_annunci": 1.0,
+        "reg_name": "Basilicata"
+      },
+      {
+        "Popolazione": 1029949,
+        "annunci_per_100k": 0.058255311670772046,
+        "locationType": "Da remoto",
+        "num_annunci": 6.0,
+        "reg_name": "Calabria"
+      },
+      {
+        "Popolazione": 3182063,
+        "annunci_per_100k": 0.08170799886740143,
+        "locationType": "Da remoto",
+        "num_annunci": 26.0,
+        "reg_name": "Campania"
+      },
+      {
+        "Popolazione": 2484691,
+        "annunci_per_100k": 0.09256684231560383,
+        "locationType": "Da remoto",
+        "num_annunci": 23.0,
+        "reg_name": "Emilia-Romagna"
+      },
+      {
+        "Popolazione": 654747,
+        "annunci_per_100k": 0.13745767449106297,
+        "locationType": "Da remoto",
+        "num_annunci": 9.0,
+        "reg_name": "Friuli-Venezia Giulia"
+      },
+      {
+        "Popolazione": 3264531,
+        "annunci_per_100k": 0.4043459841551512,
+        "locationType": "Da remoto",
+        "num_annunci": 132.0,
+        "reg_name": "Lazio"
+      },
+      {
+        "Popolazione": 813681,
+        "annunci_per_100k": 0.04915931427672515,
+        "locationType": "Da remoto",
         "num_annunci": 4.0,
         "reg_name": "Liguria"
       },
       {
-        "Popolazione": 9972899,
-        "annunci_per_100k": 0.4041425839529676,
-        "locationType": "Non Specificato",
-        "num_annunci": 66.0,
+        "Popolazione": 5610321,
+        "annunci_per_100k": 0.7165365404225533,
+        "locationType": "Da remoto",
+        "num_annunci": 402.0,
         "reg_name": "Lombardia"
       },
       {
-        "Popolazione": 1484298,
-        "annunci_per_100k": 0.28787747934479085,
-        "locationType": "Non Specificato",
-        "num_annunci": 1.0,
+        "Popolazione": 817067,
+        "annunci_per_100k": 0.024477796802465403,
+        "locationType": "Da remoto",
+        "num_annunci": 2.0,
         "reg_name": "Marche"
       },
       {
-        "Popolazione": 290636,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
+        "Popolazione": 162205,
+        "annunci_per_100k": 0.3699022841466046,
+        "locationType": "Da remoto",
+        "num_annunci": 6.0,
         "reg_name": "Molise"
       },
       {
-        "Popolazione": 4250425,
-        "annunci_per_100k": 0.30509583691470255,
-        "locationType": "Non Specificato",
-        "num_annunci": 29.0,
+        "Popolazione": 2334659,
+        "annunci_per_100k": 0.526843534751756,
+        "locationType": "Da remoto",
+        "num_annunci": 123.0,
         "reg_name": "Piemonte"
       },
       {
-        "Popolazione": 3907683,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
+        "Popolazione": 2180173,
+        "annunci_per_100k": 0.022933959827958608,
+        "locationType": "Da remoto",
+        "num_annunci": 5.0,
         "reg_name": "Puglia"
       },
       {
-        "Popolazione": 1578146,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
+        "Popolazione": 899754,
+        "annunci_per_100k": 0.011114148978498568,
+        "locationType": "Da remoto",
+        "num_annunci": 1.0,
         "reg_name": "Sardegna"
       },
       {
-        "Popolazione": 4814016,
-        "annunci_per_100k": 0.20553392179276173,
-        "locationType": "Non Specificato",
-        "num_annunci": 13.0,
+        "Popolazione": 2676659,
+        "annunci_per_100k": 0.011208002214701238,
+        "locationType": "Da remoto",
+        "num_annunci": 3.0,
         "reg_name": "Sicilia"
       },
       {
-        "Popolazione": 3661981,
-        "annunci_per_100k": 0.17406076809535745,
-        "locationType": "Non Specificato",
-        "num_annunci": 10.0,
+        "Popolazione": 2021569,
+        "annunci_per_100k": 0.2621725995996179,
+        "locationType": "Da remoto",
+        "num_annunci": 53.0,
         "reg_name": "Toscana"
       },
       {
-        "Popolazione": 1077143,
-        "annunci_per_100k": 0.15814152084700597,
-        "locationType": "Non Specificato",
-        "num_annunci": 2.0,
+        "Popolazione": 596083,
+        "annunci_per_100k": 0.48650942905602074,
+        "locationType": "Da remoto",
+        "num_annunci": 29.0,
         "reg_name": "Trentino-Alto Adige/S\u00fcdtirol"
       },
       {
-        "Popolazione": 856407,
-        "annunci_per_100k": 0.4927109572758011,
-        "locationType": "Non Specificato",
-        "num_annunci": 8.0,
+        "Popolazione": 466990,
+        "annunci_per_100k": 0.06424120430844343,
+        "locationType": "Da remoto",
+        "num_annunci": 3.0,
         "reg_name": "Umbria"
       },
       {
-        "Popolazione": 123130,
+        "Popolazione": 68227,
         "annunci_per_100k": 0.0,
         "locationType": null,
         "num_annunci": 0.0,
         "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste"
       },
       {
-        "Popolazione": 4849553,
-        "annunci_per_100k": 0.09704533351448462,
-        "locationType": "Non Specificato",
-        "num_annunci": 8.0,
-        "reg_name": "Veneto"
-      }
-    ],
-    "data-cedc92af7e3f446ba37fce04b12deb20": [
-      {
-        "Popolazione": 1272627,
-        "annunci_per_100k": 0.1265278234683807,
-        "locationType": "Da remoto",
-        "num_annunci": 3.0,
-        "reg_name": "Abruzzo"
-      },
-      {
-        "Popolazione": 537577,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
-        "reg_name": "Basilicata"
-      },
-      {
-        "Popolazione": 1846610,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
-        "reg_name": "Calabria"
-      },
-      {
-        "Popolazione": 5609536,
-        "annunci_per_100k": 0.09809157393379908,
-        "locationType": "Da remoto",
-        "num_annunci": 9.0,
-        "reg_name": "Campania"
-      },
-      {
-        "Popolazione": 4437578,
-        "annunci_per_100k": 0.11161406337198487,
-        "locationType": "Da remoto",
-        "num_annunci": 9.0,
-        "reg_name": "Emilia-Romagna"
-      },
-      {
-        "Popolazione": 1194248,
-        "annunci_per_100k": 0.10199918400652795,
-        "locationType": "Da remoto",
-        "num_annunci": 1.0,
-        "reg_name": "Friuli-Venezia Giulia"
-      },
-      {
-        "Popolazione": 5720536,
-        "annunci_per_100k": 0.19034761351679552,
-        "locationType": "Da remoto",
-        "num_annunci": 54.0,
-        "reg_name": "Lazio"
-      },
-      {
-        "Popolazione": 1507636,
-        "annunci_per_100k": 0.05345773542341199,
-        "locationType": "Da remoto",
-        "num_annunci": 3.0,
-        "reg_name": "Liguria"
-      },
-      {
-        "Popolazione": 9972899,
-        "annunci_per_100k": 0.23457258742093837,
+        "Popolazione": 2715212,
+        "annunci_per_100k": 0.1620499614763046,
         "locationType": "Da remoto",
         "num_annunci": 44.0,
-        "reg_name": "Lombardia"
-      },
-      {
-        "Popolazione": 1484298,
-        "annunci_per_100k": 0.5097359567743909,
-        "locationType": "Da remoto",
-        "num_annunci": 2.0,
-        "reg_name": "Marche"
-      },
-      {
-        "Popolazione": 290636,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
-        "reg_name": "Molise"
-      },
-      {
-        "Popolazione": 4250425,
-        "annunci_per_100k": 0.40283461289272177,
-        "locationType": "Da remoto",
-        "num_annunci": 36.0,
-        "reg_name": "Piemonte"
-      },
-      {
-        "Popolazione": 3907683,
-        "annunci_per_100k": 0.06314406950899172,
-        "locationType": "Da remoto",
-        "num_annunci": 2.0,
-        "reg_name": "Puglia"
-      },
-      {
-        "Popolazione": 1578146,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
-        "reg_name": "Sardegna"
-      },
-      {
-        "Popolazione": 4814016,
-        "annunci_per_100k": 0.02145395605586181,
-        "locationType": "Da remoto",
-        "num_annunci": 2.0,
-        "reg_name": "Sicilia"
-      },
-      {
-        "Popolazione": 3661981,
-        "annunci_per_100k": 0.3142578800163414,
-        "locationType": "Da remoto",
-        "num_annunci": 17.0,
-        "reg_name": "Toscana"
-      },
-      {
-        "Popolazione": 1077143,
-        "annunci_per_100k": 0.16909458305503183,
-        "locationType": "Da remoto",
-        "num_annunci": 2.0,
-        "reg_name": "Trentino-Alto Adige/S\u00fcdtirol"
-      },
-      {
-        "Popolazione": 856407,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
-        "reg_name": "Umbria"
-      },
-      {
-        "Popolazione": 123130,
-        "annunci_per_100k": 0.0,
-        "locationType": null,
-        "num_annunci": 0.0,
-        "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste"
-      },
-      {
-        "Popolazione": 4849553,
-        "annunci_per_100k": 0.09898224258568013,
-        "locationType": "Da remoto",
-        "num_annunci": 9.0,
         "reg_name": "Veneto"
       }
     ],
-    "data-f36040e6254f67677782e4314d508fe3": [
+    "data-f199c28efb70c0231828d5cede13aac7": [
       {
-        "text": "Distribuzione degli Annunci per tipo di sede di lavoro per Regione in Italia"
+        "text": " "
       }
     ]
   },
   "vconcat": [
     {
       "data": {
-        "name": "data-f36040e6254f67677782e4314d508fe3"
+        "name": "data-f199c28efb70c0231828d5cede13aac7"
       },
       "encoding": {
         "text": {
@@ -596,9 +454,10 @@
       "height": 50,
       "mark": {
         "align": "center",
-        "dx": 200,
+        "dx": 50,
         "dy": 0,
-        "fontSize": 20,
+        "fontSize": 13,
+        "fontWeight": "bold",
         "type": "text"
       },
       "width": 400
@@ -624,19 +483,22 @@
                   "field": "annunci_per_100k",
                   "legend": {
                     "format": ".2f",
-                    "legendX": 500,
-                    "legendY": 75,
+                    "legendX": 700,
+                    "legendY": 53,
                     "orient": "none"
                   },
                   "scale": {
                     "domain": [
                       0,
-                      2.5
+                      2.0
                     ],
                     "scheme": "greens",
                     "type": "quantize"
                   },
-                  "title": "Annunci per 100k ab.",
+                  "title": [
+                    "Annunci di lavoro",
+                    "(per 100k ab. di et\u00e0 24-65)"
+                  ],
                   "type": "quantitative"
                 },
                 "tooltip": [
@@ -667,7 +529,7 @@
                 {
                   "from": {
                     "data": {
-                      "name": "data-7946dbaba4f5b41658991234db70c399"
+                      "name": "data-5b8ab9ca29e70f5ad0559dfd4ddbd4f1"
                     },
                     "fields": [
                       "annunci_per_100k"
@@ -689,19 +551,22 @@
                   "field": "annunci_per_100k",
                   "legend": {
                     "format": ".2f",
-                    "legendX": 500,
-                    "legendY": 75,
+                    "legendX": 700,
+                    "legendY": 53,
                     "orient": "none"
                   },
                   "scale": {
                     "domain": [
                       0,
-                      2.5
+                      2.0
                     ],
                     "scheme": "greens",
                     "type": "quantize"
                   },
-                  "title": "Annunci per 100k ab.",
+                  "title": [
+                    "Annunci di lavoro",
+                    "(per 100k ab. di et\u00e0 24-65)"
+                  ],
                   "type": "quantitative"
                 },
                 "tooltip": [
@@ -732,7 +597,7 @@
                 {
                   "from": {
                     "data": {
-                      "name": "data-7631aa6931791d249eaa89a576a4088c"
+                      "name": "data-cbe0088cc4e6d41a9d996c58d14eda37"
                     },
                     "fields": [
                       "annunci_per_100k"
@@ -743,11 +608,7 @@
                 }
               ],
               "width": 200
-            }
-          ]
-        },
-        {
-          "hconcat": [
+            },
             {
               "encoding": {
                 "color": {
@@ -758,19 +619,22 @@
                   "field": "annunci_per_100k",
                   "legend": {
                     "format": ".2f",
-                    "legendX": 500,
-                    "legendY": 75,
+                    "legendX": 700,
+                    "legendY": 53,
                     "orient": "none"
                   },
                   "scale": {
                     "domain": [
                       0,
-                      2.5
+                      2.0
                     ],
                     "scheme": "greens",
                     "type": "quantize"
                   },
-                  "title": "Annunci per 100k ab.",
+                  "title": [
+                    "Annunci di lavoro",
+                    "(per 100k ab. di et\u00e0 24-65)"
+                  ],
                   "type": "quantitative"
                 },
                 "tooltip": [
@@ -801,72 +665,7 @@
                 {
                   "from": {
                     "data": {
-                      "name": "data-cedc92af7e3f446ba37fce04b12deb20"
-                    },
-                    "fields": [
-                      "annunci_per_100k"
-                    ],
-                    "key": "reg_name"
-                  },
-                  "lookup": "properties.reg_name"
-                }
-              ],
-              "width": 200
-            },
-            {
-              "encoding": {
-                "color": {
-                  "condition": {
-                    "test": "(datum.annunci_per_100k === 0)",
-                    "value": "lightgray"
-                  },
-                  "field": "annunci_per_100k",
-                  "legend": {
-                    "format": ".2f",
-                    "legendX": 500,
-                    "legendY": 75,
-                    "orient": "none"
-                  },
-                  "scale": {
-                    "domain": [
-                      0,
-                      2.5
-                    ],
-                    "scheme": "greens",
-                    "type": "quantize"
-                  },
-                  "title": "Annunci per 100k ab.",
-                  "type": "quantitative"
-                },
-                "tooltip": [
-                  {
-                    "field": "properties.reg_name",
-                    "title": "Regione:",
-                    "type": "nominal"
-                  },
-                  {
-                    "field": "annunci_per_100k",
-                    "format": ".2f",
-                    "title": "Annunci di lavoro:",
-                    "type": "quantitative"
-                  }
-                ]
-              },
-              "height": 200,
-              "mark": {
-                "stroke": "#fff",
-                "strokeWidth": 0.25,
-                "type": "geoshape"
-              },
-              "projection": {
-                "type": "mercator"
-              },
-              "title": "Non Specificato",
-              "transform": [
-                {
-                  "from": {
-                    "data": {
-                      "name": "data-b828e276fb3c10a050f4d67eb3f4e11d"
+                      "name": "data-ed290de5974eecdfd1c394d1d60a851d"
                     },
                     "fields": [
                       "annunci_per_100k"

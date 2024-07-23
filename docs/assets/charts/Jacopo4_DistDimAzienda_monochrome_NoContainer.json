@@ -8,584 +8,664 @@
     }
   },
   "datasets": {
-    "data-05fcc8578de4f52ab4c9fe6379be9201": [
+    "data-0159df17b35a8f0e605fcaed799e64cc": [
       {
-        "Popolazione": 1272627,
-        "annunci_per_100k": 0.19007251266358116,
-        "companySize2": "Piccole Imprese",
-        "num_annunci": 2.0,
+        "Popolazione_x": 710421,
+        "Popolazione_y": 710421.0,
+        "annunci_per_100k": 0.042228481421579596,
+        "companySize2": "grandi imprese",
+        "num_annunci": 3.0,
         "reg_name": "Abruzzo"
       },
       {
-        "Popolazione": 537577,
+        "Popolazione_x": 302387,
+        "Popolazione_y": null,
         "annunci_per_100k": 0.0,
         "companySize2": null,
         "num_annunci": 0.0,
         "reg_name": "Basilicata"
       },
       {
-        "Popolazione": 1846610,
-        "annunci_per_100k": 0.0,
-        "companySize2": null,
-        "num_annunci": 0.0,
+        "Popolazione_x": 1029949,
+        "Popolazione_y": 1029949.0,
+        "annunci_per_100k": 0.12621984195333943,
+        "companySize2": "grandi imprese",
+        "num_annunci": 13.0,
         "reg_name": "Calabria"
       },
       {
-        "Popolazione": 5609536,
-        "annunci_per_100k": 0.08570718426187544,
-        "companySize2": "Piccole Imprese",
+        "Popolazione_x": 3182063,
+        "Popolazione_y": 3182063.0,
+        "annunci_per_100k": 0.6222378375286725,
+        "companySize2": "grandi imprese",
+        "num_annunci": 198.0,
+        "reg_name": "Campania"
+      },
+      {
+        "Popolazione_x": 2484691,
+        "Popolazione_y": 2484691.0,
+        "annunci_per_100k": 1.1510485609679433,
+        "companySize2": "grandi imprese",
+        "num_annunci": 286.0,
+        "reg_name": "Emilia-Romagna"
+      },
+      {
+        "Popolazione_x": 654747,
+        "Popolazione_y": 654747.0,
+        "annunci_per_100k": 0.19854997426486873,
+        "companySize2": "grandi imprese",
+        "num_annunci": 13.0,
+        "reg_name": "Friuli-Venezia Giulia"
+      },
+      {
+        "Popolazione_x": 3264531,
+        "Popolazione_y": 3264531.0,
+        "annunci_per_100k": 1.4672858061387686,
+        "companySize2": "grandi imprese",
+        "num_annunci": 479.0,
+        "reg_name": "Lazio"
+      },
+      {
+        "Popolazione_x": 813681,
+        "Popolazione_y": 813681.0,
+        "annunci_per_100k": 0.725099885581696,
+        "companySize2": "grandi imprese",
+        "num_annunci": 59.0,
+        "reg_name": "Liguria"
+      },
+      {
+        "Popolazione_x": 5610321,
+        "Popolazione_y": 5610321.0,
+        "annunci_per_100k": 2.5756102012701234,
+        "companySize2": "grandi imprese",
+        "num_annunci": 1445.0,
+        "reg_name": "Lombardia"
+      },
+      {
+        "Popolazione_x": 817067,
+        "Popolazione_y": 817067.0,
+        "annunci_per_100k": 0.09791118720986161,
+        "companySize2": "grandi imprese",
+        "num_annunci": 8.0,
+        "reg_name": "Marche"
+      },
+      {
+        "Popolazione_x": 162205,
+        "Popolazione_y": 162205.0,
+        "annunci_per_100k": 0.4315526648377054,
+        "companySize2": "grandi imprese",
+        "num_annunci": 7.0,
+        "reg_name": "Molise"
+      },
+      {
+        "Popolazione_x": 2334659,
+        "Popolazione_y": 2334659.0,
+        "annunci_per_100k": 1.516281392700176,
+        "companySize2": "grandi imprese",
+        "num_annunci": 354.0,
+        "reg_name": "Piemonte"
+      },
+      {
+        "Popolazione_x": 2180173,
+        "Popolazione_y": 2180173.0,
+        "annunci_per_100k": 0.7017791707355334,
+        "companySize2": "grandi imprese",
+        "num_annunci": 153.0,
+        "reg_name": "Puglia"
+      },
+      {
+        "Popolazione_x": 899754,
+        "Popolazione_y": 899754.0,
+        "annunci_per_100k": 0.2445112775269685,
+        "companySize2": "grandi imprese",
+        "num_annunci": 22.0,
+        "reg_name": "Sardegna"
+      },
+      {
+        "Popolazione_x": 2676659,
+        "Popolazione_y": 2676659.0,
+        "annunci_per_100k": 0.16064803174405107,
+        "companySize2": "grandi imprese",
+        "num_annunci": 43.0,
+        "reg_name": "Sicilia"
+      },
+      {
+        "Popolazione_x": 2021569,
+        "Popolazione_y": 2021569.0,
+        "annunci_per_100k": 1.1080502322700834,
+        "companySize2": "grandi imprese",
+        "num_annunci": 224.0,
+        "reg_name": "Toscana"
+      },
+      {
+        "Popolazione_x": 596083,
+        "Popolazione_y": 596083.0,
+        "annunci_per_100k": 0.8220331732325867,
+        "companySize2": "grandi imprese",
+        "num_annunci": 49.0,
+        "reg_name": "Trentino-Alto Adige/S\u00fcdtirol"
+      },
+      {
+        "Popolazione_x": 466990,
+        "Popolazione_y": 466990.0,
+        "annunci_per_100k": 0.578170838775991,
+        "companySize2": "grandi imprese",
+        "num_annunci": 27.0,
+        "reg_name": "Umbria"
+      },
+      {
+        "Popolazione_x": 68227,
+        "Popolazione_y": 68227.0,
+        "annunci_per_100k": 0.1465695399182142,
+        "companySize2": "grandi imprese",
+        "num_annunci": 1.0,
+        "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste"
+      },
+      {
+        "Popolazione_x": 2715212,
+        "Popolazione_y": 2715212.0,
+        "annunci_per_100k": 0.9907145372074078,
+        "companySize2": "grandi imprese",
+        "num_annunci": 269.0,
+        "reg_name": "Veneto"
+      }
+    ],
+    "data-6a60d62dae2c132e188c05d91eb1e789": [
+      {
+        "Popolazione_x": 710421,
+        "Popolazione_y": 710421.0,
+        "annunci_per_100k": 0.042228481421579596,
+        "companySize2": "piccole imprese",
+        "num_annunci": 3.0,
+        "reg_name": "Abruzzo"
+      },
+      {
+        "Popolazione_x": 302387,
+        "Popolazione_y": 302387.0,
+        "annunci_per_100k": 0.03307020473763753,
+        "companySize2": "piccole imprese",
+        "num_annunci": 1.0,
+        "reg_name": "Basilicata"
+      },
+      {
+        "Popolazione_x": 1029949,
+        "Popolazione_y": 1029949.0,
+        "annunci_per_100k": 0.03883687444718137,
+        "companySize2": "piccole imprese",
+        "num_annunci": 4.0,
+        "reg_name": "Calabria"
+      },
+      {
+        "Popolazione_x": 3182063,
+        "Popolazione_y": 3182063.0,
+        "annunci_per_100k": 0.02828353806948511,
+        "companySize2": "piccole imprese",
         "num_annunci": 9.0,
         "reg_name": "Campania"
       },
       {
-        "Popolazione": 4437578,
-        "annunci_per_100k": 0.1644467658411178,
-        "companySize2": "Piccole Imprese",
-        "num_annunci": 21.0,
+        "Popolazione_x": 2484691,
+        "Popolazione_y": 2484691.0,
+        "annunci_per_100k": 0.10061613295174329,
+        "companySize2": "piccole imprese",
+        "num_annunci": 25.0,
         "reg_name": "Emilia-Romagna"
       },
       {
-        "Popolazione": 1194248,
-        "annunci_per_100k": 1.3683166284678274,
-        "companySize2": "Piccole Imprese",
-        "num_annunci": 4.0,
+        "Popolazione_x": 654747,
+        "Popolazione_y": 654747.0,
+        "annunci_per_100k": 0.04581922483035432,
+        "companySize2": "piccole imprese",
+        "num_annunci": 3.0,
         "reg_name": "Friuli-Venezia Giulia"
       },
       {
-        "Popolazione": 5720536,
-        "annunci_per_100k": 0.14351060423773146,
-        "companySize2": "Piccole Imprese",
-        "num_annunci": 42.0,
+        "Popolazione_x": 3264531,
+        "Popolazione_y": 3264531.0,
+        "annunci_per_100k": 0.16541426624528913,
+        "companySize2": "piccole imprese",
+        "num_annunci": 54.0,
         "reg_name": "Lazio"
       },
       {
-        "Popolazione": 1507636,
-        "annunci_per_100k": 0.08909622570568665,
-        "companySize2": "Piccole Imprese",
+        "Popolazione_x": 813681,
+        "Popolazione_y": 813681.0,
+        "annunci_per_100k": 0.06144914284590644,
+        "companySize2": "piccole imprese",
         "num_annunci": 5.0,
         "reg_name": "Liguria"
       },
       {
-        "Popolazione": 9972899,
-        "annunci_per_100k": 0.5511704435070137,
-        "companySize2": "Piccole Imprese",
-        "num_annunci": 125.0,
+        "Popolazione_x": 5610321,
+        "Popolazione_y": 5610321.0,
+        "annunci_per_100k": 0.3850047082867451,
+        "companySize2": "piccole imprese",
+        "num_annunci": 216.0,
         "reg_name": "Lombardia"
       },
       {
-        "Popolazione": 1484298,
-        "annunci_per_100k": 0.7733353955610548,
-        "companySize2": "Piccole Imprese",
+        "Popolazione_x": 817067,
+        "Popolazione_y": 817067.0,
+        "annunci_per_100k": 0.012238898401232701,
+        "companySize2": "piccole imprese",
         "num_annunci": 1.0,
         "reg_name": "Marche"
       },
       {
-        "Popolazione": 290636,
+        "Popolazione_x": 162205,
+        "Popolazione_y": null,
         "annunci_per_100k": 0.0,
         "companySize2": null,
         "num_annunci": 0.0,
         "reg_name": "Molise"
       },
       {
-        "Popolazione": 4250425,
-        "annunci_per_100k": 0.3599240283435558,
-        "companySize2": "Piccole Imprese",
-        "num_annunci": 39.0,
+        "Popolazione_x": 2334659,
+        "Popolazione_y": 2334659.0,
+        "annunci_per_100k": 0.21844731928731348,
+        "companySize2": "piccole imprese",
+        "num_annunci": 51.0,
         "reg_name": "Piemonte"
       },
       {
-        "Popolazione": 3907683,
-        "annunci_per_100k": 0.27905263490799637,
-        "companySize2": "Piccole Imprese",
-        "num_annunci": 15.0,
+        "Popolazione_x": 2180173,
+        "Popolazione_y": 2180173.0,
+        "annunci_per_100k": 0.09173583931183443,
+        "companySize2": "piccole imprese",
+        "num_annunci": 20.0,
         "reg_name": "Puglia"
       },
       {
-        "Popolazione": 1578146,
-        "annunci_per_100k": 0.06743270216324108,
-        "companySize2": "Piccole Imprese",
-        "num_annunci": 1.0,
+        "Popolazione_x": 899754,
+        "Popolazione_y": 899754.0,
+        "annunci_per_100k": 0.022228297956997135,
+        "companySize2": "piccole imprese",
+        "num_annunci": 2.0,
         "reg_name": "Sardegna"
       },
       {
-        "Popolazione": 4814016,
-        "annunci_per_100k": 0.04290791211172362,
-        "companySize2": "Piccole Imprese",
-        "num_annunci": 4.0,
+        "Popolazione_x": 2676659,
+        "Popolazione_y": 2676659.0,
+        "annunci_per_100k": 0.01868000369116873,
+        "companySize2": "piccole imprese",
+        "num_annunci": 5.0,
         "reg_name": "Sicilia"
       },
       {
-        "Popolazione": 3661981,
-        "annunci_per_100k": 0.1743370832409762,
-        "companySize2": "Piccole Imprese",
-        "num_annunci": 14.0,
+        "Popolazione_x": 2021569,
+        "Popolazione_y": 2021569.0,
+        "annunci_per_100k": 0.12366632056585751,
+        "companySize2": "piccole imprese",
+        "num_annunci": 25.0,
         "reg_name": "Toscana"
       },
       {
-        "Popolazione": 1077143,
-        "annunci_per_100k": 0.3401244855617156,
-        "companySize2": "Piccole Imprese",
+        "Popolazione_x": 596083,
+        "Popolazione_y": 596083.0,
+        "annunci_per_100k": 0.1509856848794547,
+        "companySize2": "piccole imprese",
         "num_annunci": 9.0,
         "reg_name": "Trentino-Alto Adige/S\u00fcdtirol"
       },
       {
-        "Popolazione": 856407,
-        "annunci_per_100k": 0.09363909619544353,
-        "companySize2": "Piccole Imprese",
-        "num_annunci": 1.0,
+        "Popolazione_x": 466990,
+        "Popolazione_y": 466990.0,
+        "annunci_per_100k": 0.04282746953896229,
+        "companySize2": "piccole imprese",
+        "num_annunci": 2.0,
         "reg_name": "Umbria"
       },
       {
-        "Popolazione": 123130,
+        "Popolazione_x": 68227,
+        "Popolazione_y": null,
         "annunci_per_100k": 0.0,
         "companySize2": null,
         "num_annunci": 0.0,
         "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste"
       },
       {
-        "Popolazione": 4849553,
-        "annunci_per_100k": 0.10938465661421673,
-        "companySize2": "Piccole Imprese",
-        "num_annunci": 6.0,
+        "Popolazione_x": 2715212,
+        "Popolazione_y": 2715212.0,
+        "annunci_per_100k": 0.1068056564275644,
+        "companySize2": "piccole imprese",
+        "num_annunci": 29.0,
         "reg_name": "Veneto"
       }
     ],
-    "data-1ac454f16c31a00b0582d9b57fc952c9": [
+    "data-8abfa4fbb317b53abe4ade27ef70df44": [
       {
-        "Popolazione": 1272627,
-        "annunci_per_100k": 0.10610755061330164,
-        "companySize2": "Micro Imprese",
-        "num_annunci": 2.0,
+        "text": " "
+      }
+    ],
+    "data-b8e23f0e89063e6958c0fa8c4cb2cdd7": [
+      {
+        "Popolazione_x": 710421,
+        "Popolazione_y": 710421.0,
+        "annunci_per_100k": 0.042228481421579596,
+        "companySize2": "micro imprese",
+        "num_annunci": 3.0,
         "reg_name": "Abruzzo"
       },
       {
-        "Popolazione": 537577,
+        "Popolazione_x": 302387,
+        "Popolazione_y": null,
         "annunci_per_100k": 0.0,
         "companySize2": null,
         "num_annunci": 0.0,
         "reg_name": "Basilicata"
       },
       {
-        "Popolazione": 1846610,
-        "annunci_per_100k": 1.794043774668102,
-        "companySize2": "Micro Imprese",
-        "num_annunci": 1.0,
+        "Popolazione_x": 1029949,
+        "Popolazione_y": 1029949.0,
+        "annunci_per_100k": 0.029127655835386023,
+        "companySize2": "micro imprese",
+        "num_annunci": 3.0,
         "reg_name": "Calabria"
       },
       {
-        "Popolazione": 5609536,
-        "annunci_per_100k": 0.047587005701875025,
-        "companySize2": "Micro Imprese",
-        "num_annunci": 5.0,
+        "Popolazione_x": 3182063,
+        "Popolazione_y": 3182063.0,
+        "annunci_per_100k": 0.02514092272843121,
+        "companySize2": "micro imprese",
+        "num_annunci": 8.0,
         "reg_name": "Campania"
       },
       {
-        "Popolazione": 4437578,
-        "annunci_per_100k": 0.074241254380234,
-        "companySize2": "Micro Imprese",
-        "num_annunci": 6.0,
+        "Popolazione_x": 2484691,
+        "Popolazione_y": 2484691.0,
+        "annunci_per_100k": 0.03622180786262759,
+        "companySize2": "micro imprese",
+        "num_annunci": 9.0,
         "reg_name": "Emilia-Romagna"
       },
       {
-        "Popolazione": 1194248,
-        "annunci_per_100k": 0.2039983680130559,
-        "companySize2": "Micro Imprese",
-        "num_annunci": 2.0,
+        "Popolazione_x": 654747,
+        "Popolazione_y": 654747.0,
+        "annunci_per_100k": 0.06109229977380576,
+        "companySize2": "micro imprese",
+        "num_annunci": 4.0,
         "reg_name": "Friuli-Venezia Giulia"
       },
       {
-        "Popolazione": 5720536,
-        "annunci_per_100k": 0.045274508048936866,
-        "companySize2": "Micro Imprese",
-        "num_annunci": 13.0,
+        "Popolazione_x": 3264531,
+        "Popolazione_y": 3264531.0,
+        "annunci_per_100k": 0.05820131590112025,
+        "companySize2": "micro imprese",
+        "num_annunci": 19.0,
         "reg_name": "Lazio"
       },
       {
-        "Popolazione": 1507636,
-        "annunci_per_100k": 0.16032064128256512,
-        "companySize2": "Micro Imprese",
+        "Popolazione_x": 813681,
+        "Popolazione_y": 813681.0,
+        "annunci_per_100k": 0.12289828569181288,
+        "companySize2": "micro imprese",
         "num_annunci": 10.0,
         "reg_name": "Liguria"
       },
       {
-        "Popolazione": 9972899,
-        "annunci_per_100k": 0.2192940923168321,
-        "companySize2": "Micro Imprese",
-        "num_annunci": 44.0,
+        "Popolazione_x": 5610321,
+        "Popolazione_y": 5610321.0,
+        "annunci_per_100k": 0.14794162401759187,
+        "companySize2": "micro imprese",
+        "num_annunci": 83.0,
         "reg_name": "Lombardia"
       },
       {
-        "Popolazione": 1484298,
-        "annunci_per_100k": 0.17104445445371252,
-        "companySize2": "Micro Imprese",
+        "Popolazione_x": 817067,
+        "Popolazione_y": 817067.0,
+        "annunci_per_100k": 0.03671669520369811,
+        "companySize2": "micro imprese",
         "num_annunci": 3.0,
         "reg_name": "Marche"
       },
       {
-        "Popolazione": 290636,
-        "annunci_per_100k": 0.0,
-        "companySize2": null,
-        "num_annunci": 0.0,
+        "Popolazione_x": 162205,
+        "Popolazione_y": 162205.0,
+        "annunci_per_100k": 0.061650380691100765,
+        "companySize2": "micro imprese",
+        "num_annunci": 1.0,
         "reg_name": "Molise"
       },
       {
-        "Popolazione": 4250425,
-        "annunci_per_100k": 0.156149822999583,
-        "companySize2": "Micro Imprese",
-        "num_annunci": 17.0,
+        "Popolazione_x": 2334659,
+        "Popolazione_y": 2334659.0,
+        "annunci_per_100k": 0.08138233463645012,
+        "companySize2": "micro imprese",
+        "num_annunci": 19.0,
         "reg_name": "Piemonte"
       },
       {
-        "Popolazione": 3907683,
-        "annunci_per_100k": 0.12628813901798344,
-        "companySize2": "Micro Imprese",
-        "num_annunci": 4.0,
-        "reg_name": "Puglia"
-      },
-      {
-        "Popolazione": 1578146,
-        "annunci_per_100k": 0.08236621667256958,
-        "companySize2": "Micro Imprese",
-        "num_annunci": 1.0,
-        "reg_name": "Sardegna"
-      },
-      {
-        "Popolazione": 4814016,
-        "annunci_per_100k": 0.03336336035765522,
-        "companySize2": "Micro Imprese",
-        "num_annunci": 1.0,
-        "reg_name": "Sicilia"
-      },
-      {
-        "Popolazione": 3661981,
-        "annunci_per_100k": 0.09905403397553365,
-        "companySize2": "Micro Imprese",
+        "Popolazione_x": 2180173,
+        "Popolazione_y": 2180173.0,
+        "annunci_per_100k": 0.022933959827958608,
+        "companySize2": "micro imprese",
         "num_annunci": 5.0,
-        "reg_name": "Toscana"
-      },
-      {
-        "Popolazione": 1077143,
-        "annunci_per_100k": 0.427663734115347,
-        "companySize2": "Micro Imprese",
-        "num_annunci": 7.0,
-        "reg_name": "Trentino-Alto Adige/S\u00fcdtirol"
-      },
-      {
-        "Popolazione": 856407,
-        "annunci_per_100k": 0.06158886965947514,
-        "companySize2": "Micro Imprese",
-        "num_annunci": 1.0,
-        "reg_name": "Umbria"
-      },
-      {
-        "Popolazione": 123130,
-        "annunci_per_100k": 0.0,
-        "companySize2": null,
-        "num_annunci": 0.0,
-        "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste"
-      },
-      {
-        "Popolazione": 4849553,
-        "annunci_per_100k": 0.4544318465838086,
-        "companySize2": "Micro Imprese",
-        "num_annunci": 4.0,
-        "reg_name": "Veneto"
-      }
-    ],
-    "data-2112614e194ecc19f7a28a3efa68d982": [
-      {
-        "Popolazione": 1272627,
-        "annunci_per_100k": 0.15916132591995247,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 3.0,
-        "reg_name": "Abruzzo"
-      },
-      {
-        "Popolazione": 537577,
-        "annunci_per_100k": 0.0,
-        "companySize2": null,
-        "num_annunci": 0.0,
-        "reg_name": "Basilicata"
-      },
-      {
-        "Popolazione": 1846610,
-        "annunci_per_100k": 1.2940860268572623,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 13.0,
-        "reg_name": "Calabria"
-      },
-      {
-        "Popolazione": 5609536,
-        "annunci_per_100k": 1.3417940080787796,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 182.0,
-        "reg_name": "Campania"
-      },
-      {
-        "Popolazione": 4437578,
-        "annunci_per_100k": 1.288582258679128,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 257.0,
-        "reg_name": "Emilia-Romagna"
-      },
-      {
-        "Popolazione": 1194248,
-        "annunci_per_100k": 0.552875644445673,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 8.0,
-        "reg_name": "Friuli-Venezia Giulia"
-      },
-      {
-        "Popolazione": 5720536,
-        "annunci_per_100k": 1.427959445951735,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 410.0,
-        "reg_name": "Lazio"
-      },
-      {
-        "Popolazione": 1507636,
-        "annunci_per_100k": 0.7797455523174456,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 56.0,
-        "reg_name": "Liguria"
-      },
-      {
-        "Popolazione": 9972899,
-        "annunci_per_100k": 2.064019327083832,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 630.0,
-        "reg_name": "Lombardia"
-      },
-      {
-        "Popolazione": 1484298,
-        "annunci_per_100k": 0.3081917363522426,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 6.0,
-        "reg_name": "Marche"
-      },
-      {
-        "Popolazione": 290636,
-        "annunci_per_100k": 0.0,
-        "companySize2": null,
-        "num_annunci": 0.0,
-        "reg_name": "Molise"
-      },
-      {
-        "Popolazione": 4250425,
-        "annunci_per_100k": 2.151260315152606,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 306.0,
-        "reg_name": "Piemonte"
-      },
-      {
-        "Popolazione": 3907683,
-        "annunci_per_100k": 1.3419549798955264,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 135.0,
         "reg_name": "Puglia"
       },
       {
-        "Popolazione": 1578146,
-        "annunci_per_100k": 0.354804945980947,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 6.0,
+        "Popolazione_x": 899754,
+        "Popolazione_y": 899754.0,
+        "annunci_per_100k": 0.0333424469354957,
+        "companySize2": "micro imprese",
+        "num_annunci": 3.0,
         "reg_name": "Sardegna"
       },
       {
-        "Popolazione": 4814016,
-        "annunci_per_100k": 0.45053307717309804,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 42.0,
+        "Popolazione_x": 2676659,
+        "Popolazione_y": 2676659.0,
+        "annunci_per_100k": 0.003736000738233746,
+        "companySize2": "micro imprese",
+        "num_annunci": 1.0,
         "reg_name": "Sicilia"
       },
       {
-        "Popolazione": 3661981,
-        "annunci_per_100k": 0.8920736147445246,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 86.0,
+        "Popolazione_x": 2021569,
+        "Popolazione_y": 2021569.0,
+        "annunci_per_100k": 0.0939864036300517,
+        "companySize2": "micro imprese",
+        "num_annunci": 19.0,
         "reg_name": "Toscana"
       },
       {
-        "Popolazione": 1077143,
-        "annunci_per_100k": 1.5512065871778102,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 37.0,
+        "Popolazione_x": 596083,
+        "Popolazione_y": 596083.0,
+        "annunci_per_100k": 0.1509856848794547,
+        "companySize2": "micro imprese",
+        "num_annunci": 9.0,
         "reg_name": "Trentino-Alto Adige/S\u00fcdtirol"
       },
       {
-        "Popolazione": 856407,
-        "annunci_per_100k": 1.2369020903645327,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 21.0,
+        "Popolazione_x": 466990,
+        "Popolazione_y": 466990.0,
+        "annunci_per_100k": 0.06424120430844343,
+        "companySize2": "micro imprese",
+        "num_annunci": 3.0,
         "reg_name": "Umbria"
       },
       {
-        "Popolazione": 123130,
-        "annunci_per_100k": 0.3016227302889546,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 1.0,
+        "Popolazione_x": 68227,
+        "Popolazione_y": null,
+        "annunci_per_100k": 0.0,
+        "companySize2": null,
+        "num_annunci": 0.0,
         "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste"
       },
       {
-        "Popolazione": 4849553,
-        "annunci_per_100k": 0.8013559286982792,
-        "companySize2": "Grandi Imprese",
-        "num_annunci": 93.0,
+        "Popolazione_x": 2715212,
+        "Popolazione_y": 2715212.0,
+        "annunci_per_100k": 0.05524430504874021,
+        "companySize2": "micro imprese",
+        "num_annunci": 15.0,
         "reg_name": "Veneto"
       }
     ],
-    "data-35a93015f24780fc83b6c7e8268f18be": [
+    "data-c4a63e651fe6e6658be31b21ab45d76f": [
       {
-        "Popolazione": 1272627,
-        "annunci_per_100k": 0.1791654473462611,
-        "companySize2": "Medie Imprese",
+        "Popolazione_x": 710421,
+        "Popolazione_y": 710421.0,
+        "annunci_per_100k": 0.042228481421579596,
+        "companySize2": "medie imprese",
         "num_annunci": 3.0,
         "reg_name": "Abruzzo"
       },
       {
-        "Popolazione": 537577,
-        "annunci_per_100k": 0.5841121495327103,
-        "companySize2": "Medie Imprese",
+        "Popolazione_x": 302387,
+        "Popolazione_y": 302387.0,
+        "annunci_per_100k": 0.03307020473763753,
+        "companySize2": "medie imprese",
         "num_annunci": 1.0,
         "reg_name": "Basilicata"
       },
       {
-        "Popolazione": 1846610,
-        "annunci_per_100k": 0.7820136852394917,
-        "companySize2": "Medie Imprese",
+        "Popolazione_x": 1029949,
+        "Popolazione_y": 1029949.0,
+        "annunci_per_100k": 0.019418437223590684,
+        "companySize2": "medie imprese",
         "num_annunci": 2.0,
         "reg_name": "Calabria"
       },
       {
-        "Popolazione": 5609536,
-        "annunci_per_100k": 0.12978368767370155,
-        "companySize2": "Medie Imprese",
-        "num_annunci": 14.0,
+        "Popolazione_x": 3182063,
+        "Popolazione_y": 3182063.0,
+        "annunci_per_100k": 0.07228015284423973,
+        "companySize2": "medie imprese",
+        "num_annunci": 23.0,
         "reg_name": "Campania"
       },
       {
-        "Popolazione": 4437578,
-        "annunci_per_100k": 0.1634700834886299,
-        "companySize2": "Medie Imprese",
-        "num_annunci": 22.0,
+        "Popolazione_x": 2484691,
+        "Popolazione_y": 2484691.0,
+        "annunci_per_100k": 0.10061613295174329,
+        "companySize2": "medie imprese",
+        "num_annunci": 25.0,
         "reg_name": "Emilia-Romagna"
       },
       {
-        "Popolazione": 1194248,
-        "annunci_per_100k": 0.13642639250418828,
-        "companySize2": "Medie Imprese",
-        "num_annunci": 5.0,
+        "Popolazione_x": 654747,
+        "Popolazione_y": 654747.0,
+        "annunci_per_100k": 0.09163844966070864,
+        "companySize2": "medie imprese",
+        "num_annunci": 6.0,
         "reg_name": "Friuli-Venezia Giulia"
       },
       {
-        "Popolazione": 5720536,
-        "annunci_per_100k": 0.16994627573358373,
-        "companySize2": "Medie Imprese",
-        "num_annunci": 48.0,
+        "Popolazione_x": 3264531,
+        "Popolazione_y": 3264531.0,
+        "annunci_per_100k": 0.26956398943676746,
+        "companySize2": "medie imprese",
+        "num_annunci": 88.0,
         "reg_name": "Lazio"
       },
       {
-        "Popolazione": 1507636,
-        "annunci_per_100k": 0.23607307711535364,
-        "companySize2": "Medie Imprese",
-        "num_annunci": 17.0,
+        "Popolazione_x": 813681,
+        "Popolazione_y": 813681.0,
+        "annunci_per_100k": 0.22121691424526319,
+        "companySize2": "medie imprese",
+        "num_annunci": 18.0,
         "reg_name": "Liguria"
       },
       {
-        "Popolazione": 9972899,
-        "annunci_per_100k": 0.538912526673997,
-        "companySize2": "Medie Imprese",
-        "num_annunci": 124.0,
+        "Popolazione_x": 5610321,
+        "Popolazione_y": 5610321.0,
+        "annunci_per_100k": 0.6737582395018039,
+        "companySize2": "medie imprese",
+        "num_annunci": 378.0,
         "reg_name": "Lombardia"
       },
       {
-        "Popolazione": 1484298,
-        "annunci_per_100k": 0.3630818386464309,
-        "companySize2": "Medie Imprese",
-        "num_annunci": 6.0,
+        "Popolazione_x": 817067,
+        "Popolazione_y": 817067.0,
+        "annunci_per_100k": 0.08567228880862891,
+        "companySize2": "medie imprese",
+        "num_annunci": 7.0,
         "reg_name": "Marche"
       },
       {
-        "Popolazione": 290636,
+        "Popolazione_x": 162205,
+        "Popolazione_y": null,
         "annunci_per_100k": 0.0,
         "companySize2": null,
         "num_annunci": 0.0,
         "reg_name": "Molise"
       },
       {
-        "Popolazione": 4250425,
-        "annunci_per_100k": 0.6015158198660625,
-        "companySize2": "Medie Imprese",
-        "num_annunci": 63.0,
+        "Popolazione_x": 2334659,
+        "Popolazione_y": 2334659.0,
+        "annunci_per_100k": 0.41547823472292955,
+        "companySize2": "medie imprese",
+        "num_annunci": 97.0,
         "reg_name": "Piemonte"
       },
       {
-        "Popolazione": 3907683,
-        "annunci_per_100k": 0.21208703280600785,
-        "companySize2": "Medie Imprese",
-        "num_annunci": 11.0,
+        "Popolazione_x": 2180173,
+        "Popolazione_y": 2180173.0,
+        "annunci_per_100k": 0.08714904734624271,
+        "companySize2": "medie imprese",
+        "num_annunci": 19.0,
         "reg_name": "Puglia"
       },
       {
-        "Popolazione": 1578146,
-        "annunci_per_100k": 0.0,
-        "companySize2": null,
-        "num_annunci": 0.0,
+        "Popolazione_x": 899754,
+        "Popolazione_y": 899754.0,
+        "annunci_per_100k": 0.011114148978498568,
+        "companySize2": "medie imprese",
+        "num_annunci": 1.0,
         "reg_name": "Sardegna"
       },
       {
-        "Popolazione": 4814016,
-        "annunci_per_100k": 0.03336336035765522,
-        "companySize2": "Medie Imprese",
+        "Popolazione_x": 2676659,
+        "Popolazione_y": 2676659.0,
+        "annunci_per_100k": 0.003736000738233746,
+        "companySize2": "medie imprese",
         "num_annunci": 1.0,
         "reg_name": "Sicilia"
       },
       {
-        "Popolazione": 3661981,
-        "annunci_per_100k": 0.19888065289008686,
-        "companySize2": "Medie Imprese",
-        "num_annunci": 17.0,
+        "Popolazione_x": 2021569,
+        "Popolazione_y": 2021569.0,
+        "annunci_per_100k": 0.28195921089015513,
+        "companySize2": "medie imprese",
+        "num_annunci": 57.0,
         "reg_name": "Toscana"
       },
       {
-        "Popolazione": 1077143,
-        "annunci_per_100k": 0.29868466739595506,
-        "companySize2": "Medie Imprese",
-        "num_annunci": 8.0,
+        "Popolazione_x": 596083,
+        "Popolazione_y": 596083.0,
+        "annunci_per_100k": 0.5200618034736774,
+        "companySize2": "medie imprese",
+        "num_annunci": 31.0,
         "reg_name": "Trentino-Alto Adige/S\u00fcdtirol"
       },
       {
-        "Popolazione": 856407,
-        "annunci_per_100k": 0.18189954052176063,
-        "companySize2": "Medie Imprese",
-        "num_annunci": 5.0,
+        "Popolazione_x": 466990,
+        "Popolazione_y": 466990.0,
+        "annunci_per_100k": 0.12848240861688687,
+        "companySize2": "medie imprese",
+        "num_annunci": 6.0,
         "reg_name": "Umbria"
       },
       {
-        "Popolazione": 123130,
+        "Popolazione_x": 68227,
+        "Popolazione_y": null,
         "annunci_per_100k": 0.0,
         "companySize2": null,
         "num_annunci": 0.0,
         "reg_name": "Valle d'Aosta/Vall\u00e9e d'Aoste"
       },
       {
-        "Popolazione": 4849553,
-        "annunci_per_100k": 0.2626985869968403,
-        "companySize2": "Medie Imprese",
-        "num_annunci": 25.0,
+        "Popolazione_x": 2715212,
+        "Popolazione_y": 2715212.0,
+        "annunci_per_100k": 0.3756612743314334,
+        "companySize2": "medie imprese",
+        "num_annunci": 102.0,
         "reg_name": "Veneto"
-      }
-    ],
-    "data-e9c75e3785b77f26335cab642c238f92": [
-      {
-        "text": "Distribuzione degli annunci per dimensione aziendale per Regione in Italia"
       }
     ]
   },
   "vconcat": [
     {
       "data": {
-        "name": "data-e9c75e3785b77f26335cab642c238f92"
+        "name": "data-8abfa4fbb317b53abe4ade27ef70df44"
       },
       "encoding": {
         "text": {
@@ -598,7 +678,8 @@
         "align": "center",
         "dx": 50,
         "dy": 0,
-        "fontSize": 20,
+        "fontSize": 13,
+        "fontWeight": "bold",
         "type": "text"
       },
       "width": 400
@@ -625,18 +706,21 @@
                   "legend": {
                     "format": ".2f",
                     "legendX": 500,
-                    "legendY": 75,
+                    "legendY": 53,
                     "orient": "none"
                   },
                   "scale": {
                     "domain": [
                       0,
-                      2.0
+                      2.5
                     ],
                     "scheme": "browns",
                     "type": "quantize"
                   },
-                  "title": "Annunci per 100k ab.",
+                  "title": [
+                    "Annunci di lavoro",
+                    "(per 100k ab. di et\u00e0 24-65)"
+                  ],
                   "type": "quantitative"
                 },
                 "tooltip": [
@@ -662,12 +746,12 @@
               "projection": {
                 "type": "mercator"
               },
-              "title": "Grandi Imprese",
+              "title": "grandi imprese",
               "transform": [
                 {
                   "from": {
                     "data": {
-                      "name": "data-2112614e194ecc19f7a28a3efa68d982"
+                      "name": "data-0159df17b35a8f0e605fcaed799e64cc"
                     },
                     "fields": [
                       "annunci_per_100k"
@@ -690,18 +774,21 @@
                   "legend": {
                     "format": ".2f",
                     "legendX": 500,
-                    "legendY": 75,
+                    "legendY": 53,
                     "orient": "none"
                   },
                   "scale": {
                     "domain": [
                       0,
-                      2.0
+                      2.5
                     ],
                     "scheme": "browns",
                     "type": "quantize"
                   },
-                  "title": "Annunci per 100k ab.",
+                  "title": [
+                    "Annunci di lavoro",
+                    "(per 100k ab. di et\u00e0 24-65)"
+                  ],
                   "type": "quantitative"
                 },
                 "tooltip": [
@@ -727,12 +814,12 @@
               "projection": {
                 "type": "mercator"
               },
-              "title": "Medie Imprese",
+              "title": "medie imprese",
               "transform": [
                 {
                   "from": {
                     "data": {
-                      "name": "data-35a93015f24780fc83b6c7e8268f18be"
+                      "name": "data-c4a63e651fe6e6658be31b21ab45d76f"
                     },
                     "fields": [
                       "annunci_per_100k"
@@ -759,18 +846,21 @@
                   "legend": {
                     "format": ".2f",
                     "legendX": 500,
-                    "legendY": 75,
+                    "legendY": 53,
                     "orient": "none"
                   },
                   "scale": {
                     "domain": [
                       0,
-                      2.0
+                      2.5
                     ],
                     "scheme": "browns",
                     "type": "quantize"
                   },
-                  "title": "Annunci per 100k ab.",
+                  "title": [
+                    "Annunci di lavoro",
+                    "(per 100k ab. di et\u00e0 24-65)"
+                  ],
                   "type": "quantitative"
                 },
                 "tooltip": [
@@ -796,12 +886,12 @@
               "projection": {
                 "type": "mercator"
               },
-              "title": "Piccole Imprese",
+              "title": "piccole imprese",
               "transform": [
                 {
                   "from": {
                     "data": {
-                      "name": "data-05fcc8578de4f52ab4c9fe6379be9201"
+                      "name": "data-6a60d62dae2c132e188c05d91eb1e789"
                     },
                     "fields": [
                       "annunci_per_100k"
@@ -824,18 +914,21 @@
                   "legend": {
                     "format": ".2f",
                     "legendX": 500,
-                    "legendY": 75,
+                    "legendY": 53,
                     "orient": "none"
                   },
                   "scale": {
                     "domain": [
                       0,
-                      2.0
+                      2.5
                     ],
                     "scheme": "browns",
                     "type": "quantize"
                   },
-                  "title": "Annunci per 100k ab.",
+                  "title": [
+                    "Annunci di lavoro",
+                    "(per 100k ab. di et\u00e0 24-65)"
+                  ],
                   "type": "quantitative"
                 },
                 "tooltip": [
@@ -861,12 +954,12 @@
               "projection": {
                 "type": "mercator"
               },
-              "title": "Micro Imprese",
+              "title": "micro imprese",
               "transform": [
                 {
                   "from": {
                     "data": {
-                      "name": "data-1ac454f16c31a00b0582d9b57fc952c9"
+                      "name": "data-b8e23f0e89063e6958c0fa8c4cb2cdd7"
                     },
                     "fields": [
                       "annunci_per_100k"

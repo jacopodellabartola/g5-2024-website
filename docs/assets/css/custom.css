@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
-html {
-  font-size: size 45px;
-}
-
 #ai--h--ai-or-h, #la-foresta-di-requisiti, #una-soluzione, #quali-caratteristiche {
   scroll-margin-top: 90px; /* Imposta lo spazio di scorrimento prima dell'elemento ancorato */
 }
@@ -72,6 +68,7 @@ html {
 
 html {
   scroll-behavior: smooth;
+  hyphens: auto;
 }
 
 @media (min-width: 576px) {
@@ -121,7 +118,6 @@ html {
 
 strong, b {
   font-weight: bold;
-  font-size: 12px; /* Dimensione del font 12px */
 }
 
 .comic-neue-bold {
@@ -145,6 +141,18 @@ iframe {
 
 .tech-wrench .fa-wrench:hover {
   transform: scale(1, 1) !important;
+}
+
+ul {
+  font-size: 15px; /* Modifica questo valore per adattarlo alle tue esigenze */
+}
+
+.navbar ul {
+  font-size: 20px;
+}
+
+.hero-chulapa .chulapa-subtitle {
+  font-size: 20px !important;
 }
 
 /*# sourceMappingURL=custom.css.map */

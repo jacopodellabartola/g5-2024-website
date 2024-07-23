@@ -51,7 +51,12 @@ ul {
 </div>
 
 
-
+<h2>RACCOLTA DATI</h2>
+<div class="justified">
+<p>
+<br>
+La fase iniziale del progetto ha previsto la raccolta dei dati relativi agli annunci di lavoro presenti sulla piattaforma LinkedIn. Il periodo di osservazione degli annunci di lavoro e dell’estrazione dati è stato di poco più di un mese, dal 02/05/2024 al 06/06/2024. Durante questo periodo sono stati osservati poco meno di 7000 annunci di lavoro unici. L’estrazione dei dati è stata realizzata per mezzo di librerie Python, quali Selenium e BeautifulSoup.<br>
+A questa fase iniziale è seguita una fase di pulizia preliminare del dataset ottenuto, volta a rendere più utilizzabili le variabili raccolte per le analisi successive.</p>
 
 <br>
 <h2>RIMOZIONE OUTLIER</h2>
@@ -117,7 +122,7 @@ Dopo aver analizzato la relazione che intercorre tra le quantità che compongono
 <br>
 <div style="display: flex; justify-content: center; align-items: center;">
   <div style="flex: 1; max-width: 100%; display: flex; justify-content: center;">
-    <vegachart style="width: 80%;" schema-url="{{site.baseurl}}/assets/charts/Giulio_Report1.json"></vegachart>
+    <vegachart style="width: 80%;" schema-url="{{site.baseurl}}/assets/charts/Giulio_Report1_NUOVO.json"></vegachart>
   </div>
 </div>
 
@@ -145,15 +150,15 @@ Le variabili esplicative utilizzate nei modelli implementate riguardano:<br></p>
 <p>
 In fase di allenamento sono stati addestrati più modelli per poter scegliere il migliore, basandosi sulle performance ottenute. I modelli implementati sono: la regressione lineare multivariata, utilizzata come benchmark e per studiare ulteriormente le caratteristiche dei dati a disposizione, la regressione lineare LASSO, l’albero di regressione, la Random Forest, la Gradient Boosting Regression e la Support Vector Regression. Essendo la variabile target di tipo quantitativo, le metriche utilizzate per valutare l’adattamento del modello ai dati sono state quelle classiche dei task di regressione: il mean squared error (MSE) e il mean absolute error (MAE).<br>
 <br>
-Nel grafico sottostante si riportano le migliori combinazioni di modelli tra breve e lungo periodo e si osserva come il miglior modello sia quello che modella il tasso di crescita dei candidati nella prima settimana con una Support Vector Regression e il  tasso di crescita dei candidati dall'ottavo giorno al cinquantaseiesimo con una Random Forest.<br>
+Nel grafico sottostante si riportano le migliori combinazioni di modelli tra breve e lungo periodo e si osserva come il miglior modello sia quello che modella il tasso di crescita dei candidati sia nella prima settimana che dall'ottavo giorno al cinquantaseiesimo con una Support Vector Regression.<br>
 <br>
 
 <div style="display: flex; justify-content: center; align-items: center;">
   <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/Giulio_Report2.json"></vegachart></div>
 </div>
-<p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Il grafico mostra l’andamento del numero di candidati al variare della permanenza online.</p>
+<p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Il grafico mostra il confronto tra le performance del modello finale proposto.</p>
 {% capture giulioreport2 %}
-Per poter analizzare senza l’utilizzo di assunzioni distribuzionali, si è stimata la relazione tramite una Splines di lisciamento e questa mostra come ci sia una crescita importante del numero di candidati nei primi giorni e un rallentamento della crescita nei giorni successivi.
+Il risultato è la combinazione pesata degli indicatori di performance (MSE,MAE) sulla base del numero di osservazioni appartenenti a ciascun segmento.
 {% endcapture %}
 {% include modal-component.html title="Dettagli del grafico" content=giulioreport2 id="giulioreport2" style="width: 80%; height: 30vh;" %}
 <br>

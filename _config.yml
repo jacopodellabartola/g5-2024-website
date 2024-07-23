@@ -54,37 +54,14 @@ navbar:
       url: /#ai--h--ai-or-h
     - title: La foresta di requisiti
       url: /#la-foresta-di-requisiti
-    - title: parte giulio
-      url: /#parte-giulio
-    - title: To hire or not to hire
-      url: /#to-hire-or-not-to
+    - title: Quali caratteristiche per emergere?
+      url: /#quali-caratteristiche
+    - title: Una soluzione per orientarsi nel caos
+      url: /#una-soluzione
     - title: Contesto
       url: /contesto
     - title: Report tecnico
       url: /report
-    - title: Charts
-      url: /charts
-    - title: Write first #Label
-      child:
-        - title: markdown cheatsheet #Label
-          url: /markdown  #url
-        - title: kramdown cheatsheet #Label
-          url: /kramdown #url
-    - title: One page demo
-      child:
-        - title: Demo
-          url: /single
-        - title: "Sezione 1" #Label
-          url: /single#sezione-1 #url
-        - title: "Sezione 1.1" #Label
-          url: /single#sezione-11 #url
-        - title: "Sezione 1.2" #Label
-          url: /single#sezione-12 #url
-        - title: "Gallerie" #Label
-          url: /single#galleria #url
-        - title: "Mappa delle stragi" #Label
-          url: /single#mappa-delle-stragi #url
-
 
 
 googlefonts:

@@ -86,7 +86,6 @@ Infine, uno sguardo anche alle aziende che pubblicano gli annunci di lavoro su L
 <br>
 
 <h2>PANORAMICA DEI DATI OTTENUTI: LA DIMENSIONE TEMPORALE</h2>
-<br>
 <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
     <vegachart schema-url="{{site.baseurl}}/assets/charts/Dona_combined_chart_ore_giorno.json" style="width: 100%"></vegachart>
 </div>

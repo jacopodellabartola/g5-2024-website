@@ -61,7 +61,7 @@ La raccolta di dati è stata fatta seguendo una lista di professionalità delle 
 Infine, nello script è stata implementata la gestione di possibili errori ed eccezioni per rendere il processo meno soggetto a interruzioni. I possibili arresti improvvisi dello script, anche dovuti a cause esterne, sono state gestite con una serie di funzioni tali per cui al riavvio manuale dello script la ripartenza avvenisse dal punto di avvenuta interruzione.<br>
 Alla fase vera e propria di estrazione dati appena descritta, è seguita una fase di pulizia dei dati ottenuti tramite l’utilizzo di alcuni ipython notebook con i quali sono stati realizzati dei controlli preliminari sulla composizione delle variabili ottenute. Questa fase, oltre ad aver reso il dataset estratto più utilizzabile per le analisi seguenti, ha fornito anche un feedback sulla bontà dello script utilizzato per l’estrazione dei dati.  
 
-
+<br>
 
 <h2>RIMOZIONE OUTLIER</h2>
 <br>
@@ -121,10 +121,7 @@ Si è caricato un modello pre addestrato, nello specifico "all-MiniLM-L6-v2". Ab
     <p>È stata utilizzata una pipeline con CountVectorizer e Tf-idf, eseguendo poi un clustering con k-means e plottando con PCA il risultato in due dimensioni. Una volta eseguito abbiamo visualizzato la frequenza dei vari job title all’interno di ogni cluster. Si è visto come erano presenti ancora dei lavori non inerenti / utili in quanto si era formato un cluster con lavori non pertinenti. Abbiamo quindi rimosso, attraverso la label, il cluster in questione e ripetuto la clusterizzazione con k-means ottenendo i cluster definitivi. Il numero ottimale dei cluster è stato ottenuto con il coefficiente di Silhouette e il metodo del gomito.</p>
   </div>
 </div>
-
-
-
-
+<br>
 
 <h2>ULTERIORI ANALISI</h2>
 <br>
@@ -177,7 +174,6 @@ Le variabili esplicative utilizzate nei modelli implementate riguardano:<br></p>
             <li><b>Caratteristiche spazio-temporali dell’annuncio </b>(regione della sede lavorativa, orario di pubblicazione e giorno della settimana)</li>
         </ul>
 </p>
-<br>
 <br>
 <p>
 In fase di allenamento sono stati addestrati più modelli per poter scegliere il migliore, basandosi sulle performance ottenute. I modelli implementati sono: la regressione lineare multivariata, utilizzata come benchmark e per studiare ulteriormente le caratteristiche dei dati a disposizione, la regressione lineare LASSO, l’albero di regressione, la Random Forest, la Gradient Boosting Regression e la Support Vector Regression. Essendo la variabile target di tipo quantitativo, le metriche utilizzate per valutare l’adattamento del modello ai dati sono state quelle classiche dei task di regressione: il mean squared error (MSE) e il mean absolute error (MAE).<br>

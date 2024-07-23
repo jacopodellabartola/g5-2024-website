@@ -55,7 +55,6 @@ Marketing? Strategia di recruiting? Evoluzione vera e propria? Possiamo dare a q
 
 <p>
 Partiamo da una certezza, come sostiene Stefano Gatti -attualmente head of Data & Analytics presso Nexi e autore del libro "La cultura del dato”- la disequazione del prossimo futuro sarà questa: 
-<br>
 <br><p>
 
 <div style="font-size: 20px; text-align: center;">
@@ -99,7 +98,7 @@ Il saper utilizzare le proprie capacità in determinate situazioni diventa un re
     <div style="display: flex; justify-content: center; align-items: center;">
       <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simone.json"></vegachart></div>
     </div>
-    <div style="text-align: center;">
+    <div style="text-align: center; margin-left: 30px;">
       <p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Diagrammi a barre illustranti la distribuzione delle varie posizioni lavorative all’interno dei cluster.</p> <br>
           {% capture simone %}
     L’analisi dei cluster generati sulla base delle descrizioni degli annunci di lavoro evidenzia come solamente il cluster 2,3 e 7 contengano una professione dominante, ma risultano essere cluster di dimensioni esigue e, quindi, il loro risultato non fortemente impattante. <br>
@@ -122,18 +121,17 @@ Il saper utilizzare le proprie capacità in determinate situazioni diventa un re
     <div style="display: flex; justify-content: center; align-items: center;">
       <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simoneskills.json"></vegachart></div>
     </div>
+    <div style=" margin-left: 80px;">
+      <p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Diagrammi a barre illustranti la distribuzione delle skill all’interno dei cluster.</p>
+    </div>
   </div>
   <div style="flex: 1; max-width: 50%; padding-left: 20px;">
-  <br><p>
-    Navigando tra le varie job opportunity il candidato quindi si troverà senza chiari punti di riferimento e senza un’idea precisa della job opportunity a cui dovrebbe inoltrare la candidatura (del tutto simile, per abilità richieste, ad altra con altro nome). Non solo: le abilità richieste sono spesso “abnormi” rispetto al ruolo che il candidato dovrebbe poi effettivamente ricoprire. La stessa Gabriella Pepi -HR di DataPizza- ha affermato come spesso, nel processo selettivo da lei gestito sulla loro piattaforma, si è vista spesso costretta a richiedere ai manager di “ridimensionare” l’eccessiva richiesta di skills nei candidati, andando a smorzare la chiara tendenza che va pian piano emergendo che tutti debbano saper far tutto (che, di per sé, già sfuma i confini fra i ruoli e li rende sovrapposti o sovrapponibili).</p>
+    <br><p>
+      Navigando tra le varie job opportunity il candidato quindi si troverà senza chiari punti di riferimento e senza un’idea precisa della job opportunity a cui dovrebbe inoltrare la candidatura (del tutto simile, per abilità richieste, ad altra con altro nome). Non solo: le abilità richieste sono spesso “abnormi” rispetto al ruolo che il candidato dovrebbe poi effettivamente ricoprire. La stessa Gabriella Pepi -HR di DataPizza- ha affermato come spesso, nel processo selettivo da lei gestito sulla loro piattaforma, si è vista spesso costretta a richiedere ai manager di “ridimensionare” l’eccessiva richiesta di skills nei candidati, andando a smorzare la chiara tendenza che va pian piano emergendo che tutti debbano saper far tutto (che, di per sé, già sfuma i confini fra i ruoli e li rende sovrapposti o sovrapponibili).</p>
   </div>
 </div>
 
 
-
-
-<br>
-<br>
 <br>
 
 <h2 id="aziende">ALLE AZIENDE QUESTA CONFUSIONE CONVIENE?</h2>
@@ -170,7 +168,7 @@ Da entrambi si nota come i cluster non ben definiti siano in grado di attrarre m
     </div>
   </div>
 </div>
-
+<br>
 {% capture giulio2 %}
 Il grafico mostra l’andamento del tasso di crescita giornaliero di candidati rispetto alla frequenza osservata negli annunci della singola skill. Si nota come ci sia una significativa relazione non lineare diretta tra la frequenza della skill e la capacità degli annunci in cui è stata inserita di attrarre candidati (la correlazione è anche stata misurata con indice di Spearman ed è significativa e si attesta su valori di 0.38). <br>
 Si osserva anche che esistono alcune singole skill, poco frequenti, alle quali sono collegate buone performance di efficacia dell’annuncio. 
@@ -189,7 +187,6 @@ Si osserva anche che esistono alcune singole skill, poco frequenti, alle quali s
   </div>
 </div>
 <p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Andamento del numero di candidati e distribuzione del numero di annunci al variare del tempo di permanenza online per presenza o assenza del nome del Gestore HR aziendale all’interno dell’annuncio. </p>
-
 {% capture giulio3 %}
 Il grafico sulla sinistra mostra l’andamento del numero di candidati medio al passare dei giorni di permanenza online dell’annuncio, nel caso in cui si sia presente o meno il nome del Gestore HR che seguirà il processo di recruiting. Si nota come migliorino le performance dell’annuncio se è presente il nome.<br>
 Il grafico sulla destra invece mostra la distribuzione nel tempo degli annunci online suddivisi tra presenza e assenza del gestore HR nell’annuncio. Si osserva che per la maggior parte degli annunci si è misurata una breve permanenza online e che all’aumentare di questa diminuisce la proporzione di annunci aventi il nome del Gestore HR. Questo suggerisce, come anche visto per altri casi, che una caratteristica dell’annuncio in grado di attirare candidati permette una riduzione del tempo di permanenza online dell’annuncio.
@@ -208,6 +205,8 @@ Questo tema, oltre ad essere importante perché aumenta il numero di utenti che 
   </div>
 </div>
 
+<p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Andamento del numero di candidati e distribuzione del numero di annunci al variare del tempo di permanenza online per tipo di modalità lavorativa. </p>
+
 {% capture giulio4 %}
 Il grafico sulla sinistra mostra l’andamento del numero di candidati medio al passare dei giorni di permanenza online dell’annuncio, al variare della modalità lavorativa (Da remoto, Ibrido, In sede). Si nota come migliorino le performance dell’annuncio all’aumentare della possibilità di lavorare anche da remoto. <br>
 Il grafico sulla destra invece mostra la distribuzione nel tempo degli annunci online tra le varie modalità lavorative. Come già osservato nel grafico precedente, si nota come all’aumentare della permanenza online diminuisce la proporzione di annunci aventi caratteristiche che aumentano più velocemente il numero di candidati. <br>
@@ -215,10 +214,11 @@ Il grafico sulla destra invece mostra la distribuzione nel tempo degli annunci o
 {% endcapture %}
 {% include modal-component.html title="Dettagli del grafico" content=giulio4 id="giulio4" style="width: 80%; height: 30vh;" %}
 <br>
-<p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Andamento del numero di candidati e distribuzione del numero di annunci al variare del tempo di permanenza online per tipo di modalità lavorativa. </p>
+<br>
+
 
 <p>Si comprende quindi che la  job description è molto simile ad un post social ed è quindi importante renderla accattivante, tuttavia rispetto ad una foto su Instagram, l'offerta di lavoro possiede delle caratteristiche peculiari, per cui non basta un linguaggio semplice da comprendere nella descrizione, la capacità di seguire le ultime tendenze nel mercato di riferimento o uno studio dell’orario in cui pubblicare per attirare candidati, ma conta anche la credibilità dell’azienda promotrice e la possibilità di essere effettivamente alla portata dei candidati, rimuovendo vincoli sia di tipo spaziale (lavoro da remoto), sia evitando lunghe liste di requisiti, focalizzandosi su quelli di cui effettivamente si ha bisogno e possibilmente e ricercati frequentemente nel mercato. </p>
-
+<br>
 
 <h2 id="sostegno-aziende">UN SOSTEGNO PER LE AZIENDE</h2>
 <br>
@@ -237,6 +237,3 @@ Inoltre, facendo delle prove, si potrebbe addirittura modificare l’offerta, co
 </div>
 Dopo aver inserito le informazioni richieste, al resto ci penserà il nostro algoritmo, che sarà in grado di supportarti nella scelta delle caratteristiche più adatte per il tuo bisogno. 
  </p>
-
- </body>
-</html>

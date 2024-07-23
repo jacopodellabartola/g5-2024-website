@@ -3965,7 +3965,7 @@
           "scale": {
             "domain": [
               0,
-              100
+              60
             ]
           },
           "title": "Numero di Candidati",

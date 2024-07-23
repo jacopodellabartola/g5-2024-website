@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
-#ai--h--ai-or-h, #la-foresta-di-requisiti, #una-soluzione, #quali-caratteristiche {
+#ai--h--ai-or-h, #la-foresta-di-requisiti, #una-soluzione, #aziende {
   scroll-margin-top: 90px; /* Imposta lo spazio di scorrimento prima dell'elemento ancorato */
 }
 
@@ -7,6 +7,16 @@
   background-color: rgba(216, 248, 217, 0.7);
   padding: 20px;
   margin-bottom: 20px;
+}
+
+.p-name {
+  display: inline-block;
+  white-space: pre-line;
+}
+
+.p-name::after {
+  content: "muori data scientist";
+  display: block;
 }
 
 .tech-show {
@@ -154,6 +164,18 @@ ul {
 
 .hero-chulapa .chulapa-subtitle {
   font-size: 20px !important;
+  text-align: center;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.5; /* Modifica questo valore per adattarlo alle tue esigenze */
+  text-align: justify;
+}
+
+.myImage {
+  height: auto;
+  margin-left: -10%;
 }
 
 /*# sourceMappingURL=custom.css.map */

@@ -83,50 +83,6 @@
   "hconcat": [
     {
       "data": {
-        "name": "data-a95a6a7d191f6f51982833c53192f42e"
-      },
-      "encoding": {
-        "color": {
-          "field": "Descrizione",
-          "legend": {
-            "labelFontSize": 12,
-            "titleFontSize": 14
-          },
-          "title": "Descrizione",
-          "type": "nominal"
-        },
-        "x": {
-          "axis": {
-            "labelFontSize": 12,
-            "title": "Id Cluster",
-            "titleFontSize": 12
-          },
-          "field": "label",
-          "sort": {
-            "field": "TassoCrescCand",
-            "order": "descending"
-          },
-          "type": "nominal"
-        },
-        "y": {
-          "axis": {
-            "labelFontSize": 12,
-            "title": "Tasso di Crescita dei Candidati",
-            "titleFontSize": 12
-          },
-          "field": "TassoCrescCand",
-          "type": "quantitative"
-        }
-      },
-      "height": 200,
-      "mark": {
-        "type": "bar"
-      },
-      "title": "Media del tasso di crescita per cluster",
-      "width": 250
-    },
-    {
-      "data": {
         "name": "data-8372e5c8164ed2b29805082404b797e4"
       },
       "encoding": {
@@ -142,6 +98,15 @@
         "x": {
           "axis": {
             "labelFontSize": 12,
+            "title": "Tasso di Crescita dei Candidati",
+            "titleFontSize": 12
+          },
+          "field": "TassoCrescCand",
+          "type": "quantitative"
+        },
+        "y": {
+          "axis": {
+            "labelFontSize": 12,
             "title": "Descrizione del Cluster",
             "titleFontSize": 12
           },
@@ -151,15 +116,6 @@
             "order": "descending"
           },
           "type": "nominal"
-        },
-        "y": {
-          "axis": {
-            "labelFontSize": 12,
-            "title": "Tasso di Crescita dei Candidati",
-            "titleFontSize": 12
-          },
-          "field": "TassoCrescCand",
-          "type": "quantitative"
         }
       },
       "height": 200,
@@ -167,6 +123,50 @@
         "type": "bar"
       },
       "title": "Media del tasso di crescita per descrizione del cluster",
+      "width": 250
+    },
+    {
+      "data": {
+        "name": "data-a95a6a7d191f6f51982833c53192f42e"
+      },
+      "encoding": {
+        "color": {
+          "field": "Descrizione",
+          "legend": {
+            "labelFontSize": 12,
+            "titleFontSize": 14
+          },
+          "title": "Descrizione",
+          "type": "nominal"
+        },
+        "x": {
+          "axis": {
+            "labelFontSize": 12,
+            "title": "Tasso di Crescita dei Candidati",
+            "titleFontSize": 12
+          },
+          "field": "TassoCrescCand",
+          "type": "quantitative"
+        },
+        "y": {
+          "axis": {
+            "labelFontSize": 12,
+            "title": "Id Cluster",
+            "titleFontSize": 12
+          },
+          "field": "label",
+          "sort": {
+            "field": "TassoCrescCand",
+            "order": "descending"
+          },
+          "type": "nominal"
+        }
+      },
+      "height": 200,
+      "mark": {
+        "type": "bar"
+      },
+      "title": "Media del tasso di crescita per cluster",
       "width": 250
     }
   ]

@@ -5,19 +5,11 @@ subtitle: "Analisi delle offerte di lavoro del mondo tech su Linkedin"
 show_sidetoc: true
 header_type: hero
 # header_img: assets/images/stampo_biscotti.jpg
-header_title: "Nasci ingegnere muori data scientist"
+header_title: "Nasci ingegnere"
 vega: true
 plotly: true
 ---
 
-<style>
-p {
-    font-size: 15px;
-    line-height:1.5; /* Modifica questo valore per adattarlo alle tue esigenze */
-}
-</style>
-
-<div class="justified">
 <p>
 “Nasci ingegnere, muori data scientist”: potrebbe essere questa la didascalia per descrivere la trasformazione che il mondo del lavoro sta subendo (e in parte ha già subìto) con l’avvento, tra le altre cose, dell’intelligenza artificiale. <b>Al buon vecchio “ingegnere” adesso si contrappongono una numerosa serie di figure</b> che di fatto svecchiano, o meglio tentano di svecchiare e di dare nuovo lustro e di rendere più cool, più catchy, più al passo coi tempi la stessa figura professionale. Ciò è visibile semplicemente navigando tra i vari annunci di lavoro di piattaforme come LinkedIn, in cui oggi più che mai è facile imbattersi negli internazionalissimi <i>data scientist, data engineer o data analyst</i>, espressioni pronte per attirare lo sguardo di eventuali candidati e perfette per riempirsi la bocca e il CV. <br>
 <br>
@@ -27,7 +19,6 @@ Marketing? Strategia di recruiting? Evoluzione vera e propria? Possiamo dare a q
  <br>
 
 </p>
-</div>
 <br>
 <div>
 <div class="container">
@@ -45,7 +36,7 @@ Marketing? Strategia di recruiting? Evoluzione vera e propria? Possiamo dare a q
 
 <h2 id="ai--h--ai-or-h">AI + H > AI or H </h2>
 <br>
-<div class="justified">
+
 <p>
 Partiamo da una certezza, come sostiene Stefano Gatti -attualmente head of Data & Analytics presso Nexi e autore del libro "La cultura del dato”- la disequazione del prossimo futuro sarà questa: 
 <br>
@@ -105,7 +96,7 @@ Il saper utilizzare le proprie capacità in determinate situazioni diventa un re
 
   
   <div style="flex: 1; max-width: 50%; padding-left: 20px;">
-    <br><p>Questa foresta di skill richiesta ai candidati  la ritroviamo anche raggruppando le descrizioni dei vari annunci di lavoro… infatti spesso ritroviamo sotto  lo stesso cappello posizioni lavorative che ci aspetteremmo richiedere skills differenti. Un’altra problematica che si inserisce in questo filone è quella che scaturisce dal fatto che, seppur vi siano posizioni lavorative con nomi diversi e che quindi dovrebbero richiedere specializzazioni diverse, le skills ricercate sono, nella sostanza, pressoché le stesse.</p><br><br> 
+    <br><p>Questa foresta di skill richiesta ai candidati  la ritroviamo anche raggruppando le descrizioni dei vari annunci di lavoro, infatti, ritroviamo sotto  lo stesso cappello posizioni lavorative che ci aspetteremmo richiedere skills differenti. <br>Un’altra problematica che si inserisce in questo filone è quella che scaturisce dal fatto che, seppur vi siano posizioni lavorative con nomi diversi e che quindi dovrebbero richiedere specializzazioni diverse, le skills ricercate sono, nella sostanza, pressoché le stesse.</p><br><br> 
   </div>
 </div>
 <p>Questo genera una naturale confusione agli occhi di possibili candidati perché, <b>a fronte di posizioni lavorative almeno nominativamente diverse, vengono ricercate le stesse conoscenze e abilità</b>. Difatti, i ruoli di data analyst, data scientist e business intelligence analyst vengono raggruppati insieme, e allo stesso modo data engineer e AI engineer. <br><br>
@@ -129,16 +120,16 @@ Il saper utilizzare le proprie capacità in determinate situazioni diventa un re
 <br>
 <br>
 
-<h2 id="quali-caratteristiche">QUALI CARATTERISTICHE PER EMERGERE?</h2>
+<h2 id="aziende">ALLE AZIENDE QUESTA CONFUSIONE CONVIENE?</h2>
 <br>
 
 
-<p>Viene da chiedersi se questa confusione tra posizioni lavorative e descrizioni appena descritta sia un vantaggio oppure uno svantaggio per le aziende nel processo di attrazione di potenziali candidati. Se da un lato crea confusione nel definire chiaramente le posizioni, dall’altro <b>le job description</b> appartenenti a gruppi con descrizioni <b>non ben definite</b> rispetto al titolo <b>sono premiate dai candidati.</b> </p>
+<p>Viene quindi da chiedersi se questa confusione tra posizioni lavorative e descrizioni appena descritta sia un vantaggio oppure uno svantaggio per le aziende nel processo di attrazione di potenziali candidati. Se da un lato genera difficoltà nell’attrarre candidati con caratteristiche specifiche utili per l’annuncio, dall’altra <b>le job description</b> appartenenti a gruppi con descrizioni <b>non ben definite</b> rispetto al titolo sono maggiormente attraenti e crescono in termini di numeri di candidati più velocemente. </p>
 <br>
 <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
   <div style="width: 100%; margin-left: 0%;">
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-      <div style="flex: 1;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt4_ClustSkills_v2.json"></vegachart></div>
+      <div style="flex: 1;"><vegachart schema-url="{{site.baseurl}}/assets/charts/GiulioArt4_ClustSkills_v3.json"></vegachart></div>
     </div>
   </div>
 </div>
@@ -153,7 +144,7 @@ Da entrambi si nota come i cluster non ben definiti siano in grado di attrarre m
 {% include modal-component.html title="Dettagli del grafico" content=giulio1 id="giulio1" style="width: 80%; height: 30vh;" %}
 <br>
 <br>
-<p>Ma entrando maggiormente nel dettaglio si scopre che <b>non tutte le skill sono uguali e che ad alcune skill sono associate le migliori offerte</b>. Complessivamente si osserva che le skill utilizzate più di frequente indifferentemente che siano di tipo “hard” o “soft”, sono legate ad annunci di lavoro più efficaci, tuttavia si nota come alcune singole skill, come per esempio la capacità di effettuare analisi di clustering o la capacità di imparare velocemente, sono allo stesso molto collegate ad annunci efficaci.</p>
+<p>Entrando maggiormente nel dettaglio <b>si scopre che non tutte le skill sono uguali e che ad alcune skill sono associate le offerte più accattivanti</b>. Complessivamente si osserva che le skill utilizzate più di frequente, indifferentemente che siano di tipo “hard” o “soft”, sono legate ad annunci di lavoro più efficaci, tuttavia si nota come anche alcune singole skill, come per esempio la capacità di effettuare analisi di clustering o la capacità di imparare velocemente, sono allo stesso molto collegate ad annunci efficaci.</p>
 <br>
 
 <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
@@ -172,7 +163,7 @@ Si osserva anche che esistono alcune singole skill, poco frequenti, alle quali s
 {% include modal-component.html title="Dettagli del grafico" content=giulio2 id="giulio2" style="width: 80%; height: 30vh;" %}
 <br>
 <br>
-<p>Ma in conclusione,  cosa porta ad aumentare la crescita di una job description? Per cominciare a dare una risposta, si deve ricordare che Linkedin è un Social Network, perciò la credibilità e la riconoscibilità contano. Si osserva, infatti, che <b>la presenza del profilo aziendale su Linkedin o la presenza del nome della persona che gestirà il processo di recruiting (Gestore HR) migliora in generale l’attrattività dell’annuncio.</b></p>
+<p>Dopo aver concluso che la confusione attrae maggiori candidati alle offerte, rimane da chiedersi quali siano le principali leve per le aziende per catturare l’attenzione degli utenti. Per provare a dare una risposta, si deve ricordare che Linkedin è un Social Network, perciò la credibilità e la riconoscibilità contano. Si osserva, infatti, che <b>la presenza del profilo aziendale su Linkedin o la presenza del nome della persona che gestirà il processo di recruiting (Gestore HR) migliora in generale l’attrattività dell’annuncio.</b></p>
 <br>
 <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
   <div style="width: 120%; margin-left: 0%;">
@@ -190,7 +181,7 @@ Il grafico sulla destra invece mostra la distribuzione nel tempo degli annunci o
 {% include modal-component.html title="Dettagli del grafico" content=giulio3 id="giulio3" style="width: 80%; height: 30vh;" %}
 <br>
 <br>
-<p>Anche <b>la possibilità di poter effettuare il lavoro da ovunque è importante</b>. Infatti le job description che riguardano un lavoro interamente da remoto ricevono molta più attenzione dagli utenti rispetto a quelli che sono interamente in sede o con modalità ibrida.
+<p>Anche <b>la possibilità di poter effettuare il lavoro da remoto è importante</b>. Infatti le job description che riguardano un lavoro interamente da remoto ricevono molta più attenzione dagli utenti rispetto a quelli che sono interamente in sede o con modalità ibrida.<br>
 Questo tema, oltre ad essere importante perché aumenta il numero di utenti che possono candidarsi senza doversi spostare, è un argomento diventato di tendenza dopo la pandemia da Covid-19 e apre ad un nuovo modo di pensare il lavoro, legato maggiormente agli obiettivi e meno ad un orario fisso, oltre che a nuovi modi di organizzare il lavoro da parte delle aziende. Si comprende quindi come l’incontro tra domanda e offerta di lavoro su questi canali possa essere luogo in cui <b>si generano le nuove tendenze lavorative del futuro.</b></p><br>
 
 <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
@@ -210,14 +201,23 @@ Il grafico sulla destra invece mostra la distribuzione nel tempo degli annunci o
 <br>
 <p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Andamento del numero di candidati e distribuzione del numero di annunci al variare del tempo di permanenza online per tipo di modalità lavorativa. </p>
 
-<p>Una job description è molto simile ad un post social ed è quindi importante renderla accattivante, tuttavia rispetto ad una foto su Instagram, l'offerta di lavoro possiede delle caratteristiche peculiari, per cui non basta un linguaggio semplice da comprendere nella descrizione o uno studio dell’orario in cui pubblicare per attirare candidati, ma conta anche la credibilità dell’azienda promotrice e la possibilità di essere effettivamente alla portata dei candidati, rimuovendo vincoli sia di tipo spaziale (lavoro da remoto), sia evitando lunghe liste di requisiti, focalizzandosi su quelli effettivamente di cui si ha bisogno e possibilmente e ricercati frequentemente nel mercato. </p>
+<p>Si comprende quindi che la  job description è molto simile ad un post social ed è quindi importante renderla accattivante, tuttavia rispetto ad una foto su Instagram, l'offerta di lavoro possiede delle caratteristiche peculiari, per cui non basta un linguaggio semplice da comprendere nella descrizione, la capacità di seguire le ultime tendenze nel mercato di riferimento o uno studio dell’orario in cui pubblicare per attirare candidati, ma conta anche la credibilità dell’azienda promotrice e la possibilità di essere effettivamente alla portata dei candidati, rimuovendo vincoli sia di tipo spaziale (lavoro da remoto), sia evitando lunghe liste di requisiti, focalizzandosi su quelli di cui effettivamente si ha bisogno e possibilmente e ricercati frequentemente nel mercato. </p>
 
 
-<h2 id="una-soluzione">UNA SOLUZIONE PER PROVARE AD ORIENTARSI NEL CAOS</h2>
+<h2 id="sostegno-aziende">UN SOSTEGNO PER LE AZIENDE</h2>
 <br>
 <p>
-L’analisi presentata ha mostrato come non sia facile orientarsi in questo rebranding delle offerte di lavoro e per questo motivo si propone una possibile soluzione per le aziende. <b>Immaginiamoci di dover pubblicare un'offerta di lavoro su LinkedIn e di voler sapere quanti candidati potrebbero rispondere e in quanto tempo.</b> Questa informazione è importante per poter programmare il processo di recruiting o semplicemente per comprendere quanto sia attraente ciò che stai proponendo.<br>
-<br> 
-Inoltre, facendo delle prove, si potrebbe addirittura modificare l’offerta, così da creare una descrizione che sia in grado di attirare un numero adeguato di candidati nel tempo a disposizione. <b>Raggiungere velocemente più candidati permette di raggiungere in un tempo minore la soglia prefissata</b>, accorciando questa fase del processo.  Questo permette di poter allungare la fase di approfondimento dei singoli candidati oppure semplicemente di poter accorciare i tempi del processo di selezione.<br><br>
-<b>Il servizio che proponiamo ti permetterà con pochi semplici passi di stimare la curva del numero di candidati nel tempo</b>, inserendo le caratteristiche richieste da Linkedin in fase di compilazione del post, come la modalità lavorativa, la tipologia di contratto offerto e le caratteristiche principali dell’azienda, ma ti permetterà anche di valutare il momento in cui pubblicare, inserendo informazioni riguardanti il giorno della settimana e l’ora in cui preferiresti farlo.
-Dopo aver inserito le informazioni richieste, al resto ci penserà il nostro algoritmo, che sarà in grado di supportarti nella scelta delle caratteristiche più adatte per il tuo bisogno. </p>
+L’analisi presentata ha mostrato come non sia facile per gli utenti orientarsi in questo rebranding delle offerte di lavoro e quanto allo stesso tempo sia importante per le aziende costruire gli annunci di lavoro in modo accattivante, sia per poter attrarre un numero elevato di candidati in un certo tempo, sia perché gli annunci sono un’ulteriore vetrina per poter rafforzare e posizionare il proprio brand  attraverso la piattaforma. Per questo motivo si propone una possibile soluzione utile per le aziende. <br>
+<b>Immaginiamoci di dover pubblicare un'offerta di lavoro su LinkedIn e di voler sapere quanti candidati potrebbero rispondere e in quanto tempo</b>. Questa informazione è importante per poter programmare il processo di recruiting o semplicemente per comprendere quanto sia attraente ciò che stai proponendo. <br>
+Inoltre, facendo delle prove, si potrebbe addirittura modificare l’offerta, così da creare una descrizione che sia in grado di attirare un numero adeguato di candidati nel tempo a disposizione. <b>Raggiungere velocemente più candidati permette di raggiungere in un tempo minore la soglia prefissata di candidati gestibili</b>, accorciando questa fase del processo.  Questo permette di poter allungare la fase di approfondimento dei singoli candidati oppure semplicemente di poter accorciare i tempi del processo di selezione.<br>
+<b>Il servizio che proponiamo ti permetterà con pochi semplici passi di stimare la curva del numero di candidati nel tempo</b>, inserendo le caratteristiche richieste da Linkedin in fase di compilazione del post, come la modalità lavorativa, la tipologia di contratto offerto e le caratteristiche principali dell’azienda, ma ti permetterà anche di valutare il momento in cui pubblicare, inserendo informazioni riguardanti il giorno della settimana e l’ora in cui preferiresti farlo.<br>
+<br>
+<div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+  <div style="width: 100%; margin-left: 0%;">
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+      <div style="flex: 1;"><vegachart schema-url="{{site.baseurl}}/assets/charts/Giulio_Report5_MODEL.json"></vegachart></div>
+    </div>
+  </div>
+</div>
+Dopo aver inserito le informazioni richieste, al resto ci penserà il nostro algoritmo, che sarà in grado di supportarti nella scelta delle caratteristiche più adatte per il tuo bisogno. 
+ </p>

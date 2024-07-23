@@ -1,0 +1,2193 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 400
+    }
+  },
+  "data": {
+    "name": "data-ebeaeaa78468803483b2063385dc8512"
+  },
+  "datasets": {
+    "data-ebeaeaa78468803483b2063385dc8512": [
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 0,
+        "diff_dataDays": 0
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 11,
+        "diff_dataDays": 1
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 21,
+        "diff_dataDays": 2
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 32,
+        "diff_dataDays": 3
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 42,
+        "diff_dataDays": 4
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 53,
+        "diff_dataDays": 5
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 64,
+        "diff_dataDays": 6
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 74,
+        "diff_dataDays": 7
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 98,
+        "diff_dataDays": 8
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 101,
+        "diff_dataDays": 9
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 104,
+        "diff_dataDays": 10
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 107,
+        "diff_dataDays": 11
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 110,
+        "diff_dataDays": 12
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 113,
+        "diff_dataDays": 13
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 116,
+        "diff_dataDays": 14
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 119,
+        "diff_dataDays": 15
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 122,
+        "diff_dataDays": 16
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 125,
+        "diff_dataDays": 17
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 128,
+        "diff_dataDays": 18
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 131,
+        "diff_dataDays": 19
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 134,
+        "diff_dataDays": 20
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 137,
+        "diff_dataDays": 21
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 140,
+        "diff_dataDays": 22
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 143,
+        "diff_dataDays": 23
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 146,
+        "diff_dataDays": 24
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 149,
+        "diff_dataDays": 25
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 152,
+        "diff_dataDays": 26
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 155,
+        "diff_dataDays": 27
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 159,
+        "diff_dataDays": 28
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 162,
+        "diff_dataDays": 29
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 165,
+        "diff_dataDays": 30
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 168,
+        "diff_dataDays": 31
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 171,
+        "diff_dataDays": 32
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 174,
+        "diff_dataDays": 33
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 177,
+        "diff_dataDays": 34
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 180,
+        "diff_dataDays": 35
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 183,
+        "diff_dataDays": 36
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 186,
+        "diff_dataDays": 37
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 189,
+        "diff_dataDays": 38
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 192,
+        "diff_dataDays": 39
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 195,
+        "diff_dataDays": 40
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 198,
+        "diff_dataDays": 41
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 201,
+        "diff_dataDays": 42
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 204,
+        "diff_dataDays": 43
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 207,
+        "diff_dataDays": 44
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 210,
+        "diff_dataDays": 45
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 213,
+        "diff_dataDays": 46
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 216,
+        "diff_dataDays": 47
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 219,
+        "diff_dataDays": 48
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 222,
+        "diff_dataDays": 49
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 225,
+        "diff_dataDays": 50
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 228,
+        "diff_dataDays": 51
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 231,
+        "diff_dataDays": 52
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 234,
+        "diff_dataDays": 53
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 237,
+        "diff_dataDays": 54
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 240,
+        "diff_dataDays": 55
+      },
+      {
+        "Giorno della settimana": "Luned\u00ec",
+        "Valore": 243,
+        "diff_dataDays": 56
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 0,
+        "diff_dataDays": 0
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 13,
+        "diff_dataDays": 1
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 27,
+        "diff_dataDays": 2
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 40,
+        "diff_dataDays": 3
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 54,
+        "diff_dataDays": 4
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 67,
+        "diff_dataDays": 5
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 80,
+        "diff_dataDays": 6
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 94,
+        "diff_dataDays": 7
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 115,
+        "diff_dataDays": 8
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 118,
+        "diff_dataDays": 9
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 121,
+        "diff_dataDays": 10
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 124,
+        "diff_dataDays": 11
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 126,
+        "diff_dataDays": 12
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 129,
+        "diff_dataDays": 13
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 132,
+        "diff_dataDays": 14
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 135,
+        "diff_dataDays": 15
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 137,
+        "diff_dataDays": 16
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 140,
+        "diff_dataDays": 17
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 143,
+        "diff_dataDays": 18
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 145,
+        "diff_dataDays": 19
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 148,
+        "diff_dataDays": 20
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 151,
+        "diff_dataDays": 21
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 154,
+        "diff_dataDays": 22
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 156,
+        "diff_dataDays": 23
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 159,
+        "diff_dataDays": 24
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 162,
+        "diff_dataDays": 25
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 164,
+        "diff_dataDays": 26
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 167,
+        "diff_dataDays": 27
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 170,
+        "diff_dataDays": 28
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 173,
+        "diff_dataDays": 29
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 175,
+        "diff_dataDays": 30
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 178,
+        "diff_dataDays": 31
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 181,
+        "diff_dataDays": 32
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 184,
+        "diff_dataDays": 33
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 186,
+        "diff_dataDays": 34
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 189,
+        "diff_dataDays": 35
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 192,
+        "diff_dataDays": 36
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 194,
+        "diff_dataDays": 37
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 197,
+        "diff_dataDays": 38
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 200,
+        "diff_dataDays": 39
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 203,
+        "diff_dataDays": 40
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 205,
+        "diff_dataDays": 41
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 208,
+        "diff_dataDays": 42
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 211,
+        "diff_dataDays": 43
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 213,
+        "diff_dataDays": 44
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 216,
+        "diff_dataDays": 45
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 219,
+        "diff_dataDays": 46
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 222,
+        "diff_dataDays": 47
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 224,
+        "diff_dataDays": 48
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 227,
+        "diff_dataDays": 49
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 230,
+        "diff_dataDays": 50
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 232,
+        "diff_dataDays": 51
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 235,
+        "diff_dataDays": 52
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 238,
+        "diff_dataDays": 53
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 241,
+        "diff_dataDays": 54
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 243,
+        "diff_dataDays": 55
+      },
+      {
+        "Giorno della settimana": "Marted\u00ec",
+        "Valore": 246,
+        "diff_dataDays": 56
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 0,
+        "diff_dataDays": 0
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 35,
+        "diff_dataDays": 1
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 71,
+        "diff_dataDays": 2
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 106,
+        "diff_dataDays": 3
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 141,
+        "diff_dataDays": 4
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 177,
+        "diff_dataDays": 5
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 212,
+        "diff_dataDays": 6
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 247,
+        "diff_dataDays": 7
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 270,
+        "diff_dataDays": 8
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 273,
+        "diff_dataDays": 9
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 275,
+        "diff_dataDays": 10
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 278,
+        "diff_dataDays": 11
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 281,
+        "diff_dataDays": 12
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 284,
+        "diff_dataDays": 13
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 286,
+        "diff_dataDays": 14
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 289,
+        "diff_dataDays": 15
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 292,
+        "diff_dataDays": 16
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 295,
+        "diff_dataDays": 17
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 298,
+        "diff_dataDays": 18
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 300,
+        "diff_dataDays": 19
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 303,
+        "diff_dataDays": 20
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 306,
+        "diff_dataDays": 21
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 309,
+        "diff_dataDays": 22
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 312,
+        "diff_dataDays": 23
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 314,
+        "diff_dataDays": 24
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 317,
+        "diff_dataDays": 25
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 320,
+        "diff_dataDays": 26
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 323,
+        "diff_dataDays": 27
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 325,
+        "diff_dataDays": 28
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 328,
+        "diff_dataDays": 29
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 331,
+        "diff_dataDays": 30
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 334,
+        "diff_dataDays": 31
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 337,
+        "diff_dataDays": 32
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 339,
+        "diff_dataDays": 33
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 342,
+        "diff_dataDays": 34
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 345,
+        "diff_dataDays": 35
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 348,
+        "diff_dataDays": 36
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 351,
+        "diff_dataDays": 37
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 353,
+        "diff_dataDays": 38
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 356,
+        "diff_dataDays": 39
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 359,
+        "diff_dataDays": 40
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 362,
+        "diff_dataDays": 41
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 364,
+        "diff_dataDays": 42
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 367,
+        "diff_dataDays": 43
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 370,
+        "diff_dataDays": 44
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 373,
+        "diff_dataDays": 45
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 376,
+        "diff_dataDays": 46
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 378,
+        "diff_dataDays": 47
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 381,
+        "diff_dataDays": 48
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 384,
+        "diff_dataDays": 49
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 387,
+        "diff_dataDays": 50
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 390,
+        "diff_dataDays": 51
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 392,
+        "diff_dataDays": 52
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 395,
+        "diff_dataDays": 53
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 398,
+        "diff_dataDays": 54
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 401,
+        "diff_dataDays": 55
+      },
+      {
+        "Giorno della settimana": "Mercoled\u00ec",
+        "Valore": 403,
+        "diff_dataDays": 56
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 0,
+        "diff_dataDays": 0
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 15,
+        "diff_dataDays": 1
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 30,
+        "diff_dataDays": 2
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 45,
+        "diff_dataDays": 3
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 60,
+        "diff_dataDays": 4
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 76,
+        "diff_dataDays": 5
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 91,
+        "diff_dataDays": 6
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 106,
+        "diff_dataDays": 7
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 127,
+        "diff_dataDays": 8
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 130,
+        "diff_dataDays": 9
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 132,
+        "diff_dataDays": 10
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 135,
+        "diff_dataDays": 11
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 138,
+        "diff_dataDays": 12
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 140,
+        "diff_dataDays": 13
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 143,
+        "diff_dataDays": 14
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 146,
+        "diff_dataDays": 15
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 148,
+        "diff_dataDays": 16
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 151,
+        "diff_dataDays": 17
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 154,
+        "diff_dataDays": 18
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 156,
+        "diff_dataDays": 19
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 159,
+        "diff_dataDays": 20
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 161,
+        "diff_dataDays": 21
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 164,
+        "diff_dataDays": 22
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 167,
+        "diff_dataDays": 23
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 169,
+        "diff_dataDays": 24
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 172,
+        "diff_dataDays": 25
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 175,
+        "diff_dataDays": 26
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 177,
+        "diff_dataDays": 27
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 180,
+        "diff_dataDays": 28
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 183,
+        "diff_dataDays": 29
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 185,
+        "diff_dataDays": 30
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 188,
+        "diff_dataDays": 31
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 191,
+        "diff_dataDays": 32
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 193,
+        "diff_dataDays": 33
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 196,
+        "diff_dataDays": 34
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 199,
+        "diff_dataDays": 35
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 201,
+        "diff_dataDays": 36
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 204,
+        "diff_dataDays": 37
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 207,
+        "diff_dataDays": 38
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 209,
+        "diff_dataDays": 39
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 212,
+        "diff_dataDays": 40
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 214,
+        "diff_dataDays": 41
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 217,
+        "diff_dataDays": 42
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 220,
+        "diff_dataDays": 43
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 222,
+        "diff_dataDays": 44
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 225,
+        "diff_dataDays": 45
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 228,
+        "diff_dataDays": 46
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 230,
+        "diff_dataDays": 47
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 233,
+        "diff_dataDays": 48
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 236,
+        "diff_dataDays": 49
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 238,
+        "diff_dataDays": 50
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 241,
+        "diff_dataDays": 51
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 244,
+        "diff_dataDays": 52
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 246,
+        "diff_dataDays": 53
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 249,
+        "diff_dataDays": 54
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 252,
+        "diff_dataDays": 55
+      },
+      {
+        "Giorno della settimana": "Gioved\u00ec",
+        "Valore": 254,
+        "diff_dataDays": 56
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 0,
+        "diff_dataDays": 0
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 17,
+        "diff_dataDays": 1
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 35,
+        "diff_dataDays": 2
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 52,
+        "diff_dataDays": 3
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 69,
+        "diff_dataDays": 4
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 87,
+        "diff_dataDays": 5
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 104,
+        "diff_dataDays": 6
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 121,
+        "diff_dataDays": 7
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 144,
+        "diff_dataDays": 8
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 147,
+        "diff_dataDays": 9
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 150,
+        "diff_dataDays": 10
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 153,
+        "diff_dataDays": 11
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 155,
+        "diff_dataDays": 12
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 158,
+        "diff_dataDays": 13
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 161,
+        "diff_dataDays": 14
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 164,
+        "diff_dataDays": 15
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 167,
+        "diff_dataDays": 16
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 170,
+        "diff_dataDays": 17
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 172,
+        "diff_dataDays": 18
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 175,
+        "diff_dataDays": 19
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 178,
+        "diff_dataDays": 20
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 181,
+        "diff_dataDays": 21
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 184,
+        "diff_dataDays": 22
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 187,
+        "diff_dataDays": 23
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 189,
+        "diff_dataDays": 24
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 192,
+        "diff_dataDays": 25
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 195,
+        "diff_dataDays": 26
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 198,
+        "diff_dataDays": 27
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 201,
+        "diff_dataDays": 28
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 204,
+        "diff_dataDays": 29
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 206,
+        "diff_dataDays": 30
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 209,
+        "diff_dataDays": 31
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 212,
+        "diff_dataDays": 32
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 215,
+        "diff_dataDays": 33
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 218,
+        "diff_dataDays": 34
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 221,
+        "diff_dataDays": 35
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 224,
+        "diff_dataDays": 36
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 226,
+        "diff_dataDays": 37
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 229,
+        "diff_dataDays": 38
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 232,
+        "diff_dataDays": 39
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 235,
+        "diff_dataDays": 40
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 238,
+        "diff_dataDays": 41
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 241,
+        "diff_dataDays": 42
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 243,
+        "diff_dataDays": 43
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 246,
+        "diff_dataDays": 44
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 249,
+        "diff_dataDays": 45
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 252,
+        "diff_dataDays": 46
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 255,
+        "diff_dataDays": 47
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 258,
+        "diff_dataDays": 48
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 260,
+        "diff_dataDays": 49
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 263,
+        "diff_dataDays": 50
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 266,
+        "diff_dataDays": 51
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 269,
+        "diff_dataDays": 52
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 272,
+        "diff_dataDays": 53
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 275,
+        "diff_dataDays": 54
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 277,
+        "diff_dataDays": 55
+      },
+      {
+        "Giorno della settimana": "Venerd\u00ec",
+        "Valore": 280,
+        "diff_dataDays": 56
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 0,
+        "diff_dataDays": 0
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 28,
+        "diff_dataDays": 1
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 56,
+        "diff_dataDays": 2
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 85,
+        "diff_dataDays": 3
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 113,
+        "diff_dataDays": 4
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 141,
+        "diff_dataDays": 5
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 169,
+        "diff_dataDays": 6
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 197,
+        "diff_dataDays": 7
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 218,
+        "diff_dataDays": 8
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 221,
+        "diff_dataDays": 9
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 223,
+        "diff_dataDays": 10
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 226,
+        "diff_dataDays": 11
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 228,
+        "diff_dataDays": 12
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 231,
+        "diff_dataDays": 13
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 234,
+        "diff_dataDays": 14
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 236,
+        "diff_dataDays": 15
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 239,
+        "diff_dataDays": 16
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 241,
+        "diff_dataDays": 17
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 244,
+        "diff_dataDays": 18
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 246,
+        "diff_dataDays": 19
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 249,
+        "diff_dataDays": 20
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 252,
+        "diff_dataDays": 21
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 254,
+        "diff_dataDays": 22
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 257,
+        "diff_dataDays": 23
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 259,
+        "diff_dataDays": 24
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 262,
+        "diff_dataDays": 25
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 265,
+        "diff_dataDays": 26
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 267,
+        "diff_dataDays": 27
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 270,
+        "diff_dataDays": 28
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 272,
+        "diff_dataDays": 29
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 275,
+        "diff_dataDays": 30
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 277,
+        "diff_dataDays": 31
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 280,
+        "diff_dataDays": 32
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 283,
+        "diff_dataDays": 33
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 285,
+        "diff_dataDays": 34
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 288,
+        "diff_dataDays": 35
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 290,
+        "diff_dataDays": 36
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 293,
+        "diff_dataDays": 37
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 295,
+        "diff_dataDays": 38
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 298,
+        "diff_dataDays": 39
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 301,
+        "diff_dataDays": 40
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 303,
+        "diff_dataDays": 41
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 306,
+        "diff_dataDays": 42
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 308,
+        "diff_dataDays": 43
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 311,
+        "diff_dataDays": 44
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 313,
+        "diff_dataDays": 45
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 316,
+        "diff_dataDays": 46
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 319,
+        "diff_dataDays": 47
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 321,
+        "diff_dataDays": 48
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 324,
+        "diff_dataDays": 49
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 326,
+        "diff_dataDays": 50
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 329,
+        "diff_dataDays": 51
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 332,
+        "diff_dataDays": 52
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 334,
+        "diff_dataDays": 53
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 337,
+        "diff_dataDays": 54
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 339,
+        "diff_dataDays": 55
+      },
+      {
+        "Giorno della settimana": "Sabato",
+        "Valore": 342,
+        "diff_dataDays": 56
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 0,
+        "diff_dataDays": 0
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 30,
+        "diff_dataDays": 1
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 59,
+        "diff_dataDays": 2
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 89,
+        "diff_dataDays": 3
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 118,
+        "diff_dataDays": 4
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 148,
+        "diff_dataDays": 5
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 177,
+        "diff_dataDays": 6
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 207,
+        "diff_dataDays": 7
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 229,
+        "diff_dataDays": 8
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 232,
+        "diff_dataDays": 9
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 235,
+        "diff_dataDays": 10
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 237,
+        "diff_dataDays": 11
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 240,
+        "diff_dataDays": 12
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 243,
+        "diff_dataDays": 13
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 246,
+        "diff_dataDays": 14
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 248,
+        "diff_dataDays": 15
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 251,
+        "diff_dataDays": 16
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 254,
+        "diff_dataDays": 17
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 257,
+        "diff_dataDays": 18
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 260,
+        "diff_dataDays": 19
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 262,
+        "diff_dataDays": 20
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 265,
+        "diff_dataDays": 21
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 268,
+        "diff_dataDays": 22
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 271,
+        "diff_dataDays": 23
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 273,
+        "diff_dataDays": 24
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 276,
+        "diff_dataDays": 25
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 279,
+        "diff_dataDays": 26
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 282,
+        "diff_dataDays": 27
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 285,
+        "diff_dataDays": 28
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 287,
+        "diff_dataDays": 29
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 290,
+        "diff_dataDays": 30
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 293,
+        "diff_dataDays": 31
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 296,
+        "diff_dataDays": 32
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 298,
+        "diff_dataDays": 33
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 301,
+        "diff_dataDays": 34
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 304,
+        "diff_dataDays": 35
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 307,
+        "diff_dataDays": 36
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 309,
+        "diff_dataDays": 37
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 312,
+        "diff_dataDays": 38
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 315,
+        "diff_dataDays": 39
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 318,
+        "diff_dataDays": 40
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 321,
+        "diff_dataDays": 41
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 323,
+        "diff_dataDays": 42
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 326,
+        "diff_dataDays": 43
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 329,
+        "diff_dataDays": 44
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 332,
+        "diff_dataDays": 45
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 334,
+        "diff_dataDays": 46
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 337,
+        "diff_dataDays": 47
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 340,
+        "diff_dataDays": 48
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 343,
+        "diff_dataDays": 49
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 346,
+        "diff_dataDays": 50
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 348,
+        "diff_dataDays": 51
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 351,
+        "diff_dataDays": 52
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 354,
+        "diff_dataDays": 53
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 357,
+        "diff_dataDays": 54
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 359,
+        "diff_dataDays": 55
+      },
+      {
+        "Giorno della settimana": "Domenica",
+        "Valore": 362,
+        "diff_dataDays": 56
+      }
+    ]
+  },
+  "height": 200,
+  "layer": [
+    {
+      "encoding": {
+        "color": {
+          "field": "Giorno della settimana",
+          "scale": {
+            "scheme": "tableau10"
+          },
+          "sort": [
+            "Luned\u00ec",
+            "Marted\u00ec",
+            "Mercoled\u00ec",
+            "Gioved\u00ec",
+            "Venerd\u00ec",
+            "Sabato",
+            "Domenica"
+          ],
+          "title": "Giorno della settimana",
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "selection": "Seleziona giorno della settimana",
+            "value": 1
+          },
+          "value": 0.1
+        },
+        "tooltip": [
+          {
+            "field": "diff_dataDays",
+            "title": "Tempo di permanenza online",
+            "type": "ordinal"
+          },
+          {
+            "field": "Valore",
+            "title": "Numero di candidati",
+            "type": "quantitative"
+          },
+          {
+            "field": "Giorno della settimana",
+            "title": "Giorno della settimana",
+            "type": "nominal"
+          }
+        ],
+        "x": {
+          "axis": {
+            "labelAngle": 0,
+            "values": [
+              0,
+              5,
+              10,
+              15,
+              20,
+              25,
+              30,
+              35,
+              40,
+              45,
+              50,
+              55
+            ]
+          },
+          "field": "diff_dataDays",
+          "title": "Tempo di permanenza online",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "Valore",
+          "scale": {
+            "domain": {
+              "selection": "zoom"
+            }
+          },
+          "title": "Numero di candidati",
+          "type": "quantitative"
+        }
+      },
+      "mark": "line",
+      "selection": {
+        "Seleziona giorno della settimana": {
+          "bind": "legend",
+          "empty": "none",
+          "fields": [
+            "Giorno della settimana"
+          ],
+          "type": "single"
+        },
+        "selector010": {
+          "bind": "scales",
+          "encodings": [
+            "x",
+            "y"
+          ],
+          "type": "interval"
+        },
+        "zoom": {
+          "empty": "none",
+          "type": "interval"
+        }
+      }
+    },
+    {
+      "encoding": {
+        "color": {
+          "field": "Giorno della settimana",
+          "scale": {
+            "scheme": "tableau10"
+          },
+          "sort": [
+            "Luned\u00ec",
+            "Marted\u00ec",
+            "Mercoled\u00ec",
+            "Gioved\u00ec",
+            "Venerd\u00ec",
+            "Sabato",
+            "Domenica"
+          ],
+          "title": "Giorno della settimana",
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "selection": "Seleziona giorno della settimana",
+            "value": 1
+          },
+          "value": 0.1
+        },
+        "tooltip": [
+          {
+            "field": "diff_dataDays",
+            "title": "Tempo di permanenza online",
+            "type": "ordinal"
+          },
+          {
+            "field": "Valore",
+            "title": "Numero di candidati",
+            "type": "quantitative"
+          },
+          {
+            "field": "Giorno della settimana",
+            "title": "Giorno della settimana",
+            "type": "nominal"
+          }
+        ],
+        "x": {
+          "axis": {
+            "labelAngle": 0,
+            "values": [
+              0,
+              5,
+              10,
+              15,
+              20,
+              25,
+              30,
+              35,
+              40,
+              45,
+              50,
+              55
+            ]
+          },
+          "field": "diff_dataDays",
+          "title": "Tempo di permanenza online",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "Valore",
+          "title": "Numero di candidati",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "filled": true,
+        "size": 60,
+        "type": "point"
+      }
+    }
+  ],
+  "title": "Andamento dei candidati",
+  "width": 400
+}

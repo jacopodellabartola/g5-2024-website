@@ -45,7 +45,7 @@ github_repo:
 navbar:
   style :  dual #non modificare
   brand: # è il titolo del sito e funziona da bottone (tipicamente per la homepage).
-    title :  "Nasci ingegnere muori data scientist"
+    title :  "Nasci ingegnere, muori data scientist"
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:

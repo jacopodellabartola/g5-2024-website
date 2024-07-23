@@ -10,6 +10,22 @@ vega: true
 plotly: true
 ---
 
+<html>
+<head>
+  <style>
+    .p-name {
+      display: inline-block;
+      white-space: pre-line;
+    }
+
+    .p-name::after {
+      content: "muori data scientist";
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
 <p>
 “Nasci ingegnere, muori data scientist”: potrebbe essere questa la didascalia per descrivere la trasformazione che il mondo del lavoro sta subendo (e in parte ha già subìto) con l’avvento, tra le altre cose, dell’intelligenza artificiale. <b>Al buon vecchio “ingegnere” adesso si contrappongono una numerosa serie di figure</b> che di fatto svecchiano, o meglio tentano di svecchiare e di dare nuovo lustro e di rendere più cool, più catchy, più al passo coi tempi la stessa figura professionale. Ciò è visibile semplicemente navigando tra i vari annunci di lavoro di piattaforme come LinkedIn, in cui oggi più che mai è facile imbattersi negli internazionalissimi <i>data scientist, data engineer o data analyst</i>, espressioni pronte per attirare lo sguardo di eventuali candidati e perfette per riempirsi la bocca e il CV. <br>
 <br>
@@ -221,3 +237,6 @@ Inoltre, facendo delle prove, si potrebbe addirittura modificare l’offerta, co
 </div>
 Dopo aver inserito le informazioni richieste, al resto ci penserà il nostro algoritmo, che sarà in grado di supportarti nella scelta delle caratteristiche più adatte per il tuo bisogno. 
  </p>
+
+ </body>
+</html>

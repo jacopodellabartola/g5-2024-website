@@ -3,10 +3,6 @@
 @charset "utf-8";
 // Your custom css /scss here
 
-html {
-  font-size: size 45px;
-}
-
 #ai--h--ai-or-h, #la-foresta-di-requisiti, #una-soluzione, #quali-caratteristiche{
   scroll-margin-top: 90px; /* Imposta lo spazio di scorrimento prima dell'elemento ancorato */
 }
@@ -16,6 +12,7 @@ html {
   padding: 20px;
   margin-bottom: 20px;
 }
+
 
 .tech-show {
   display: block;
@@ -81,6 +78,7 @@ html {
 
 html {
   scroll-behavior: smooth;
+  hyphens: auto;
 }
 
 @media (min-width: 576px) {
@@ -138,7 +136,7 @@ html {
 
 strong, b {
   font-weight: bold;
-  font-size: 12px; /* Dimensione del font 12px */
+  
 }
 
 .comic-neue-bold {
@@ -165,4 +163,18 @@ iframe {
 // wrench
 .tech-wrench .fa-wrench:hover {
   transform: scale(1, 1) !important;
+}
+
+// css miei
+ul {
+  font-size: 15px; /* Modifica questo valore per adattarlo alle tue esigenze */
+}
+
+.navbar ul {
+  font-size: 20px;
+}
+
+.hero-chulapa .chulapa-subtitle {
+font-size: 20px !important;
+
 }

@@ -45,19 +45,10 @@ github_repo:
 navbar:
   style :  dual #non modificare
   brand: # è il titolo del sito e funziona da bottone (tipicamente per la homepage).
-    title :  "Progettone Gruppo 5"
+    title :  "Nasci ingegnere muori data scientist"
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
-
-    - title: AI + H > AI or H
-      url: /#ai--h--ai-or-h
-    - title: La foresta di requisiti
-      url: /#la-foresta-di-requisiti
-    - title: Quali caratteristiche per emergere?
-      url: /#quali-caratteristiche
-    - title: Una soluzione per orientarsi nel caos
-      url: /#una-soluzione
     - title: Contesto
       url: /contesto
     - title: Report tecnico
@@ -72,7 +63,7 @@ chulapa-skin:
   vars:
     font-family-base: "Montserrat"
     headings-font-family: "Montserrat"
-    font-size-base: 13
+    font-size-base: 15
     #navbar-chulapa-bg-color: "#005e9b"
     blockquote-chulapa-text-color: "#005e9b"
     blockquote-chulapa-bg-color: "#FFFFFF"

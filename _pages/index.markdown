@@ -43,7 +43,7 @@ Marketing? Strategia di recruiting? Evoluzione vera e propria? Possiamo dare a q
 </div>
 <br>
 
-# AI + H > AI or H
+<h2 id="ai--h--ai-or-h">AI + H > AI or H </h2>
 <br>
 <div class="justified">
 <p>
@@ -57,7 +57,7 @@ Partiamo da una certezza, come sostiene Stefano Gatti -attualmente head of Data 
 <br>
 <p>
 Il punto cruciale da sottolineare è che <b>la coniugazione tra AI e “umano” è fondamentale</b> e imprescindibile: la sinergia di una e l’altra parte, la somma delle potenzialità di ciascuna, porterà ad un risultato maggiore della mera somma delle singole parti. L’ambizione massima deve essere quindi la coniugazione di questi due fattori, senza che uno prevalga o escluda l’altro.<br><br>
-La parte umana rimane insostituibile, soprattutto agli occhi dei recruiter - basti pensare alla quantità di soft skills richieste ai candidati - al punto che tanti e tali sono i requisiti richiesti che spesso risulta difficile chiarire quali siano le reali aspettative dell’HR, dell’azienda e del datore di lavoro.<br> 
+La parte umana rimane insostituibile, soprattutto agli occhi dei recruiter - basti pensare alla quantità di soft skill richieste ai candidati - al punto che tanti e tali sono i requisiti richiesti che spesso risulta difficile chiarire quali siano le reali aspettative dell’HR, dell’azienda e del datore di lavoro.<br> 
 </p>
 <br>
 <br>
@@ -79,7 +79,7 @@ Le diverse skill necessarie per creare questo grafico sono state estratte da cia
 <br>
 <br>
 <p>
-Nel <i>mare magnum</i> degli annunci di lavoro dell’universo tech reperibili su LinkedIn ciò che emerge chiaramente è che un candidato, per essere interessante ed appetibile agli occhi di un recruiter, non deve solamente possedere le skills professionali richieste (a titolo d’esempio, saper programmare utilizzando diversi linguaggi e conoscere le metodologie di interrogazione dei dati) ma anche, e soprattutto, deve saper esaltare la propria attitudine “umana”. <b>Le soft skills, dati alla mano, vincono la sfida contro la loro controparte “hard”</b>. <br> <br>
+Nel <i>mare magnum</i> degli annunci di lavoro dell’universo tech reperibili su LinkedIn ciò che emerge chiaramente è che un candidato, per essere interessante ed appetibile agli occhi di un recruiter, non deve solamente possedere le skill professionali richieste (a titolo d’esempio, saper programmare utilizzando diversi linguaggi e conoscere le metodologie di interrogazione dei dati) ma anche, e soprattutto, deve saper esaltare la propria attitudine “umana”. <b>Le soft skill, dati alla mano, vincono la sfida contro la loro controparte “hard”</b>. <br> <br>
 Il saper utilizzare le proprie capacità in determinate situazioni diventa un requisito particolarmente ricercato nei candidati, ma non solo. Gli esempi sono molteplici: la capacità di lavorare in team, di comunicazione o la capacità di comprendere il business e le attività che si hanno davanti sono tra quelle che anche Stefano Gatti ha definito le skill che fanno la differenza nell'ambito AI. 
 
 </p>
@@ -105,7 +105,7 @@ Il saper utilizzare le proprie capacità in determinate situazioni diventa un re
 
   
   <div style="flex: 1; max-width: 50%; padding-left: 20px;">
-    <br><p>Questa foresta di skills richiesta ai candidati  la ritroviamo anche raggruppando le descrizioni dei vari annunci di lavoro… infatti spesso ritroviamo sotto  lo stesso cappello posizioni lavorative che ci aspetteremmo richiedere skills differenti. Un’altra problematica che si inserisce in questo filone è quella che scaturisce dal fatto che, seppur vi siano posizioni lavorative con nomi diversi e che quindi dovrebbero richiedere specializzazioni diverse, le skills ricercate sono, nella sostanza, pressoché le stesse.</p><br><br> 
+    <br><p>Questa foresta di skill richiesta ai candidati  la ritroviamo anche raggruppando le descrizioni dei vari annunci di lavoro… infatti spesso ritroviamo sotto  lo stesso cappello posizioni lavorative che ci aspetteremmo richiedere skills differenti. Un’altra problematica che si inserisce in questo filone è quella che scaturisce dal fatto che, seppur vi siano posizioni lavorative con nomi diversi e che quindi dovrebbero richiedere specializzazioni diverse, le skills ricercate sono, nella sostanza, pressoché le stesse.</p><br><br> 
   </div>
 </div>
 <p>Questo genera una naturale confusione agli occhi di possibili candidati perché, <b>a fronte di posizioni lavorative almeno nominativamente diverse, vengono ricercate le stesse conoscenze e abilità</b>. Difatti, i ruoli di data analyst, data scientist e business intelligence analyst vengono raggruppati insieme, e allo stesso modo data engineer e AI engineer. <br><br>
@@ -113,7 +113,7 @@ Il saper utilizzare le proprie capacità in determinate situazioni diventa un re
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; max-width: 50%; margin-left: -25%;">
     <div style="display: flex; justify-content: center; align-items: center;">
-      <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simone skills.json"></vegachart></div>
+      <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simoneskills.json"></vegachart></div>
     </div>
   </div>
   <div style="flex: 1; max-width: 50%; padding-left: 20px;">

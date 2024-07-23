@@ -3,9 +3,9 @@ layout: home
 title: "Report"
 #subtitle: "Analisi delle offerte di lavoro del mondo tech su Linkedin"
 show_sidetoc: true
-header_type: hero
-# header_img: assets/images/stampo_biscotti.jpg
-header_title: "Report tecnico"
+#header_type: hero
+#header_img: /assets/images/pipeline_linkedin.jpg
+#header_title: "Report tecnico"
 vega: true
 plotly: true
 ---
@@ -24,9 +24,7 @@ p {
 }
 
 
-ul {
-    font-size: 15px; /* Modifica questo valore per adattarlo alle tue esigenze */
-}
+
 
 .justified {
     text-align: justify;
@@ -46,10 +44,12 @@ ul {
 
 <div class="justified" style="overflow: visible;">
   <div style="overflow: visible; width: 100%; text-align: center;">
-    <img src="{{site.baseurl}}/assets/images/pipeline.png" alt="Descrizione dell'immagine" class="full-width">
+    <img src="{{site.baseurl}}/assets/images/pipeline_linkedin.jpg" alt="Descrizione dell'immagine" class="full-width">
   </div>
 </div>
-
+<br>
+<h1>REPORT TECNICO</h1>
+<br>
 
 <h2>RACCOLTA DATI</h2>
 <div class="justified">
@@ -83,7 +83,7 @@ Sed ac fringilla leo, et mollis sapien. Mauris imperdiet, ante quis pellentesque
 
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simone2.json"></vegachart></div>
+  <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/dimcluster.json"></vegachart></div>
 </div>
 <p>
 

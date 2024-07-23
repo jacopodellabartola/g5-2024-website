@@ -1,0 +1,2412 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "datasets": {
+    "data-3bd76395dfe506ea1dce4e49fb7bf46a": [
+      {
+        "Hard skills": "sql",
+        "freq_rel": 0.1847,
+        "frequenza": 326,
+        "label": 5
+      },
+      {
+        "Hard skills": "visualization",
+        "freq_rel": 0.1456,
+        "frequenza": 257,
+        "label": 5
+      },
+      {
+        "Hard skills": "programming",
+        "freq_rel": 0.1246,
+        "frequenza": 220,
+        "label": 5
+      },
+      {
+        "Hard skills": "data science",
+        "freq_rel": 0.1105,
+        "frequenza": 195,
+        "label": 5
+      },
+      {
+        "Hard skills": "python",
+        "freq_rel": 0.0907,
+        "frequenza": 160,
+        "label": 5
+      },
+      {
+        "Hard skills": "database management system",
+        "freq_rel": 0.0873,
+        "frequenza": 154,
+        "label": 5
+      },
+      {
+        "Hard skills": "data analytics",
+        "freq_rel": 0.0782,
+        "frequenza": 138,
+        "label": 5
+      },
+      {
+        "Hard skills": "data-driven",
+        "freq_rel": 0.0663,
+        "frequenza": 117,
+        "label": 5
+      },
+      {
+        "Hard skills": "microsoft",
+        "freq_rel": 0.0595,
+        "frequenza": 105,
+        "label": 5
+      },
+      {
+        "Hard skills": "marketing",
+        "freq_rel": 0.0527,
+        "frequenza": 93,
+        "label": 5
+      },
+      {
+        "Hard skills": "microsoft",
+        "freq_rel": 0.1764,
+        "frequenza": 154,
+        "label": 4
+      },
+      {
+        "Hard skills": "sql",
+        "freq_rel": 0.173,
+        "frequenza": 151,
+        "label": 4
+      },
+      {
+        "Hard skills": "programming",
+        "freq_rel": 0.1604,
+        "frequenza": 140,
+        "label": 4
+      },
+      {
+        "Hard skills": "marketing",
+        "freq_rel": 0.1077,
+        "frequenza": 94,
+        "label": 4
+      },
+      {
+        "Hard skills": "business",
+        "freq_rel": 0.0985,
+        "frequenza": 86,
+        "label": 4
+      },
+      {
+        "Hard skills": "database management system",
+        "freq_rel": 0.079,
+        "frequenza": 69,
+        "label": 4
+      },
+      {
+        "Hard skills": "software development",
+        "freq_rel": 0.0733,
+        "frequenza": 64,
+        "label": 4
+      },
+      {
+        "Hard skills": "english language",
+        "freq_rel": 0.0664,
+        "frequenza": 58,
+        "label": 4
+      },
+      {
+        "Hard skills": "python",
+        "freq_rel": 0.0332,
+        "frequenza": 29,
+        "label": 4
+      },
+      {
+        "Hard skills": "windows",
+        "freq_rel": 0.0321,
+        "frequenza": 28,
+        "label": 4
+      },
+      {
+        "Hard skills": "programming",
+        "freq_rel": 0.2421,
+        "frequenza": 176,
+        "label": 1
+      },
+      {
+        "Hard skills": "sql",
+        "freq_rel": 0.1527,
+        "frequenza": 111,
+        "label": 1
+      },
+      {
+        "Hard skills": "database management system",
+        "freq_rel": 0.1059,
+        "frequenza": 77,
+        "label": 1
+      },
+      {
+        "Hard skills": "python",
+        "freq_rel": 0.0977,
+        "frequenza": 71,
+        "label": 1
+      },
+      {
+        "Hard skills": "microsoft",
+        "freq_rel": 0.0894,
+        "frequenza": 65,
+        "label": 1
+      },
+      {
+        "Hard skills": "java",
+        "freq_rel": 0.0743,
+        "frequenza": 54,
+        "label": 1
+      },
+      {
+        "Hard skills": "english language",
+        "freq_rel": 0.0743,
+        "frequenza": 54,
+        "label": 1
+      },
+      {
+        "Hard skills": "software development",
+        "freq_rel": 0.0646,
+        "frequenza": 47,
+        "label": 1
+      },
+      {
+        "Hard skills": "linux",
+        "freq_rel": 0.0591,
+        "frequenza": 43,
+        "label": 1
+      },
+      {
+        "Hard skills": "data-driven",
+        "freq_rel": 0.0399,
+        "frequenza": 29,
+        "label": 1
+      },
+      {
+        "Hard skills": "sql",
+        "freq_rel": 0.1981,
+        "frequenza": 249,
+        "label": 11
+      },
+      {
+        "Hard skills": "programming",
+        "freq_rel": 0.1718,
+        "frequenza": 216,
+        "label": 11
+      },
+      {
+        "Hard skills": "microsoft",
+        "freq_rel": 0.1114,
+        "frequenza": 140,
+        "label": 11
+      },
+      {
+        "Hard skills": "database management system",
+        "freq_rel": 0.1114,
+        "frequenza": 140,
+        "label": 11
+      },
+      {
+        "Hard skills": "java",
+        "freq_rel": 0.1082,
+        "frequenza": 136,
+        "label": 11
+      },
+      {
+        "Hard skills": "english language",
+        "freq_rel": 0.0891,
+        "frequenza": 112,
+        "label": 11
+      },
+      {
+        "Hard skills": "python",
+        "freq_rel": 0.0652,
+        "frequenza": 82,
+        "label": 11
+      },
+      {
+        "Hard skills": "software development",
+        "freq_rel": 0.0621,
+        "frequenza": 78,
+        "label": 11
+      },
+      {
+        "Hard skills": "linux",
+        "freq_rel": 0.0469,
+        "frequenza": 59,
+        "label": 11
+      },
+      {
+        "Hard skills": "sql server",
+        "freq_rel": 0.0358,
+        "frequenza": 45,
+        "label": 11
+      },
+      {
+        "Hard skills": "programming",
+        "freq_rel": 0.2323,
+        "frequenza": 378,
+        "label": 9
+      },
+      {
+        "Hard skills": "linux",
+        "freq_rel": 0.126,
+        "frequenza": 205,
+        "label": 9
+      },
+      {
+        "Hard skills": "sql",
+        "freq_rel": 0.118,
+        "frequenza": 192,
+        "label": 9
+      },
+      {
+        "Hard skills": "database management system",
+        "freq_rel": 0.1156,
+        "frequenza": 188,
+        "label": 9
+      },
+      {
+        "Hard skills": "software development",
+        "freq_rel": 0.0983,
+        "frequenza": 160,
+        "label": 9
+      },
+      {
+        "Hard skills": "c++",
+        "freq_rel": 0.0701,
+        "frequenza": 114,
+        "label": 9
+      },
+      {
+        "Hard skills": "python",
+        "freq_rel": 0.0682,
+        "frequenza": 111,
+        "label": 9
+      },
+      {
+        "Hard skills": "microsoft",
+        "freq_rel": 0.0676,
+        "frequenza": 110,
+        "label": 9
+      },
+      {
+        "Hard skills": "windows",
+        "freq_rel": 0.0627,
+        "frequenza": 102,
+        "label": 9
+      },
+      {
+        "Hard skills": "troubleshooting",
+        "freq_rel": 0.0412,
+        "frequenza": 67,
+        "label": 9
+      },
+      {
+        "Hard skills": "sql",
+        "freq_rel": 0.2046,
+        "frequenza": 196,
+        "label": 7
+      },
+      {
+        "Hard skills": "aws",
+        "freq_rel": 0.1169,
+        "frequenza": 112,
+        "label": 7
+      },
+      {
+        "Hard skills": "python",
+        "freq_rel": 0.1096,
+        "frequenza": 105,
+        "label": 7
+      },
+      {
+        "Hard skills": "database management system",
+        "freq_rel": 0.1086,
+        "frequenza": 104,
+        "label": 7
+      },
+      {
+        "Hard skills": "programming",
+        "freq_rel": 0.1033,
+        "frequenza": 99,
+        "label": 7
+      },
+      {
+        "Hard skills": "apache",
+        "freq_rel": 0.1002,
+        "frequenza": 96,
+        "label": 7
+      },
+      {
+        "Hard skills": "microsoft",
+        "freq_rel": 0.0919,
+        "frequenza": 88,
+        "label": 7
+      },
+      {
+        "Hard skills": "visualization",
+        "freq_rel": 0.0647,
+        "frequenza": 62,
+        "label": 7
+      },
+      {
+        "Hard skills": "nosql",
+        "freq_rel": 0.0522,
+        "frequenza": 50,
+        "label": 7
+      },
+      {
+        "Hard skills": "spark",
+        "freq_rel": 0.048,
+        "frequenza": 46,
+        "label": 7
+      },
+      {
+        "Hard skills": "python",
+        "freq_rel": 0.2393,
+        "frequenza": 101,
+        "label": 10
+      },
+      {
+        "Hard skills": "programming",
+        "freq_rel": 0.2062,
+        "frequenza": 87,
+        "label": 10
+      },
+      {
+        "Hard skills": "data science",
+        "freq_rel": 0.173,
+        "frequenza": 73,
+        "label": 10
+      },
+      {
+        "Hard skills": "statistics",
+        "freq_rel": 0.0711,
+        "frequenza": 30,
+        "label": 10
+      },
+      {
+        "Hard skills": "aws",
+        "freq_rel": 0.064,
+        "frequenza": 27,
+        "label": 10
+      },
+      {
+        "Hard skills": "tensorflow",
+        "freq_rel": 0.064,
+        "frequenza": 27,
+        "label": 10
+      },
+      {
+        "Hard skills": "data-driven",
+        "freq_rel": 0.0521,
+        "frequenza": 22,
+        "label": 10
+      },
+      {
+        "Hard skills": "software development",
+        "freq_rel": 0.045,
+        "frequenza": 19,
+        "label": 10
+      },
+      {
+        "Hard skills": "pytorch",
+        "freq_rel": 0.0427,
+        "frequenza": 18,
+        "label": 10
+      },
+      {
+        "Hard skills": "database management system",
+        "freq_rel": 0.0427,
+        "frequenza": 18,
+        "label": 10
+      },
+      {
+        "Hard skills": "linux",
+        "freq_rel": 0.1981,
+        "frequenza": 83,
+        "label": 0
+      },
+      {
+        "Hard skills": "aws",
+        "freq_rel": 0.1742,
+        "frequenza": 73,
+        "label": 0
+      },
+      {
+        "Hard skills": "microsoft",
+        "freq_rel": 0.1408,
+        "frequenza": 59,
+        "label": 0
+      },
+      {
+        "Hard skills": "programming",
+        "freq_rel": 0.0979,
+        "frequenza": 41,
+        "label": 0
+      },
+      {
+        "Hard skills": "troubleshooting",
+        "freq_rel": 0.0811,
+        "frequenza": 34,
+        "label": 0
+      },
+      {
+        "Hard skills": "python",
+        "freq_rel": 0.074,
+        "frequenza": 31,
+        "label": 0
+      },
+      {
+        "Hard skills": "database management system",
+        "freq_rel": 0.0692,
+        "frequenza": 29,
+        "label": 0
+      },
+      {
+        "Hard skills": "windows",
+        "freq_rel": 0.0644,
+        "frequenza": 27,
+        "label": 0
+      },
+      {
+        "Hard skills": "software development",
+        "freq_rel": 0.0573,
+        "frequenza": 24,
+        "label": 0
+      },
+      {
+        "Hard skills": "web services",
+        "freq_rel": 0.043,
+        "frequenza": 18,
+        "label": 0
+      },
+      {
+        "Hard skills": "programming",
+        "freq_rel": 0.2192,
+        "frequenza": 80,
+        "label": 3
+      },
+      {
+        "Hard skills": "python",
+        "freq_rel": 0.1863,
+        "frequenza": 68,
+        "label": 3
+      },
+      {
+        "Hard skills": "sql",
+        "freq_rel": 0.1315,
+        "frequenza": 48,
+        "label": 3
+      },
+      {
+        "Hard skills": "software development",
+        "freq_rel": 0.1014,
+        "frequenza": 37,
+        "label": 3
+      },
+      {
+        "Hard skills": "data science",
+        "freq_rel": 0.1014,
+        "frequenza": 37,
+        "label": 3
+      },
+      {
+        "Hard skills": "database management system",
+        "freq_rel": 0.1014,
+        "frequenza": 37,
+        "label": 3
+      },
+      {
+        "Hard skills": "statistics",
+        "freq_rel": 0.0438,
+        "frequenza": 16,
+        "label": 3
+      },
+      {
+        "Hard skills": "tensorflow",
+        "freq_rel": 0.0411,
+        "frequenza": 15,
+        "label": 3
+      },
+      {
+        "Hard skills": "marketing",
+        "freq_rel": 0.0384,
+        "frequenza": 14,
+        "label": 3
+      },
+      {
+        "Hard skills": "microsoft",
+        "freq_rel": 0.0356,
+        "frequenza": 13,
+        "label": 3
+      },
+      {
+        "Hard skills": "hadoop",
+        "freq_rel": 0.2251,
+        "frequenza": 43,
+        "label": 6
+      },
+      {
+        "Hard skills": "sql",
+        "freq_rel": 0.2251,
+        "frequenza": 43,
+        "label": 6
+      },
+      {
+        "Hard skills": "python",
+        "freq_rel": 0.1361,
+        "frequenza": 26,
+        "label": 6
+      },
+      {
+        "Hard skills": "design patterns",
+        "freq_rel": 0.1204,
+        "frequenza": 23,
+        "label": 6
+      },
+      {
+        "Hard skills": "apache",
+        "freq_rel": 0.1152,
+        "frequenza": 22,
+        "label": 6
+      },
+      {
+        "Hard skills": "java",
+        "freq_rel": 0.1099,
+        "frequenza": 21,
+        "label": 6
+      },
+      {
+        "Hard skills": "spark",
+        "freq_rel": 0.0314,
+        "frequenza": 6,
+        "label": 6
+      },
+      {
+        "Hard skills": "information systems",
+        "freq_rel": 0.0209,
+        "frequenza": 4,
+        "label": 6
+      },
+      {
+        "Hard skills": "linux",
+        "freq_rel": 0.0105,
+        "frequenza": 2,
+        "label": 6
+      },
+      {
+        "Hard skills": "database management system",
+        "freq_rel": 0.0052,
+        "frequenza": 1,
+        "label": 6
+      },
+      {
+        "Hard skills": "programming",
+        "freq_rel": 0.1962,
+        "frequenza": 282,
+        "label": 8
+      },
+      {
+        "Hard skills": "java",
+        "freq_rel": 0.1496,
+        "frequenza": 215,
+        "label": 8
+      },
+      {
+        "Hard skills": "sql",
+        "freq_rel": 0.1489,
+        "frequenza": 214,
+        "label": 8
+      },
+      {
+        "Hard skills": "software development",
+        "freq_rel": 0.1434,
+        "frequenza": 206,
+        "label": 8
+      },
+      {
+        "Hard skills": "database management system",
+        "freq_rel": 0.1106,
+        "frequenza": 159,
+        "label": 8
+      },
+      {
+        "Hard skills": "web applications",
+        "freq_rel": 0.0605,
+        "frequenza": 87,
+        "label": 8
+      },
+      {
+        "Hard skills": "microsoft",
+        "freq_rel": 0.0494,
+        "frequenza": 71,
+        "label": 8
+      },
+      {
+        "Hard skills": "nosql",
+        "freq_rel": 0.048,
+        "frequenza": 69,
+        "label": 8
+      },
+      {
+        "Hard skills": "aws",
+        "freq_rel": 0.0466,
+        "frequenza": 67,
+        "label": 8
+      },
+      {
+        "Hard skills": "linux",
+        "freq_rel": 0.0466,
+        "frequenza": 67,
+        "label": 8
+      },
+      {
+        "Hard skills": "aws",
+        "freq_rel": 0.2132,
+        "frequenza": 87,
+        "label": 2
+      },
+      {
+        "Hard skills": "microsoft",
+        "freq_rel": 0.201,
+        "frequenza": 82,
+        "label": 2
+      },
+      {
+        "Hard skills": "programming",
+        "freq_rel": 0.1373,
+        "frequenza": 56,
+        "label": 2
+      },
+      {
+        "Hard skills": "linux",
+        "freq_rel": 0.0907,
+        "frequenza": 37,
+        "label": 2
+      },
+      {
+        "Hard skills": "database management system",
+        "freq_rel": 0.0711,
+        "frequenza": 29,
+        "label": 2
+      },
+      {
+        "Hard skills": "web services",
+        "freq_rel": 0.0662,
+        "frequenza": 27,
+        "label": 2
+      },
+      {
+        "Hard skills": "troubleshooting",
+        "freq_rel": 0.0613,
+        "frequenza": 25,
+        "label": 2
+      },
+      {
+        "Hard skills": "windows",
+        "freq_rel": 0.0564,
+        "frequenza": 23,
+        "label": 2
+      },
+      {
+        "Hard skills": "software development",
+        "freq_rel": 0.0515,
+        "frequenza": 21,
+        "label": 2
+      },
+      {
+        "Hard skills": "english language",
+        "freq_rel": 0.0515,
+        "frequenza": 21,
+        "label": 2
+      }
+    ],
+    "data-5ee3393c26fd91162b651afe110f8dca": [
+      {
+        "LinkedIn Skills List": "Analitica dei dati",
+        "freq_rel": 0.1762,
+        "frequenza": 359,
+        "label": 5
+      },
+      {
+        "LinkedIn Skills List": "Scienza dei dati",
+        "freq_rel": 0.1394,
+        "frequenza": 284,
+        "label": 5
+      },
+      {
+        "LinkedIn Skills List": "Visualizzazione dati",
+        "freq_rel": 0.1369,
+        "frequenza": 279,
+        "label": 5
+      },
+      {
+        "LinkedIn Skills List": "Dati analitici",
+        "freq_rel": 0.1129,
+        "frequenza": 230,
+        "label": 5
+      },
+      {
+        "LinkedIn Skills List": "Analisi dei dati",
+        "freq_rel": 0.0952,
+        "frequenza": 194,
+        "label": 5
+      },
+      {
+        "LinkedIn Skills List": "Competenze analitiche",
+        "freq_rel": 0.0854,
+        "frequenza": 174,
+        "label": 5
+      },
+      {
+        "LinkedIn Skills List": "Problem solving",
+        "freq_rel": 0.0697,
+        "frequenza": 142,
+        "label": 5
+      },
+      {
+        "LinkedIn Skills List": "Database",
+        "freq_rel": 0.0662,
+        "frequenza": 135,
+        "label": 5
+      },
+      {
+        "LinkedIn Skills List": "SQL",
+        "freq_rel": 0.0599,
+        "frequenza": 122,
+        "label": 5
+      },
+      {
+        "LinkedIn Skills List": "ETL",
+        "freq_rel": 0.0584,
+        "frequenza": 119,
+        "label": 5
+      },
+      {
+        "LinkedIn Skills List": "Competenze analitiche",
+        "freq_rel": 0.186,
+        "frequenza": 240,
+        "label": 4
+      },
+      {
+        "LinkedIn Skills List": "Problem solving",
+        "freq_rel": 0.1357,
+        "frequenza": 175,
+        "label": 4
+      },
+      {
+        "LinkedIn Skills List": "Comunicazione",
+        "freq_rel": 0.1155,
+        "frequenza": 149,
+        "label": 4
+      },
+      {
+        "LinkedIn Skills List": "Analisi aziendale",
+        "freq_rel": 0.0977,
+        "frequenza": 126,
+        "label": 4
+      },
+      {
+        "LinkedIn Skills List": "Requisiti aziendali",
+        "freq_rel": 0.0891,
+        "frequenza": 115,
+        "label": 4
+      },
+      {
+        "LinkedIn Skills List": "Lavoro di squadra",
+        "freq_rel": 0.0853,
+        "frequenza": 110,
+        "label": 4
+      },
+      {
+        "LinkedIn Skills List": "Processi aziendali",
+        "freq_rel": 0.0814,
+        "frequenza": 105,
+        "label": 4
+      },
+      {
+        "LinkedIn Skills List": "Raccolta dei requisiti",
+        "freq_rel": 0.0729,
+        "frequenza": 94,
+        "label": 4
+      },
+      {
+        "LinkedIn Skills List": "Informatica",
+        "freq_rel": 0.0713,
+        "frequenza": 92,
+        "label": 4
+      },
+      {
+        "LinkedIn Skills List": "Lingua inglese",
+        "freq_rel": 0.0651,
+        "frequenza": 84,
+        "label": 4
+      },
+      {
+        "LinkedIn Skills List": "Problem solving",
+        "freq_rel": 0.1566,
+        "frequenza": 127,
+        "label": 1
+      },
+      {
+        "LinkedIn Skills List": "Competenze analitiche",
+        "freq_rel": 0.1159,
+        "frequenza": 94,
+        "label": 1
+      },
+      {
+        "LinkedIn Skills List": "SQL",
+        "freq_rel": 0.111,
+        "frequenza": 90,
+        "label": 1
+      },
+      {
+        "LinkedIn Skills List": "Informatica",
+        "freq_rel": 0.0962,
+        "frequenza": 78,
+        "label": 1
+      },
+      {
+        "LinkedIn Skills List": "Database",
+        "freq_rel": 0.0949,
+        "frequenza": 77,
+        "label": 1
+      },
+      {
+        "LinkedIn Skills List": "Sviluppo di software",
+        "freq_rel": 0.0888,
+        "frequenza": 72,
+        "label": 1
+      },
+      {
+        "LinkedIn Skills List": "Comunicazione",
+        "freq_rel": 0.0875,
+        "frequenza": 71,
+        "label": 1
+      },
+      {
+        "LinkedIn Skills List": "Lavoro di squadra",
+        "freq_rel": 0.0851,
+        "frequenza": 69,
+        "label": 1
+      },
+      {
+        "LinkedIn Skills List": "Scienza dei dati",
+        "freq_rel": 0.0851,
+        "frequenza": 69,
+        "label": 1
+      },
+      {
+        "LinkedIn Skills List": "Java",
+        "freq_rel": 0.0789,
+        "frequenza": 64,
+        "label": 1
+      },
+      {
+        "LinkedIn Skills List": "SQL",
+        "freq_rel": 0.16,
+        "frequenza": 164,
+        "label": 11
+      },
+      {
+        "LinkedIn Skills List": "Database",
+        "freq_rel": 0.1571,
+        "frequenza": 161,
+        "label": 11
+      },
+      {
+        "LinkedIn Skills List": "Competenze analitiche",
+        "freq_rel": 0.119,
+        "frequenza": 122,
+        "label": 11
+      },
+      {
+        "LinkedIn Skills List": "Problem solving",
+        "freq_rel": 0.1171,
+        "frequenza": 120,
+        "label": 11
+      },
+      {
+        "LinkedIn Skills List": "Java",
+        "freq_rel": 0.0976,
+        "frequenza": 100,
+        "label": 11
+      },
+      {
+        "LinkedIn Skills List": "Lingua inglese",
+        "freq_rel": 0.079,
+        "frequenza": 81,
+        "label": 11
+      },
+      {
+        "LinkedIn Skills List": "ETL",
+        "freq_rel": 0.0732,
+        "frequenza": 75,
+        "label": 11
+      },
+      {
+        "LinkedIn Skills List": "Lavoro di squadra",
+        "freq_rel": 0.0683,
+        "frequenza": 70,
+        "label": 11
+      },
+      {
+        "LinkedIn Skills List": "Analitica dei dati",
+        "freq_rel": 0.0663,
+        "frequenza": 68,
+        "label": 11
+      },
+      {
+        "LinkedIn Skills List": "Scienza dei dati",
+        "freq_rel": 0.0624,
+        "frequenza": 64,
+        "label": 11
+      },
+      {
+        "LinkedIn Skills List": "Informatica",
+        "freq_rel": 0.1336,
+        "frequenza": 177,
+        "label": 9
+      },
+      {
+        "LinkedIn Skills List": "Programmazione",
+        "freq_rel": 0.1057,
+        "frequenza": 140,
+        "label": 9
+      },
+      {
+        "LinkedIn Skills List": "Sviluppo di software",
+        "freq_rel": 0.1011,
+        "frequenza": 134,
+        "label": 9
+      },
+      {
+        "LinkedIn Skills List": "Comunicazione",
+        "freq_rel": 0.1004,
+        "frequenza": 133,
+        "label": 9
+      },
+      {
+        "LinkedIn Skills List": "C",
+        "freq_rel": 0.0958,
+        "frequenza": 127,
+        "label": 9
+      },
+      {
+        "LinkedIn Skills List": "Lingua inglese",
+        "freq_rel": 0.0951,
+        "frequenza": 126,
+        "label": 9
+      },
+      {
+        "LinkedIn Skills List": "SQL",
+        "freq_rel": 0.0943,
+        "frequenza": 125,
+        "label": 9
+      },
+      {
+        "LinkedIn Skills List": "Python",
+        "freq_rel": 0.0921,
+        "frequenza": 122,
+        "label": 9
+      },
+      {
+        "LinkedIn Skills List": "C++",
+        "freq_rel": 0.0913,
+        "frequenza": 121,
+        "label": 9
+      },
+      {
+        "LinkedIn Skills List": "Database",
+        "freq_rel": 0.0906,
+        "frequenza": 120,
+        "label": 9
+      },
+      {
+        "LinkedIn Skills List": "ETL",
+        "freq_rel": 0.1662,
+        "frequenza": 177,
+        "label": 7
+      },
+      {
+        "LinkedIn Skills List": "Ingegneria dei dati",
+        "freq_rel": 0.1427,
+        "frequenza": 152,
+        "label": 7
+      },
+      {
+        "LinkedIn Skills List": "Python",
+        "freq_rel": 0.1033,
+        "frequenza": 110,
+        "label": 7
+      },
+      {
+        "LinkedIn Skills List": "Analitica dei dati",
+        "freq_rel": 0.1033,
+        "frequenza": 110,
+        "label": 7
+      },
+      {
+        "LinkedIn Skills List": "Scienza dei dati",
+        "freq_rel": 0.0958,
+        "frequenza": 102,
+        "label": 7
+      },
+      {
+        "LinkedIn Skills List": "Data warehouse",
+        "freq_rel": 0.093,
+        "frequenza": 99,
+        "label": 7
+      },
+      {
+        "LinkedIn Skills List": "Database",
+        "freq_rel": 0.0836,
+        "frequenza": 89,
+        "label": 7
+      },
+      {
+        "LinkedIn Skills List": "Data modeling",
+        "freq_rel": 0.077,
+        "frequenza": 82,
+        "label": 7
+      },
+      {
+        "LinkedIn Skills List": "SQL",
+        "freq_rel": 0.0685,
+        "frequenza": 73,
+        "label": 7
+      },
+      {
+        "LinkedIn Skills List": "Apache Spark",
+        "freq_rel": 0.0667,
+        "frequenza": 71,
+        "label": 7
+      },
+      {
+        "LinkedIn Skills List": "Scienza dei dati",
+        "freq_rel": 0.177,
+        "frequenza": 123,
+        "label": 10
+      },
+      {
+        "LinkedIn Skills List": "Machine learning",
+        "freq_rel": 0.1439,
+        "frequenza": 100,
+        "label": 10
+      },
+      {
+        "LinkedIn Skills List": "Intelligenza artificiale",
+        "freq_rel": 0.1324,
+        "frequenza": 92,
+        "label": 10
+      },
+      {
+        "LinkedIn Skills List": "Riconoscimento di pattern",
+        "freq_rel": 0.1122,
+        "frequenza": 78,
+        "label": 10
+      },
+      {
+        "LinkedIn Skills List": "Informatica",
+        "freq_rel": 0.0993,
+        "frequenza": 69,
+        "label": 10
+      },
+      {
+        "LinkedIn Skills List": "Python",
+        "freq_rel": 0.0921,
+        "frequenza": 64,
+        "label": 10
+      },
+      {
+        "LinkedIn Skills List": "Deep Learning",
+        "freq_rel": 0.0849,
+        "frequenza": 59,
+        "label": 10
+      },
+      {
+        "LinkedIn Skills List": "Elaborazione del linguaggio naturale",
+        "freq_rel": 0.0676,
+        "frequenza": 47,
+        "label": 10
+      },
+      {
+        "LinkedIn Skills List": "PyTorch",
+        "freq_rel": 0.0475,
+        "frequenza": 33,
+        "label": 10
+      },
+      {
+        "LinkedIn Skills List": "TensorFlow",
+        "freq_rel": 0.0432,
+        "frequenza": 30,
+        "label": 10
+      },
+      {
+        "LinkedIn Skills List": "DevOps",
+        "freq_rel": 0.1583,
+        "frequenza": 76,
+        "label": 0
+      },
+      {
+        "LinkedIn Skills List": "Kubernetes",
+        "freq_rel": 0.1417,
+        "frequenza": 68,
+        "label": 0
+      },
+      {
+        "LinkedIn Skills List": "Python",
+        "freq_rel": 0.1271,
+        "frequenza": 61,
+        "label": 0
+      },
+      {
+        "LinkedIn Skills List": "Windows Azure",
+        "freq_rel": 0.1188,
+        "frequenza": 57,
+        "label": 0
+      },
+      {
+        "LinkedIn Skills List": "Amministrazione sistemi Linux",
+        "freq_rel": 0.0917,
+        "frequenza": 44,
+        "label": 0
+      },
+      {
+        "LinkedIn Skills List": "Terraform",
+        "freq_rel": 0.0854,
+        "frequenza": 41,
+        "label": 0
+      },
+      {
+        "LinkedIn Skills List": "Amazon Web Services",
+        "freq_rel": 0.0833,
+        "frequenza": 40,
+        "label": 0
+      },
+      {
+        "LinkedIn Skills List": "Linux",
+        "freq_rel": 0.0771,
+        "frequenza": 37,
+        "label": 0
+      },
+      {
+        "LinkedIn Skills List": "Docker Products",
+        "freq_rel": 0.0583,
+        "frequenza": 28,
+        "label": 0
+      },
+      {
+        "LinkedIn Skills List": "Google Cloud Platform GCP",
+        "freq_rel": 0.0583,
+        "frequenza": 28,
+        "label": 0
+      },
+      {
+        "LinkedIn Skills List": "Intelligenza artificiale",
+        "freq_rel": 0.187,
+        "frequenza": 115,
+        "label": 3
+      },
+      {
+        "LinkedIn Skills List": "Scienza dei dati",
+        "freq_rel": 0.1561,
+        "frequenza": 96,
+        "label": 3
+      },
+      {
+        "LinkedIn Skills List": "Elaborazione del linguaggio naturale",
+        "freq_rel": 0.1285,
+        "frequenza": 79,
+        "label": 3
+      },
+      {
+        "LinkedIn Skills List": "Python",
+        "freq_rel": 0.1057,
+        "frequenza": 65,
+        "label": 3
+      },
+      {
+        "LinkedIn Skills List": "Informatica",
+        "freq_rel": 0.0992,
+        "frequenza": 61,
+        "label": 3
+      },
+      {
+        "LinkedIn Skills List": "Deep Learning",
+        "freq_rel": 0.0894,
+        "frequenza": 55,
+        "label": 3
+      },
+      {
+        "LinkedIn Skills List": "Machine learning",
+        "freq_rel": 0.065,
+        "frequenza": 40,
+        "label": 3
+      },
+      {
+        "LinkedIn Skills List": "Visione artificiale",
+        "freq_rel": 0.0602,
+        "frequenza": 37,
+        "label": 3
+      },
+      {
+        "LinkedIn Skills List": "Riconoscimento di pattern",
+        "freq_rel": 0.0569,
+        "frequenza": 35,
+        "label": 3
+      },
+      {
+        "LinkedIn Skills List": "Analisi predittiva",
+        "freq_rel": 0.052,
+        "frequenza": 32,
+        "label": 3
+      },
+      {
+        "LinkedIn Skills List": "Informatica",
+        "freq_rel": 0.1331,
+        "frequenza": 47,
+        "label": 6
+      },
+      {
+        "LinkedIn Skills List": "Scala",
+        "freq_rel": 0.1331,
+        "frequenza": 47,
+        "label": 6
+      },
+      {
+        "LinkedIn Skills List": "Big data",
+        "freq_rel": 0.1303,
+        "frequenza": 46,
+        "label": 6
+      },
+      {
+        "LinkedIn Skills List": "Data mining",
+        "freq_rel": 0.1161,
+        "frequenza": 41,
+        "label": 6
+      },
+      {
+        "LinkedIn Skills List": "Automazione",
+        "freq_rel": 0.1133,
+        "frequenza": 40,
+        "label": 6
+      },
+      {
+        "LinkedIn Skills List": "Hadoop",
+        "freq_rel": 0.0878,
+        "frequenza": 31,
+        "label": 6
+      },
+      {
+        "LinkedIn Skills List": "Sviluppo di software",
+        "freq_rel": 0.0765,
+        "frequenza": 27,
+        "label": 6
+      },
+      {
+        "LinkedIn Skills List": "Machine learning",
+        "freq_rel": 0.0765,
+        "frequenza": 27,
+        "label": 6
+      },
+      {
+        "LinkedIn Skills List": "PySpark",
+        "freq_rel": 0.0765,
+        "frequenza": 27,
+        "label": 6
+      },
+      {
+        "LinkedIn Skills List": "Apache",
+        "freq_rel": 0.0567,
+        "frequenza": 20,
+        "label": 6
+      },
+      {
+        "LinkedIn Skills List": "JavaScript",
+        "freq_rel": 0.1408,
+        "frequenza": 178,
+        "label": 8
+      },
+      {
+        "LinkedIn Skills List": "Java",
+        "freq_rel": 0.14,
+        "frequenza": 177,
+        "label": 8
+      },
+      {
+        "LinkedIn Skills List": "Sviluppo Web back-end",
+        "freq_rel": 0.1305,
+        "frequenza": 165,
+        "label": 8
+      },
+      {
+        "LinkedIn Skills List": "Sviluppo di software",
+        "freq_rel": 0.1021,
+        "frequenza": 129,
+        "label": 8
+      },
+      {
+        "LinkedIn Skills List": "Sviluppo front-end",
+        "freq_rel": 0.0926,
+        "frequenza": 117,
+        "label": 8
+      },
+      {
+        "LinkedIn Skills List": "CSS",
+        "freq_rel": 0.0918,
+        "frequenza": 116,
+        "label": 8
+      },
+      {
+        "LinkedIn Skills List": "SQL",
+        "freq_rel": 0.0831,
+        "frequenza": 105,
+        "label": 8
+      },
+      {
+        "LinkedIn Skills List": "Database",
+        "freq_rel": 0.0807,
+        "frequenza": 102,
+        "label": 8
+      },
+      {
+        "LinkedIn Skills List": "Informatica",
+        "freq_rel": 0.0704,
+        "frequenza": 89,
+        "label": 8
+      },
+      {
+        "LinkedIn Skills List": "Angular",
+        "freq_rel": 0.068,
+        "frequenza": 86,
+        "label": 8
+      },
+      {
+        "LinkedIn Skills List": "Cloud computing",
+        "freq_rel": 0.2457,
+        "frequenza": 130,
+        "label": 2
+      },
+      {
+        "LinkedIn Skills List": "Architettura delle soluzioni",
+        "freq_rel": 0.138,
+        "frequenza": 73,
+        "label": 2
+      },
+      {
+        "LinkedIn Skills List": "Windows Azure",
+        "freq_rel": 0.1115,
+        "frequenza": 59,
+        "label": 2
+      },
+      {
+        "LinkedIn Skills List": "Amazon Web Services",
+        "freq_rel": 0.0964,
+        "frequenza": 51,
+        "label": 2
+      },
+      {
+        "LinkedIn Skills List": "Architettura",
+        "freq_rel": 0.0964,
+        "frequenza": 51,
+        "label": 2
+      },
+      {
+        "LinkedIn Skills List": "Informatica",
+        "freq_rel": 0.0832,
+        "frequenza": 44,
+        "label": 2
+      },
+      {
+        "LinkedIn Skills List": "Google Cloud Platform GCP",
+        "freq_rel": 0.0718,
+        "frequenza": 38,
+        "label": 2
+      },
+      {
+        "LinkedIn Skills List": "Cloud Infrastructure",
+        "freq_rel": 0.0548,
+        "frequenza": 29,
+        "label": 2
+      },
+      {
+        "LinkedIn Skills List": "Kubernetes",
+        "freq_rel": 0.0529,
+        "frequenza": 28,
+        "label": 2
+      },
+      {
+        "LinkedIn Skills List": "DevOps",
+        "freq_rel": 0.0491,
+        "frequenza": 26,
+        "label": 2
+      }
+    ],
+    "data-be1fe8ca7a4c66d96c7e80582dd8ef80": [
+      {
+        "Soft Skills": "ability to take responsibility",
+        "freq_rel": 0.1722,
+        "frequenza": 275,
+        "label": 5
+      },
+      {
+        "Soft Skills": "communication skills",
+        "freq_rel": 0.149,
+        "frequenza": 238,
+        "label": 5
+      },
+      {
+        "Soft Skills": "team working skills",
+        "freq_rel": 0.1121,
+        "frequenza": 179,
+        "label": 5
+      },
+      {
+        "Soft Skills": "innovative",
+        "freq_rel": 0.1102,
+        "frequenza": 176,
+        "label": 5
+      },
+      {
+        "Soft Skills": "analytical skills",
+        "freq_rel": 0.0971,
+        "frequenza": 155,
+        "label": 5
+      },
+      {
+        "Soft Skills": "proactive",
+        "freq_rel": 0.0914,
+        "frequenza": 146,
+        "label": 5
+      },
+      {
+        "Soft Skills": "attention to details",
+        "freq_rel": 0.0808,
+        "frequenza": 129,
+        "label": 5
+      },
+      {
+        "Soft Skills": "flexibility",
+        "freq_rel": 0.0758,
+        "frequenza": 121,
+        "label": 5
+      },
+      {
+        "Soft Skills": "accurate",
+        "freq_rel": 0.0614,
+        "frequenza": 98,
+        "label": 5
+      },
+      {
+        "Soft Skills": "interpersonal skills",
+        "freq_rel": 0.0501,
+        "frequenza": 80,
+        "label": 5
+      },
+      {
+        "Soft Skills": "ability to take responsibility",
+        "freq_rel": 0.1918,
+        "frequenza": 307,
+        "label": 4
+      },
+      {
+        "Soft Skills": "team working skills",
+        "freq_rel": 0.1424,
+        "frequenza": 228,
+        "label": 4
+      },
+      {
+        "Soft Skills": "communication skills",
+        "freq_rel": 0.1249,
+        "frequenza": 200,
+        "label": 4
+      },
+      {
+        "Soft Skills": "flexibility",
+        "freq_rel": 0.0956,
+        "frequenza": 153,
+        "label": 4
+      },
+      {
+        "Soft Skills": "innovative",
+        "freq_rel": 0.0949,
+        "frequenza": 152,
+        "label": 4
+      },
+      {
+        "Soft Skills": "analytical skills",
+        "freq_rel": 0.0887,
+        "frequenza": 142,
+        "label": 4
+      },
+      {
+        "Soft Skills": "project management skills",
+        "freq_rel": 0.075,
+        "frequenza": 120,
+        "label": 4
+      },
+      {
+        "Soft Skills": "management skills",
+        "freq_rel": 0.0725,
+        "frequenza": 116,
+        "label": 4
+      },
+      {
+        "Soft Skills": "initiative",
+        "freq_rel": 0.0625,
+        "frequenza": 100,
+        "label": 4
+      },
+      {
+        "Soft Skills": "leadership",
+        "freq_rel": 0.0518,
+        "frequenza": 83,
+        "label": 4
+      },
+      {
+        "Soft Skills": "ability to take responsibility",
+        "freq_rel": 0.2386,
+        "frequenza": 325,
+        "label": 1
+      },
+      {
+        "Soft Skills": "innovative",
+        "freq_rel": 0.1505,
+        "frequenza": 205,
+        "label": 1
+      },
+      {
+        "Soft Skills": "flexibility",
+        "freq_rel": 0.1314,
+        "frequenza": 179,
+        "label": 1
+      },
+      {
+        "Soft Skills": "team working skills",
+        "freq_rel": 0.127,
+        "frequenza": 173,
+        "label": 1
+      },
+      {
+        "Soft Skills": "communication skills",
+        "freq_rel": 0.0977,
+        "frequenza": 133,
+        "label": 1
+      },
+      {
+        "Soft Skills": "proactive",
+        "freq_rel": 0.072,
+        "frequenza": 98,
+        "label": 1
+      },
+      {
+        "Soft Skills": "motivated",
+        "freq_rel": 0.0698,
+        "frequenza": 95,
+        "label": 1
+      },
+      {
+        "Soft Skills": "initiative",
+        "freq_rel": 0.0396,
+        "frequenza": 54,
+        "label": 1
+      },
+      {
+        "Soft Skills": "analytical skills",
+        "freq_rel": 0.0374,
+        "frequenza": 51,
+        "label": 1
+      },
+      {
+        "Soft Skills": "creative thinking",
+        "freq_rel": 0.036,
+        "frequenza": 49,
+        "label": 1
+      },
+      {
+        "Soft Skills": "ability to take responsibility",
+        "freq_rel": 0.2606,
+        "frequenza": 282,
+        "label": 11
+      },
+      {
+        "Soft Skills": "team working skills",
+        "freq_rel": 0.1765,
+        "frequenza": 191,
+        "label": 11
+      },
+      {
+        "Soft Skills": "innovative",
+        "freq_rel": 0.1091,
+        "frequenza": 118,
+        "label": 11
+      },
+      {
+        "Soft Skills": "flexibility",
+        "freq_rel": 0.1026,
+        "frequenza": 111,
+        "label": 11
+      },
+      {
+        "Soft Skills": "motivated",
+        "freq_rel": 0.0795,
+        "frequenza": 86,
+        "label": 11
+      },
+      {
+        "Soft Skills": "communication skills",
+        "freq_rel": 0.0702,
+        "frequenza": 76,
+        "label": 11
+      },
+      {
+        "Soft Skills": "tact",
+        "freq_rel": 0.0591,
+        "frequenza": 64,
+        "label": 11
+      },
+      {
+        "Soft Skills": "proactive",
+        "freq_rel": 0.0508,
+        "frequenza": 55,
+        "label": 11
+      },
+      {
+        "Soft Skills": "analytical skills",
+        "freq_rel": 0.0481,
+        "frequenza": 52,
+        "label": 11
+      },
+      {
+        "Soft Skills": "autonomy",
+        "freq_rel": 0.0434,
+        "frequenza": 47,
+        "label": 11
+      },
+      {
+        "Soft Skills": "ability to take responsibility",
+        "freq_rel": 0.2373,
+        "frequenza": 285,
+        "label": 9
+      },
+      {
+        "Soft Skills": "team working skills",
+        "freq_rel": 0.1549,
+        "frequenza": 186,
+        "label": 9
+      },
+      {
+        "Soft Skills": "communication skills",
+        "freq_rel": 0.1524,
+        "frequenza": 183,
+        "label": 9
+      },
+      {
+        "Soft Skills": "flexibility",
+        "freq_rel": 0.0924,
+        "frequenza": 111,
+        "label": 9
+      },
+      {
+        "Soft Skills": "proactive",
+        "freq_rel": 0.0758,
+        "frequenza": 91,
+        "label": 9
+      },
+      {
+        "Soft Skills": "innovative",
+        "freq_rel": 0.0666,
+        "frequenza": 80,
+        "label": 9
+      },
+      {
+        "Soft Skills": "analytical skills",
+        "freq_rel": 0.0641,
+        "frequenza": 77,
+        "label": 9
+      },
+      {
+        "Soft Skills": "motivated",
+        "freq_rel": 0.0616,
+        "frequenza": 74,
+        "label": 9
+      },
+      {
+        "Soft Skills": "willing to travel",
+        "freq_rel": 0.0541,
+        "frequenza": 65,
+        "label": 9
+      },
+      {
+        "Soft Skills": "tact",
+        "freq_rel": 0.0408,
+        "frequenza": 49,
+        "label": 9
+      },
+      {
+        "Soft Skills": "ability to take responsibility",
+        "freq_rel": 0.1966,
+        "frequenza": 117,
+        "label": 7
+      },
+      {
+        "Soft Skills": "communication skills",
+        "freq_rel": 0.1664,
+        "frequenza": 99,
+        "label": 7
+      },
+      {
+        "Soft Skills": "innovative",
+        "freq_rel": 0.1244,
+        "frequenza": 74,
+        "label": 7
+      },
+      {
+        "Soft Skills": "team working skills",
+        "freq_rel": 0.0891,
+        "frequenza": 53,
+        "label": 7
+      },
+      {
+        "Soft Skills": "proactive",
+        "freq_rel": 0.0756,
+        "frequenza": 45,
+        "label": 7
+      },
+      {
+        "Soft Skills": "management skills",
+        "freq_rel": 0.0739,
+        "frequenza": 44,
+        "label": 7
+      },
+      {
+        "Soft Skills": "flexibility",
+        "freq_rel": 0.0723,
+        "frequenza": 43,
+        "label": 7
+      },
+      {
+        "Soft Skills": "accurate",
+        "freq_rel": 0.0723,
+        "frequenza": 43,
+        "label": 7
+      },
+      {
+        "Soft Skills": "initiative",
+        "freq_rel": 0.0706,
+        "frequenza": 42,
+        "label": 7
+      },
+      {
+        "Soft Skills": "ability to work independently",
+        "freq_rel": 0.0588,
+        "frequenza": 35,
+        "label": 7
+      },
+      {
+        "Soft Skills": "ability to take responsibility",
+        "freq_rel": 0.1897,
+        "frequenza": 59,
+        "label": 10
+      },
+      {
+        "Soft Skills": "communication skills",
+        "freq_rel": 0.1576,
+        "frequenza": 49,
+        "label": 10
+      },
+      {
+        "Soft Skills": "innovative",
+        "freq_rel": 0.1415,
+        "frequenza": 44,
+        "label": 10
+      },
+      {
+        "Soft Skills": "team working skills",
+        "freq_rel": 0.1093,
+        "frequenza": 34,
+        "label": 10
+      },
+      {
+        "Soft Skills": "leadership",
+        "freq_rel": 0.0836,
+        "frequenza": 26,
+        "label": 10
+      },
+      {
+        "Soft Skills": "motivated",
+        "freq_rel": 0.0772,
+        "frequenza": 24,
+        "label": 10
+      },
+      {
+        "Soft Skills": "flexibility",
+        "freq_rel": 0.0707,
+        "frequenza": 22,
+        "label": 10
+      },
+      {
+        "Soft Skills": "initiative",
+        "freq_rel": 0.0643,
+        "frequenza": 20,
+        "label": 10
+      },
+      {
+        "Soft Skills": "analytical skills",
+        "freq_rel": 0.0547,
+        "frequenza": 17,
+        "label": 10
+      },
+      {
+        "Soft Skills": "accurate",
+        "freq_rel": 0.0514,
+        "frequenza": 16,
+        "label": 10
+      },
+      {
+        "Soft Skills": "ability to take responsibility",
+        "freq_rel": 0.2418,
+        "frequenza": 89,
+        "label": 0
+      },
+      {
+        "Soft Skills": "team working skills",
+        "freq_rel": 0.1549,
+        "frequenza": 57,
+        "label": 0
+      },
+      {
+        "Soft Skills": "innovative",
+        "freq_rel": 0.1332,
+        "frequenza": 49,
+        "label": 0
+      },
+      {
+        "Soft Skills": "communication skills",
+        "freq_rel": 0.1114,
+        "frequenza": 41,
+        "label": 0
+      },
+      {
+        "Soft Skills": "proactive",
+        "freq_rel": 0.0842,
+        "frequenza": 31,
+        "label": 0
+      },
+      {
+        "Soft Skills": "flexibility",
+        "freq_rel": 0.0788,
+        "frequenza": 29,
+        "label": 0
+      },
+      {
+        "Soft Skills": "motivated",
+        "freq_rel": 0.0679,
+        "frequenza": 25,
+        "label": 0
+      },
+      {
+        "Soft Skills": "autonomy",
+        "freq_rel": 0.0543,
+        "frequenza": 20,
+        "label": 0
+      },
+      {
+        "Soft Skills": "project management skills",
+        "freq_rel": 0.0408,
+        "frequenza": 15,
+        "label": 0
+      },
+      {
+        "Soft Skills": "interpersonal skills",
+        "freq_rel": 0.0326,
+        "frequenza": 12,
+        "label": 0
+      },
+      {
+        "Soft Skills": "ability to take responsibility",
+        "freq_rel": 0.2016,
+        "frequenza": 75,
+        "label": 3
+      },
+      {
+        "Soft Skills": "communication skills",
+        "freq_rel": 0.1505,
+        "frequenza": 56,
+        "label": 3
+      },
+      {
+        "Soft Skills": "innovative",
+        "freq_rel": 0.129,
+        "frequenza": 48,
+        "label": 3
+      },
+      {
+        "Soft Skills": "team working skills",
+        "freq_rel": 0.1237,
+        "frequenza": 46,
+        "label": 3
+      },
+      {
+        "Soft Skills": "initiative",
+        "freq_rel": 0.0806,
+        "frequenza": 30,
+        "label": 3
+      },
+      {
+        "Soft Skills": "flexibility",
+        "freq_rel": 0.078,
+        "frequenza": 29,
+        "label": 3
+      },
+      {
+        "Soft Skills": "leadership",
+        "freq_rel": 0.0645,
+        "frequenza": 24,
+        "label": 3
+      },
+      {
+        "Soft Skills": "interpersonal skills",
+        "freq_rel": 0.0618,
+        "frequenza": 23,
+        "label": 3
+      },
+      {
+        "Soft Skills": "analytical skills",
+        "freq_rel": 0.0565,
+        "frequenza": 21,
+        "label": 3
+      },
+      {
+        "Soft Skills": "management skills",
+        "freq_rel": 0.0538,
+        "frequenza": 20,
+        "label": 3
+      },
+      {
+        "Soft Skills": "accurate",
+        "freq_rel": 0.4706,
+        "frequenza": 48,
+        "label": 6
+      },
+      {
+        "Soft Skills": "ability to take responsibility",
+        "freq_rel": 0.2059,
+        "frequenza": 21,
+        "label": 6
+      },
+      {
+        "Soft Skills": "character",
+        "freq_rel": 0.1569,
+        "frequenza": 16,
+        "label": 6
+      },
+      {
+        "Soft Skills": "creative thinking",
+        "freq_rel": 0.098,
+        "frequenza": 10,
+        "label": 6
+      },
+      {
+        "Soft Skills": "innovative",
+        "freq_rel": 0.0196,
+        "frequenza": 2,
+        "label": 6
+      },
+      {
+        "Soft Skills": "problem solving",
+        "freq_rel": 0.0196,
+        "frequenza": 2,
+        "label": 6
+      },
+      {
+        "Soft Skills": "tact",
+        "freq_rel": 0.0196,
+        "frequenza": 2,
+        "label": 6
+      },
+      {
+        "Soft Skills": "make decisions",
+        "freq_rel": 0.0098,
+        "frequenza": 1,
+        "label": 6
+      },
+      {
+        "Soft Skills": "ability to take responsibility",
+        "freq_rel": 0.2174,
+        "frequenza": 247,
+        "label": 8
+      },
+      {
+        "Soft Skills": "team working skills",
+        "freq_rel": 0.162,
+        "frequenza": 184,
+        "label": 8
+      },
+      {
+        "Soft Skills": "communication skills",
+        "freq_rel": 0.1373,
+        "frequenza": 156,
+        "label": 8
+      },
+      {
+        "Soft Skills": "innovative",
+        "freq_rel": 0.1356,
+        "frequenza": 154,
+        "label": 8
+      },
+      {
+        "Soft Skills": "flexibility",
+        "freq_rel": 0.0783,
+        "frequenza": 89,
+        "label": 8
+      },
+      {
+        "Soft Skills": "motivated",
+        "freq_rel": 0.0695,
+        "frequenza": 79,
+        "label": 8
+      },
+      {
+        "Soft Skills": "proactive",
+        "freq_rel": 0.0687,
+        "frequenza": 78,
+        "label": 8
+      },
+      {
+        "Soft Skills": "analytical skills",
+        "freq_rel": 0.0502,
+        "frequenza": 57,
+        "label": 8
+      },
+      {
+        "Soft Skills": "initiative",
+        "freq_rel": 0.044,
+        "frequenza": 50,
+        "label": 8
+      },
+      {
+        "Soft Skills": "attention to details",
+        "freq_rel": 0.037,
+        "frequenza": 42,
+        "label": 8
+      },
+      {
+        "Soft Skills": "ability to take responsibility",
+        "freq_rel": 0.2413,
+        "frequenza": 131,
+        "label": 2
+      },
+      {
+        "Soft Skills": "team working skills",
+        "freq_rel": 0.1418,
+        "frequenza": 77,
+        "label": 2
+      },
+      {
+        "Soft Skills": "innovative",
+        "freq_rel": 0.1381,
+        "frequenza": 75,
+        "label": 2
+      },
+      {
+        "Soft Skills": "communication skills",
+        "freq_rel": 0.0958,
+        "frequenza": 52,
+        "label": 2
+      },
+      {
+        "Soft Skills": "flexibility",
+        "freq_rel": 0.0737,
+        "frequenza": 40,
+        "label": 2
+      },
+      {
+        "Soft Skills": "management skills",
+        "freq_rel": 0.0737,
+        "frequenza": 40,
+        "label": 2
+      },
+      {
+        "Soft Skills": "proactive",
+        "freq_rel": 0.0663,
+        "frequenza": 36,
+        "label": 2
+      },
+      {
+        "Soft Skills": "project management skills",
+        "freq_rel": 0.0589,
+        "frequenza": 32,
+        "label": 2
+      },
+      {
+        "Soft Skills": "motivated",
+        "freq_rel": 0.0571,
+        "frequenza": 31,
+        "label": 2
+      },
+      {
+        "Soft Skills": "analytical skills",
+        "freq_rel": 0.0534,
+        "frequenza": 29,
+        "label": 2
+      }
+    ]
+  },
+  "params": [
+    {
+      "bind": {
+        "input": "select",
+        "name": "Cluster ",
+        "options": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0,
+          9.0,
+          10.0,
+          11.0
+        ]
+      },
+      "name": "param_138",
+      "select": {
+        "fields": [
+          "label"
+        ],
+        "type": "point"
+      },
+      "value": [
+        {
+          "label": 0
+        }
+      ],
+      "views": [
+        "view_863",
+        "view_864",
+        "view_865"
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent"
+    }
+  },
+  "vconcat": [
+    {
+      "data": {
+        "name": "data-5ee3393c26fd91162b651afe110f8dca"
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "field": "label",
+            "legend": null,
+            "param": "param_138",
+            "type": "nominal"
+          },
+          "value": "lightgray"
+        },
+        "tooltip": [
+          {
+            "field": "LinkedIn Skills List",
+            "title": "LinkedIn Skills List",
+            "type": "nominal"
+          },
+          {
+            "field": "freq_rel",
+            "format": ".2%",
+            "title": "Percentage",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "freq_rel",
+          "scale": {
+            "domain": [
+              0,
+              0.5
+            ]
+          },
+          "title": null,
+          "type": "quantitative"
+        },
+        "y": {
+          "axis": {
+            "labelAngle": 0
+          },
+          "field": "LinkedIn Skills List",
+          "sort": {
+            "field": "freq_rel",
+            "order": "descending"
+          },
+          "title": null,
+          "type": "nominal"
+        }
+      },
+      "height": 120,
+      "mark": {
+        "size": 10,
+        "tooltip": true,
+        "type": "bar"
+      },
+      "name": "view_863",
+      "title": "LinkedIn Skills distribution",
+      "transform": [
+        {
+          "filter": {
+            "param": "param_138"
+          }
+        }
+      ]
+    },
+    {
+      "data": {
+        "name": "data-be1fe8ca7a4c66d96c7e80582dd8ef80"
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "field": "label",
+            "legend": null,
+            "param": "param_138",
+            "type": "nominal"
+          },
+          "value": "lightgray"
+        },
+        "tooltip": [
+          {
+            "field": "Soft Skills",
+            "title": "Soft Skills",
+            "type": "nominal"
+          },
+          {
+            "field": "freq_rel",
+            "format": ".2%",
+            "title": "Percentage",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "freq_rel",
+          "scale": {
+            "domain": [
+              0,
+              0.5
+            ]
+          },
+          "title": null,
+          "type": "quantitative"
+        },
+        "y": {
+          "axis": {
+            "labelAngle": 0
+          },
+          "field": "Soft Skills",
+          "sort": {
+            "field": "freq_rel",
+            "order": "descending"
+          },
+          "title": null,
+          "type": "nominal"
+        }
+      },
+      "height": 120,
+      "mark": {
+        "size": 10,
+        "tooltip": true,
+        "type": "bar"
+      },
+      "name": "view_864",
+      "title": "Soft Skills distribution",
+      "transform": [
+        {
+          "filter": {
+            "param": "param_138"
+          }
+        }
+      ]
+    },
+    {
+      "data": {
+        "name": "data-3bd76395dfe506ea1dce4e49fb7bf46a"
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "field": "label",
+            "legend": null,
+            "param": "param_138",
+            "type": "nominal"
+          },
+          "value": "lightgray"
+        },
+        "tooltip": [
+          {
+            "field": "Hard skills",
+            "title": "Hard skills",
+            "type": "nominal"
+          },
+          {
+            "field": "freq_rel",
+            "format": ".2%",
+            "title": "Percentage",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "freq_rel",
+          "scale": {
+            "domain": [
+              0,
+              0.5
+            ]
+          },
+          "title": null,
+          "type": "quantitative"
+        },
+        "y": {
+          "axis": {
+            "labelAngle": 0
+          },
+          "field": "Hard skills",
+          "sort": {
+            "field": "freq_rel",
+            "order": "descending"
+          },
+          "title": null,
+          "type": "nominal"
+        }
+      },
+      "height": 120,
+      "mark": {
+        "size": 10,
+        "tooltip": true,
+        "type": "bar"
+      },
+      "name": "view_865",
+      "title": "Hard Skills distribution",
+      "transform": [
+        {
+          "filter": {
+            "param": "param_138"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -48,13 +48,14 @@ p {
   <p>È il più utilizzato dalle aziende per trovare candidati, infatti lo scopo principale è quello di mettere in contatto i professionisti tra loro e creare nuove opportunità di lavoro. Rispetto alle altre piattaforme, Linkedin ci ha permesso di fare un’analisi più completa grazie alla presenza del numero di candidati e alle altre variabili che in altre piattaforme non sono disponibili.</p>
 </div>
 <br>
-<h2>Panoramica dei dati ottenuti: la dimensione</h2>
+<h2>Panoramica dei dati ottenuti: la dimensione spaziale</h2>
 <br>
 <div class="justified">
 <p>
 Il periodo di osservazione è avvenuto tra il 02/05/2024 e il 06/06/2024. Durante questo periodo sono stati seguiti e raccolti i dati di circa 7000 annunci di lavoro unici presenti sulla piattaforma LinkedIn. 
 Le caratteristiche principali di nostro interesse sono state sostanzialmente due: annunci di lavoro che fossero pubblicati da aziende in Italia e che al tempo stesso riguardassero posizioni lavorative in campo informatico, con particolare attenzione all’ambito Data / A.I..</p>
 <br>
+<center><h5>Distribuzione regionale degli annunci di lavoro osservati</h5></center>
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
 <vegachart schema-url="{{site.baseurl}}/assets/charts/Jacopo1_DistTotLavori_monochrome_NoContainer.json" style="width: 100%"></vegachart>
 </div>
@@ -63,7 +64,8 @@ Le caratteristiche principali di nostro interesse sono state sostanzialmente due
 
 <p>
 La distribuzione geografica degli annunci di lavoro osservati risulta abbastanza sbilanciata: le prime 5 regioni per numero totale di annunci (Lombardia, Lazio, Piemonte, Veneto, Emilia-Romagna) costituiscono quasi l’80% dell’offerta di lavori osservata, con la Lombardia che da sola supera di poco il 40% dell’intero ammontare. Volendo normalizzare il numero di annunci per la popolazione in età lavorativa (24 - 65 anni), la regione italiana che offre più lavoro resta la Lombardia (poco più di 40 annunci per 100 mila lavoratori), seguita da Piemonte e Lazio (entrambe quasi a quota 23 annunci per 100 mila lavoratori). Ultimo posto di questa “classifica” spetta alla Basilicata, con meno di un annuncio di lavoro per 100mila abitanti in età compresa tra 24 e 65 anni.</p> </div>
-
+<br>
+<center><h5>Distribuzione regionale degli annunci di lavoro per posizione lavorativa</h5></center>
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
   <div style="width: 120%; margin-left: -10%;">
 <vegachart schema-url="{{site.baseurl}}/assets/charts/Jacopo2_DistTipoLavori_monochrome_NoContainer.json" style="width: 100%"></vegachart>
@@ -76,6 +78,8 @@ Ma quali sono le posizioni lavorative in ambito Data / A.I.. maggiormente ricerc
 Più in dettaglio, per posizioni di data analysis e business intelligence la maggiore presenza di annunci si nota prevalentemente in regioni del centro-nord Italia, quali Lombardia, Veneto, Piemonte, Trentino-Alto Adige, Emilia-Romagna e Lazio.
 Per le altre posizioni lavorative mostrate non si notano variazioni così marcate tra le regioni.
 </p>
+<br>
+<center><h5>Distribuzione regionale degli annunci di lavoro per modalità lavorativa</h5></center>
 <div style="display: flex; justify-content: center; align-items: center; ">
   <div style="width: 120%; margin-left: -15%;">
 <vegachart schema-url="{{site.baseurl}}/assets/charts/Jacopo3_DistTipoSede_monochrome_NoContainer.json" style="width: 100%"></vegachart>
@@ -88,6 +92,7 @@ Per quanto riguarda la distribuzione degli annunci di lavoro nei confronti della
 Per tutte le altre, i dati raccolti mostrano una maggioranza di annunci di lavoro in modalità in sede. Gli annunci di lavori che prevedono modalità da remoto sono i più rari in praticamente tutte le regioni.
 </p>
 <br>
+<center><h5>Distribuzione regionale degli annunci di lavoro per dimensione aziendale</h5></center>
 <div style="display: flex; justify-content: center; align-items: center; ">
 <vegachart schema-url="{{site.baseurl}}/assets/charts/Jacopo4_DistDimAzienda_monochrome_NoContainer.json" style="width: 100%"></vegachart>
 </div>
@@ -98,25 +103,21 @@ Infine, uno sguardo anche alle aziende che pubblicano gli annunci di lavoro su L
 </p>
 <br>
 
-<div style="display: flex; justify-content: center; align-items: center;">
-<vegachart schema-url="{{site.baseurl}}/assets/charts/Dona_chart_ore.json" style="width: 100%"></vegachart>
-</div>
-<div class="justified">
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum, est eu accumsan suscipit, purus est elementum mauris, eu commodo ex mi a odio. Phasellus tempor neque id diam elementum aliquam. Morbi volutpat mollis odio, a consequat lorem tincidunt vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed venenatis a nulla at bibendum. Etiam porta odio egestas nulla ornare maximus. Vestibulum vulputate ut ante non porta.
-
-Sed ac fringilla leo, et mollis sapien. Mauris imperdiet, ante quis pellentesque venenatis, metus lacus aliquet tortor, ultrices sollicitudin lectus risus id neque. Integer faucibus, eros nec tincidunt blandit, massa nibh sollicitudin leo, ac consectetur sem odio a nibh. Etiam vulputate orci et libero vestibulum molestie. Maecenas aliquet condimentum lectus, ut placerat purus sagittis eu. Nulla feugiat eu tortor commodo dignissim. Donec erat ex, tempor quis mattis eu, imperdiet eu arcu. </p>
-<div style="display: flex; justify-content: center; align-items: center;">
-<vegachart schema-url="{{site.baseurl}}/assets/charts/Dona_chart_combinato_ore_giorno (1).json" style="width: 100%"></vegachart>
-</div>
+<h2>Panoramica dei dati ottenuti: la dimensione temporale</h2>
+<br>
 
 <div style="display: flex; justify-content: center; align-items: center;">
-<vegachart schema-url="{{site.baseurl}}/assets/charts/Dona_chart_ore_annunci.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/Dona_combined_chart_ore_giorno.json" style="width: 100%"></vegachart>
 </div>
+
+<p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Distribuzione degli annunci di lavoro per fascia oraria e per giorno della settimana.</p>
+
 
 <div class="justified">
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum, est eu accumsan suscipit, purus est elementum mauris, eu commodo ex mi a odio. Phasellus tempor neque id diam elementum aliquam. Morbi volutpat mollis odio, a consequat lorem tincidunt vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed venenatis a nulla at bibendum. Etiam porta odio egestas nulla ornare maximus. Vestibulum vulputate ut ante non porta.
+Ma quando vengono pubblicati gli annunci di lavoro? <br>
+Analizzando i dati raccolti si osserva che l’orario lavorativo è il momento in cui vengono maggiormente pubblicati gli annunci di lavoro, infatti le percentuali variano dal 15% al 19% tra le 10:00 e le 17:00. Diversamente, fuori dall’orario di lavoro, la quota di annunci scende al 5,5% tra le 8:00 e le 9:00 e all’11% circa tra le 18:00 e le 19:00,  mentre non raggiunge il 4% per le restanti fasce orarie.<br>
+Per quanto riguarda i giorni della settimana, gli annunci vengono pubblicati maggiormente dal lunedì e venerdì, con percentuali che oscillano tra il 18% e il 20%. 
+Nonostante le quote trascurabili, anche il sabato e la domenica vi è la pubblicazione degli annunci di lavoro (3,1% e 1,8% rispettivamente). 
 
-Sed ac fringilla leo, et mollis sapien. Mauris imperdiet, ante quis pellentesque venenatis, metus lacus aliquet tortor, ultrices sollicitudin lectus risus id neque. Integer faucibus, eros nec tincidunt blandit, massa nibh sollicitudin leo, ac consectetur sem odio a nibh. Etiam vulputate orci et libero vestibulum molestie. Maecenas aliquet condimentum lectus, ut placerat purus sagittis eu. Nulla feugiat eu tortor commodo dignissim. Donec erat ex, tempor quis mattis eu, imperdiet eu arcu.
 </p>

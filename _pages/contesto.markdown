@@ -13,7 +13,7 @@ vega: true
 ---
 
 
-# Perché Linkedin?
+# PERCHÉ LINKEDIN?
 
 <div style="display: flex;">
   <div style="flex: 100%;">
@@ -30,7 +30,7 @@ vega: true
   <p>È il più utilizzato dalle aziende per trovare candidati, infatti lo scopo principale è quello di mettere in contatto i professionisti tra loro e creare nuove opportunità di lavoro. Rispetto alle altre piattaforme, Linkedin ci ha permesso di fare un’analisi più completa grazie alla presenza del numero di candidati e alle altre variabili che in altre piattaforme non sono disponibili.</p>
 
 <br>
-<h2>Panoramica dei dati ottenuti: la dimensione spaziale</h2>
+<h2>PANORAMICA DEI DATI OTTENUTI: LA DIMENSIONE SPAZIALE</h2>
 <br>
 
 <p>
@@ -85,9 +85,8 @@ Infine, uno sguardo anche alle aziende che pubblicano gli annunci di lavoro su L
 </p>
 <br>
 
-<h2>Panoramica dei dati ottenuti: la dimensione temporale</h2>
+<h2>PANORAMICA DEI DATI OTTENUTI: LA DIMENSIONE TEMPORALE</h2>
 <br>
-
 <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
     <vegachart schema-url="{{site.baseurl}}/assets/charts/Dona_combined_chart_ore_giorno.json" style="width: 100%"></vegachart>
 </div>

@@ -75,7 +75,7 @@ Di seguito i metodi utilizzati:
 <br>
 <div class="justified">
 <p>
-Abbiamo optato per la rimozione degli outliers attraverso 3 metodi:
+Abbiamo optato per la rimozione degli outliers attraverso 2 metodi:
 <h4>BERTopic</h4>
 <br>
 BERTopic è un metodo di modellazione degli argomenti tratti da un corpus di documenti che utilizza modelli BERT pre-allenati per generare embedding e per creare cluster densi- utilizzando di default HDBSCAN.
@@ -99,7 +99,7 @@ Il secondo metodo utilizzato è l’algoritmo di clusterizzazione basato su dens
 
 <h3>RIMOZIONE OUTLIER - METODI EFFICACI</h3>
 <br>
-Abbiamo optato per la rimozione degli outliers attraverso 2 metodi:
+Abbiamo optato per la rimozione degli outliers attraverso 3 metodi:
 <br>
 
 <h3>TECH WORDS</h3>

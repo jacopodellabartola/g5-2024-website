@@ -32,9 +32,9 @@ locale: “it-IT”
 # Tali informazioni appariranno nel Footer del sito.
 github_repo:
   - name: "Group 5 - Project repository"
-    url: "https://github.com/jacopodellabartola/g5_2024_lbdai"
+    url: https://github.com/jacopodellabartola/g5_2024_lbdai
   - name: "Group 5 - Website repository"
-    url: "https://github.com/jacopodellabartola/g5_2024_lbdai"
+    url: https://github.com/jacopodellabartola/g5_2024_lbdai
 
 
 

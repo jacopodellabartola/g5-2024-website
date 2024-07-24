@@ -113,14 +113,18 @@ Si è caricato un modello pre addestrato, nello specifico "all-MiniLM-L6-v2". Ab
 <br>
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; max-width: 50%;">
-    <div style="display: flex; justify-content: center; align-items: center;">
+    <div style="justify-content: center; align-items: center;">
       <vegachart schema-url="{{site.baseurl}}/assets/charts/chart_dimensionecluster_istogrammi 1.json" style="width: 100%;"></vegachart>
+    </div>
+    <div style="text-align: center; width: 100%; margin-left:0%; margin-right:0%">
+      <p style="font-size: 0.9em; background-color: white; color: grey;">Diagrammi a barre illustranti la dimensione dei cluster.</p>
     </div>
   </div>
   <div style="flex: 1; max-width: 50%; padding-left: 20px;">
     <p>È stata utilizzata una pipeline con CountVectorizer e Tf-idf, eseguendo poi un clustering con k-means e plottando con PCA il risultato in due dimensioni. Una volta eseguito abbiamo visualizzato la frequenza dei vari job title all’interno di ogni cluster. Si è visto come erano presenti ancora dei lavori non inerenti / utili in quanto si era formato un cluster con lavori non pertinenti. Abbiamo quindi rimosso, attraverso la label, il cluster in questione e ripetuto la clusterizzazione con k-means ottenendo i cluster definitivi. Il numero ottimale dei cluster è stato ottenuto con il coefficiente di Silhouette e il metodo del gomito.</p>
   </div>
 </div>
+
 <br>
 
 <h2>ULTERIORI ANALISI</h2>

@@ -56,9 +56,9 @@ p {
 <p>
 <br>
 La fase iniziale del progetto coincide con quella di raccolta dei dati relativi agli annunci di lavoro presenti sulla piattaforma LinkedIn. Il periodo “utile” al processo di estrazione dei dati è stato di circa un mese, dal 02/05/2024 al 06/06/2024. Per automatizzare tale processo è stato realizzato uno script Python che utilizza il webdriver di Selenium, con l'obiettivo di raccogliere le informazioni sulle diverse posizioni lavorative aperte e salvare queste informazioni in un file CSV per successive analisi.<br>
-Nel dettaglio le principali librerie utilizzate sono state, oltre alla già citata <i>selenium</i> per l’automatizzazione della navigazione, anche state <i>BeautifulSoup</i> per il parsing dell’HTML, <i>urllib.parse</i> per l'analisi degli indirizzi URL, <i>datetime, json, random, time</i> e <i>re</i> per la gestione delle variabili riguardanti il tempo e le variabili in stringhe, <i>csv</i> per la gestione dei file CSV in scrittura e lettura. <br>
+Le principali librerie utilizzate sono state, oltre alla già citata <i>selenium</i> per l’automatizzazione della navigazione, anche state <i>BeautifulSoup</i> per il parsing dell’HTML, <i>urllib</i> per l'analisi degli indirizzi URL, <i>datetime, json, random, time</i> e <i>re</i> per la gestione delle variabili riguardanti il tempo e le variabili in stringhe, <i>csv</i> per la gestione dei file CSV in scrittura e lettura. <br>
 La raccolta di dati è stata fatta seguendo una lista di professionalità delle quali sono state ricercate le posizioni lavorative aperte ciclicamente su base regionale attraverso la piattaforma LinkedIn stessa. La scelta di operare su base regionale risponde da un lato alla necessità di superare il limite dei 1000 annunci mostrati da LinkedIn per posizione lavorativa e luogo di ricerca, e dall’altro all’esigenza di una equa distribuzione dei compiti all’interno del nostro gruppo di lavoro. Con queste premesse, tutti gli annunci di lavoro ricercati sono stati consultati, analizzati, e i dati estratti sono stati salvati in un file CSV.<br>
-Infine, nello script è stata implementata la gestione di possibili errori ed eccezioni per rendere il processo meno soggetto a interruzioni. I possibili arresti improvvisi dello script, anche dovuti a cause esterne, sono state gestite con una serie di funzioni tali per cui al riavvio manuale dello script la ripartenza avvenisse dal punto di avvenuta interruzione.<br>
+Infine, nello script è stata implementata la gestione di possibili errori ed eccezioni per rendere il processo meno soggetto a interruzioni. I possibili arresti improvvisi dello script, anche dovuti a cause esterne, sono stati gestiti con una serie di funzioni tali per cui al riavvio manuale dello script la ripartenza avvenisse dal punto di interruzione precedente.<br>
 Alla fase vera e propria di estrazione dati appena descritta, è seguita una fase di pulizia dei dati ottenuti tramite l’utilizzo di alcuni ipython notebook con i quali sono stati realizzati dei controlli preliminari sulla composizione delle variabili ottenute. Questa fase, oltre ad aver reso il dataset estratto più utilizzabile per le analisi seguenti, ha fornito anche un feedback sulla bontà dello script utilizzato per l’estrazione dei dati.  
 
 <br>
@@ -104,10 +104,10 @@ Abbiamo optato per la rimozione degli outliers attraverso 2 metodi:
 
 <h3>TECH WORDS</h3>
 <br>
-Innanzitutto è stata stilata una lista di parole chiave, circa 50,  inerenti al mondo tech (come skills, linguaggi di programmazione, librerie per analisi dei dati, ecc…)  e sono state tolte tutte quelle job description che non contenevano nessuna di queste parole, questo ha permesso di eseguire una scrematura iniziale rimuovendo molti lavori non inerenti al tech che sono stati raccolti tramite scraping.<br>
+Tech words: la prima cosa è stato stilare una lista di parole chiave, circa 50,  inerenti il mondo tech (come skills, linguaggi di programmazione, librerie per analisi dei dati, ecc…)  e sono state tolte tutte quelle job description che non contenevano nessuna di queste parole. Questo ci ha permesso di eseguire una scrematura iniziale rimuovendo molti annunci di lavoro non inerenti al mondo tech che sono stati erroneamente estratti in fase di raccolta dati.<br>
 <h3>SENTENCE TRANSFORMER</h3>
 <br>
-Si è caricato un modello pre addestrato, nello specifico "all-MiniLM-L6-v2". Abbiamo poi convertito le descrizioni in embedding e utilizzato UMAP per la riduzione della dimensionalità di quest’ ultimi. Infine calcolato i cluster con il metodo k-means. Abbiamo rimosso le job description che non contenevano informazioni utili riguardanti competenze e skills richieste. Il numero ottimale dei cluster è stato ottenuto con  il coefficiente di Silhouette e il metodo del gomito.<br>
+Si è caricato un modello pre addestrato, nello specifico "all-MiniLM-L6-v2". Abbiamo poi convertito le descrizioni in embedding e utilizzato UMAP per la riduzione della dimensionalità di questi ultimi. Infine sono stati calcolati i cluster con il metodo k-means. Abbiamo rimosso le job description che non contenevano informazioni utili riguardanti competenze e skills richieste. Il numero ottimale dei cluster è stato ottenuto con  il coefficiente di Silhouette e il metodo del gomito.<br>
 <br>
 <h3>COUNTVECTORIZER E TF-IDF </h3>
 <br>
@@ -131,7 +131,7 @@ Si è caricato un modello pre addestrato, nello specifico "all-MiniLM-L6-v2". Ab
 <br>
 <div class="justified">
 <p>
-Dopo aver confrontato se ci sia o meno un riscontro tra le job description e i titoli dei lavori, si è valutata l’efficacia di inserire o meno certe caratteristiche. Come variabile “proxy” si è utilizzato il numero di candidati, definendo un annuncio maggiormente efficace all’aumentare del numero di candidati attratti. Questa leva aumenta anche le probabilità che il processo di assunzione vada a buon fine, infatti ci sono due modi per raggiungere il risultato, migliorare la qualità dei candidati, difficilmente misurabile, oppure aumentare il numero di candidati attratti. <br>
+Dopo aver confrontato se ci fosse o meno un riscontro tra le job description e i titoli dei lavori, si è valutata l’efficacia di inserire o meno certe caratteristiche.. Come variabile “proxy” si è utilizzato il numero di candidati, definendo un annuncio maggiormente efficace all’aumentare del numero di candidati attratti. Questa leva aumenta anche le probabilità che il processo di assunzione vada a buon fine, infatti ci sono due modi per raggiungere il risultato, migliorare la qualità dei candidati, difficilmente misurabile, oppure aumentare il numero di candidati attratti. <br>
 <br>
 A causa del tipo di dati estratti, che non permette di avere l’intera dinamica del numero di candidati nel tempo, si è proceduto a rielaborare la quantità “proxy”, concentrandosi sul tasso di crescita giornaliero del numero di candidati all’offerta. Questa quantità è calcolata come rapporto tra il numero di candidati misurati al momento dell’estrazione dell'annuncio di lavoro e il tempo di permanenza online dello stesso, calcolato come differenza in giorni tra la data di estrazione dell’annuncio e quella di pubblicazione.<br>
 <br>
@@ -142,7 +142,7 @@ A causa del tipo di dati estratti, che non permette di avere l’intera dinamica
 </div>
 <br>
 <p>
-Questa quantità è stata confrontata con le variabili a disposizione e rielaborazioni effettuate. I principali risultati dell’analisi sono riportati nell’articolo della pagina principale.</p>
+Questa quantità è stata confrontata con le variabili a disposizione e le  rielaborazioni effettuate. I principali risultati dell’analisi sono riportati nell’articolo della pagina principale.</p>
 
 <br></p>
 <h2>SERVIZIO FINALE</h2>
@@ -170,7 +170,7 @@ Per poter analizzare senza l’utilizzo di assunzioni distribuzionali, si è sti
 <p>
 Per questo motivo, si è preferito creare un modello che fosse formato da due componenti: una prima che modellasse il tasso di crescita dei candidati nei primi 7 giorni e una seconda che si è concentrata sul tasso di crescita dei candidati dall’ottavo giorno al cinquantaseiesimo (8 settimane).<br><br>
 
-Le variabili esplicative utilizzate nei modelli implementate riguardano:<br></p>
+Le variabili esplicative utilizzate nel modello implementato riguardano:<br></p>
 <p>
         <ul>
             <li><b>Caratteristiche dell’azienda che ha aperto la posizione</b> (presenza di profilo aziendale, presenza del nome del gestore risorse umane che seguirà il processo di recruiting, numero di dipendenti, dichiarazione del settore di appartenenza);</li>

@@ -27,7 +27,7 @@ plotly: true
 <body>
 
 <p>
-“Nasci ingegnere, muori data scientist”: potrebbe essere questa la didascalia per descrivere la trasformazione che il mondo del lavoro sta subendo (e in parte ha già subìto) con l’avvento, tra le altre cose, dell’intelligenza artificiale. <b>Al buon vecchio “ingegnere” adesso si contrappongono una numerosa serie di figure</b> che di fatto svecchiano, o meglio tentano di svecchiare e di dare nuovo lustro e di rendere più cool, più catchy, più al passo coi tempi la stessa figura professionale. Ciò è visibile semplicemente navigando tra i vari annunci di lavoro di piattaforme come LinkedIn, in cui oggi più che mai è facile imbattersi negli internazionalissimi <i>data scientist, data engineer o data analyst</i>, espressioni pronte per attirare lo sguardo di eventuali candidati e perfette per riempirsi la bocca e il CV. <br>
+“Nasci ingegnere, muori data scientist”: potrebbe essere questa la didascalia per descrivere la trasformazione che il mondo del lavoro sta subendo (e in parte ha già subìto) con l’avvento, tra le altre cose, dell’intelligenza artificiale. <b>Al buon vecchio “ingegnere” adesso si contrappongono una numerosa serie di figure</b> che di fatto svecchiano, o meglio tentano di svecchiare, di dare nuovo lustro e di rendere più cool, più catchy, più al passo coi tempi la stessa figura professionale. Ciò è visibile semplicemente navigando tra i vari annunci di lavoro di piattaforme come LinkedIn, in cui oggi più che mai è facile imbattersi negli internazionalissimi <i>data scientist, data engineer o data analyst</i>, espressioni pronte per attirare lo sguardo di eventuali candidati e perfette per riempirsi la bocca e il CV. <br>
 <br>
 Una job opportunity attuale, del tutto simile a una di quelle che potevamo leggere qualche anno fa, con queste nuove espressioni si ammanta di un ritrovato splendore. Diciamocelo: <b>alla domanda “Che lavoro fai?”, rispondere “Artificial intelligence engineer” ha tutto un altro sapore</b> rispetto a “sviluppatore informatico”. Al giorno d’oggi leggere “programmatore” in un annuncio di lavoro ha ormai un sapore retrò -  sostiene  Gabriella Pepi, HR di DataPizza.<br>
 <br>
@@ -100,18 +100,18 @@ Il saper utilizzare le proprie capacità in determinate situazioni diventa un re
     </div>
 <div style="text-align: center; width: 100%; margin-left:28%; margin-right:10%">
       <p style="font-size: 0.9em; background-color: white; color: grey; ">Diagrammi a barre illustranti la distribuzione delle varie posizioni lavorative all’interno dei cluster.</p>
-          {% capture simone %}
-    L’analisi dei cluster generati sulla base delle descrizioni degli annunci di lavoro evidenzia come solamente il cluster 2,3 e 7 contengano una professione dominante, ma risultano essere cluster di dimensioni esigue e, quindi, il loro risultato non fortemente impattante. <br>
-    Questi cluster sono stati generati utilizzando l’algoritmo di clustering K-Means. Dopo aver applicato un adeguato preprocessing alle descrizioni degli annunci di lavoro, sono stati identificati 12 cluster distinti. Tuttavia, a parte i cluster menzionati in precedenza, questi cluster presentano una sovrapposizione a livello di competenze.
-    {% endcapture %}
-    {% include modal-component.html title="Dettagli del grafico" content=simone id="simone" style="width: 80%; height: 30vh;" %}
+{% capture simonemodal %}
+L’analisi dei cluster generati sulla base delle descrizioni degli annunci di lavoro evidenzia come solamente il cluster 2,3 e 7 contengano una professione dominante, ma risultano essere cluster di dimensioni esigue e, quindi, il loro risultato non fortemente impattante. <br>
+Questi cluster sono stati generati utilizzando l’algoritmo di clustering K-Means. Dopo aver applicato un adeguato preprocessing alle descrizioni degli annunci di lavoro, sono stati identificati 12 cluster distinti. Tuttavia, a parte i cluster menzionati in precedenza, questi cluster presentano una sovrapposizione a livello di competenze.
+{% endcapture %}
+{% include modal-component.html title="Dettagli del grafico" content=simonemodal id="simonemodal" style="width: 80%; height: 30vh;" %}
     </div>
   </div>
 
 
   
   <div style="flex: 1; max-width: 50%; padding-left: 20px;">
-    <br><p>Questa foresta di skill richiesta ai candidati  la ritroviamo anche raggruppando le descrizioni dei vari annunci di lavoro, infatti, ritroviamo sotto  lo stesso cappello posizioni lavorative che ci aspetteremmo richiedere skills differenti. <br>Un’altra problematica che si inserisce in questo filone è quella che scaturisce dal fatto che, seppur vi siano posizioni lavorative con nomi diversi e che quindi dovrebbero richiedere specializzazioni diverse, le skills ricercate sono, nella sostanza, pressoché le stesse.</p><br><br> 
+    <br><p>Questa foresta di skills richiesta ai candidati la ritroviamo anche raggruppando le descrizioni dei vari annunci di lavoro. Infatti ritroviamo sotto  lo stesso cappello posizioni lavorative che ci aspetteremmo richiedere skills differenti. <br>Un’altra problematica che si inserisce in questo filone è quella che scaturisce dal fatto che, seppur vi siano posizioni lavorative con nomi diversi e che quindi dovrebbero richiedere specializzazioni diverse, le skills ricercate sono, nella sostanza, pressoché le stesse.</p><br><br> 
   </div>
 </div>
 <p>Questo genera una naturale confusione agli occhi di possibili candidati perché, <b>a fronte di posizioni lavorative almeno nominativamente diverse, vengono ricercate le stesse conoscenze e abilità</b>. Difatti, i ruoli di data analyst, data scientist e business intelligence analyst vengono raggruppati insieme, e allo stesso modo data engineer e AI engineer. <br><br>
@@ -123,7 +123,7 @@ Il saper utilizzare le proprie capacità in determinate situazioni diventa un re
     </div>
   </div>
   <div style="flex: 1; max-width: 50%; padding-left: 20px; text-align: justify;">
-      <p>Navigando tra le varie job opportunity il candidato quindi si troverà senza chiari punti di riferimento e senza un’idea precisa della job opportunity a cui dovrebbe inoltrare la candidatura (del tutto simile, per abilità richieste, ad altra con altro nome). Non solo: le abilità richieste sono spesso “abnormi” rispetto al ruolo che il candidato dovrebbe poi effettivamente ricoprire. La stessa Gabriella Pepi -HR di DataPizza- ha affermato come spesso, nel processo selettivo da lei gestito sulla loro piattaforma, si è vista spesso costretta a richiedere ai manager di “ridimensionare” l’eccessiva richiesta di skills nei candidati, andando a smorzare la chiara tendenza che va pian piano emergendo che tutti debbano saper far tutto (che, di per sé, già sfuma i confini fra i ruoli e li rende sovrapposti o sovrapponibili).</p>
+      <p>Navigando tra le varie job opportunity il candidato quindi si troverà senza chiari punti di riferimento e senza un’idea precisa dell’annuncio di lavoro a cui dovrebbe inoltrare la candidatura (del tutto simile, per abilità richieste, ad altra con altro nome). Non solo: le abilità richieste sono spesso “abnormi” rispetto al ruolo che il candidato dovrebbe poi effettivamente ricoprire. La stessa Gabriella Pepi -HR di DataPizza- ha affermato come spesso, nel processo selettivo da lei gestito sulla loro piattaforma, si è vista spesso costretta a richiedere ai manager di “ridimensionare” l’eccessiva richiesta di skills nei candidati, andando a smorzare la chiara tendenza che va pian piano emergendo che tutti debbano saper far tutto (che, di per sé, già sfuma i confini fra i ruoli e li rende sovrapposti o sovrapponibili).</p>
   </div>
 </div>
 
@@ -157,7 +157,7 @@ Da entrambi si nota come i cluster non ben definiti siano in grado di attrarre m
 {% include modal-component.html title="Dettagli del grafico" content=giulio1 id="giulio1" style="width: 80%; height: 30vh;" %}
 <br>
 <br>
-<p>Entrando maggiormente nel dettaglio <b>si scopre che non tutte le skill sono uguali e che ad alcune skill sono associate le offerte più accattivanti</b>. Complessivamente si osserva che le skill utilizzate più di frequente, indifferentemente che siano di tipo “hard” o “soft”, sono legate ad annunci di lavoro più efficaci, tuttavia si nota come anche alcune singole skill, come per esempio la capacità di effettuare analisi di clustering o la capacità di imparare velocemente, sono allo stesso molto collegate ad annunci efficaci.</p>
+<p>Entrando maggiormente nel dettaglio <b>si scopre che non tutte le skill sono uguali e che ad alcune skill sono associate le offerte più accattivanti</b>. Complessivamente si osserva che le skill utilizzate più di frequente, indifferentemente che siano di tipo “hard” o “soft”, sono legate ad annunci di lavoro più efficaci. Tuttavia si nota come anche alcune singole skill, come per esempio la capacità di effettuare analisi di clustering o la capacità di imparare velocemente, sono allo stesso modo molto collegate ad annunci efficaci.</p>
 <br>
 
 <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
@@ -196,7 +196,7 @@ Il grafico sulla destra invece mostra la distribuzione nel tempo degli annunci o
 <br>
 <br>
 <p>Anche <b>la possibilità di poter effettuare il lavoro da remoto è importante</b>. Infatti le job description che riguardano un lavoro interamente da remoto ricevono molta più attenzione dagli utenti rispetto a quelli che sono interamente in sede o con modalità ibrida.<br>
-Questo tema, oltre ad essere importante perché aumenta il numero di utenti che possono candidarsi senza doversi spostare, è un argomento diventato di tendenza dopo la pandemia da Covid-19 e apre ad un nuovo modo di pensare il lavoro, legato maggiormente agli obiettivi e meno ad un orario fisso, oltre che a nuovi modi di organizzare il lavoro da parte delle aziende. Si comprende quindi come l’incontro tra domanda e offerta di lavoro su questi canali possa essere luogo in cui <b>si generano le nuove tendenze lavorative del futuro.</b></p><br>
+Questo tema, oltre ad essere importante perché aumenta il numero di utenti che possono candidarsi senza doversi spostare, è un argomento diventato di tendenza dopo la pandemia da Covid-19 e apre ad un nuovo modo di pensare il lavoro, legato maggiormente agli obiettivi e meno ad un orario fisso, oltre che a nuovi modi di organizzare il lavoro da parte delle aziende. Si comprende quindi come l’incontro tra domanda e offerta di lavoro su questi canali possa essere il luogo in cui <b>si generano le nuove tendenze lavorative del futuro.</b></p><br>
 
 <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
   <div style="width: 120%; margin-left: 0%;">
@@ -218,7 +218,8 @@ Il grafico sulla destra invece mostra la distribuzione nel tempo degli annunci o
 <br>
 
 
-<p>Si comprende quindi che la  job description è molto simile ad un post social ed è quindi importante renderla accattivante, tuttavia rispetto ad una foto su Instagram, l'offerta di lavoro possiede delle caratteristiche peculiari, per cui non basta un linguaggio semplice da comprendere nella descrizione, la capacità di seguire le ultime tendenze nel mercato di riferimento o uno studio dell’orario in cui pubblicare per attirare candidati, ma conta anche la credibilità dell’azienda promotrice e la possibilità di essere effettivamente alla portata dei candidati, rimuovendo vincoli sia di tipo spaziale (lavoro da remoto), sia evitando lunghe liste di requisiti, focalizzandosi su quelli di cui effettivamente si ha bisogno e possibilmente e ricercati frequentemente nel mercato. </p>
+<p>Si comprende quindi che la  job description è molto simile ad un post social ed è quindi importante renderla accattivante. Tuttavia, rispetto ad una foto su Instagram, l'offerta di lavoro possiede delle caratteristiche peculiari per cui non basta un linguaggio semplice da comprendere nella descrizione, la capacità di seguire le ultime tendenze nel mercato di riferimento o uno studio dell’orario in cui pubblicare per attirare candidati, ma conta anche la credibilità dell’azienda promotrice e la possibilità di essere effettivamente alla portata dei candidati, rimuovendo vincoli sia di tipo spaziale (lavoro da remoto), sia evitando lunghe liste di requisiti, focalizzandosi su quelli di cui effettivamente si ha bisogno. 
+</p>
 <br>
 
 <h2 id="sostegno-aziende">UN SOSTEGNO PER LE AZIENDE</h2>
@@ -227,7 +228,8 @@ Il grafico sulla destra invece mostra la distribuzione nel tempo degli annunci o
 L’analisi presentata ha mostrato come non sia facile per gli utenti orientarsi in questo rebranding delle offerte di lavoro e quanto allo stesso tempo sia importante per le aziende costruire gli annunci di lavoro in modo accattivante, sia per poter attrarre un numero elevato di candidati in un certo tempo, sia perché gli annunci sono un’ulteriore vetrina per poter rafforzare e posizionare il proprio brand  attraverso la piattaforma. Per questo motivo si propone una possibile soluzione utile per le aziende. <br>
 <b>Immaginiamoci di dover pubblicare un'offerta di lavoro su LinkedIn e di voler sapere quanti candidati potrebbero rispondere e in quanto tempo</b>. Questa informazione è importante per poter programmare il processo di recruiting o semplicemente per comprendere quanto sia attraente ciò che stai proponendo. <br>
 Inoltre, facendo delle prove, si potrebbe addirittura modificare l’offerta, così da creare una descrizione che sia in grado di attirare un numero adeguato di candidati nel tempo a disposizione. <b>Raggiungere velocemente più candidati permette di raggiungere in un tempo minore la soglia prefissata di candidati gestibili</b>, accorciando questa fase del processo.  Questo permette di poter allungare la fase di approfondimento dei singoli candidati oppure semplicemente di poter accorciare i tempi del processo di selezione.<br>
-<b>Il servizio che proponiamo ti permetterà con pochi semplici passi di stimare la curva del numero di candidati nel tempo</b>, inserendo le caratteristiche richieste da Linkedin in fase di compilazione del post, come la modalità lavorativa, la tipologia di contratto offerto e le caratteristiche principali dell’azienda, ma ti permetterà anche di valutare il momento in cui pubblicare, inserendo informazioni riguardanti il giorno della settimana e l’ora in cui preferiresti farlo.<br>
+<b>Il servizio che proponiamo permetterà con pochi semplici passi di stimare la curva del numero di candidati nel tempo</b>, inserendo le caratteristiche richieste da Linkedin in fase di compilazione del post, come la modalità lavorativa, la tipologia di contratto offerto e le caratteristiche principali dell’azienda, ma  permetterà anche di valutare il momento in cui pubblicare, inserendo informazioni riguardanti il giorno della settimana e l’ora in cui è preferibile farlo.
+<br>
 <br>
 <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
   <div style="width: 100%; margin-left: 0%;">
@@ -239,5 +241,6 @@ Inoltre, facendo delle prove, si potrebbe addirittura modificare l’offerta, co
 <p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Esempio di andamento predetto del numero di candidati per un annuncio di lavoro scelto al variare del giorno della settimana di pubblicazione.</p>
 <br>
 <p>
-Dopo aver inserito le informazioni richieste, al resto ci penserà il nostro algoritmo, che sarà in grado di supportarti nella scelta delle caratteristiche più adatte per il tuo bisogno. 
+Dopo aver inserito le informazioni richieste, al resto ci penserà il nostro algoritmo, che sarà in grado di supportare nella scelta delle caratteristiche più adatte per ogni fabbisogno. 
+ 
  </p>

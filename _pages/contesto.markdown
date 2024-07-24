@@ -22,12 +22,13 @@ vega: true
   <div style="flex: 50%;">
 
       <p><br><br><br>Per quanto riguarda la piattaforma scelta per raccogliere dati, non abbiamo avuto dubbi: Linkedin è stata la nostra prima scelta.<br>
-    LinkedIn è un social network professionale, tra i più diffusi al mondo, ad oggi conta circa 830 milioni di utenti nel mondo, di cui oltre 16 milioni in Italia e oltre 58 milioni di aziende (LinkedIn, 2024).<br></p>
+    LinkedIn è un social network professionale tra i più diffusi al mondo: ad oggi conta circa 830 milioni di utenti nel mondo, di cui oltre 16 milioni in Italia e oltre 58 milioni di aziende (LinkedIn, 2024).<br></p>
 
   </div>
 </div>
 
-  <p>È il più utilizzato dalle aziende per trovare candidati, infatti lo scopo principale è quello di mettere in contatto i professionisti tra loro e creare nuove opportunità di lavoro. Rispetto alle altre piattaforme, Linkedin ci ha permesso di fare un’analisi più completa grazie alla presenza del numero di candidati e alle altre variabili che in altre piattaforme non sono disponibili.</p>
+  <p>È il più utilizzato dalle aziende per trovare candidati, infatti lo scopo principale è quello di mettere in contatto i professionisti tra loro e creare nuove opportunità di lavoro. Utilizzare Linkedin ci ha permesso di poter realizzare un’analisi più completa grazie soprattutto alla presenza di informazioni quali il numero di candidati e altre variabili non sempre disponibili in altre piattaforme.
+</p>
 
 <br>
 <h2>PANORAMICA DEI DATI OTTENUTI: LA DIMENSIONE SPAZIALE</h2>
@@ -45,7 +46,7 @@ Le caratteristiche principali di nostro interesse sono state sostanzialmente due
 <div class="justified">
 
 <p>
-La distribuzione geografica degli annunci di lavoro osservati risulta abbastanza sbilanciata: le prime 5 regioni per numero totale di annunci (Lombardia, Lazio, Piemonte, Veneto, Emilia-Romagna) costituiscono quasi l’80% dell’offerta di lavori osservata, con la Lombardia che da sola supera di poco il 40% dell’intero ammontare. Volendo normalizzare il numero di annunci per la popolazione in età lavorativa (24 - 65 anni), la regione italiana che offre più lavoro resta la Lombardia (poco più di 40 annunci per 100 mila lavoratori), seguita da Piemonte e Lazio (entrambe quasi a quota 23 annunci per 100 mila lavoratori). Ultimo posto di questa “classifica” spetta alla Basilicata, con meno di un annuncio di lavoro per 100mila abitanti in età compresa tra 24 e 65 anni.</p> </div>
+La distribuzione geografica degli annunci di lavoro osservati risulta abbastanza sbilanciata: le prime 5 regioni per numero totale di annunci (Lombardia, Lazio, Piemonte, Veneto, Emilia-Romagna) costituiscono quasi l’80% dell’offerta di lavori osservata, con la Lombardia che da sola supera di poco il 40% dell’intero ammontare. Volendo normalizzare il numero di annunci per la popolazione in età lavorativa (24 - 65 anni), la regione italiana che offre più lavoro resta la Lombardia (poco più di 40 annunci per 100 mila lavoratori), seguita da Piemonte e Lazio (entrambe quasi a quota 23 annunci per 100 mila lavoratori). Ultimo posto di questa “classifica” spetta alla Basilicata, con meno di un annuncio di lavoro per 100 mila abitanti in età compresa tra 24 e 65 anni.</p> </div>
 <br>
 <center><h5>Distribuzione regionale degli annunci di lavoro per posizione lavorativa</h5></center>
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
@@ -70,7 +71,7 @@ Per le altre posizioni lavorative mostrate non si notano variazioni così marcat
 <p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Distribuzione per regioni italiane degli annunci di lavoro osservati per sede lavorativa, normalizzata per 100 mila abitanti.</p>
 
 <p>
-Per quanto riguarda la distribuzione degli annunci di lavoro nei confronti della modalità di lavoro, i dati raccolti mostrano una maggioranza relativa di annunci di lavoro in modalità ibrida. Questa evidenza è stata riscontrata per molte regioni italiane: Lombardia, Piemonte, Emilia-Romagna, Valle d’Aosta, Liguria, Toscana, Lazio, Campania, Puglia, Calabria, Sicilia e Sardegna.
+Per quanto riguarda la distribuzione degli annunci nei confronti della modalità lavorativa, i dati raccolti mostrano una maggioranza relativa di annunci di lavoro in modalità ibrida. Questa evidenza è stata riscontrata per molte regioni italiane: Lombardia, Piemonte, Emilia-Romagna, Valle d’Aosta, Liguria, Toscana, Lazio, Campania, Puglia, Calabria, Sicilia e Sardegna.
 Per tutte le altre, i dati raccolti mostrano una maggioranza di annunci di lavoro in modalità in sede. Gli annunci di lavori che prevedono modalità da remoto sono i più rari in praticamente tutte le regioni.
 </p>
 <br>

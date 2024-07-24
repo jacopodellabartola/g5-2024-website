@@ -98,8 +98,8 @@ Il saper utilizzare le proprie capacità in determinate situazioni diventa un re
     <div style="display: flex; justify-content: center; align-items: center;">
       <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simone.json"></vegachart></div>
     </div>
-    <div style="text-align: center; margin-left: 30px;">
-      <p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Diagrammi a barre illustranti la distribuzione delle varie posizioni lavorative all’interno dei cluster.</p> <br>
+<div style="text-align: center; width: 100%; margin-left:28%; margin-right:10%">
+      <p style="font-size: 0.9em; background-color: white; color: grey; ">Diagrammi a barre illustranti la distribuzione delle varie posizioni lavorative all’interno dei cluster.</p>
           {% capture simone %}
     L’analisi dei cluster generati sulla base delle descrizioni degli annunci di lavoro evidenzia come solamente il cluster 2,3 e 7 contengano una professione dominante, ma risultano essere cluster di dimensioni esigue e, quindi, il loro risultato non fortemente impattante. <br>
     Questi cluster sono stati generati utilizzando l’algoritmo di clustering K-Means. Dopo aver applicato un adeguato preprocessing alle descrizioni degli annunci di lavoro, sono stati identificati 12 cluster distinti. Tuttavia, a parte i cluster menzionati in precedenza, questi cluster presentano una sovrapposizione a livello di competenze.
@@ -121,16 +121,15 @@ Il saper utilizzare le proprie capacità in determinate situazioni diventa un re
     <div style="display: flex; justify-content: center; align-items: center;">
       <div style="flex: 1; max-width: 100%;"><vegachart schema-url="{{site.baseurl}}/assets/charts/simoneskills.json"></vegachart></div>
     </div>
-    <div style=" margin-left: 80px;">
-      <p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Diagrammi a barre illustranti la distribuzione delle skill all’interno dei cluster.</p>
-    </div>
   </div>
-  <div style="flex: 1; max-width: 50%; padding-left: 20px;">
-    <br><p>
-      Navigando tra le varie job opportunity il candidato quindi si troverà senza chiari punti di riferimento e senza un’idea precisa della job opportunity a cui dovrebbe inoltrare la candidatura (del tutto simile, per abilità richieste, ad altra con altro nome). Non solo: le abilità richieste sono spesso “abnormi” rispetto al ruolo che il candidato dovrebbe poi effettivamente ricoprire. La stessa Gabriella Pepi -HR di DataPizza- ha affermato come spesso, nel processo selettivo da lei gestito sulla loro piattaforma, si è vista spesso costretta a richiedere ai manager di “ridimensionare” l’eccessiva richiesta di skills nei candidati, andando a smorzare la chiara tendenza che va pian piano emergendo che tutti debbano saper far tutto (che, di per sé, già sfuma i confini fra i ruoli e li rende sovrapposti o sovrapponibili).</p>
+  <div style="flex: 1; max-width: 50%; padding-left: 20px; text-align: justify;">
+      <p>Navigando tra le varie job opportunity il candidato quindi si troverà senza chiari punti di riferimento e senza un’idea precisa della job opportunity a cui dovrebbe inoltrare la candidatura (del tutto simile, per abilità richieste, ad altra con altro nome). Non solo: le abilità richieste sono spesso “abnormi” rispetto al ruolo che il candidato dovrebbe poi effettivamente ricoprire. La stessa Gabriella Pepi -HR di DataPizza- ha affermato come spesso, nel processo selettivo da lei gestito sulla loro piattaforma, si è vista spesso costretta a richiedere ai manager di “ridimensionare” l’eccessiva richiesta di skills nei candidati, andando a smorzare la chiara tendenza che va pian piano emergendo che tutti debbano saper far tutto (che, di per sé, già sfuma i confini fra i ruoli e li rende sovrapposti o sovrapponibili).</p>
   </div>
 </div>
 
+      <div style="text-align: center; width: 100%; margin-left:-5%; margin-right:0%">
+      <p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Diagrammi a barre illustranti la distribuzione delle skill all’interno dei cluster.</p>
+    </div>
 
 <br>
 
@@ -168,6 +167,8 @@ Da entrambi si nota come i cluster non ben definiti siano in grado di attrarre m
     </div>
   </div>
 </div>
+<br>
+<p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Tasso di crescita del Numero di Candidati al variare delle skill</p>
 <br>
 {% capture giulio2 %}
 Il grafico mostra l’andamento del tasso di crescita giornaliero di candidati rispetto alla frequenza osservata negli annunci della singola skill. Si nota come ci sia una significativa relazione non lineare diretta tra la frequenza della skill e la capacità degli annunci in cui è stata inserita di attrarre candidati (la correlazione è anche stata misurata con indice di Spearman ed è significativa e si attesta su valori di 0.38). <br>
@@ -235,5 +236,8 @@ Inoltre, facendo delle prove, si potrebbe addirittura modificare l’offerta, co
     </div>
   </div>
 </div>
+<p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Esempio di andamento predetto del numero di candidati per un annuncio di lavoro scelto al variare del giorno della settimana di pubblicazione.</p>
+<br>
+<p>
 Dopo aver inserito le informazioni richieste, al resto ci penserà il nostro algoritmo, che sarà in grado di supportarti nella scelta delle caratteristiche più adatte per il tuo bisogno. 
  </p>

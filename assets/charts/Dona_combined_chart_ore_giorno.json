@@ -223,7 +223,7 @@
   "layout": {
     "align": "each",
     "bounds": "full",
-    "padding": 20
+    "padding": 0
   },
   "marks": [
     {

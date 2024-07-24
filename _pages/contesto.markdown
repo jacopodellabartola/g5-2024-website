@@ -86,15 +86,11 @@ Infine, uno sguardo anche alle aziende che pubblicano gli annunci di lavoro su L
 <br>
 
 <h2>PANORAMICA DEI DATI OTTENUTI: LA DIMENSIONE TEMPORALE</h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+<br>
+<div style="display: flex; justify-content: center; align-items: center;">
     <vegachart schema-url="{{site.baseurl}}/assets/charts/Dona_combined_chart_ore_giorno.json" style="width: 100%"></vegachart>
 </div>
-
-
 <p style="font-size: 0.9em; background-color: white; color: grey; padding: 10px;">Distribuzione degli annunci di lavoro per fascia oraria e per giorno della settimana.</p>
-
-
-
 <p>
 Ma quando vengono pubblicati gli annunci di lavoro? <br>
 Analizzando i dati raccolti si osserva che l’orario lavorativo è il momento in cui vengono maggiormente pubblicati gli annunci di lavoro, infatti le percentuali variano dal 15% al 19% tra le 10:00 e le 17:00. Diversamente, fuori dall’orario di lavoro, la quota di annunci scende al 5,5% tra le 8:00 e le 9:00 e all’11% circa tra le 18:00 e le 19:00,  mentre non raggiunge il 4% per le restanti fasce orarie.<br>
